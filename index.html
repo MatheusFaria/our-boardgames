@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Boardgames</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg-start: #f6efe4;
+        --bg-end: #dce8f4;
+        --surface: rgba(255, 255, 255, 0.88);
+        --surface-strong: #ffffff;
+        --surface-border: rgba(81, 98, 118, 0.18);
+        --text: #1f2933;
+        --muted: #52606d;
+        --accent: #b85c38;
+        --accent-soft: rgba(184, 92, 56, 0.12);
+        --success: #1f7a5a;
+        --shadow: 0 18px 52px rgba(31, 41, 51, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        padding: 24px;
+        font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top, rgba(255, 255, 255, 0.85), transparent 36%),
+          linear-gradient(160deg, var(--bg-start), var(--bg-end));
+      }
+
+      .page {
+        width: min(100%, 1240px);
+        margin: 0 auto;
+      }
+
+      .hero {
+        padding: 36px 32px;
+        border: 1px solid var(--surface-border);
+        border-radius: 28px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(12px);
+      }
+
+      .eyebrow {
+        margin: 0;
+        font-size: 0.92rem;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      h1 {
+        margin: 14px 0 0;
+        font-size: clamp(2.3rem, 5vw, 4.5rem);
+        line-height: 0.98;
+      }
+
+      .lead {
+        max-width: 58rem;
+        margin: 18px 0 0;
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: var(--muted);
+      }
+
+      .meta-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: 28px;
+      }
+
+      .meta-card {
+        padding: 16px 18px;
+        border: 1px solid var(--surface-border);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.64);
+      }
+
+      .meta-label {
+        display: block;
+        font-size: 0.82rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .meta-value {
+        display: block;
+        margin-top: 8px;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+      .panel {
+        margin-top: 24px;
+        padding: 24px;
+        border: 1px solid var(--surface-border);
+        border-radius: 24px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+      }
+
+      .panel-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      .panel-title {
+        margin: 0;
+        font-size: 1.4rem;
+      }
+
+      .panel-copy {
+        margin: 8px 0 0;
+        line-height: 1.6;
+        color: var(--muted);
+      }
+
+      .panel-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 12px;
+      }
+
+      .control-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 12px;
+      }
+
+      .status {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(31, 122, 90, 0.12);
+        color: var(--success);
+        font-size: 0.92rem;
+        font-weight: 700;
+      }
+
+      .toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.72);
+        color: var(--text);
+        font-size: 0.92rem;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .toggle input {
+        width: 16px;
+        height: 16px;
+        accent-color: var(--accent);
+        cursor: pointer;
+      }
+
+      .filter-menu {
+        position: relative;
+      }
+
+      .filter-summary {
+        list-style: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.72);
+        color: var(--text);
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .filter-summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .filter-panel {
+        position: absolute;
+        right: 0;
+        top: calc(100% + 10px);
+        z-index: 10;
+        width: 280px;
+        padding: 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.97);
+        box-shadow: 0 18px 40px rgba(31, 41, 51, 0.14);
+      }
+
+      .filter-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .filter-option {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.92rem;
+      }
+
+      .filter-option input {
+        width: 16px;
+        height: 16px;
+        accent-color: var(--accent);
+      }
+
+      .filter-actions {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 12px;
+      }
+
+      .filter-clear {
+        padding: 8px 12px;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: rgba(31, 41, 51, 0.04);
+        color: var(--muted);
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .range-filter {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.72);
+      }
+
+      .range-filter input {
+        width: 64px;
+        padding: 6px 8px;
+        border: 1px solid var(--surface-border);
+        border-radius: 10px;
+        background: #fff;
+        color: var(--text);
+        font: inherit;
+      }
+
+      .status.loading,
+      .status.error {
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        border-radius: 18px;
+        border: 1px solid var(--surface-border);
+        background: var(--surface-strong);
+      }
+
+      table {
+        width: 100%;
+        min-width: 1180px;
+        border-collapse: collapse;
+      }
+
+      thead {
+        background: rgba(31, 41, 51, 0.04);
+      }
+
+      th,
+      td {
+        padding: 14px 12px;
+        text-align: left;
+        vertical-align: top;
+        border-bottom: 1px solid rgba(81, 98, 118, 0.12);
+      }
+
+      th {
+        font-size: 0.82rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      th.sortable {
+        padding: 0;
+      }
+
+      .sort-button {
+        width: 100%;
+        padding: 14px 12px;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        text-transform: inherit;
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .sort-button:hover {
+        color: var(--text);
+      }
+
+      .sort-button.active {
+        color: var(--accent);
+      }
+
+      tbody tr:hover {
+        background: rgba(184, 92, 56, 0.04);
+      }
+
+      td img {
+        width: 56px;
+        height: 56px;
+        object-fit: cover;
+        border-radius: 14px;
+        display: block;
+        background: rgba(81, 98, 118, 0.08);
+      }
+
+      .game-name {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+
+      .game-name a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .game-name a:hover {
+        text-decoration: underline;
+      }
+
+      .game-meta {
+        margin-top: 6px;
+        color: var(--muted);
+        line-height: 1.4;
+      }
+
+      .pill-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .pill {
+        display: inline-flex;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(31, 41, 51, 0.06);
+        color: var(--text);
+        font-size: 0.83rem;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      .pill.active {
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .pill.subtle {
+        background: rgba(31, 41, 51, 0.08);
+        color: var(--muted);
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .weight-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 52px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-weight: 700;
+        color: #12202d;
+      }
+
+      .expansion-disclosure {
+        margin-top: 12px;
+        padding: 12px 14px;
+        border: 1px solid rgba(81, 98, 118, 0.14);
+        border-radius: 14px;
+        background: rgba(81, 98, 118, 0.04);
+      }
+
+      .expansion-disclosure summary {
+        cursor: pointer;
+        font-weight: 700;
+        color: var(--text);
+      }
+
+      .expansion-table-wrap {
+        margin-top: 14px;
+        overflow-x: auto;
+        border: 1px solid rgba(81, 98, 118, 0.12);
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.84);
+      }
+
+      .expansion-table {
+        min-width: 920px;
+      }
+
+      .expansion-table th,
+      .expansion-table td {
+        padding: 12px 10px;
+        font-size: 0.94rem;
+      }
+
+      .expansion-table th {
+        background: rgba(31, 41, 51, 0.03);
+      }
+
+      .expansion-table tbody tr:hover {
+        background: rgba(184, 92, 56, 0.03);
+      }
+
+      .empty-state {
+        padding: 28px;
+        border: 1px dashed var(--surface-border);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.56);
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .code {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 0.95em;
+      }
+
+      @media (max-width: 980px) {
+        .meta-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 720px) {
+        body {
+          padding: 16px;
+        }
+
+        .hero,
+        .panel {
+          padding: 22px;
+          border-radius: 20px;
+        }
+
+        .panel-header {
+          flex-direction: column;
+        }
+
+        .meta-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <section class="hero">
+        <p class="eyebrow">Our Boardgames</p>
+        <h1>JoyfulFicus on BoardGameGeek</h1>
+        <p class="lead">
+          This page renders a static snapshot of a BGG collection from a local
+          CSV export so it can be served from GitHub Pages without any server
+          runtime. Refresh the snapshot whenever you export a newer collection.
+        </p>
+        <div class="meta-grid" id="meta-grid">
+          <div class="meta-card">
+            <span class="meta-label">Profile</span>
+            <span class="meta-value" id="meta-username">JoyfulFicus</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Snapshot Items</span>
+            <span class="meta-value" id="meta-count">0</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Generated</span>
+            <span class="meta-value" id="meta-generated">Not yet synced</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Source</span>
+            <span class="meta-value" id="meta-source">BGG collection CSV export</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="panel-title">Collection Snapshot</h2>
+            <p class="panel-copy">
+              The table below is populated from
+              <span class="code">data/joyfulficus-collection.json</span>.
+            </p>
+          </div>
+          <div class="panel-actions">
+            <div class="control-row">
+              <label class="toggle" for="group-expansions-toggle">
+                <input type="checkbox" id="group-expansions-toggle" />
+                Group expansions under base games
+              </label>
+              <label class="range-filter" for="player-min-filter">
+                Players
+                <input id="player-min-filter" type="number" min="1" placeholder="Min" />
+                <span class="muted">to</span>
+                <input id="player-max-filter" type="number" min="1" placeholder="Max" />
+              </label>
+              <details class="filter-menu" id="status-filter-menu">
+                <summary class="filter-summary" id="status-filter-summary">
+                  All statuses
+                </summary>
+                <div class="filter-panel">
+                  <div class="filter-grid">
+                    <label class="filter-option"><input type="checkbox" value="owned" />Owned</label>
+                    <label class="filter-option"><input type="checkbox" value="previouslyOwned" />Previously Owned</label>
+                    <label class="filter-option"><input type="checkbox" value="forTrade" />For Trade</label>
+                    <label class="filter-option"><input type="checkbox" value="wantInTrade" />Want in Trade</label>
+                    <label class="filter-option"><input type="checkbox" value="wantToPlay" />Want to Play</label>
+                    <label class="filter-option"><input type="checkbox" value="wantToBuy" />Want to Buy</label>
+                    <label class="filter-option"><input type="checkbox" value="wishlist" />Wishlist</label>
+                    <label class="filter-option"><input type="checkbox" value="preordered" />Preordered</label>
+                    <label class="filter-option"><input type="checkbox" value="expansion" />Expansion</label>
+                  </div>
+                  <div class="filter-actions">
+                    <button class="filter-clear" id="clear-status-filters" type="button">Clear</button>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <div class="status loading" id="status-pill">Loading snapshot...</div>
+          </div>
+        </div>
+
+        <div id="content"></div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
