@@ -1,33 +1,30 @@
-const SNAPSHOT_PATH = "./data/joyfulficus-collection.json";
+const SNAPSHOT_PATH = "./data/collection.json";
 
-const columns = [
-  { key: "thumbnail", label: "Image", sortable: false },
-  { key: "name", label: "Game", sortable: true, type: "text" },
-  { key: "yearPublished", label: "Year", sortable: true, type: "number" },
-  { key: "playerCount", label: "Players", sortable: true, type: "players" },
-  { key: "weight", label: "Weight", sortable: true, type: "number" },
-  { key: "userRating", label: "Your Rating", sortable: true, type: "number" },
-  { key: "bggAverageRating", label: "BGG Rating", sortable: true, type: "number" },
-  { key: "bggRank", label: "BGG Rank", sortable: true, type: "number" },
-  { key: "statuses", label: "Statuses", sortable: true, type: "status" },
+const SORT_OPTIONS = [
+  { key: "name", label: "Game", type: "text", defaultDirection: "asc" },
+  { key: "owners", label: "Owners", type: "owners", defaultDirection: "asc" },
+  { key: "yearPublished", label: "Year", type: "number", defaultDirection: "desc" },
+  { key: "playerCount", label: "Players", type: "players", defaultDirection: "asc" },
+  { key: "weight", label: "Weight", type: "number", defaultDirection: "desc" },
+  { key: "bggAverageRating", label: "BGG Rating", type: "number", defaultDirection: "desc" },
+  { key: "bggRank", label: "BGG Rank", type: "number", defaultDirection: "asc" },
 ];
 
-const statusFilterOptions = {
-  all: () => true,
-  owned: (item) => item.owned,
-  previouslyOwned: (item) => item.previouslyOwned,
-  forTrade: (item) => item.forTrade,
-  wantInTrade: (item) => item.wantInTrade,
-  wantToPlay: (item) => item.wantToPlay,
-  wantToBuy: (item) => item.wantToBuy,
-  wishlist: (item) => item.wishlist,
-  preordered: (item) => item.preordered,
-  expansion: (item) => item.itemType === "expansion",
-};
+const STATUS_FILTER_OPTIONS = [
+  "Owned",
+  "Previously Owned",
+  "For Trade",
+  "Want in Trade",
+  "Want to Play",
+  "Want to Buy",
+  "Wishlist",
+  "Preordered",
+];
 
 const state = {
   snapshot: null,
   groupExpansions: false,
+  ownerFilters: [],
   statusFilters: [],
   playerMin: null,
   playerMax: null,
@@ -73,7 +70,9 @@ function renderLink(name, link) {
     return escapeHtml(formatValue(name));
   }
 
-  return `<a href="${escapeHtml(link)}" target="_blank" rel="noreferrer">${escapeHtml(formatValue(name))}</a>`;
+  return `<a href="${escapeHtml(link)}" target="_blank" rel="noreferrer">${escapeHtml(
+    formatValue(name)
+  )}</a>`;
 }
 
 function normalizeForMatch(value) {
@@ -111,37 +110,14 @@ function findBaseGame(expansion, candidates) {
   return null;
 }
 
-function getStatusList(item) {
-  return [
-    ["Owned", item.owned],
-    ["Previously Owned", item.previouslyOwned],
-    ["For Trade", item.forTrade],
-    ["Want in Trade", item.wantInTrade],
-    ["Want to Play", item.wantToPlay],
-    ["Want to Buy", item.wantToBuy],
-    ["Wishlist", item.wishlist],
-    ["Preordered", item.preordered],
-    ["Expansion", item.itemType === "expansion"],
-  ];
-}
-
-function getStatusLabels(item) {
-  return getStatusList(item)
-    .filter(([, active]) => active)
-    .map(([label]) => label);
-}
-
-function applyStatusFilter(items) {
-  if (!state.statusFilters.length) {
-    return items;
-  }
-
-  return items.filter((item) =>
-    state.statusFilters.some((filterKey) => {
-      const matcher = statusFilterOptions[filterKey];
-      return matcher ? matcher(item) : false;
-    })
-  );
+function getVisibleOwnerDetails(item) {
+  return (item.ownerDetails || []).filter((detail) => {
+    const ownerMatches = !state.ownerFilters.length || state.ownerFilters.includes(detail.owner);
+    const statusMatches =
+      !state.statusFilters.length ||
+      detail.statuses?.some((status) => state.statusFilters.includes(status));
+    return ownerMatches && statusMatches;
+  });
 }
 
 function matchesPlayerRange(item) {
@@ -161,12 +137,12 @@ function matchesPlayerRange(item) {
 }
 
 function applyActiveFilters(items) {
-  return applyStatusFilter(items).filter(matchesPlayerRange);
+  return items.filter((item) => getVisibleOwnerDetails(item).length > 0 && matchesPlayerRange(item));
 }
 
 function sortValueForItem(item, sortKey) {
-  if (sortKey === "statuses") {
-    return getStatusLabels(item).join(", ");
+  if (sortKey === "owners") {
+    return (item.owners || []).join(", ");
   }
 
   if (sortKey === "playerCount") {
@@ -174,10 +150,6 @@ function sortValueForItem(item, sortKey) {
     const max = item.maxPlayers ?? 999;
     const best = item.bestPlayers ?? "";
     return `${String(min).padStart(3, "0")}-${String(max).padStart(3, "0")}-${best}`;
-  }
-
-  if (sortKey === "userRating") {
-    return item.userRating === 0 ? null : item.userRating;
   }
 
   if (sortKey === "bggRank") {
@@ -204,8 +176,8 @@ function compareValues(left, right, type) {
 }
 
 function sortItems(items) {
-  const column = columns.find((candidate) => candidate.key === state.sortKey);
-  const type = column?.type || "text";
+  const option = SORT_OPTIONS.find((candidate) => candidate.key === state.sortKey);
+  const type = option?.type || "text";
   const direction = state.sortDirection === "asc" ? 1 : -1;
 
   return [...items].sort((left, right) => {
@@ -228,8 +200,8 @@ function sortItems(items) {
 function groupItems(allItems) {
   const matchedItems = applyActiveFilters(allItems);
   const matchedIds = new Set(matchedItems.map((item) => item.objectId));
-  const baseItems = allItems.filter((item) => !isExpansion(item));
-  const expansionItems = allItems.filter((item) => isExpansion(item));
+  const baseItems = matchedItems.filter((item) => !isExpansion(item));
+  const expansionItems = matchedItems.filter((item) => isExpansion(item));
   const groupsByBaseId = new Map();
   const visibleBaseItems = new Map();
   const unmatchedExpansions = [];
@@ -265,28 +237,10 @@ function groupItems(allItems) {
   }));
 
   for (const expansion of sortItems(unmatchedExpansions)) {
-    rows.push({
-      item: expansion,
-      expansions: [],
-    });
+    rows.push({ item: expansion, expansions: [] });
   }
 
   return rows;
-}
-
-function renderStatuses(item) {
-  return getStatusList(item)
-    .filter(([, active]) => active)
-    .map(([label]) => `<span class="pill active">${escapeHtml(label)}</span>`)
-    .join("");
-}
-
-function formatUserRating(value) {
-  if (value === 0 || value === "0") {
-    return "-";
-  }
-
-  return formatValue(value);
 }
 
 function formatBggRank(value) {
@@ -297,6 +251,40 @@ function formatBggRank(value) {
   return formatValue(value);
 }
 
+function getRankBadge(value) {
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric) || numeric <= 0) {
+    return "";
+  }
+
+  if (numeric === 1) {
+    return " 🏆";
+  }
+
+  if (numeric <= 100) {
+    return " 🥇";
+  }
+
+  if (numeric <= 500) {
+    return " 🥈";
+  }
+
+  if (numeric <= 1000) {
+    return " 🥉";
+  }
+
+  return "";
+}
+
+function renderBggRank(value) {
+  const formatted = formatBggRank(value);
+  if (formatted === "No Rank") {
+    return escapeHtml(formatted);
+  }
+
+  return `${escapeHtml(formatted)}${getRankBadge(value)}`;
+}
+
 function formatWeight(value) {
   if (value === null || value === undefined || value === "") {
     return "—";
@@ -305,15 +293,17 @@ function formatWeight(value) {
   return Number(value).toFixed(2);
 }
 
-function renderWeightBadge(value) {
+function renderWeightValue(value) {
   if (value === null || value === undefined || value === "") {
     return '<span class="muted">—</span>';
   }
 
   const numeric = Math.max(0, Math.min(5, Number(value)));
   const hue = 140 - (numeric / 5) * 140;
-  const background = `hsl(${hue} 72% 78%)`;
-  return `<span class="weight-badge" style="background:${background}">${escapeHtml(formatWeight(numeric))}</span>`;
+  const color = `hsl(${hue} 70% 38%)`;
+  return `<span class="weight-value" style="color:${color}">${escapeHtml(
+    formatWeight(numeric)
+  )}</span><span class="weight-max">/5.00</span>`;
 }
 
 function formatBestPlayers(value) {
@@ -354,134 +344,104 @@ function formatPlayerCount(item) {
   return best ? `${range} (Best ${best})` : range;
 }
 
-function renderDataCells(item) {
-  const statuses = renderStatuses(item) || '<span class="muted">—</span>';
-  const image = item.thumbnail
-    ? `<img src="${escapeHtml(item.thumbnail)}" alt="${escapeHtml(item.name)} cover" loading="lazy">`
-    : '<div class="muted">No image</div>';
+function renderOwners(item) {
+  const visibleOwnerDetails = getVisibleOwnerDetails(item);
+  const ownerDetails = visibleOwnerDetails.length ? visibleOwnerDetails : item.ownerDetails || [];
 
-  return `
-    <td>${image}</td>
-    <td>
-      <div class="game-name">${renderLink(item.name, item.link)}</div>
-      <div class="game-meta">
-        #${escapeHtml(formatValue(item.objectId))}
-      </div>
-    </td>
-    <td>${escapeHtml(formatValue(item.yearPublished))}</td>
-    <td>${escapeHtml(formatPlayerCount(item))}</td>
-    <td>${renderWeightBadge(item.weight)}</td>
-    <td>${escapeHtml(formatUserRating(item.userRating))}</td>
-    <td>${escapeHtml(formatValue(item.bggAverageRating))}</td>
-    <td>${escapeHtml(formatBggRank(item.bggRank))}</td>
-    <td><div class="pill-list">${statuses}</div></td>
-  `;
-}
-
-function renderTableHeader() {
-  return columns
-    .map((column) => {
-      if (!column.sortable) {
-        return `<th>${escapeHtml(column.label)}</th>`;
-      }
-
-      const isActive = state.sortKey === column.key;
-      const indicator = isActive ? (state.sortDirection === "asc" ? " ↑" : " ↓") : "";
-
-      return `
-        <th class="sortable">
-          <button class="sort-button ${isActive ? "active" : ""}" type="button" data-sort-key="${escapeHtml(column.key)}">
-            ${escapeHtml(column.label)}${indicator}
-          </button>
-        </th>
-      `;
-    })
-    .join("");
-}
-
-function renderExpansionList(expansions) {
-  if (!expansions.length) {
-    return "";
+  if (!ownerDetails.length) {
+    return '<span class="muted">—</span>';
   }
 
-  const rows = expansions
-    .map(
-      (expansion) => `
-        <tr>
-          ${renderDataCells(expansion)}
-        </tr>
-      `
+  return `<div class="pill-list">${ownerDetails
+    .flatMap((detail) =>
+      detail.statuses?.length
+        ? detail.statuses.map(
+            (status) =>
+              `<span class="pill active">${escapeHtml(detail.owner)} | ${escapeHtml(status)}</span>`
+          )
+        : [`<span class="pill subtle">${escapeHtml(detail.owner)} | No status</span>`]
     )
-    .join("");
+    .join("")}</div>`;
+}
+
+function renderCard(item, expansions = [], compact = false) {
+  const image = item.thumbnail
+    ? `<img src="${escapeHtml(item.thumbnail)}" alt="${escapeHtml(item.name)} cover" loading="lazy">`
+    : '<div class="card-thumb placeholder">No image</div>';
+
+  const yearLabel = item.yearPublished ? ` (${escapeHtml(item.yearPublished)})` : "";
+
+  const expansionsMarkup = expansions.length
+    ? `
+      <details class="expansion-disclosure">
+        <summary>${escapeHtml(expansions.length)} expansion${expansions.length === 1 ? "" : "s"}</summary>
+        <div class="expansion-card-list">
+          ${expansions.map((expansion) => renderCard(expansion, [], true)).join("")}
+        </div>
+      </details>
+    `
+    : "";
 
   return `
-    <details class="expansion-disclosure">
-      <summary>${escapeHtml(expansions.length)} expansion${expansions.length === 1 ? "" : "s"}</summary>
-      <div class="expansion-table-wrap">
-        <table class="expansion-table">
-          <thead>
-            <tr>${renderTableHeader()}</tr>
-          </thead>
-          <tbody>${rows}</tbody>
-        </table>
+    <article class="game-card ${compact ? "compact" : ""}">
+      <div class="card-thumb-wrap">
+        ${image}
       </div>
-    </details>
+      <div class="card-body">
+        <div class="card-heading">
+          <div>
+            <h3 class="game-name">${renderLink(item.name, item.link)}${yearLabel}</h3>
+            <div class="game-meta">#${escapeHtml(formatValue(item.objectId))}</div>
+          </div>
+        </div>
+        <div class="detail-list">
+          <div class="detail-line"><span class="detail-label">Players</span><span class="detail-value">${escapeHtml(
+            formatPlayerCount(item)
+          )}</span></div>
+          <div class="detail-line"><span class="detail-label">Weight</span><span class="detail-value">${renderWeightValue(
+            item.weight
+          )}</span></div>
+          <div class="detail-line"><span class="detail-label">BGG Rating</span><span class="detail-value">${escapeHtml(
+            formatValue(item.bggAverageRating)
+          )}</span></div>
+          <div class="detail-line"><span class="detail-label">BGG Rank</span><span class="detail-value">${renderBggRank(
+            item.bggRank
+          )}</span></div>
+        </div>
+        <div class="card-section">
+          <div class="section-label">Owners</div>
+          ${renderOwners(item)}
+        </div>
+        ${expansionsMarkup}
+      </div>
+    </article>
   `;
 }
 
-function renderRow(item, expansions = []) {
-  return `
-    <tr>
-      ${renderDataCells(item)}
-    </tr>
-    ${
-      expansions.length
-        ? `
-          <tr>
-            <td colspan="${columns.length}">
-              ${renderExpansionList(expansions)}
-            </td>
-          </tr>
-        `
-        : ""
-    }
-  `;
-}
-
-function renderTable(items, groupExpansions) {
-  const preparedItems = sortItems(applyActiveFilters(items));
+function renderCollection(items, groupExpansions) {
   const rows = groupExpansions
-    ? groupItems(items).map(({ item, expansions }) => renderRow(item, expansions)).join("")
-    : preparedItems.map((item) => renderRow(item)).join("");
+    ? groupItems(items).map(({ item, expansions }) => renderCard(item, expansions)).join("")
+    : sortItems(applyActiveFilters(items)).map((item) => renderCard(item)).join("");
 
-  return `
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>${renderTableHeader()}</tr>
-        </thead>
-        <tbody>${rows}</tbody>
-      </table>
-    </div>
-  `;
+  return `<div class="card-list">${rows}</div>`;
 }
 
 function renderEmptyState(message) {
-  return `
-    <div class="empty-state">
-      ${message}
-    </div>
-  `;
+  return `<div class="empty-state">${message}</div>`;
 }
 
 function updateMeta(snapshot) {
-  document.getElementById("meta-username").textContent = formatValue(snapshot.username, "Unknown");
+  const owners = snapshot.owners || [];
+  const sourceFiles = snapshot.sourceFiles || [];
+
+  document.getElementById("hero-title").textContent = "Shared BoardGameGeek Collections";
+  document.getElementById("meta-owners").textContent = owners.length ? owners.join(", ") : "No owners found";
   document.getElementById("meta-count").textContent = formatValue(snapshot.itemCount, "0");
   document.getElementById("meta-generated").textContent = formatDate(snapshot.generatedAt);
-  document.getElementById("meta-source").textContent = formatValue(
-    snapshot.sourceLabel,
-    "BGG collection CSV export"
-  );
+  document.getElementById("meta-source").textContent = `${sourceFiles.length} CSV file${
+    sourceFiles.length === 1 ? "" : "s"
+  }`;
+  document.getElementById("snapshot-path").textContent = SNAPSHOT_PATH;
 }
 
 function updateStatus(text, stateClass) {
@@ -497,36 +457,25 @@ function buildStatusMessage(itemCount) {
     parts.push("expansions grouped");
   }
 
+  if (state.ownerFilters.length) {
+    parts.push(`owners: ${state.ownerFilters.length} selected`);
+  }
+
   if (state.statusFilters.length) {
-    parts.push(`filtered: ${state.statusFilters.length} statuses`);
+    parts.push(`statuses: ${state.statusFilters.length} selected`);
   }
 
   if (state.playerMin !== null || state.playerMax !== null) {
     parts.push(`players: ${state.playerMin ?? "any"}-${state.playerMax ?? "any"}`);
   }
 
-  parts.push(`${itemCount} items shown`);
+  parts.push(
+    `sorted by ${
+      SORT_OPTIONS.find((option) => option.key === state.sortKey)?.label || "Game"
+    } ${state.sortDirection === "asc" ? "↑" : "↓"}`
+  );
+  parts.push(`${itemCount} games shown`);
   return parts.join(" · ");
-}
-
-function setupTableInteractions() {
-  document.querySelectorAll("[data-sort-key]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const sortKey = button.getAttribute("data-sort-key");
-      if (!sortKey) {
-        return;
-      }
-
-      if (state.sortKey === sortKey) {
-        state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
-      } else {
-        state.sortKey = sortKey;
-        state.sortDirection = "asc";
-      }
-
-      renderSnapshot();
-    });
-  });
 }
 
 function renderSnapshot() {
@@ -541,63 +490,116 @@ function renderSnapshot() {
     updateStatus("Snapshot ready, no items yet", "loading");
     content.innerHTML = renderEmptyState(
       "The collection snapshot file is present, but it does not contain any games yet. Run " +
-        '<span class="code">python3 scripts/sync_bgg_collection.py --username JoyfulFicus --input collections/JoyfulFicus.csv</span> ' +
-        "to generate the first dataset from your local CSV export."
+        '<span class="code">python3 scripts/sync_bgg_collection.py</span> ' +
+        "to generate the combined dataset from the CSV files in " +
+        '<span class="code">collections/</span>.'
     );
     return;
   }
 
   const filteredItems = applyActiveFilters(snapshot.items);
-  content.innerHTML = renderTable(snapshot.items, state.groupExpansions);
+  content.innerHTML = renderCollection(snapshot.items, state.groupExpansions);
   updateStatus(buildStatusMessage(filteredItems.length), "");
-  setupTableInteractions();
+}
+
+function renderOwnerFilterOptions(snapshot) {
+  const container = document.getElementById("owner-filter-grid");
+  const owners = snapshot.owners || [];
+
+  container.innerHTML = owners
+    .map(
+      (owner) => `
+        <label class="owner-filter-option">
+          <input type="checkbox" value="${escapeHtml(owner)}" />
+          ${escapeHtml(owner)}
+        </label>
+      `
+    )
+    .join("");
+}
+
+function renderStatusFilterOptions() {
+  const container = document.getElementById("status-filter-grid");
+  if (!container) {
+    return;
+  }
+
+  container.innerHTML = STATUS_FILTER_OPTIONS.map(
+    (status) => `
+      <label class="status-filter-option">
+        <input type="checkbox" value="${escapeHtml(status)}" />
+        ${escapeHtml(status)}
+      </label>
+    `
+  ).join("");
+}
+
+function renderSortOptions() {
+  const container = document.getElementById("sort-options");
+  if (!container) {
+    return;
+  }
+
+  container.innerHTML = SORT_OPTIONS.map((option) => {
+    const isActive = option.key === state.sortKey;
+    const direction = isActive ? (state.sortDirection === "asc" ? " ↑" : " ↓") : "";
+    return `
+      <button
+        class="sort-option ${isActive ? "active" : ""}"
+        type="button"
+        data-sort-key="${escapeHtml(option.key)}"
+      >
+        ${escapeHtml(option.label)}${direction}
+      </button>
+    `;
+  }).join("");
+
+  container.querySelectorAll("[data-sort-key]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const sortKey = button.getAttribute("data-sort-key");
+      if (!sortKey) {
+        return;
+      }
+
+      if (state.sortKey === sortKey) {
+        state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
+      } else {
+        state.sortKey = sortKey;
+        state.sortDirection =
+          SORT_OPTIONS.find((option) => option.key === sortKey)?.defaultDirection || "asc";
+      }
+
+      renderSortOptions();
+      renderSnapshot();
+    });
+  });
 }
 
 function setupControls() {
   const toggle = document.getElementById("group-expansions-toggle");
-  const filterSummary = document.getElementById("status-filter-summary");
-  const filterInputs = Array.from(document.querySelectorAll('.filter-option input'));
-  const clearButton = document.getElementById("clear-status-filters");
   const playerMinInput = document.getElementById("player-min-filter");
   const playerMaxInput = document.getElementById("player-max-filter");
+  const clearOwnerFiltersButton = document.getElementById("clear-owner-filters");
+  const clearStatusFiltersButton = document.getElementById("clear-status-filters");
+  const sortOptions = document.getElementById("sort-options");
+
+  if (
+    !toggle ||
+    !playerMinInput ||
+    !playerMaxInput ||
+    !clearOwnerFiltersButton ||
+    !clearStatusFiltersButton ||
+    !sortOptions
+  ) {
+    throw new Error("Missing one or more filter controls in index.html");
+  }
 
   toggle.checked = state.groupExpansions;
   toggle.addEventListener("change", () => {
     state.groupExpansions = toggle.checked;
     renderSnapshot();
   });
-
-  function syncFilterSummary() {
-    if (!state.statusFilters.length) {
-      filterSummary.textContent = "All statuses";
-      return;
-    }
-
-    const labels = filterInputs
-      .filter((input) => state.statusFilters.includes(input.value))
-      .map((input) => input.parentElement.textContent.trim());
-
-    filterSummary.textContent =
-      labels.length <= 2 ? labels.join(" + ") : `${labels.length} statuses selected`;
-  }
-
-  for (const input of filterInputs) {
-    input.checked = state.statusFilters.includes(input.value);
-    input.addEventListener("change", () => {
-      state.statusFilters = filterInputs.filter((candidate) => candidate.checked).map((candidate) => candidate.value);
-      syncFilterSummary();
-      renderSnapshot();
-    });
-  }
-
-  clearButton.addEventListener("click", () => {
-    state.statusFilters = [];
-    for (const input of filterInputs) {
-      input.checked = false;
-    }
-    syncFilterSummary();
-    renderSnapshot();
-  });
+  renderSortOptions();
 
   function syncPlayerRangeState() {
     const minValue = playerMinInput.value.trim();
@@ -606,11 +608,7 @@ function setupControls() {
     state.playerMin = minValue ? Number(minValue) : null;
     state.playerMax = maxValue ? Number(maxValue) : null;
 
-    if (
-      state.playerMin !== null &&
-      state.playerMax !== null &&
-      state.playerMin > state.playerMax
-    ) {
+    if (state.playerMin !== null && state.playerMax !== null && state.playerMin > state.playerMax) {
       [state.playerMin, state.playerMax] = [state.playerMax, state.playerMin];
       playerMinInput.value = String(state.playerMin);
       playerMaxInput.value = String(state.playerMax);
@@ -624,8 +622,60 @@ function setupControls() {
     });
   }
 
-  syncFilterSummary();
+  clearOwnerFiltersButton.addEventListener("click", () => {
+    state.ownerFilters = [];
+    document.querySelectorAll(".owner-filter-option input").forEach((input) => {
+      input.checked = false;
+    });
+    renderSnapshot();
+  });
+
+  clearStatusFiltersButton.addEventListener("click", () => {
+    state.statusFilters = [];
+    document.querySelectorAll(".status-filter-option input").forEach((input) => {
+      input.checked = false;
+    });
+    renderSnapshot();
+  });
+
   syncPlayerRangeState();
+  renderStatusFilterOptions();
+
+  const statusInputs = Array.from(document.querySelectorAll(".status-filter-option input"));
+  for (const input of statusInputs) {
+    input.checked = state.statusFilters.includes(input.value);
+    input.addEventListener("change", () => {
+      state.statusFilters = statusInputs
+        .filter((candidate) => candidate.checked)
+        .map((candidate) => candidate.value);
+      renderSnapshot();
+    });
+  }
+}
+
+function showStartupError(message) {
+  const content = document.getElementById("content");
+  updateStatus("Snapshot unavailable", "error");
+  if (content) {
+    content.innerHTML = renderEmptyState(
+      `The page could not start correctly. Details: <span class="code">${escapeHtml(message)}</span>`
+    );
+  }
+}
+
+function setupOwnerFilters(snapshot) {
+  renderOwnerFilterOptions(snapshot);
+
+  const ownerInputs = Array.from(document.querySelectorAll(".owner-filter-option input"));
+  for (const input of ownerInputs) {
+    input.checked = state.ownerFilters.includes(input.value);
+    input.addEventListener("change", () => {
+      state.ownerFilters = ownerInputs
+        .filter((candidate) => candidate.checked)
+        .map((candidate) => candidate.value);
+      renderSnapshot();
+    });
+  }
 }
 
 async function loadSnapshot() {
@@ -639,6 +689,7 @@ async function loadSnapshot() {
 
     state.snapshot = await response.json();
     updateMeta(state.snapshot);
+    setupOwnerFilters(state.snapshot);
     renderSnapshot();
   } catch (error) {
     updateStatus("Snapshot unavailable", "error");
@@ -656,5 +707,9 @@ async function loadSnapshot() {
   }
 }
 
-setupControls();
-loadSnapshot();
+try {
+  setupControls();
+  loadSnapshot();
+} catch (error) {
+  showStartupError(error instanceof Error ? error.message : String(error));
+}

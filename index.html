@@ -112,8 +112,8 @@
 
       .panel-header {
         display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: stretch;
         gap: 16px;
         margin-bottom: 18px;
       }
@@ -132,15 +132,15 @@
       .panel-actions {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        gap: 12px;
+        align-items: stretch;
+        gap: 16px;
+        width: 100%;
       }
 
       .control-row {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        gap: 12px;
+        flex-direction: column;
+        gap: 14px;
       }
 
       .status {
@@ -153,20 +153,23 @@
         color: var(--success);
         font-size: 0.92rem;
         font-weight: 700;
+        align-self: flex-start;
       }
 
       .toggle {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         gap: 10px;
         padding: 10px 14px;
         border: 1px solid var(--surface-border);
-        border-radius: 999px;
+        border-radius: 18px;
         background: rgba(255, 255, 255, 0.72);
         color: var(--text);
         font-size: 0.92rem;
         font-weight: 700;
         cursor: pointer;
+        min-height: 52px;
+        width: 100%;
       }
 
       .toggle input {
@@ -176,56 +179,52 @@
         cursor: pointer;
       }
 
-      .filter-menu {
-        position: relative;
-      }
-
-      .filter-summary {
-        list-style: none;
-        display: inline-flex;
-        align-items: center;
+      .filter-group {
+        display: flex;
+        flex-direction: column;
         gap: 10px;
-        padding: 10px 14px;
-        border: 1px solid var(--surface-border);
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.72);
-        color: var(--text);
-        font: inherit;
-        font-weight: 700;
-        cursor: pointer;
-      }
-
-      .filter-summary::-webkit-details-marker {
-        display: none;
-      }
-
-      .filter-panel {
-        position: absolute;
-        right: 0;
-        top: calc(100% + 10px);
-        z-index: 10;
-        width: 280px;
         padding: 14px;
         border: 1px solid var(--surface-border);
         border-radius: 18px;
-        background: rgba(255, 255, 255, 0.97);
-        box-shadow: 0 18px 40px rgba(31, 41, 51, 0.14);
+        background: rgba(255, 255, 255, 0.72);
+      }
+
+      .filter-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .filter-title {
+        margin: 0;
+        font-size: 0.82rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-weight: 700;
       }
 
       .filter-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
         gap: 10px;
       }
 
-      .filter-option {
-        display: flex;
+      .owner-filter-option,
+      .status-filter-option {
+        display: inline-flex;
         align-items: center;
         gap: 8px;
         font-size: 0.92rem;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(31, 41, 51, 0.05);
+        cursor: pointer;
       }
 
-      .filter-option input {
+      .owner-filter-option input,
+      .status-filter-option input {
         width: 16px;
         height: 16px;
         accent-color: var(--accent);
@@ -234,7 +233,6 @@
       .filter-actions {
         display: flex;
         justify-content: flex-end;
-        margin-top: 12px;
       }
 
       .filter-clear {
@@ -248,17 +246,21 @@
       }
 
       .range-filter {
-        display: inline-flex;
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto minmax(0, 1fr);
         align-items: center;
         gap: 10px;
         padding: 10px 14px;
         border: 1px solid var(--surface-border);
-        border-radius: 999px;
+        border-radius: 18px;
         background: rgba(255, 255, 255, 0.72);
+        min-height: 52px;
+        width: 100%;
       }
 
       .range-filter input {
-        width: 64px;
+        width: 100%;
+        min-width: 0;
         padding: 6px 8px;
         border: 1px solid var(--surface-border);
         border-radius: 10px;
@@ -267,87 +269,114 @@
         font: inherit;
       }
 
+      .sort-filter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.72);
+        min-height: 52px;
+        width: 100%;
+        font-weight: 700;
+      }
+
+      .sort-options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .sort-option {
+        padding: 9px 12px;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.9);
+        color: var(--text);
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .sort-option.active {
+        border-color: rgba(184, 92, 56, 0.35);
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
       .status.loading,
       .status.error {
         background: var(--accent-soft);
         color: var(--accent);
       }
 
-      .table-wrap {
-        overflow-x: auto;
-        border-radius: 18px;
+      .card-list {
+        display: grid;
+        gap: 16px;
+      }
+
+      .game-card {
+        display: grid;
+        grid-template-columns: 120px minmax(0, 1fr);
+        gap: 18px;
+        padding: 18px;
         border: 1px solid var(--surface-border);
+        border-radius: 22px;
         background: var(--surface-strong);
+        box-shadow: 0 10px 24px rgba(31, 41, 51, 0.07);
       }
 
-      table {
+      .game-card.compact {
+        grid-template-columns: 84px minmax(0, 1fr);
+        padding: 14px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: none;
+      }
+
+      .card-thumb-wrap {
+        display: flex;
         width: 100%;
-        min-width: 1180px;
-        border-collapse: collapse;
+        aspect-ratio: 1;
       }
 
-      thead {
-        background: rgba(31, 41, 51, 0.04);
-      }
-
-      th,
-      td {
-        padding: 14px 12px;
-        text-align: left;
-        vertical-align: top;
-        border-bottom: 1px solid rgba(81, 98, 118, 0.12);
-      }
-
-      th {
-        font-size: 0.82rem;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--muted);
-      }
-
-      th.sortable {
-        padding: 0;
-      }
-
-      .sort-button {
+      .card-thumb-wrap img,
+      .card-thumb {
         width: 100%;
-        padding: 14px 12px;
-        border: 0;
-        background: transparent;
-        color: inherit;
-        font: inherit;
-        font-weight: inherit;
-        letter-spacing: inherit;
-        text-transform: inherit;
-        text-align: left;
-        cursor: pointer;
-      }
-
-      .sort-button:hover {
-        color: var(--text);
-      }
-
-      .sort-button.active {
-        color: var(--accent);
-      }
-
-      tbody tr:hover {
-        background: rgba(184, 92, 56, 0.04);
-      }
-
-      td img {
-        width: 56px;
-        height: 56px;
+        height: 100%;
+        aspect-ratio: 1;
         object-fit: cover;
-        border-radius: 14px;
+        border-radius: 18px;
         display: block;
         background: rgba(81, 98, 118, 0.08);
+      }
+
+      .card-thumb.placeholder {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.88rem;
+        padding: 10px;
+      }
+
+      .card-body {
+        min-width: 0;
+      }
+
+      .card-heading {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
       }
 
       .game-name {
         margin: 0;
         font-size: 1rem;
         font-weight: 700;
+        line-height: 1.35;
       }
 
       .game-name a {
@@ -360,9 +389,49 @@
       }
 
       .game-meta {
-        margin-top: 6px;
+        margin-top: 4px;
         color: var(--muted);
         line-height: 1.4;
+        font-size: 0.82rem;
+      }
+
+      .detail-list {
+        display: grid;
+        gap: 8px;
+        margin-top: 16px;
+      }
+
+      .detail-line {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .detail-label {
+        min-width: 86px;
+        font-size: 0.84rem;
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      .detail-value {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--text);
+      }
+
+      .card-section {
+        margin-top: 16px;
+      }
+
+      .section-label {
+        margin-bottom: 10px;
+        font-size: 0.76rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-weight: 700;
       }
 
       .pill-list {
@@ -396,19 +465,16 @@
         color: var(--muted);
       }
 
-      .weight-badge {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 52px;
-        padding: 6px 10px;
-        border-radius: 999px;
+      .weight-value {
         font-weight: 700;
-        color: #12202d;
+      }
+
+      .weight-max {
+        color: var(--muted);
       }
 
       .expansion-disclosure {
-        margin-top: 12px;
+        margin-top: 16px;
         padding: 12px 14px;
         border: 1px solid rgba(81, 98, 118, 0.14);
         border-radius: 14px;
@@ -421,30 +487,10 @@
         color: var(--text);
       }
 
-      .expansion-table-wrap {
+      .expansion-card-list {
+        display: grid;
+        gap: 10px;
         margin-top: 14px;
-        overflow-x: auto;
-        border: 1px solid rgba(81, 98, 118, 0.12);
-        border-radius: 14px;
-        background: rgba(255, 255, 255, 0.84);
-      }
-
-      .expansion-table {
-        min-width: 920px;
-      }
-
-      .expansion-table th,
-      .expansion-table td {
-        padding: 12px 10px;
-        font-size: 0.94rem;
-      }
-
-      .expansion-table th {
-        background: rgba(31, 41, 51, 0.03);
-      }
-
-      .expansion-table tbody tr:hover {
-        background: rgba(184, 92, 56, 0.03);
       }
 
       .empty-state {
@@ -465,6 +511,11 @@
         .meta-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
+
+        .panel-actions {
+          width: 100%;
+        }
+
       }
 
       @media (max-width: 720px) {
@@ -485,6 +536,42 @@
         .meta-grid {
           grid-template-columns: 1fr;
         }
+
+        .range-filter {
+          grid-template-columns: 1fr 1fr;
+          align-items: stretch;
+        }
+
+        .range-filter span:first-child,
+        .range-filter .muted {
+          grid-column: 1 / -1;
+        }
+
+        .filter-grid,
+        .sort-options {
+          flex-direction: column;
+        }
+
+        .status {
+          width: 100%;
+          justify-content: center;
+          text-align: center;
+        }
+
+        .game-card,
+        .game-card.compact {
+          grid-template-columns: 1fr;
+        }
+
+        .card-thumb-wrap {
+          max-width: 140px;
+        }
+
+        .detail-line {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 4px;
+        }
       }
     </style>
   </head>
@@ -492,19 +579,20 @@
     <div class="page">
       <section class="hero">
         <p class="eyebrow">Our Boardgames</p>
-        <h1>JoyfulFicus on BoardGameGeek</h1>
+        <h1 id="hero-title">Shared BoardGameGeek Collections</h1>
         <p class="lead">
-          This page renders a static snapshot of a BGG collection from a local
-          CSV export so it can be served from GitHub Pages without any server
-          runtime. Refresh the snapshot whenever you export a newer collection.
+          This page renders a static snapshot built from multiple local BGG CSV
+          exports so it can be served from GitHub Pages without any server
+          runtime. Refresh the snapshot whenever you add or update a collection
+          in <span class="code">collections/</span>.
         </p>
         <div class="meta-grid" id="meta-grid">
           <div class="meta-card">
-            <span class="meta-label">Profile</span>
-            <span class="meta-value" id="meta-username">JoyfulFicus</span>
+            <span class="meta-label">Owners</span>
+            <span class="meta-value" id="meta-owners">Loading...</span>
           </div>
           <div class="meta-card">
-            <span class="meta-label">Snapshot Items</span>
+            <span class="meta-label">Unique Games</span>
             <span class="meta-value" id="meta-count">0</span>
           </div>
           <div class="meta-card">
@@ -513,7 +601,7 @@
           </div>
           <div class="meta-card">
             <span class="meta-label">Source</span>
-            <span class="meta-value" id="meta-source">BGG collection CSV export</span>
+            <span class="meta-value" id="meta-source">CSV exports</span>
           </div>
         </div>
       </section>
@@ -524,42 +612,51 @@
             <h2 class="panel-title">Collection Snapshot</h2>
             <p class="panel-copy">
               The table below is populated from
-              <span class="code">data/joyfulficus-collection.json</span>.
+              <span class="code" id="snapshot-path">data/collection.json</span>.
             </p>
           </div>
           <div class="panel-actions">
             <div class="control-row">
-              <label class="toggle" for="group-expansions-toggle">
-                <input type="checkbox" id="group-expansions-toggle" />
-                Group expansions under base games
-              </label>
-              <label class="range-filter" for="player-min-filter">
-                Players
-                <input id="player-min-filter" type="number" min="1" placeholder="Min" />
-                <span class="muted">to</span>
-                <input id="player-max-filter" type="number" min="1" placeholder="Max" />
-              </label>
-              <details class="filter-menu" id="status-filter-menu">
-                <summary class="filter-summary" id="status-filter-summary">
-                  All statuses
-                </summary>
-                <div class="filter-panel">
-                  <div class="filter-grid">
-                    <label class="filter-option"><input type="checkbox" value="owned" />Owned</label>
-                    <label class="filter-option"><input type="checkbox" value="previouslyOwned" />Previously Owned</label>
-                    <label class="filter-option"><input type="checkbox" value="forTrade" />For Trade</label>
-                    <label class="filter-option"><input type="checkbox" value="wantInTrade" />Want in Trade</label>
-                    <label class="filter-option"><input type="checkbox" value="wantToPlay" />Want to Play</label>
-                    <label class="filter-option"><input type="checkbox" value="wantToBuy" />Want to Buy</label>
-                    <label class="filter-option"><input type="checkbox" value="wishlist" />Wishlist</label>
-                    <label class="filter-option"><input type="checkbox" value="preordered" />Preordered</label>
-                    <label class="filter-option"><input type="checkbox" value="expansion" />Expansion</label>
-                  </div>
-                  <div class="filter-actions">
-                    <button class="filter-clear" id="clear-status-filters" type="button">Clear</button>
-                  </div>
+              <div class="filter-group">
+                <div class="filter-heading">
+                  <h3 class="filter-title">View</h3>
                 </div>
-              </details>
+                <label class="toggle" for="group-expansions-toggle">
+                  <input type="checkbox" id="group-expansions-toggle" />
+                  Group expansions under base games
+                </label>
+              </div>
+              <div class="filter-group">
+                <div class="filter-heading">
+                  <h3 class="filter-title">Players</h3>
+                </div>
+                <label class="range-filter" for="player-min-filter">
+                  <span>Players</span>
+                  <input id="player-min-filter" type="number" min="1" placeholder="Min" />
+                  <span class="muted">to</span>
+                  <input id="player-max-filter" type="number" min="1" placeholder="Max" />
+                </label>
+              </div>
+              <div class="sort-filter">
+                <div class="filter-heading">
+                  <h3 class="filter-title">Sort by</h3>
+                </div>
+                <div class="sort-options" id="sort-options"></div>
+              </div>
+              <div class="filter-group">
+                <div class="filter-heading">
+                  <h3 class="filter-title">Owners</h3>
+                  <button class="filter-clear" id="clear-owner-filters" type="button">Clear</button>
+                </div>
+                <div class="filter-grid" id="owner-filter-grid"></div>
+              </div>
+              <div class="filter-group">
+                <div class="filter-heading">
+                  <h3 class="filter-title">Statuses</h3>
+                  <button class="filter-clear" id="clear-status-filters" type="button">Clear</button>
+                </div>
+                <div class="filter-grid" id="status-filter-grid"></div>
+              </div>
             </div>
             <div class="status loading" id="status-pill">Loading snapshot...</div>
           </div>

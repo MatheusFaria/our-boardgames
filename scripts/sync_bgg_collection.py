@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Normalize a local BGG collection CSV export into a static JSON snapshot."""
+"""Normalize local BGG collection CSV exports into one static JSON snapshot."""
 
 from __future__ import annotations
 
@@ -10,17 +10,15 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-DEFAULT_USERNAME = "JoyfulFicus"
-DEFAULT_INPUT = Path("collections/JoyfulFicus.csv")
-DEFAULT_OUTPUT = Path("data/joyfulficus-collection.json")
+DEFAULT_INPUT_DIR = Path("collections")
+DEFAULT_OUTPUT = Path("data/collection.json")
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Sync a local BoardGameGeek collection CSV export into static JSON."
+        description="Sync local BoardGameGeek collection CSV exports into one static JSON snapshot."
     )
-    parser.add_argument("--username", default=DEFAULT_USERNAME)
-    parser.add_argument("--input", default=str(DEFAULT_INPUT))
+    parser.add_argument("--input-dir", default=str(DEFAULT_INPUT_DIR))
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT))
     return parser
 
@@ -62,13 +60,25 @@ def build_bgg_link(object_id: int | None) -> str | None:
     return f"https://boardgamegeek.com/boardgame/{object_id}"
 
 
-def normalize_row(row: dict[str, str]) -> dict[str, object]:
-    object_id = int_or_none(row.get("objectid"))
+def extract_statuses(row: dict[str, str]) -> list[str]:
     wishlist = bool_from_export(row.get("wishlist"))
     want = bool_from_export(row.get("want"))
-    want_to_buy = bool_from_export(row.get("wanttobuy"))
-    want_to_play = bool_from_export(row.get("wanttoplay"))
 
+    status_pairs = [
+        ("Owned", bool_from_export(row.get("own"))),
+        ("Previously Owned", bool_from_export(row.get("prevowned"))),
+        ("For Trade", bool_from_export(row.get("fortrade"))),
+        ("Want in Trade", want),
+        ("Want to Play", bool_from_export(row.get("wanttoplay"))),
+        ("Want to Buy", bool_from_export(row.get("wanttobuy"))),
+        ("Wishlist", wishlist),
+        ("Preordered", bool_from_export(row.get("preordered"))),
+    ]
+    return [label for label, active in status_pairs if active]
+
+
+def normalize_row(row: dict[str, str]) -> dict[str, object]:
+    object_id = int_or_none(row.get("objectid"))
     return {
         "objectId": object_id,
         "subtype": text_or_none(row.get("objecttype")) or "thing",
@@ -78,19 +88,6 @@ def normalize_row(row: dict[str, str]) -> dict[str, object]:
         "image": None,
         "thumbnail": None,
         "link": build_bgg_link(object_id),
-        "numPlays": int_or_none(row.get("numplays")),
-        "comment": text_or_none(row.get("comment")),
-        "owned": bool_from_export(row.get("own")),
-        "previouslyOwned": bool_from_export(row.get("prevowned")),
-        "forTrade": bool_from_export(row.get("fortrade")),
-        "want": want,
-        "wantInTrade": want,
-        "wantToPlay": want_to_play,
-        "wantToBuy": want_to_buy,
-        "wishlist": wishlist,
-        "preordered": bool_from_export(row.get("preordered")),
-        "wishlistPriority": int_or_none(row.get("wishlistpriority")),
-        "userRating": float_or_none(row.get("rating")),
         "bggAverageRating": float_or_none(row.get("average")),
         "bggBayesAverageRating": float_or_none(row.get("baverage")),
         "bggRank": int_or_none(row.get("rank")),
@@ -104,20 +101,106 @@ def normalize_row(row: dict[str, str]) -> dict[str, object]:
         "recommendedAge": text_or_none(row.get("bggrecagerange")),
         "itemType": text_or_none(row.get("itemtype")),
         "versionNickname": text_or_none(row.get("version_nickname")),
+        "ownerStatuses": extract_statuses(row),
     }
 
 
-def normalize_collection(username: str, csv_path: Path) -> dict[str, object]:
-    with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
-        rows = list(csv.DictReader(handle))
+def choose_value(current: object, candidate: object) -> object:
+    if current in (None, "", 0):
+        return candidate
+    return current
 
-    items = [normalize_row(row) for row in rows]
-    items.sort(key=lambda item: ((item["name"] or "").lower(), item["objectId"] or 0))
+
+def merge_item(existing: dict[str, object], candidate: dict[str, object], owner: str) -> None:
+    for field in (
+        "name",
+        "yearPublished",
+        "image",
+        "thumbnail",
+        "link",
+        "bggAverageRating",
+        "bggBayesAverageRating",
+        "bggRank",
+        "weight",
+        "minPlayers",
+        "maxPlayers",
+        "playingTime",
+        "languageDependence",
+        "bestPlayers",
+        "recommendedPlayers",
+        "recommendedAge",
+        "itemType",
+        "versionNickname",
+        "subtype",
+    ):
+        existing[field] = choose_value(existing.get(field), candidate.get(field))
+
+    owners = existing.setdefault("owners", [])
+    if owner not in owners:
+        owners.append(owner)
+        owners.sort(key=str.lower)
+
+    owner_details = existing.setdefault("ownerDetails", [])
+    owner_details.append(
+        {
+            "owner": owner,
+            "statuses": candidate.get("ownerStatuses", []),
+        }
+    )
+    owner_details.sort(key=lambda detail: str(detail["owner"]).lower())
+
+
+def load_collection(csv_path: Path) -> list[dict[str, object]]:
+    with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return [normalize_row(row) for row in csv.DictReader(handle)]
+
+
+def build_snapshot(input_dir: Path) -> dict[str, object]:
+    csv_files = sorted(input_dir.glob("*.csv"), key=lambda path: path.name.lower())
+    if not csv_files:
+        raise FileNotFoundError(f"no CSV files found in {input_dir}")
+
+    merged_by_id: dict[int, dict[str, object]] = {}
+    owners: list[str] = []
+    source_files: list[str] = []
+
+    for csv_path in csv_files:
+        owner = csv_path.stem
+        owners.append(owner)
+        source_files.append(str(csv_path))
+
+        for item in load_collection(csv_path):
+            object_id = item.get("objectId")
+            if object_id is None:
+                continue
+
+            existing = merged_by_id.get(object_id)
+            if existing is None:
+                merged_by_id[object_id] = {
+                    **item,
+                    "owners": [owner],
+                    "ownerDetails": [
+                        {
+                            "owner": owner,
+                            "statuses": item.get("ownerStatuses", []),
+                        }
+                    ],
+                }
+                continue
+
+            merge_item(existing, item, owner)
+
+    items = sorted(
+        merged_by_id.values(),
+        key=lambda item: ((item.get("name") or "").lower(), item.get("objectId") or 0),
+    )
+    for item in items:
+        item.pop("ownerStatuses", None)
 
     return {
-        "username": username,
-        "sourceLabel": "BGG collection CSV export",
-        "sourceUrl": str(csv_path),
+        "owners": sorted(owners, key=str.lower),
+        "sourceLabel": "BGG collection CSV exports",
+        "sourceFiles": source_files,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "itemCount": len(items),
         "items": items,
@@ -128,11 +211,11 @@ def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
 
-    input_path = Path(args.input)
-    if not input_path.exists():
-        parser.error(f"input CSV not found: {input_path}")
+    input_dir = Path(args.input_dir)
+    if not input_dir.exists():
+        parser.error(f"input directory not found: {input_dir}")
 
-    snapshot = normalize_collection(args.username, input_path)
+    snapshot = build_snapshot(input_dir)
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
@@ -140,7 +223,10 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    print(f"Wrote {snapshot['itemCount']} items to {output_path}")
+    print(
+        "Wrote "
+        f"{snapshot['itemCount']} merged items from {len(snapshot['sourceFiles'])} files to {output_path}"
+    )
     return 0
 
 
