@@ -39,3 +39,6 @@ Temporary Items
 # Python cache
 __pycache__/
 *.py[cod]
+
+# Local environment variables (contains secrets)
+.env
