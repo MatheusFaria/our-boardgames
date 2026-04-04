@@ -18,6 +18,7 @@
         --accent-soft: rgba(184, 92, 56, 0.12);
         --success: #1f7a5a;
         --shadow: 0 18px 52px rgba(31, 41, 51, 0.12);
+        --top-bar-h: 52px;
       }
 
       * {
@@ -39,6 +40,14 @@
         width: min(100%, 1240px);
         margin: 0 auto;
       }
+
+      /* ── Top bar (mobile only, hidden on desktop) ───────── */
+
+      .top-bar {
+        display: none;
+      }
+
+      /* ── Hero ───────────────────────────────────────────── */
 
       .hero {
         padding: 36px 32px;
@@ -101,47 +110,83 @@
         font-weight: 700;
       }
 
-      .panel {
+      /* ── Layout: sidebar + main ─────────────────────────── */
+
+      .content-layout {
+        display: grid;
+        grid-template-columns: 272px minmax(0, 1fr);
+        gap: 24px;
         margin-top: 24px;
-        padding: 24px;
+        align-items: start;
+      }
+
+      /* ── Sidebar ─────────────────────────────────────────── */
+
+      .drawer-backdrop {
+        display: none;
+      }
+
+      .sidebar {
+        position: sticky;
+        top: 24px;
+        max-height: calc(100vh - 48px);
+        overflow-y: auto;
         border: 1px solid var(--surface-border);
         border-radius: 24px;
         background: var(--surface);
         box-shadow: var(--shadow);
+        backdrop-filter: blur(12px);
       }
 
-      .panel-header {
+      .sidebar-header {
         display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 16px;
-        margin-bottom: 18px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px 4px;
       }
 
-      .panel-title {
-        margin: 0;
-        font-size: 1.4rem;
-      }
-
-      .panel-copy {
-        margin: 8px 0 0;
-        line-height: 1.6;
+      .sidebar-title {
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
         color: var(--muted);
       }
 
-      .panel-actions {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 16px;
-        width: 100%;
+      .sidebar-close-btn {
+        display: none;
+      }
+
+      .sidebar-body {
+        padding: 12px 16px 20px;
       }
 
       .control-row {
         display: flex;
         flex-direction: column;
-        gap: 14px;
+        gap: 12px;
       }
+
+      /* ── Main content ────────────────────────────────────── */
+
+      .main-content {
+        min-width: 0;
+      }
+
+      .main-top {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+      }
+
+      .search-wrap {
+        flex: 1;
+        min-width: 180px;
+      }
+
+      /* ── Status pill ─────────────────────────────────────── */
 
       .status {
         display: inline-flex;
@@ -155,6 +200,14 @@
         font-weight: 700;
         align-self: flex-start;
       }
+
+      .status.loading,
+      .status.error {
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      /* ── Search input ────────────────────────────────────── */
 
       .search-input {
         width: 100%;
@@ -171,6 +224,8 @@
         outline: none;
         border-color: rgba(184, 92, 56, 0.35);
       }
+
+      /* ── Filter controls ─────────────────────────────────── */
 
       .toggle {
         display: flex;
@@ -246,11 +301,6 @@
         accent-color: var(--accent);
       }
 
-      .filter-actions {
-        display: flex;
-        justify-content: flex-end;
-      }
-
       .filter-clear {
         padding: 8px 12px;
         border: 1px solid var(--surface-border);
@@ -321,11 +371,7 @@
         color: var(--accent);
       }
 
-      .status.loading,
-      .status.error {
-        background: var(--accent-soft);
-        color: var(--accent);
-      }
+      /* ── Cards ───────────────────────────────────────────── */
 
       .card-list {
         display: grid;
@@ -509,6 +555,8 @@
         margin-top: 14px;
       }
 
+      /* ── Pagination ──────────────────────────────────────── */
+
       .pagination {
         display: flex;
         justify-content: center;
@@ -555,6 +603,8 @@
         font-weight: 700;
       }
 
+      /* ── Misc ────────────────────────────────────────────── */
+
       .empty-state {
         padding: 28px;
         border: 1px dashed var(--surface-border);
@@ -569,57 +619,132 @@
         font-size: 0.95em;
       }
 
+      /* ── Responsive: medium screens ─────────────────────── */
+
       @media (max-width: 980px) {
         .meta-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
-
-        .panel-actions {
-          width: 100%;
-        }
-
       }
 
-      @media (max-width: 720px) {
+      /* ── Responsive: mobile ──────────────────────────────── */
+
+      @media (max-width: 768px) {
         body {
           padding: 16px;
+          padding-top: calc(var(--top-bar-h) + 16px);
         }
 
-        .hero,
-        .panel {
+        /* Smart sticky top bar */
+        .top-bar {
+          display: flex;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 200;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 16px;
+          height: var(--top-bar-h);
+          background: var(--surface-strong);
+          border-bottom: 1px solid var(--surface-border);
+          box-shadow: 0 2px 12px rgba(31, 41, 51, 0.08);
+          transition: transform 0.25s ease;
+        }
+
+        .top-bar.top-bar--hidden {
+          transform: translateY(-100%);
+        }
+
+        .top-bar-brand {
+          font-size: 0.95rem;
+          font-weight: 700;
+          color: var(--text);
+        }
+
+        .filter-toggle-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 7px 14px;
+          border: 1px solid var(--surface-border);
+          border-radius: 999px;
+          background: var(--accent-soft);
+          color: var(--accent);
+          font: inherit;
+          font-size: 0.88rem;
+          font-weight: 700;
+          cursor: pointer;
+        }
+
+        /* Single-column layout */
+        .content-layout {
+          grid-template-columns: 1fr;
+          gap: 0;
+          margin-top: 16px;
+        }
+
+        /* Sidebar becomes a slide-in drawer */
+        .sidebar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          width: min(300px, 85vw);
+          max-height: 100%;
+          border-radius: 0 24px 24px 0;
+          z-index: 300;
+          transform: translateX(-100%);
+          transition: transform 0.28s ease;
+          overflow-y: auto;
+        }
+
+        .sidebar.sidebar--open {
+          transform: translateX(0);
+        }
+
+        .sidebar-close-btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 32px;
+          height: 32px;
+          border: 1px solid var(--surface-border);
+          border-radius: 50%;
+          background: rgba(31, 41, 51, 0.04);
+          color: var(--muted);
+          font: inherit;
+          font-size: 1rem;
+          cursor: pointer;
+          flex-shrink: 0;
+        }
+
+        /* Backdrop */
+        .drawer-backdrop {
+          display: none;
+          position: fixed;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.35);
+          z-index: 250;
+          backdrop-filter: blur(2px);
+        }
+
+        .drawer-backdrop.drawer-backdrop--visible {
+          display: block;
+        }
+
+        /* Hero */
+        .hero {
           padding: 22px;
           border-radius: 20px;
         }
 
-        .panel-header {
-          flex-direction: column;
-        }
-
         .meta-grid {
-          grid-template-columns: 1fr;
-        }
-
-        .range-filter {
           grid-template-columns: 1fr 1fr;
-          align-items: stretch;
         }
 
-        .range-filter span:first-child,
-        .range-filter .muted {
-          grid-column: 1 / -1;
-        }
-
-        .filter-grid,
-        .sort-options {
-          flex-direction: column;
-        }
-
-        .status {
-          width: 100%;
-          justify-content: center;
-          text-align: center;
-        }
-
+        /* Cards */
         .game-card,
         .game-card.compact {
           grid-template-columns: 1fr;
@@ -634,19 +759,47 @@
           flex-direction: column;
           gap: 4px;
         }
+
+        /* Range filter */
+        .range-filter {
+          grid-template-columns: 1fr 1fr;
+          align-items: stretch;
+        }
+
+        .range-filter span:first-child,
+        .range-filter .muted {
+          grid-column: 1 / -1;
+        }
       }
     </style>
   </head>
   <body>
+
+    <!-- Mobile top bar (hidden on desktop via CSS) -->
+    <header class="top-bar" id="top-bar">
+      <span class="top-bar-brand">Our Boardgames</span>
+      <button class="filter-toggle-btn" id="filter-toggle-btn" type="button">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true">
+          <line x1="1" y1="3.5" x2="14" y2="3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="1" y1="7.5" x2="14" y2="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="1" y1="11.5" x2="14" y2="11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="4.5" cy="3.5" r="1.8" fill="var(--surface-strong)" stroke="currentColor" stroke-width="1.2"/>
+          <circle cx="10.5" cy="7.5" r="1.8" fill="var(--surface-strong)" stroke="currentColor" stroke-width="1.2"/>
+          <circle cx="6.5" cy="11.5" r="1.8" fill="var(--surface-strong)" stroke="currentColor" stroke-width="1.2"/>
+        </svg>
+        Filters
+      </button>
+    </header>
+
     <div class="page">
+
+      <!-- Hero -->
       <section class="hero">
         <p class="eyebrow">Our Boardgames</p>
         <h1 id="hero-title">Shared BoardGameGeek Collections</h1>
         <p class="lead">
-          This page renders a static snapshot built from multiple local BGG CSV
-          exports so it can be served from GitHub Pages without any server
-          runtime. Refresh the snapshot whenever you add or update a collection
-          in <span class="code">collections/</span>.
+          Browse the combined board game collections of our group, synced from
+          BoardGameGeek. Use the filters to find something to play tonight.
         </p>
         <div class="meta-grid" id="meta-grid">
           <div class="meta-card">
@@ -663,28 +816,25 @@
           </div>
           <div class="meta-card">
             <span class="meta-label">Source</span>
-            <span class="meta-value" id="meta-source">CSV exports</span>
+            <span class="meta-value" id="meta-source">—</span>
           </div>
         </div>
       </section>
 
-      <section class="panel">
-        <div class="panel-header">
-          <div>
-            <h2 class="panel-title">Collection Snapshot</h2>
-            <p class="panel-copy">
-              The table below is populated from
-              <span class="code" id="snapshot-path">data/collection.json</span>.
-            </p>
+      <!-- Content layout: sidebar + main -->
+      <div class="content-layout">
+
+        <!-- Drawer backdrop (mobile) -->
+        <div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+        <!-- Sidebar / filter drawer -->
+        <aside class="sidebar" id="sidebar">
+          <div class="sidebar-header">
+            <span class="sidebar-title">Filters</span>
+            <button class="sidebar-close-btn" id="sidebar-close-btn" type="button" aria-label="Close filters">✕</button>
           </div>
-          <div class="panel-actions">
+          <div class="sidebar-body">
             <div class="control-row">
-              <div class="filter-group">
-                <div class="filter-heading">
-                  <h3 class="filter-title">Search</h3>
-                </div>
-                <input type="search" id="search-input" class="search-input" placeholder="Search games… (typos OK)" autocomplete="off" />
-              </div>
               <div class="filter-group">
                 <div class="filter-heading">
                   <h3 class="filter-title">View</h3>
@@ -732,14 +882,23 @@
                 <div class="filter-grid" id="status-filter-grid"></div>
               </div>
             </div>
+          </div>
+        </aside>
+
+        <!-- Main content -->
+        <div class="main-content">
+          <div class="main-top">
+            <div class="search-wrap">
+              <input type="search" id="search-input" class="search-input" placeholder="Search games… (typos OK)" autocomplete="off" />
+            </div>
             <div class="status loading" id="status-pill">Loading snapshot...</div>
           </div>
+          <div id="content"></div>
+          <div id="pagination"></div>
         </div>
 
-        <div id="content"></div>
-        <div id="pagination"></div>
-      </section>
-    </div>
+      </div><!-- /.content-layout -->
+    </div><!-- /.page -->
 
     <script src="./app.js"></script>
   </body>

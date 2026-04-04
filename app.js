@@ -547,16 +547,11 @@ function renderEmptyState(message) {
 
 function updateMeta(snapshot) {
   const owners = snapshot.owners || [];
-  const sourceFiles = snapshot.sourceFiles || [];
 
-  document.getElementById("hero-title").textContent = "Shared BoardGameGeek Collections";
   document.getElementById("meta-owners").textContent = owners.length ? owners.join(", ") : "No owners found";
   document.getElementById("meta-count").textContent = formatValue(snapshot.itemCount, "0");
   document.getElementById("meta-generated").textContent = formatDate(snapshot.generatedAt);
-  document.getElementById("meta-source").textContent = `${sourceFiles.length} CSV file${
-    sourceFiles.length === 1 ? "" : "s"
-  }`;
-  document.getElementById("snapshot-path").textContent = SNAPSHOT_PATH;
+  document.getElementById("meta-source").textContent = snapshot.sourceLabel || "—";
 }
 
 function updateStatus(text, stateClass) {
@@ -899,8 +894,49 @@ async function loadSnapshot() {
   }
 }
 
+function setupMobileNav() {
+  const topBar = document.getElementById("top-bar");
+  const filterToggleBtn = document.getElementById("filter-toggle-btn");
+  const sidebar = document.getElementById("sidebar");
+  const sidebarCloseBtn = document.getElementById("sidebar-close-btn");
+  const backdrop = document.getElementById("drawer-backdrop");
+
+  if (!topBar || !filterToggleBtn || !sidebar || !sidebarCloseBtn || !backdrop) return;
+
+  // Smart show/hide top bar on scroll
+  let lastScrollY = window.scrollY;
+  window.addEventListener("scroll", () => {
+    const current = window.scrollY;
+    if (current < 8) {
+      topBar.classList.remove("top-bar--hidden");
+    } else if (current < lastScrollY) {
+      topBar.classList.remove("top-bar--hidden");
+    } else if (current > lastScrollY + 4) {
+      topBar.classList.add("top-bar--hidden");
+    }
+    lastScrollY = current;
+  }, { passive: true });
+
+  function openSidebar() {
+    sidebar.classList.add("sidebar--open");
+    backdrop.classList.add("drawer-backdrop--visible");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeSidebar() {
+    sidebar.classList.remove("sidebar--open");
+    backdrop.classList.remove("drawer-backdrop--visible");
+    document.body.style.overflow = "";
+  }
+
+  filterToggleBtn.addEventListener("click", openSidebar);
+  sidebarCloseBtn.addEventListener("click", closeSidebar);
+  backdrop.addEventListener("click", closeSidebar);
+}
+
 try {
   setupControls();
+  setupMobileNav();
   loadSnapshot();
 } catch (error) {
   showStartupError(error instanceof Error ? error.message : String(error));
