@@ -21,6 +21,12 @@ const STATUS_FILTER_OPTIONS = [
   "Preordered",
 ];
 
+const PAGE_SIZE_OPTIONS = [12, 24, 48, 96, Infinity];
+const PAGE_SIZE_LABELS = { [Infinity]: "All" };
+const DEFAULT_PAGE_SIZE = 24;
+
+const FUZZY_THRESHOLD = 0.5;
+
 const state = {
   snapshot: null,
   groupExpansions: false,
@@ -30,6 +36,9 @@ const state = {
   playerMax: null,
   sortKey: "name",
   sortDirection: "asc",
+  page: 1,
+  pageSize: DEFAULT_PAGE_SIZE,
+  searchQuery: "",
 };
 
 function formatDate(value) {
@@ -136,8 +145,62 @@ function matchesPlayerRange(item) {
   return gameMax >= selectedMin && gameMin <= selectedMax;
 }
 
+// Levenshtein distance (space-optimised, single-row DP)
+function levenshtein(a, b) {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+  const row = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    let prev = row[0];
+    row[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const temp = row[j];
+      row[j] = a[i - 1] === b[j - 1] ? prev : 1 + Math.min(prev, row[j], row[j - 1]);
+      prev = temp;
+    }
+  }
+  return row[b.length];
+}
+
+// Score one query token against one name token (0–1)
+function tokenScore(queryToken, nameToken) {
+  if (nameToken.includes(queryToken)) return 1;
+  const dist = levenshtein(queryToken, nameToken);
+  return 1 - dist / Math.max(queryToken.length, nameToken.length);
+}
+
+// Overall fuzzy score: each query word must match its best name word (0–1)
+function fuzzyScore(query, name) {
+  const q = query.toLowerCase().trim();
+  if (!q) return 1;
+  const n = name.toLowerCase();
+  if (n.includes(q)) return 1;
+  const queryWords = q.split(/\s+/).filter(Boolean);
+  const nameWords = n.split(/\s+/).filter(Boolean);
+  let total = 0;
+  for (const qw of queryWords) {
+    let best = 0;
+    for (const nw of nameWords) {
+      best = Math.max(best, tokenScore(qw, nw));
+      if (best === 1) break;
+    }
+    total += best;
+  }
+  return total / queryWords.length;
+}
+
+function matchesFuzzySearch(item) {
+  if (!state.searchQuery) return true;
+  return fuzzyScore(state.searchQuery, item.name || "") >= FUZZY_THRESHOLD;
+}
+
 function applyActiveFilters(items) {
-  return items.filter((item) => getVisibleOwnerDetails(item).length > 0 && matchesPlayerRange(item));
+  return items.filter(
+    (item) =>
+      getVisibleOwnerDetails(item).length > 0 &&
+      matchesPlayerRange(item) &&
+      matchesFuzzySearch(item)
+  );
 }
 
 function sortValueForItem(item, sortKey) {
@@ -418,12 +481,64 @@ function renderCard(item, expansions = [], compact = false) {
   `;
 }
 
-function renderCollection(items, groupExpansions) {
-  const rows = groupExpansions
-    ? groupItems(items).map(({ item, expansions }) => renderCard(item, expansions)).join("")
-    : sortItems(applyActiveFilters(items)).map((item) => renderCard(item)).join("");
+function getRows(items, groupExpansions) {
+  if (groupExpansions) {
+    return groupItems(items);
+  }
+  return sortItems(applyActiveFilters(items)).map((item) => ({ item, expansions: [] }));
+}
 
-  return `<div class="card-list">${rows}</div>`;
+function renderPaginationControls(totalRows) {
+  const container = document.getElementById("pagination");
+  if (!container) return;
+
+  const totalPages = Math.ceil(totalRows / state.pageSize);
+  if (totalPages <= 1) {
+    container.innerHTML = "";
+    return;
+  }
+
+  const current = state.page;
+
+  function pageBtn(page, label, disabled = false, active = false) {
+    return `<button class="page-btn${active ? " active" : ""}" data-page="${page}" ${disabled ? "disabled" : ""}>${escapeHtml(String(label))}</button>`;
+  }
+
+  const buttons = [];
+  buttons.push(pageBtn(current - 1, "← Prev", current === 1));
+
+  const pageNums = new Set([1, totalPages]);
+  for (let i = Math.max(1, current - 1); i <= Math.min(totalPages, current + 1); i++) {
+    pageNums.add(i);
+  }
+  let prev = 0;
+  for (const n of Array.from(pageNums).sort((a, b) => a - b)) {
+    if (n - prev > 1) buttons.push('<span class="page-ellipsis">…</span>');
+    buttons.push(pageBtn(n, n, n === current, n === current));
+    prev = n;
+  }
+
+  buttons.push(pageBtn(current + 1, "Next →", current === totalPages));
+
+  container.innerHTML = `<div class="pagination">${buttons.join("")}</div>`;
+
+  container.querySelectorAll("[data-page]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const page = Number(btn.getAttribute("data-page"));
+      if (page < 1 || page > totalPages) return;
+      state.page = page;
+      renderSnapshot();
+      document.getElementById("content").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function renderCollection(items, groupExpansions) {
+  const allRows = getRows(items, groupExpansions);
+  const start = (state.page - 1) * state.pageSize;
+  const pageRows = allRows.slice(start, start + state.pageSize);
+  const cards = pageRows.map(({ item, expansions }) => renderCard(item, expansions)).join("");
+  return { html: `<div class="card-list">${cards}</div>`, totalRows: allRows.length };
 }
 
 function renderEmptyState(message) {
@@ -497,9 +612,10 @@ function renderSnapshot() {
     return;
   }
 
-  const filteredItems = applyActiveFilters(snapshot.items);
-  content.innerHTML = renderCollection(snapshot.items, state.groupExpansions);
-  updateStatus(buildStatusMessage(filteredItems.length), "");
+  const { html, totalRows } = renderCollection(snapshot.items, state.groupExpansions);
+  content.innerHTML = html;
+  renderPaginationControls(totalRows);
+  updateStatus(buildStatusMessage(totalRows), "");
 }
 
 function renderOwnerFilterOptions(snapshot) {
@@ -569,7 +685,50 @@ function renderSortOptions() {
           SORT_OPTIONS.find((option) => option.key === sortKey)?.defaultDirection || "asc";
       }
 
+      state.page = 1;
       renderSortOptions();
+      renderSnapshot();
+    });
+  });
+}
+
+function savePageSize() {
+  localStorage.setItem("pageSize", String(state.pageSize));
+}
+
+function loadPageSize() {
+  const saved = Number(localStorage.getItem("pageSize"));
+  if (PAGE_SIZE_OPTIONS.includes(saved)) {
+    state.pageSize = saved;
+  }
+}
+
+function renderPageSizeOptions() {
+  const container = document.getElementById("page-size-options");
+  if (!container) return;
+
+  container.innerHTML = PAGE_SIZE_OPTIONS.map((size) => {
+    const isActive = size === state.pageSize;
+    const label = PAGE_SIZE_LABELS[size] ?? String(size);
+    return `
+      <button
+        class="sort-option ${isActive ? "active" : ""}"
+        type="button"
+        data-page-size="${size}"
+      >
+        ${escapeHtml(label)}
+      </button>
+    `;
+  }).join("");
+
+  container.querySelectorAll("[data-page-size]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const size = Number(btn.getAttribute("data-page-size"));
+      if (!PAGE_SIZE_OPTIONS.includes(size)) return;
+      state.pageSize = size;
+      state.page = 1;
+      savePageSize();
+      renderPageSizeOptions();
       renderSnapshot();
     });
   });
@@ -582,6 +741,7 @@ function setupControls() {
   const clearOwnerFiltersButton = document.getElementById("clear-owner-filters");
   const clearStatusFiltersButton = document.getElementById("clear-status-filters");
   const sortOptions = document.getElementById("sort-options");
+  const searchInput = document.getElementById("search-input");
 
   if (
     !toggle ||
@@ -589,17 +749,27 @@ function setupControls() {
     !playerMaxInput ||
     !clearOwnerFiltersButton ||
     !clearStatusFiltersButton ||
-    !sortOptions
+    !sortOptions ||
+    !searchInput
   ) {
     throw new Error("Missing one or more filter controls in index.html");
   }
 
+  searchInput.addEventListener("input", () => {
+    state.searchQuery = searchInput.value;
+    state.page = 1;
+    renderSnapshot();
+  });
+
+  loadPageSize();
   toggle.checked = state.groupExpansions;
   toggle.addEventListener("change", () => {
     state.groupExpansions = toggle.checked;
+    state.page = 1;
     renderSnapshot();
   });
   renderSortOptions();
+  renderPageSizeOptions();
 
   function syncPlayerRangeState() {
     const minValue = playerMinInput.value.trim();
@@ -618,15 +788,18 @@ function setupControls() {
   for (const input of [playerMinInput, playerMaxInput]) {
     input.addEventListener("input", () => {
       syncPlayerRangeState();
+      state.page = 1;
       renderSnapshot();
     });
   }
 
   clearOwnerFiltersButton.addEventListener("click", () => {
     state.ownerFilters = [];
+    saveOwnerFilters();
     document.querySelectorAll(".owner-filter-option input").forEach((input) => {
       input.checked = false;
     });
+    state.page = 1;
     renderSnapshot();
   });
 
@@ -635,6 +808,7 @@ function setupControls() {
     document.querySelectorAll(".status-filter-option input").forEach((input) => {
       input.checked = false;
     });
+    state.page = 1;
     renderSnapshot();
   });
 
@@ -648,6 +822,7 @@ function setupControls() {
       state.statusFilters = statusInputs
         .filter((candidate) => candidate.checked)
         .map((candidate) => candidate.value);
+      state.page = 1;
       renderSnapshot();
     });
   }
@@ -663,7 +838,22 @@ function showStartupError(message) {
   }
 }
 
+function saveOwnerFilters() {
+  localStorage.setItem("ownerFilters", JSON.stringify(state.ownerFilters));
+}
+
+function loadOwnerFilters(availableOwners) {
+  try {
+    const saved = JSON.parse(localStorage.getItem("ownerFilters") || "[]");
+    // Only restore owners that still exist in the snapshot
+    state.ownerFilters = saved.filter((owner) => availableOwners.includes(owner));
+  } catch {
+    state.ownerFilters = [];
+  }
+}
+
 function setupOwnerFilters(snapshot) {
+  loadOwnerFilters(snapshot.owners || []);
   renderOwnerFilterOptions(snapshot);
 
   const ownerInputs = Array.from(document.querySelectorAll(".owner-filter-option input"));
@@ -673,6 +863,8 @@ function setupOwnerFilters(snapshot) {
       state.ownerFilters = ownerInputs
         .filter((candidate) => candidate.checked)
         .map((candidate) => candidate.value);
+      saveOwnerFilters();
+      state.page = 1;
       renderSnapshot();
     });
   }

@@ -156,6 +156,22 @@
         align-self: flex-start;
       }
 
+      .search-input {
+        width: 100%;
+        padding: 10px 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.72);
+        color: var(--text);
+        font: inherit;
+        font-size: 0.95rem;
+      }
+
+      .search-input:focus {
+        outline: none;
+        border-color: rgba(184, 92, 56, 0.35);
+      }
+
       .toggle {
         display: flex;
         align-items: center;
@@ -493,6 +509,52 @@
         margin-top: 14px;
       }
 
+      .pagination {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        padding: 28px 0 8px;
+      }
+
+      .page-btn {
+        min-width: 40px;
+        padding: 8px 12px;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.9);
+        color: var(--text);
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .page-btn:hover:not(:disabled) {
+        border-color: rgba(184, 92, 56, 0.35);
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .page-btn:disabled {
+        opacity: 0.35;
+        cursor: default;
+      }
+
+      .page-btn.active {
+        border-color: rgba(184, 92, 56, 0.35);
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .page-ellipsis {
+        display: flex;
+        align-items: center;
+        padding: 0 4px;
+        color: var(--muted);
+        font-weight: 700;
+      }
+
       .empty-state {
         padding: 28px;
         border: 1px dashed var(--surface-border);
@@ -619,6 +681,12 @@
             <div class="control-row">
               <div class="filter-group">
                 <div class="filter-heading">
+                  <h3 class="filter-title">Search</h3>
+                </div>
+                <input type="search" id="search-input" class="search-input" placeholder="Search games… (typos OK)" autocomplete="off" />
+              </div>
+              <div class="filter-group">
+                <div class="filter-heading">
                   <h3 class="filter-title">View</h3>
                 </div>
                 <label class="toggle" for="group-expansions-toggle">
@@ -643,6 +711,12 @@
                 </div>
                 <div class="sort-options" id="sort-options"></div>
               </div>
+              <div class="sort-filter">
+                <div class="filter-heading">
+                  <h3 class="filter-title">Per page</h3>
+                </div>
+                <div class="sort-options" id="page-size-options"></div>
+              </div>
               <div class="filter-group">
                 <div class="filter-heading">
                   <h3 class="filter-title">Owners</h3>
@@ -663,6 +737,7 @@
         </div>
 
         <div id="content"></div>
+        <div id="pagination"></div>
       </section>
     </div>
 
