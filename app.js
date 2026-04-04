@@ -505,7 +505,7 @@ function renderPaginationControls(totalRows) {
   }
 
   const buttons = [];
-  buttons.push(pageBtn(current - 1, "← Prev", current === 1));
+  buttons.push(pageBtn(current - 1, "←", current === 1));
 
   const pageNums = new Set([1, totalPages]);
   for (let i = Math.max(1, current - 1); i <= Math.min(totalPages, current + 1); i++) {
@@ -518,7 +518,7 @@ function renderPaginationControls(totalRows) {
     prev = n;
   }
 
-  buttons.push(pageBtn(current + 1, "Next →", current === totalPages));
+  buttons.push(pageBtn(current + 1, "→", current === totalPages));
 
   container.innerHTML = `<div class="pagination">${buttons.join("")}</div>`;
 
@@ -588,6 +588,72 @@ function buildStatusMessage(itemCount) {
   return parts.join(" · ");
 }
 
+function renderActiveFilterChips() {
+  const container = document.getElementById("active-filters");
+  if (!container) return;
+
+  const chips = [];
+
+  for (const owner of state.ownerFilters) {
+    chips.push({
+      label: owner,
+      remove() {
+        state.ownerFilters = state.ownerFilters.filter((o) => o !== owner);
+        saveOwnerFilters();
+        document.querySelectorAll(".owner-filter-option input").forEach((input) => {
+          if (input.value === owner) input.checked = false;
+        });
+        state.page = 1;
+        renderSnapshot();
+      },
+    });
+  }
+
+  for (const status of state.statusFilters) {
+    chips.push({
+      label: status,
+      remove() {
+        state.statusFilters = state.statusFilters.filter((s) => s !== status);
+        document.querySelectorAll(".status-filter-option input").forEach((input) => {
+          if (input.value === status) input.checked = false;
+        });
+        state.page = 1;
+        renderSnapshot();
+      },
+    });
+  }
+
+  if (state.playerMin !== null || state.playerMax !== null) {
+    const min = state.playerMin ?? "any";
+    const max = state.playerMax ?? "any";
+    chips.push({
+      label: `Players: ${min}–${max}`,
+      remove() {
+        state.playerMin = null;
+        state.playerMax = null;
+        const minInput = document.getElementById("player-min-filter");
+        const maxInput = document.getElementById("player-max-filter");
+        if (minInput) minInput.value = "";
+        if (maxInput) maxInput.value = "";
+        state.page = 1;
+        renderSnapshot();
+      },
+    });
+  }
+
+  container.innerHTML = chips
+    .map(
+      (_, i) =>
+        `<span class="filter-chip" data-chip="${i}">${escapeHtml(chips[i].label)}<button class="chip-remove" type="button" aria-label="Remove ${escapeHtml(chips[i].label)} filter">×</button></span>`
+    )
+    .join("");
+
+  container.querySelectorAll(".filter-chip").forEach((el) => {
+    const i = Number(el.getAttribute("data-chip"));
+    el.querySelector(".chip-remove").addEventListener("click", chips[i].remove);
+  });
+}
+
 function renderSnapshot() {
   const content = document.getElementById("content");
   const snapshot = state.snapshot;
@@ -611,6 +677,7 @@ function renderSnapshot() {
   content.innerHTML = html;
   renderPaginationControls(totalRows);
   updateStatus(buildStatusMessage(totalRows), "");
+  renderActiveFilterChips();
 }
 
 function renderOwnerFilterOptions(snapshot) {
@@ -737,6 +804,7 @@ function setupControls() {
   const clearStatusFiltersButton = document.getElementById("clear-status-filters");
   const sortOptions = document.getElementById("sort-options");
   const searchInput = document.getElementById("search-input");
+  const searchInputMobile = document.getElementById("search-input-mobile");
 
   if (
     !toggle ||
@@ -750,11 +818,19 @@ function setupControls() {
     throw new Error("Missing one or more filter controls in index.html");
   }
 
-  searchInput.addEventListener("input", () => {
-    state.searchQuery = searchInput.value;
+  function onSearch(value) {
+    state.searchQuery = value;
     state.page = 1;
+    // Keep both inputs in sync
+    searchInput.value = value;
+    if (searchInputMobile) searchInputMobile.value = value;
     renderSnapshot();
-  });
+  }
+
+  searchInput.addEventListener("input", () => onSearch(searchInput.value));
+  if (searchInputMobile) {
+    searchInputMobile.addEventListener("input", () => onSearch(searchInputMobile.value));
+  }
 
   loadPageSize();
   toggle.checked = state.groupExpansions;
@@ -934,9 +1010,43 @@ function setupMobileNav() {
   backdrop.addEventListener("click", closeSidebar);
 }
 
+function setupThemeToggle() {
+  const lightBtn = document.getElementById("theme-light-btn");
+  const darkBtn = document.getElementById("theme-dark-btn");
+  if (!lightBtn || !darkBtn) return;
+
+  function getEffectiveTheme() {
+    const saved = localStorage.getItem("theme");
+    if (saved === "dark" || saved === "light") return saved;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+    lightBtn.classList.toggle("active", theme === "light");
+    darkBtn.classList.toggle("active", theme === "dark");
+  }
+
+  // Sync toggle to current effective theme
+  applyTheme(getEffectiveTheme());
+
+  lightBtn.addEventListener("click", () => applyTheme("light"));
+  darkBtn.addEventListener("click", () => applyTheme("dark"));
+
+  // Keep in sync if system preference changes and no explicit override... actually
+  // once the user clicks, we always have an explicit preference. Only sync if no saved pref.
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    if (!localStorage.getItem("theme")) {
+      applyTheme(e.matches ? "dark" : "light");
+    }
+  });
+}
+
 try {
   setupControls();
   setupMobileNav();
+  setupThemeToggle();
   loadSnapshot();
 } catch (error) {
   showStartupError(error instanceof Error ? error.message : String(error));
