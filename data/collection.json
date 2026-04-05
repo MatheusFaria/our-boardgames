@@ -8,8 +8,8 @@
   ],
   "sourceLabel": "BGG XML API2",
   "sourceFiles": [],
-  "generatedAt": "2026-04-05T07:09:36.659268+00:00",
-  "itemCount": 563,
+  "generatedAt": "2026-04-05T09:28:31.842473+00:00",
+  "itemCount": 564,
   "items": [
     {
       "objectId": 447649,
@@ -6926,11 +6926,11 @@
     {
       "objectId": 182874,
       "subtype": "boardgame",
-      "collId": 143787040,
+      "collId": 144254968,
       "name": "Grand Austria Hotel",
-      "yearPublished": 2022,
-      "image": "https://cf.geekdo-images.com/GlCmHjdLwv3SqSjv52ToGw__original/img/5vNCdK9mQ0szo_SwSeVQUWnirZ8=/0x0/filters:format(jpeg)/pic6966955.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/GlCmHjdLwv3SqSjv52ToGw__small/img/WXzXZh50EGKd1U2fg75fCbFIL_8=/fit-in/200x150/filters:strip_icc()/pic6966955.jpg",
+      "yearPublished": 2015,
+      "image": "https://cf.geekdo-images.com/PJRaImV8iXGAq2L-6rrn-w__original/img/8DrrN_WD5-jXfWj7ZFr0A3eqKPM=/0x0/filters:format(jpeg)/pic2649931.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/PJRaImV8iXGAq2L-6rrn-w__small/img/CADXd2Eq6iDuB6ZR_JleRAFBUyM=/fit-in/200x150/filters:strip_icc()/pic2649931.jpg",
       "link": "https://boardgamegeek.com/boardgame/182874",
       "bggAverageRating": null,
       "bggBayesAverageRating": null,
@@ -6946,9 +6946,16 @@
       "itemType": "standalone",
       "versionNickname": null,
       "owners": [
+        "JoyfulFicus",
         "ragasil"
       ],
       "ownerDetails": [
+        {
+          "owner": "JoyfulFicus",
+          "statuses": [
+            "Want to Play"
+          ]
+        },
         {
           "owner": "ragasil",
           "statuses": [
@@ -9254,6 +9261,40 @@
           "owner": "paradoxbard",
           "statuses": [
             "Owned"
+          ]
+        }
+      ]
+    },
+    {
+      "objectId": 203993,
+      "subtype": "boardgame",
+      "collId": 144254948,
+      "name": "Lorenzo il Magnifico",
+      "yearPublished": 2016,
+      "image": "https://cf.geekdo-images.com/8G6GkImjt0F_L5aYb8fmtQ__original/img/dOiPu4wGisyuw3KxDketwCSpOfY=/0x0/filters:format(jpeg)/pic3175535.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/8G6GkImjt0F_L5aYb8fmtQ__small/img/MoUo5LUThQh7CyxGX6QnPBM5zAo=/fit-in/200x150/filters:strip_icc()/pic3175535.jpg",
+      "link": "https://boardgamegeek.com/boardgame/203993",
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": 141,
+      "weight": 3.29,
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "languageDependence": "No necessary in-game text",
+      "bestPlayers": "3,4",
+      "recommendedPlayers": "2,3,4",
+      "recommendedAge": "12+",
+      "itemType": "standalone",
+      "versionNickname": null,
+      "owners": [
+        "JoyfulFicus"
+      ],
+      "ownerDetails": [
+        {
+          "owner": "JoyfulFicus",
+          "statuses": [
+            "Want to Play"
           ]
         }
       ]
