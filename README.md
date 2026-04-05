@@ -27,10 +27,8 @@ As an alternative to the CSV exports, you can fetch collections directly from th
 You'll need a BGG API Bearer token (register your application at https://boardgamegeek.com/applications). Save it to a `.env` file:
 
 ```bash
-echo "BGG_TOKEN=your-token-here" > .env
+echo "export BGG_TOKEN=your-token-here" > .env
 ```
-
-Then run:
 
 ```bash
 source .env && python3 scripts/fetch_bgg_collections.py
@@ -40,6 +38,18 @@ Usernames are discovered automatically from the CSV filenames in `collections/`.
 
 ```bash
 source .env && python3 scripts/fetch_bgg_collections.py --usernames alice bob carol
+```
+
+### Caching
+
+Game details (weight, player counts, ratings) are cached per-game in `data/collection.json` and only re-fetched after 30 days by default. This keeps subsequent runs fast.
+
+```bash
+# Use a different cache window (e.g. 7 days)
+source .env && python3 scripts/fetch_bgg_collections.py --cache-days 7
+
+# Force a full refresh, ignoring all cached data
+source .env && python3 scripts/fetch_bgg_collections.py --no-cache
 ```
 
 ## GitHub Actions sync

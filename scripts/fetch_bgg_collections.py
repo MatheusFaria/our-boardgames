@@ -36,6 +36,9 @@ THING_BATCH_SIZE = 10
 # Polite delay between thing-API batch requests.
 THING_BATCH_DELAY = 1.5  # seconds
 
+# How many days before re-fetching /thing data for a game.
+THING_CACHE_DAYS = 30
+
 
 # ---------------------------------------------------------------------------
 # HTTP helpers
@@ -165,9 +168,12 @@ def parse_collection_item(item_el: ET.Element) -> dict:
     if stats_el is not None:
         rating_el = stats_el.find("rating")
         if rating_el is not None:
-            bgg_avg = _float((rating_el.find("average") or ET.Element("x")).get("value"))
-            bgg_bayes = _float((rating_el.find("bayesaverage") or ET.Element("x")).get("value"))
-            for rank_el in (rating_el.find("ranks") or ET.Element("x")).findall("rank"):
+            avg_el = rating_el.find("average")
+            bgg_avg = _float(avg_el.get("value") if avg_el is not None else None)
+            bayes_el = rating_el.find("bayesaverage")
+            bgg_bayes = _float(bayes_el.get("value") if bayes_el is not None else None)
+            ranks_el = rating_el.find("ranks")
+            for rank_el in (ranks_el.findall("rank") if ranks_el is not None else []):
                 if rank_el.get("name") == "boardgame":
                     bgg_rank = _int_keep_zero(rank_el.get("value"))
                     break
@@ -277,12 +283,19 @@ def parse_thing_extra(item_el: ET.Element) -> dict:
         elif name == "suggested_playerage":
             rec_age = _parse_suggested_age(poll_el)
 
+    mechanics = [
+        link_el.get("value")
+        for link_el in item_el.findall("link")
+        if link_el.get("type") == "boardgamemechanic" and link_el.get("value")
+    ]
+
     return {
         "weight": weight,
         "languageDependence": lang_dep,
         "bestPlayers": best_players,
         "recommendedPlayers": rec_players,
         "recommendedAge": rec_age,
+        "mechanics": mechanics or None,
     }
 
 
@@ -306,6 +319,37 @@ def fetch_thing_extras(object_ids: list[int]) -> dict[int, dict]:
         if i + THING_BATCH_SIZE < total:
             time.sleep(THING_BATCH_DELAY)
     return extras
+
+
+# ---------------------------------------------------------------------------
+# Thing-data cache helpers
+# ---------------------------------------------------------------------------
+
+def _is_fresh(item: dict, cache_days: int) -> bool:
+    """Return True if the item's /thing data was fetched within cache_days."""
+    fetched_at = item.get("thingFetchedAt")
+    if not fetched_at:
+        return False
+    try:
+        fetched = datetime.fromisoformat(fetched_at)
+        return (datetime.now(timezone.utc) - fetched).days < cache_days
+    except (ValueError, TypeError):
+        return False
+
+
+def load_existing_items(output_path: Path) -> dict[int, dict]:
+    """Load the previous snapshot and return items keyed by objectId."""
+    if not output_path.exists():
+        return {}
+    try:
+        data = json.loads(output_path.read_text(encoding="utf-8"))
+        return {
+            item["objectId"]: item
+            for item in data.get("items", [])
+            if item.get("objectId") is not None
+        }
+    except Exception:
+        return {}
 
 
 # ---------------------------------------------------------------------------
@@ -342,7 +386,14 @@ def _merge_into(existing: dict, candidate: dict, owner: str) -> None:
 # Main snapshot builder
 # ---------------------------------------------------------------------------
 
-def build_snapshot(usernames: list[str]) -> dict:
+def build_snapshot(
+    usernames: list[str],
+    existing_items: dict[int, dict] | None = None,
+    cache_days: int = THING_CACHE_DAYS,
+) -> dict:
+    if existing_items is None:
+        existing_items = {}
+
     # 1. Fetch each user's collection
     print("=== Fetching collections ===")
     collections: dict[str, list[dict]] = {}
@@ -364,17 +415,37 @@ def build_snapshot(usernames: list[str]) -> dict:
             else:
                 _merge_into(existing, item, username)
 
-    # 3. Batch-fetch extra fields from the thing API
-    all_ids = list(merged.keys())
-    print(f"\n=== Fetching game details for {len(all_ids)} unique games ===")
-    extras = fetch_thing_extras(all_ids)
+    # 3. Split games into fresh (cached) and stale (need /thing fetch)
+    thing_fields = ("weight", "languageDependence", "bestPlayers", "recommendedPlayers", "recommendedAge", "mechanics")
+    stale_ids: list[int] = []
+    fresh_count = 0
 
     for oid, item in merged.items():
-        extra = extras.get(oid, {})
-        for field in ("weight", "languageDependence", "bestPlayers", "recommendedPlayers", "recommendedAge"):
-            item[field] = _choose(item.get(field), extra.get(field))
+        cached = existing_items.get(oid)
+        if cached and _is_fresh(cached, cache_days):
+            for field in (*thing_fields, "thingFetchedAt"):
+                if field in cached:
+                    item[field] = cached[field]
+            fresh_count += 1
+        else:
+            stale_ids.append(oid)
 
-    # 4. Sort and clean up
+    print(f"\n=== Fetching game details: {len(stale_ids)} stale, {fresh_count} cached (threshold: {cache_days}d) ===")
+
+    # 4. Batch-fetch /thing only for stale games
+    if stale_ids:
+        now = datetime.now(timezone.utc).isoformat()
+        extras = fetch_thing_extras(stale_ids)
+        for oid in stale_ids:
+            item = merged[oid]
+            extra = extras.get(oid, {})
+            for field in thing_fields:
+                item[field] = _choose(item.get(field), extra.get(field))
+            item["thingFetchedAt"] = now
+    else:
+        print("  All games are fresh — skipping /thing requests.")
+
+    # 5. Sort and clean up
     items = sorted(
         merged.values(),
         key=lambda item: ((item.get("name") or "").lower(), item.get("objectId") or 0),
@@ -425,6 +496,18 @@ def build_parser() -> argparse.ArgumentParser:
         metavar="TOKEN",
         help="BGG Bearer token for authenticated requests (or set BGG_TOKEN env var).",
     )
+    parser.add_argument(
+        "--cache-days",
+        type=int,
+        default=THING_CACHE_DAYS,
+        metavar="N",
+        help=f"Re-fetch /thing data for games older than N days (default: {THING_CACHE_DAYS}).",
+    )
+    parser.add_argument(
+        "--no-cache",
+        action="store_true",
+        help="Ignore cached /thing data and re-fetch everything.",
+    )
     return parser
 
 
@@ -445,9 +528,14 @@ def main() -> int:
             parser.error(f"no CSV files found in {collections_dir} — pass --usernames explicitly")
         print(f"Discovered usernames from {collections_dir}: {', '.join(usernames)}\n")
 
-    snapshot = build_snapshot(usernames)
-
     output_path = Path(args.output)
+    cache_days = 0 if args.no_cache else args.cache_days
+    existing_items = load_existing_items(output_path) if cache_days > 0 else {}
+    if existing_items:
+        print(f"Loaded {len(existing_items)} cached games from {output_path}\n")
+
+    snapshot = build_snapshot(usernames, existing_items=existing_items, cache_days=cache_days)
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(snapshot, indent=2, ensure_ascii=True) + "\n",
