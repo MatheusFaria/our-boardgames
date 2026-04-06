@@ -97,7 +97,16 @@ function isExpansion(item) {
   return item.itemType === "expansion";
 }
 
-function findBaseGame(expansion, candidates) {
+function findBaseGame(expansion, candidates, candidatesById) {
+  // Try BGG's own expansion relationship data first
+  if (expansion.expansionOf?.length) {
+    for (const id of expansion.expansionOf) {
+      const base = candidatesById.get(id);
+      if (base) return base;
+    }
+  }
+
+  // Fall back to name-prefix heuristic
   const normalizedName = normalizeForMatch(expansion.name || "");
 
   for (const candidate of candidates) {
@@ -195,9 +204,10 @@ function matchesFuzzySearch(item) {
 }
 
 function applyActiveFilters(items) {
+  const hasOwnerOrStatusFilter = state.ownerFilters.length > 0 || state.statusFilters.length > 0;
   return items.filter(
     (item) =>
-      getVisibleOwnerDetails(item).length > 0 &&
+      (!hasOwnerOrStatusFilter || getVisibleOwnerDetails(item).length > 0) &&
       matchesPlayerRange(item) &&
       matchesFuzzySearch(item)
   );
@@ -269,6 +279,8 @@ function groupItems(allItems) {
   const visibleBaseItems = new Map();
   const unmatchedExpansions = [];
 
+  const baseItemsById = new Map(baseItems.map((item) => [item.objectId, item]));
+
   for (const baseItem of baseItems) {
     groupsByBaseId.set(baseItem.objectId, []);
   }
@@ -278,7 +290,7 @@ function groupItems(allItems) {
       continue;
     }
 
-    const baseGame = findBaseGame(expansion, baseItems);
+    const baseGame = findBaseGame(expansion, baseItems, baseItemsById);
     if (!baseGame || !groupsByBaseId.has(baseGame.objectId)) {
       unmatchedExpansions.push(expansion);
       continue;

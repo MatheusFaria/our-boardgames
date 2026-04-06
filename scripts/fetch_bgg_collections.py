@@ -34,7 +34,7 @@ QUEUE_MAX_RETRIES = 12
 THING_BATCH_SIZE = 10
 
 # Polite delay between thing-API batch requests.
-THING_BATCH_DELAY = 1.5  # seconds
+THING_BATCH_DELAY = 2.0  # seconds
 
 # How many days before re-fetching /thing data for a game.
 THING_CACHE_DAYS = 30
@@ -59,7 +59,7 @@ def _get(url: str) -> tuple[int, bytes]:
 
 
 def fetch_xml(url: str, description: str) -> ET.Element:
-    """GET *url*, handle BGG's 202-queued pattern, return parsed XML root."""
+    """GET *url*, handle BGG's 202-queued and 429-rate-limited patterns, return parsed XML root."""
     print(f"  {description}...", end=" ", flush=True)
     for attempt in range(QUEUE_MAX_RETRIES):
         status, body = _get(url)
@@ -71,8 +71,13 @@ def fetch_xml(url: str, description: str) -> ET.Element:
             print(f"queued, retry in {wait}s...", end=" ", flush=True)
             time.sleep(wait)
             continue
+        if status == 429:
+            wait = 30 * (attempt + 1)
+            print(f"rate limited, retry in {wait}s...", end=" ", flush=True)
+            time.sleep(wait)
+            continue
         raise RuntimeError(f"BGG API returned HTTP {status} for: {url}")
-    raise RuntimeError(f"Still queued after {QUEUE_MAX_RETRIES} retries: {url}")
+    raise RuntimeError(f"Still queued/rate-limited after {QUEUE_MAX_RETRIES} retries: {url}")
 
 
 # ---------------------------------------------------------------------------
@@ -205,13 +210,15 @@ def parse_collection_item(item_el: ET.Element) -> dict:
 
 
 def fetch_user_collection(username: str) -> list[dict]:
-    url = f"{BGG_API_BASE}/collection?username={username}&stats=1&subtype=boardgame&brief=0"
-    root = fetch_xml(url, f"collection/{username}")
-    items = []
-    for item_el in root.findall("item"):
-        item = parse_collection_item(item_el)
-        if item["objectId"] is not None:
-            items.append(item)
+    items_by_id: dict[int, dict] = {}
+    for subtype in ("boardgame", "boardgameexpansion"):
+        url = f"{BGG_API_BASE}/collection?username={username}&stats=1&subtype={subtype}&brief=0"
+        root = fetch_xml(url, f"collection/{username} ({subtype})")
+        for item_el in root.findall("item"):
+            item = parse_collection_item(item_el)
+            if item["objectId"] is not None:
+                items_by_id[item["objectId"]] = item
+    items = list(items_by_id.values())
     print(f"    -> {len(items)} items")
     return items
 
@@ -289,6 +296,15 @@ def parse_thing_extra(item_el: ET.Element) -> dict:
         if link_el.get("type") == "boardgamemechanic" and link_el.get("value")
     ]
 
+    expansion_of = [
+        int(eid)
+        for link_el in item_el.findall("link")
+        if link_el.get("type") == "boardgameexpansion"
+        and link_el.get("inbound") == "true"
+        for eid in (link_el.get("id"),)
+        if eid is not None
+    ]
+
     return {
         "weight": weight,
         "languageDependence": lang_dep,
@@ -296,6 +312,7 @@ def parse_thing_extra(item_el: ET.Element) -> dict:
         "recommendedPlayers": rec_players,
         "recommendedAge": rec_age,
         "mechanics": mechanics or None,
+        "expansionOf": expansion_of or None,
     }
 
 
@@ -386,6 +403,96 @@ def _merge_into(existing: dict, candidate: dict, owner: str) -> None:
 # Main snapshot builder
 # ---------------------------------------------------------------------------
 
+def _parse_thing_item(item_el: ET.Element) -> dict:
+    """Parse a full item stub from the /thing API (used by --object-ids mode)."""
+    oid = _int_keep_zero(item_el.get("id"))
+    subtype = item_el.get("type", "thing")
+
+    name_el = next(
+        (el for el in item_el.findall("name") if el.get("type") == "primary"), None
+    )
+    name = _text(name_el.get("value")) if name_el is not None else None
+
+    year_el = item_el.find("yearpublished")
+    year = _int(year_el.get("value") if year_el is not None else None)
+
+    image_el = item_el.find("image")
+    image = _text(image_el.text) if image_el is not None else None
+
+    thumb_el = item_el.find("thumbnail")
+    thumbnail = _text(thumb_el.text) if thumb_el is not None else None
+
+    stats_el = item_el.find("statistics")
+    min_p = max_p = play_time = bgg_avg = bgg_bayes = bgg_rank = None
+    if stats_el is not None:
+        ratings_el = stats_el.find("ratings")
+        if ratings_el is not None:
+            avg_el = ratings_el.find("average")
+            bgg_avg = _float(avg_el.get("value") if avg_el is not None else None)
+            bayes_el = ratings_el.find("bayesaverage")
+            bgg_bayes = _float(bayes_el.get("value") if bayes_el is not None else None)
+            ranks_el = ratings_el.find("ranks")
+            for rank_el in (ranks_el.findall("rank") if ranks_el is not None else []):
+                if rank_el.get("name") == "boardgame":
+                    bgg_rank = _int_keep_zero(rank_el.get("value"))
+                    break
+
+    minplayers_el = item_el.find("minplayers")
+    min_p = _int(minplayers_el.get("value") if minplayers_el is not None else None)
+    maxplayers_el = item_el.find("maxplayers")
+    max_p = _int(maxplayers_el.get("value") if maxplayers_el is not None else None)
+    playingtime_el = item_el.find("playingtime")
+    play_time = _int(playingtime_el.get("value") if playingtime_el is not None else None)
+
+    extra = parse_thing_extra(item_el)
+
+    return {
+        "objectId": oid,
+        "subtype": subtype,
+        "collId": None,
+        "name": name,
+        "yearPublished": year,
+        "image": image,
+        "thumbnail": thumbnail,
+        "link": f"https://boardgamegeek.com/boardgame/{oid}" if oid else None,
+        "bggAverageRating": bgg_avg,
+        "bggBayesAverageRating": bgg_bayes,
+        "bggRank": bgg_rank,
+        "minPlayers": min_p,
+        "maxPlayers": max_p,
+        "playingTime": play_time,
+        "itemType": _item_type_from_subtype(subtype),
+        "versionNickname": None,
+        "owners": [],
+        "ownerDetails": [],
+        "thingFetchedAt": datetime.now(timezone.utc).isoformat(),
+        **extra,
+    }
+
+
+def fetch_items_by_ids(object_ids: list[int]) -> dict[int, dict]:
+    """Fetch full item data from /thing API for the given IDs (bypasses collection API)."""
+    items: dict[int, dict] = {}
+    total = len(object_ids)
+    for i in range(0, total, THING_BATCH_SIZE):
+        batch = object_ids[i : i + THING_BATCH_SIZE]
+        ids_str = ",".join(str(oid) for oid in batch)
+        url = f"{BGG_API_BASE}/thing?id={ids_str}&stats=1"
+        desc = f"thing {i + 1}–{i + len(batch)} of {total}"
+        try:
+            root = fetch_xml(url, desc)
+        except RuntimeError as exc:
+            print(f"    WARNING: {exc} — skipping batch")
+            continue
+        for item_el in root.findall("item"):
+            item = _parse_thing_item(item_el)
+            if item["objectId"] is not None:
+                items[item["objectId"]] = item
+        if i + THING_BATCH_SIZE < total:
+            time.sleep(THING_BATCH_DELAY)
+    return items
+
+
 def build_snapshot(
     usernames: list[str],
     existing_items: dict[int, dict] | None = None,
@@ -416,7 +523,7 @@ def build_snapshot(
                 _merge_into(existing, item, username)
 
     # 3. Split games into fresh (cached) and stale (need /thing fetch)
-    thing_fields = ("weight", "languageDependence", "bestPlayers", "recommendedPlayers", "recommendedAge", "mechanics")
+    thing_fields = ("weight", "languageDependence", "bestPlayers", "recommendedPlayers", "recommendedAge", "mechanics", "expansionOf")
     stale_ids: list[int] = []
     fresh_count = 0
 
@@ -508,6 +615,13 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Ignore cached /thing data and re-fetch everything.",
     )
+    parser.add_argument(
+        "--object-ids",
+        nargs="+",
+        type=int,
+        metavar="ID",
+        help="Fetch specific games by BGG object ID, bypassing the collection API (for testing).",
+    )
     return parser
 
 
@@ -516,6 +630,32 @@ def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
     _bearer_token = args.token
+
+    output_path = Path(args.output)
+
+    # --object-ids mode: bypass collection fetch entirely
+    if args.object_ids:
+        print(f"=== Fetching {len(args.object_ids)} games by object ID ===")
+        items_by_id = fetch_items_by_ids(args.object_ids)
+        items = sorted(
+            items_by_id.values(),
+            key=lambda i: ((i.get("name") or "").lower(), i.get("objectId") or 0),
+        )
+        snapshot = {
+            "owners": [],
+            "sourceLabel": "BGG XML API2 (object-ids mode)",
+            "sourceFiles": [],
+            "generatedAt": datetime.now(timezone.utc).isoformat(),
+            "itemCount": len(items),
+            "items": items,
+        }
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(
+            json.dumps(snapshot, indent=2, ensure_ascii=True) + "\n",
+            encoding="utf-8",
+        )
+        print(f"\nWrote {snapshot['itemCount']} items to {output_path}")
+        return 0
 
     usernames: list[str] = args.usernames or []
     if not usernames:
@@ -528,7 +668,6 @@ def main() -> int:
             parser.error(f"no CSV files found in {collections_dir} — pass --usernames explicitly")
         print(f"Discovered usernames from {collections_dir}: {', '.join(usernames)}\n")
 
-    output_path = Path(args.output)
     cache_days = 0 if args.no_cache else args.cache_days
     existing_items = load_existing_items(output_path) if cache_days > 0 else {}
     if existing_items:
