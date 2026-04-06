@@ -8,7 +8,7 @@
   ],
   "sourceLabel": "BGG XML API2",
   "sourceFiles": [],
-  "generatedAt": "2026-04-06T06:25:05.797673+00:00",
+  "generatedAt": "2026-04-06T11:07:49.970773+00:00",
   "itemCount": 756,
   "items": [
     {
@@ -215,7 +215,7 @@
     },
     {
       "objectId": 20030,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 142787567,
       "name": "6 nimmt! Plus",
       "yearPublished": 2005,
@@ -233,7 +233,7 @@
       "bestPlayers": "7+",
       "recommendedPlayers": "4,5,6,7,7+",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -295,7 +295,7 @@
     },
     {
       "objectId": 316378,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82740457,
       "name": "7 Wonders (Second Edition): Cities",
       "yearPublished": 2020,
@@ -313,7 +313,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "3,4,5,6,7",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -338,7 +338,7 @@
     },
     {
       "objectId": 316380,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82915097,
       "name": "7 Wonders (Second Edition): Leaders",
       "yearPublished": 2020,
@@ -356,7 +356,7 @@
       "bestPlayers": "3,4,5",
       "recommendedPlayers": "3,4,5,6,7",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -432,7 +432,7 @@
     },
     {
       "objectId": 309116,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82915081,
       "name": "7 Wonders Duel: Agora",
       "yearPublished": 2020,
@@ -450,7 +450,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -470,7 +470,7 @@
     },
     {
       "objectId": 202976,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 125748239,
       "name": "7 Wonders Duel: Pantheon",
       "yearPublished": 2016,
@@ -488,7 +488,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -550,7 +550,7 @@
     },
     {
       "objectId": 378839,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 105422776,
       "name": "7 Wonders: Edifice",
       "yearPublished": 2023,
@@ -568,7 +568,7 @@
       "bestPlayers": "4,5,6",
       "recommendedPlayers": "3,4,5,6,7",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -809,7 +809,7 @@
     },
     {
       "objectId": 453801,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144244944,
       "name": "A Place for All My Books: Thank You Notes",
       "yearPublished": 2025,
@@ -827,7 +827,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -890,7 +890,7 @@
     },
     {
       "objectId": 210100,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144244219,
       "name": "Adrenaline: Chainsaw",
       "yearPublished": 2016,
@@ -908,7 +908,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -932,7 +932,7 @@
     },
     {
       "objectId": 233474,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144244223,
       "name": "Adrenaline: Chaos Cannon",
       "yearPublished": 2017,
@@ -950,7 +950,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -974,7 +974,7 @@
     },
     {
       "objectId": 216563,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144244207,
       "name": "Adrenaline: Laser-Magnum",
       "yearPublished": 2016,
@@ -992,7 +992,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -1016,7 +1016,7 @@
     },
     {
       "objectId": 233233,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259421,
       "name": "Adrenaline: Team Play DLC",
       "yearPublished": 2018,
@@ -1034,7 +1034,7 @@
       "bestPlayers": "2,6",
       "recommendedPlayers": "2,3,4,5,6",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -1315,7 +1315,7 @@
     },
     {
       "objectId": 308321,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 141645709,
       "name": "Ankh: Gods of Egypt \u2013 Guardians Set",
       "yearPublished": 2021,
@@ -1333,7 +1333,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -1351,7 +1351,7 @@
     },
     {
       "objectId": 307807,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 141645714,
       "name": "Ankh: Gods of Egypt \u2013 Pantheon",
       "yearPublished": 2021,
@@ -1369,7 +1369,7 @@
       "bestPlayers": "2,3,4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -1387,7 +1387,7 @@
     },
     {
       "objectId": 308966,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 130881667,
       "name": "Ankh: Gods of Egypt \u2013 Tomb of Wonders",
       "yearPublished": 2021,
@@ -1405,7 +1405,7 @@
       "bestPlayers": "2,4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -1683,7 +1683,7 @@
     },
     {
       "objectId": 419279,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 141645743,
       "name": "Arcs: Leaders & Lore Pack",
       "yearPublished": 2024,
@@ -1701,7 +1701,7 @@
       "bestPlayers": "3,4",
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -1731,7 +1731,7 @@
     },
     {
       "objectId": 363757,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 139568620,
       "name": "Arcs: The Blighted Reach Expansion",
       "yearPublished": 2024,
@@ -1749,7 +1749,7 @@
       "bestPlayers": "3,4",
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes",
@@ -1846,7 +1846,7 @@
     },
     {
       "objectId": 368966,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143632838,
       "name": "Ark Nova: Marine Worlds",
       "yearPublished": 2023,
@@ -1864,7 +1864,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "JoyfulFicus"
@@ -1893,7 +1893,7 @@
     },
     {
       "objectId": 433207,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 140904512,
       "name": "Ark Nova: Promotion Team & Capybara Promo Cards",
       "yearPublished": 2024,
@@ -1911,7 +1911,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -1929,7 +1929,7 @@
     },
     {
       "objectId": 368158,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143632842,
       "name": "Ark Nova: Zoo Map Pack 1",
       "yearPublished": 2022,
@@ -1947,7 +1947,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "JoyfulFicus"
@@ -3075,7 +3075,7 @@
     },
     {
       "objectId": 26189,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259379,
       "name": "Blue Moon City: Expansion Tile Sets 1 & 2",
       "yearPublished": 2006,
@@ -3093,7 +3093,7 @@
       "bestPlayers": "3,4",
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -3405,7 +3405,7 @@
     },
     {
       "objectId": 202021,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259447,
       "name": "Broom Service: The 1st Expansion",
       "yearPublished": 2016,
@@ -3423,7 +3423,7 @@
       "bestPlayers": "3,4,5",
       "recommendedPlayers": "4",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -3935,7 +3935,7 @@
     },
     {
       "objectId": 337330,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 116208196,
       "name": "Canvas: Reflections \u2013 Deluxe Edition",
       "yearPublished": 2022,
@@ -3953,7 +3953,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "1,2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -4058,7 +4058,7 @@
     },
     {
       "objectId": 445092,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242774,
       "name": "Capiv\u00e1rias: Capicreche",
       "yearPublished": 2025,
@@ -4076,7 +4076,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -4100,7 +4100,7 @@
     },
     {
       "objectId": 445093,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242784,
       "name": "Capiv\u00e1rias: Capiolins",
       "yearPublished": 2025,
@@ -4118,7 +4118,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -4142,7 +4142,7 @@
     },
     {
       "objectId": 445094,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242783,
       "name": "Capiv\u00e1rias: Capirigo",
       "yearPublished": 2025,
@@ -4160,7 +4160,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -4235,7 +4235,7 @@
     },
     {
       "objectId": 2993,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 92443104,
       "name": "Carcassonne: Inns & Cathedrals",
       "yearPublished": 2002,
@@ -4253,7 +4253,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "2,3,4,5,6",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -4274,7 +4274,7 @@
     },
     {
       "objectId": 5405,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143446659,
       "name": "Carcassonne: Traders & Builders",
       "yearPublished": 2025,
@@ -4292,7 +4292,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -4453,7 +4453,7 @@
     },
     {
       "objectId": 360484,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144258197,
       "name": "Casting Shadows: The Ice Storm Expansion",
       "yearPublished": 2023,
@@ -4471,7 +4471,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "3,4",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "Petter_03"
@@ -4693,7 +4693,7 @@
     },
     {
       "objectId": 259397,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 125960746,
       "name": "Catan Scenario: Crop Trust",
       "yearPublished": 2018,
@@ -4711,7 +4711,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -5402,7 +5402,7 @@
     },
     {
       "objectId": 445027,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242757,
       "name": "Cobog\u00f3: Clientes Especiais",
       "yearPublished": 2025,
@@ -5420,7 +5420,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -5445,7 +5445,7 @@
     },
     {
       "objectId": 445025,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242763,
       "name": "Cobog\u00f3: Janel\u00e3o",
       "yearPublished": 2025,
@@ -5463,7 +5463,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -5488,7 +5488,7 @@
     },
     {
       "objectId": 445024,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242760,
       "name": "Cobog\u00f3: Vidra\u00e7aria",
       "yearPublished": 2025,
@@ -5506,7 +5506,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -5881,7 +5881,7 @@
     },
     {
       "objectId": 153971,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245032,
       "name": "Cosmic Encounter: Cosmic Dominion",
       "yearPublished": 2014,
@@ -5899,7 +5899,7 @@
       "bestPlayers": "5,5+",
       "recommendedPlayers": "4,5,5+",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -6242,14 +6242,14 @@
     },
     {
       "objectId": 414479,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 130802759,
       "name": "Critter Kitchen: \u00c0 La Cart",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/QyFdDRqCdHd3sQ8f4wheSg__original/img/o8rytBK2lDi5VnOMUxc_qPvOSy4=/0x0/filters:format(png)/pic8461313.png",
       "thumbnail": "https://cf.geekdo-images.com/QyFdDRqCdHd3sQ8f4wheSg__small/img/M2uP6z-Rkh5mcTYGV5BNuurrg8w=/fit-in/200x150/filters:strip_icc()/pic8461313.png",
       "link": "https://boardgamegeek.com/boardgame/414479",
-      "bggAverageRating": 8.13,
+      "bggAverageRating": 8.12,
       "bggBayesAverageRating": 5.68,
       "bggRank": null,
       "weight": 2.67,
@@ -6260,7 +6260,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7058,7 +7058,7 @@
     },
     {
       "objectId": 331050,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 105422813,
       "name": "Disney Villainous: Despicable Plots",
       "yearPublished": 2021,
@@ -7076,7 +7076,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "2,3,3+",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7138,7 +7138,7 @@
     },
     {
       "objectId": 391217,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 120394427,
       "name": "Disney Villainous: Filled with Fright",
       "yearPublished": 2023,
@@ -7156,7 +7156,7 @@
       "bestPlayers": null,
       "recommendedPlayers": "2",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7178,7 +7178,7 @@
     },
     {
       "objectId": 299047,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 92443103,
       "name": "Disney Villainous: Perfectly Wretched",
       "yearPublished": 2020,
@@ -7196,7 +7196,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "2,3",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7305,7 +7305,7 @@
     },
     {
       "objectId": 271518,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 130892330,
       "name": "Disney Villainous: Wicked to the Core",
       "yearPublished": 2019,
@@ -7323,7 +7323,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "2,3,3+",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes",
@@ -7441,7 +7441,7 @@
     },
     {
       "objectId": 234553,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 109419549,
       "name": "Dixit: Harmonies",
       "yearPublished": 2018,
@@ -7459,7 +7459,7 @@
       "bestPlayers": "5,6",
       "recommendedPlayers": "4,5,6",
       "recommendedAge": "6+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7480,7 +7480,7 @@
     },
     {
       "objectId": 174090,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 107602701,
       "name": "Dixit: Memories",
       "yearPublished": 2015,
@@ -7498,7 +7498,7 @@
       "bestPlayers": "5,6,6+",
       "recommendedPlayers": "4,5,6,6+",
       "recommendedAge": "6+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7519,7 +7519,7 @@
     },
     {
       "objectId": 301112,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 109419558,
       "name": "Dixit: Mirrors",
       "yearPublished": 2020,
@@ -7537,7 +7537,7 @@
       "bestPlayers": "5,6",
       "recommendedPlayers": "4,5,6",
       "recommendedAge": "6+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7599,7 +7599,7 @@
     },
     {
       "objectId": 205761,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 107602893,
       "name": "Dixit: Revelations",
       "yearPublished": 2016,
@@ -7617,7 +7617,7 @@
       "bestPlayers": "5,6",
       "recommendedPlayers": "4,5,6,6+",
       "recommendedAge": "6+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -7720,7 +7720,7 @@
     },
     {
       "objectId": 355064,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242584,
       "name": "Dodos Riding Dinos: Babbey & Kux",
       "yearPublished": 2021,
@@ -7738,7 +7738,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -7805,7 +7805,7 @@
     },
     {
       "objectId": 355069,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242590,
       "name": "Dodos Riding Dinos: Mecha Chicken Dinosaur",
       "yearPublished": 2021,
@@ -7823,7 +7823,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -7848,7 +7848,7 @@
     },
     {
       "objectId": 368029,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242588,
       "name": "Dodos Riding Dinos: Servit & Aureus",
       "yearPublished": 2024,
@@ -7866,7 +7866,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -8137,14 +8137,14 @@
     },
     {
       "objectId": 426129,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 129842389,
       "name": "Dune: Imperium \u2013 Bloodlines",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__original/img/P8jioOvt9CVRO6BoNRjk1pLv05Y=/0x0/filters:format(jpeg)/pic8350442.jpg",
       "thumbnail": "https://cf.geekdo-images.com/6g0FIZJK1zujPSrKuToCZw__small/img/niL2urMdy3ExhhQzbtMdsFUbSW4=/fit-in/200x150/filters:strip_icc()/pic8350442.jpg",
       "link": "https://boardgamegeek.com/boardgame/426129",
-      "bggAverageRating": 8.69,
+      "bggAverageRating": 8.7,
       "bggBayesAverageRating": 6.69,
       "bggRank": null,
       "weight": 3.67,
@@ -8155,7 +8155,7 @@
       "bestPlayers": "4,6",
       "recommendedPlayers": "2,3,4,6",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -8742,7 +8742,7 @@
     },
     {
       "objectId": 332390,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144258065,
       "name": "Everdell: Newleaf",
       "yearPublished": 2022,
@@ -8760,7 +8760,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "Petter_03"
@@ -9054,7 +9054,7 @@
     },
     {
       "objectId": 285558,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259445,
       "name": "Fast Sloths: Expansion 1 \u2013 The Next Holiday!",
       "yearPublished": 2019,
@@ -9072,7 +9072,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "6+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -9569,14 +9569,14 @@
     },
     {
       "objectId": 445543,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242811,
       "name": "Flamecraft: Dragons & Dragons",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/6Y9J97TzAYf9AGnI4FLO5g__original/img/ecgFp3UpiHV3w1MkB43Ya2FqGvI=/0x0/filters:format(jpeg)/pic8857417.jpg",
       "thumbnail": "https://cf.geekdo-images.com/6Y9J97TzAYf9AGnI4FLO5g__small/img/DEFfPcerzECD4Yai0YvhDCLPfAM=/fit-in/200x150/filters:strip_icc()/pic8857417.jpg",
       "link": "https://boardgamegeek.com/boardgame/445543",
-      "bggAverageRating": 8.31,
+      "bggAverageRating": 8.32,
       "bggBayesAverageRating": 5.6,
       "bggRank": null,
       "weight": 2.5,
@@ -9587,7 +9587,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard",
@@ -9622,14 +9622,14 @@
     },
     {
       "objectId": 447867,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242809,
       "name": "Flamecraft: Dragons of the Past Promo Pack",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/vkR-4Vn4iRA1yb3UQ-uEGg__original/img/AIPfTVd09XK23URZL3_2cLf71YU=/0x0/filters:format(png)/pic9191810.png",
       "thumbnail": "https://cf.geekdo-images.com/vkR-4Vn4iRA1yb3UQ-uEGg__small/img/qM_fyJYO3P8ddS9d_gzYQ-6nw2Y=/fit-in/200x150/filters:strip_icc()/pic9191810.png",
       "link": "https://boardgamegeek.com/boardgame/447867",
-      "bggAverageRating": 8.24,
+      "bggAverageRating": 8.25,
       "bggBayesAverageRating": 5.57,
       "bggRank": null,
       "weight": null,
@@ -9640,7 +9640,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -10857,7 +10857,7 @@
     },
     {
       "objectId": 320780,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143787053,
       "name": "Grand Austria Hotel: Let's Waltz!",
       "yearPublished": 2023,
@@ -10875,7 +10875,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11070,7 +11070,7 @@
     },
     {
       "objectId": 300248,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242527,
       "name": "Grind House: Carnival/Cthulhu",
       "yearPublished": 2020,
@@ -11088,7 +11088,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -11111,7 +11111,7 @@
     },
     {
       "objectId": 300249,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242529,
       "name": "Grind House: Krampus",
       "yearPublished": 2020,
@@ -11129,7 +11129,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -11201,7 +11201,7 @@
     },
     {
       "objectId": 389384,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 125153410,
       "name": "Hamlet: By the Lake",
       "yearPublished": 2024,
@@ -11219,7 +11219,7 @@
       "bestPlayers": "1,2,4",
       "recommendedPlayers": "1,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11455,7 +11455,7 @@
     },
     {
       "objectId": 304297,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82740572,
       "name": "Harry Potter: Hogwarts Battle \u2013 The Charms and Potions Expansion",
       "yearPublished": 2020,
@@ -11473,7 +11473,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11495,7 +11495,7 @@
     },
     {
       "objectId": 223494,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82740562,
       "name": "Harry Potter: Hogwarts Battle \u2013 The Monster Box of Monsters Expansion",
       "yearPublished": 2017,
@@ -11513,7 +11513,7 @@
       "bestPlayers": null,
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11637,14 +11637,14 @@
     },
     {
       "objectId": 459763,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143446616,
       "name": "Heat: Rocky Roads",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/6DfO2EfUiXNmvdfKTIqqiw__original/img/Lryypg_nPwY94IMC4krQ0dHG8Hg=/0x0/filters:format(jpeg)/pic9288354.jpg",
       "thumbnail": "https://cf.geekdo-images.com/6DfO2EfUiXNmvdfKTIqqiw__small/img/NOzFaxdaBt8Y4qW6sBu3ztskRao=/fit-in/200x150/filters:strip_icc()/pic9288354.jpg",
       "link": "https://boardgamegeek.com/boardgame/459763",
-      "bggAverageRating": 8.12,
+      "bggAverageRating": 8.13,
       "bggBayesAverageRating": 5.67,
       "bggRank": null,
       "weight": 2.38,
@@ -11655,7 +11655,7 @@
       "bestPlayers": "5,6,7+",
       "recommendedPlayers": "2,3,4,5,6,7,7+",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11673,7 +11673,7 @@
     },
     {
       "objectId": 436904,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 133897617,
       "name": "Heat: Tunnel Vision",
       "yearPublished": 2025,
@@ -11691,7 +11691,7 @@
       "bestPlayers": "5,6,7,7+",
       "recommendedPlayers": "1,2,3,4,5,6,7,7+",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11816,7 +11816,7 @@
     },
     {
       "objectId": 387482,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 125694118,
       "name": "Honey Buzz: Cornucopia Mini Expansion",
       "yearPublished": 2023,
@@ -11834,7 +11834,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11855,7 +11855,7 @@
     },
     {
       "objectId": 349725,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 125694073,
       "name": "Honey Buzz: Fall Flavors",
       "yearPublished": 2024,
@@ -11873,7 +11873,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -11895,7 +11895,7 @@
     },
     {
       "objectId": 311314,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 125694096,
       "name": "Honey Buzz: Honey Pot Mini Expansion",
       "yearPublished": 2020,
@@ -11913,7 +11913,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -12071,7 +12071,7 @@
     },
     {
       "objectId": 451682,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242513,
       "name": "Horrified: Dungeons & Dragons \u2013 Warlock Promo Pack",
       "yearPublished": 2025,
@@ -12089,7 +12089,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -12116,7 +12116,7 @@
     },
     {
       "objectId": 430881,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242510,
       "name": "Horrified: Krampus",
       "yearPublished": 2024,
@@ -12134,7 +12134,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -13160,7 +13160,7 @@
     },
     {
       "objectId": 442337,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 141863361,
       "name": "Kansas City: The Tricks and Trains Expansion",
       "yearPublished": 2025,
@@ -13178,7 +13178,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -14010,7 +14010,7 @@
     },
     {
       "objectId": 143063,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144244257,
       "name": "Last Will: Getting Sacked",
       "yearPublished": 2013,
@@ -14028,7 +14028,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -14563,7 +14563,7 @@
     },
     {
       "objectId": 375613,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259470,
       "name": "Lords of Vegas: Americana",
       "yearPublished": 2024,
@@ -14581,7 +14581,7 @@
       "bestPlayers": "2,3,6",
       "recommendedPlayers": "2,3,6",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -14785,8 +14785,8 @@
     },
     {
       "objectId": 341254,
-      "subtype": "boardgame",
-      "collId": 109463407,
+      "subtype": "boardgameexpansion",
+      "collId": 109463408,
       "name": "Lost Ruins of Arnak: Expedition Leaders",
       "yearPublished": 2021,
       "image": "https://cf.geekdo-images.com/U4aoXbKATU7YbA8bAT73FQ__original/img/TKJnD49aci6Soc214_MTUe1iNmg=/0x0/filters:format(png)/pic6253876.png",
@@ -14803,18 +14803,12 @@
       "bestPlayers": "3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
       ],
       "ownerDetails": [
-        {
-          "owner": "ragasil",
-          "statuses": [
-            "Owned"
-          ]
-        },
         {
           "owner": "ragasil",
           "statuses": [
@@ -14833,7 +14827,7 @@
     },
     {
       "objectId": 382350,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 109463544,
       "name": "Lost Ruins of Arnak: The Missing Expedition",
       "yearPublished": 2023,
@@ -14851,7 +14845,7 @@
       "bestPlayers": "1,2,3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -15048,7 +15042,7 @@
     },
     {
       "objectId": 445419,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245275,
       "name": "Magic Number Eleven: Expansion",
       "yearPublished": 2025,
@@ -15066,7 +15060,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -15092,7 +15086,7 @@
     },
     {
       "objectId": 432045,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245277,
       "name": "Magic Number Eleven: GK Expansion",
       "yearPublished": 2024,
@@ -15110,7 +15104,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -15168,7 +15162,7 @@
     },
     {
       "objectId": 419095,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 141863371,
       "name": "Magic Trick: Teams",
       "yearPublished": 2024,
@@ -15186,7 +15180,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -15209,7 +15203,7 @@
     },
     {
       "objectId": 442336,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 141863374,
       "name": "Magic Trick: The -1 Cards",
       "yearPublished": 2025,
@@ -15227,7 +15221,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -15334,7 +15328,7 @@
     },
     {
       "objectId": 445096,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242744,
       "name": "Malabares: Cobogr\u00e1n Finale",
       "yearPublished": 2025,
@@ -15352,7 +15346,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -15376,7 +15370,7 @@
     },
     {
       "objectId": 445095,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242749,
       "name": "Malabares: Quarto Malabarista",
       "yearPublished": 2025,
@@ -15394,7 +15388,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -15926,7 +15920,7 @@
     },
     {
       "objectId": 286655,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245092,
       "name": "Menara: Rituals & Ruins",
       "yearPublished": 2019,
@@ -15944,7 +15938,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -16262,7 +16256,7 @@
     },
     {
       "objectId": 345286,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245752,
       "name": "Minigolf Designer: Putt of No Return Expansion",
       "yearPublished": 2021,
@@ -16280,7 +16274,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -17060,7 +17054,7 @@
     },
     {
       "objectId": 192661,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82758833,
       "name": "Mysterium: Hidden Signs",
       "yearPublished": 2016,
@@ -17078,7 +17072,7 @@
       "bestPlayers": "5,6,7",
       "recommendedPlayers": "3,4,5,6,7",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -17101,7 +17095,7 @@
     },
     {
       "objectId": 216465,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82758830,
       "name": "Mysterium: Secrets & Lies",
       "yearPublished": 2017,
@@ -17119,7 +17113,7 @@
       "bestPlayers": "5,7",
       "recommendedPlayers": "3,4,5,6,7",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -17924,14 +17918,14 @@
     },
     {
       "objectId": 397067,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 125694174,
       "name": "Obsession: Characters Expansion",
       "yearPublished": 2024,
       "image": "https://cf.geekdo-images.com/C9QYHzZehraLO2aQXPk85Q__original/img/_84SH3RId0SQFTpBu3FgY04RNFo=/0x0/filters:format(jpeg)/pic7655454.jpg",
       "thumbnail": "https://cf.geekdo-images.com/C9QYHzZehraLO2aQXPk85Q__small/img/VVj6CM-VchhqYe9dQKvk0mKZPsg=/fit-in/200x150/filters:strip_icc()/pic7655454.jpg",
       "link": "https://boardgamegeek.com/boardgame/397067",
-      "bggAverageRating": 8.41,
+      "bggAverageRating": 8.4,
       "bggBayesAverageRating": 5.96,
       "bggRank": null,
       "weight": 3.56,
@@ -17942,7 +17936,7 @@
       "bestPlayers": "1,2",
       "recommendedPlayers": "1,2,3",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -17967,7 +17961,7 @@
     },
     {
       "objectId": 306634,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 115513677,
       "name": "Obsession: Promotional Tiles",
       "yearPublished": 2020,
@@ -17975,7 +17969,7 @@
       "thumbnail": "https://cf.geekdo-images.com/mPiqhg2vmhu3JjVF2pgzoQ__small/img/B-wyZsD5Tdo-jEsO2nrCWTXCg00=/fit-in/200x150/filters:strip_icc()/pic5330365.jpg",
       "link": "https://boardgamegeek.com/boardgame/306634",
       "bggAverageRating": 8.14,
-      "bggBayesAverageRating": 6.08,
+      "bggBayesAverageRating": 6.07,
       "bggRank": null,
       "weight": 3.71,
       "minPlayers": 1,
@@ -17985,7 +17979,7 @@
       "bestPlayers": "1,2",
       "recommendedPlayers": "1,2,3",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -18008,7 +18002,7 @@
     },
     {
       "objectId": 279067,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 99381048,
       "name": "Obsession: Upstairs, Downstairs",
       "yearPublished": 2020,
@@ -18026,7 +18020,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -18049,7 +18043,7 @@
     },
     {
       "objectId": 245392,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 99381078,
       "name": "Obsession: Wessex Expansion",
       "yearPublished": 2018,
@@ -18067,7 +18061,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "1,2,3",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -19077,7 +19071,7 @@
     },
     {
       "objectId": 441707,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245314,
       "name": "Pixies: Flower Power",
       "yearPublished": 2025,
@@ -19095,7 +19089,7 @@
       "bestPlayers": "2,4",
       "recommendedPlayers": "2,4",
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -19194,7 +19188,7 @@
     },
     {
       "objectId": 379398,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245242,
       "name": "Planepita: 5-6 Player Expansion",
       "yearPublished": 2022,
@@ -19212,7 +19206,7 @@
       "bestPlayers": "5,6",
       "recommendedPlayers": "5,6",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -19290,7 +19284,7 @@
     },
     {
       "objectId": 393509,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 129712454,
       "name": "Planet Unknown: Supermoon",
       "yearPublished": 2025,
@@ -19308,7 +19302,7 @@
       "bestPlayers": "2,3,4,5,6",
       "recommendedPlayers": "1,2,3,4,5,6",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -19412,7 +19406,7 @@
     },
     {
       "objectId": 426706,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259631,
       "name": "Poison Researcher +",
       "yearPublished": 2023,
@@ -19430,7 +19424,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -19955,7 +19949,7 @@
     },
     {
       "objectId": 360699,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144260363,
       "name": "QE: Commodities",
       "yearPublished": 2022,
@@ -19973,7 +19967,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -20210,7 +20204,7 @@
     },
     {
       "objectId": 426753,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144244369,
       "name": "Ra: Traders",
       "yearPublished": 2025,
@@ -20228,7 +20222,7 @@
       "bestPlayers": "3,4",
       "recommendedPlayers": "3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard",
@@ -20476,7 +20470,7 @@
     },
     {
       "objectId": 442868,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242652,
       "name": "Rebel Princess: Deluxe Edition \u2013 Beauty",
       "yearPublished": 2025,
@@ -20494,7 +20488,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -20512,7 +20506,7 @@
     },
     {
       "objectId": 423469,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242663,
       "name": "Rebel Princess: Deluxe Edition \u2013 Carmesina",
       "yearPublished": 2024,
@@ -20530,7 +20524,7 @@
       "bestPlayers": null,
       "recommendedPlayers": "6",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -20550,7 +20544,7 @@
     },
     {
       "objectId": 438511,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242656,
       "name": "Rebel Princess: Deluxe Edition \u2013 Happily Never After",
       "yearPublished": 2025,
@@ -20568,7 +20562,7 @@
       "bestPlayers": "3,4,5,6",
       "recommendedPlayers": "4,5,6",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -20955,7 +20949,7 @@
     },
     {
       "objectId": 223782,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82915065,
       "name": "Rising Sun: Dynasty Invasion",
       "yearPublished": 2018,
@@ -20973,7 +20967,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "3,4,5,6",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -21221,7 +21215,7 @@
     },
     {
       "objectId": 344735,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245052,
       "name": "Roll Camera!: The B-Movie Expansion",
       "yearPublished": 2022,
@@ -21239,7 +21233,7 @@
       "bestPlayers": "2,3,4",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "6+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -21693,7 +21687,7 @@
     },
     {
       "objectId": 393101,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245128,
       "name": "Sail: Seafarers Expansion",
       "yearPublished": 2023,
@@ -21711,7 +21705,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -22149,7 +22143,7 @@
     },
     {
       "objectId": 199727,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 96891634,
       "name": "Scythe: Invaders from Afar",
       "yearPublished": 2016,
@@ -22167,7 +22161,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "1,2,3,4,5,6,7",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -22188,7 +22182,7 @@
     },
     {
       "objectId": 279304,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 96891644,
       "name": "Scythe: Modular Board",
       "yearPublished": 2019,
@@ -22206,7 +22200,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -22281,7 +22275,7 @@
     },
     {
       "objectId": 442250,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245309,
       "name": "Sea Salt & Paper: Extra Pepper",
       "yearPublished": 2025,
@@ -22299,7 +22293,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -22328,7 +22322,7 @@
     },
     {
       "objectId": 396545,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144245306,
       "name": "Sea Salt & Paper: Extra Salt",
       "yearPublished": 2023,
@@ -22346,7 +22340,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -22508,15 +22502,15 @@
     },
     {
       "objectId": 445048,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 139677929,
       "name": "SETI: Space Agencies",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/JMLgq_A4OE_dX423FeFcPA__original/img/75BD_5fAbW6gCvFOKSefCQpKNeY=/0x0/filters:format(png)/pic8857305.png",
       "thumbnail": "https://cf.geekdo-images.com/JMLgq_A4OE_dX423FeFcPA__small/img/L0iyv7R4pYVqA6KX5Ox6RNnpugk=/fit-in/200x150/filters:strip_icc()/pic8857305.png",
       "link": "https://boardgamegeek.com/boardgame/445048",
-      "bggAverageRating": 8.85,
-      "bggBayesAverageRating": 6.62,
+      "bggAverageRating": 8.84,
+      "bggBayesAverageRating": 6.63,
       "bggRank": null,
       "weight": 3.85,
       "minPlayers": 1,
@@ -22526,7 +22520,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23197,7 +23191,7 @@
     },
     {
       "objectId": 165458,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82740353,
       "name": "Small World: A Spider's Web",
       "yearPublished": 2014,
@@ -23215,7 +23209,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23238,7 +23232,7 @@
     },
     {
       "objectId": 81618,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82740363,
       "name": "Small World: Be Not Afraid...",
       "yearPublished": 2010,
@@ -23256,7 +23250,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23279,7 +23273,7 @@
     },
     {
       "objectId": 57072,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82740372,
       "name": "Small World: Cursed!",
       "yearPublished": 2009,
@@ -23297,7 +23291,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23320,7 +23314,7 @@
     },
     {
       "objectId": 57070,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82740387,
       "name": "Small World: Grand Dames of Small World",
       "yearPublished": 2009,
@@ -23338,7 +23332,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23361,7 +23355,7 @@
     },
     {
       "objectId": 241991,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 92443107,
       "name": "Small World: Power Pack 1",
       "yearPublished": 2017,
@@ -23379,7 +23373,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23402,7 +23396,7 @@
     },
     {
       "objectId": 241989,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 92443108,
       "name": "Small World: Power Pack 2",
       "yearPublished": 2017,
@@ -23420,7 +23414,7 @@
       "bestPlayers": "4,5",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23443,7 +23437,7 @@
     },
     {
       "objectId": 235520,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 112243101,
       "name": "Small World: Sky Islands",
       "yearPublished": 2017,
@@ -23461,7 +23455,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "2,3,4,5,6",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -23964,7 +23958,7 @@
     },
     {
       "objectId": 259636,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259416,
       "name": "Starship Samurai: Shattered Alliances",
       "yearPublished": 2019,
@@ -23982,7 +23976,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -24807,7 +24801,7 @@
     },
     {
       "objectId": 395612,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143296519,
       "name": "Terraforming Mars: Automa",
       "yearPublished": 2024,
@@ -24825,7 +24819,7 @@
       "bestPlayers": "1",
       "recommendedPlayers": "1",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -24847,7 +24841,7 @@
     },
     {
       "objectId": 247030,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 106691039,
       "name": "Terraforming Mars: Prelude",
       "yearPublished": 2018,
@@ -24865,7 +24859,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "1,2,3,4,5",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -24888,7 +24882,7 @@
     },
     {
       "objectId": 387809,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143296509,
       "name": "Terraforming Mars: Prelude 2",
       "yearPublished": 2024,
@@ -24906,7 +24900,7 @@
       "bestPlayers": "3,4",
       "recommendedPlayers": "1,2,3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -25758,7 +25752,7 @@
     },
     {
       "objectId": 338021,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 106689251,
       "name": "The Isle of Cats: Boat Pack",
       "yearPublished": 2022,
@@ -25776,7 +25770,7 @@
       "bestPlayers": "1,2,3,4,5,6",
       "recommendedPlayers": "1,2,3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -25799,7 +25793,7 @@
     },
     {
       "objectId": 287362,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 106689225,
       "name": "The Isle of Cats: Kickstarter Pack",
       "yearPublished": 2019,
@@ -25817,7 +25811,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -25840,7 +25834,7 @@
     },
     {
       "objectId": 338022,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 106689262,
       "name": "The Isle of Cats: Kickstarter Pack 2",
       "yearPublished": 2022,
@@ -25858,7 +25852,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -25881,7 +25875,7 @@
     },
     {
       "objectId": 338020,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 105422756,
       "name": "The Isle of Cats: Kittens + Beasts",
       "yearPublished": 2022,
@@ -25899,7 +25893,7 @@
       "bestPlayers": "3,4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -25922,7 +25916,7 @@
     },
     {
       "objectId": 287361,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 99128767,
       "name": "The Isle of Cats: Late Arrivals",
       "yearPublished": 2019,
@@ -25940,7 +25934,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "1,2,3,4,5,6",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -26058,7 +26052,7 @@
     },
     {
       "objectId": 450429,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242691,
       "name": "The Lord of the Rings: Duel for Middle-Earth \u2013 Allies",
       "yearPublished": 2025,
@@ -26076,7 +26070,7 @@
       "bestPlayers": "2",
       "recommendedPlayers": "2",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -26152,7 +26146,7 @@
     },
     {
       "objectId": 429649,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242697,
       "name": "The Lord of the Rings: The Fellowship of the Ring \u2013 Trick-Taking Game: Gifts of Galadriel",
       "yearPublished": 2024,
@@ -26170,7 +26164,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -26232,7 +26226,7 @@
     },
     {
       "objectId": 452808,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242701,
       "name": "The Lord of the Rings: The Two Towers \u2013 Trick-Taking Game: Horses and Haradrim",
       "yearPublished": 2026,
@@ -26250,7 +26244,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -26559,7 +26553,7 @@
     },
     {
       "objectId": 246431,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144244472,
       "name": "The Quest for El Dorado: Heroes & Hexes",
       "yearPublished": 2022,
@@ -26577,7 +26571,7 @@
       "bestPlayers": "2,4",
       "recommendedPlayers": "2,3,4",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -27142,7 +27136,7 @@
     },
     {
       "objectId": 399973,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242410,
       "name": "Through the Desert: Bazaar",
       "yearPublished": 2024,
@@ -27160,7 +27154,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -27238,7 +27232,7 @@
     },
     {
       "objectId": 432586,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259540,
       "name": "Thunder Road: Vendetta  \u2013 Turbo Tina's Swag Pack",
       "yearPublished": 2024,
@@ -27256,7 +27250,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "3,4",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -27324,7 +27318,7 @@
     },
     {
       "objectId": 192880,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144260171,
       "name": "Thunderbirds: Above & Beyond",
       "yearPublished": 2016,
@@ -27342,7 +27336,7 @@
       "bestPlayers": "2,3,4",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -27461,7 +27455,7 @@
     },
     {
       "objectId": 182078,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 130881834,
       "name": "Ticket to Ride Map Collection 5: United Kingdom & Pennsylvania",
       "yearPublished": 2015,
@@ -27479,7 +27473,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes",
@@ -27511,7 +27505,7 @@
     },
     {
       "objectId": 53383,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 82758819,
       "name": "Ticket to Ride: Europa 1912",
       "yearPublished": 2009,
@@ -27529,7 +27523,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "2,3,4,5",
       "recommendedAge": "8+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -28005,7 +27999,7 @@
     },
     {
       "objectId": 418305,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242448,
       "name": "Tokyo Highway: Rainbow City \u2013 SOLO",
       "yearPublished": 2024,
@@ -28023,7 +28017,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -28995,7 +28989,7 @@
     },
     {
       "objectId": 381095,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242380,
       "name": "Unreliable Wizard and the Unstable Spirit Towers",
       "yearPublished": 2022,
@@ -29013,7 +29007,7 @@
       "bestPlayers": "1",
       "recommendedPlayers": "1",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -29506,7 +29500,7 @@
     },
     {
       "objectId": 360226,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 135952444,
       "name": "Viticulture World: Cooperative Expansion",
       "yearPublished": 2022,
@@ -29524,7 +29518,7 @@
       "bestPlayers": "1,2,4",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -29550,7 +29544,7 @@
     },
     {
       "objectId": 364100,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 135952462,
       "name": "Viticulture World: First Game Continent Promo Pack",
       "yearPublished": 2022,
@@ -29568,7 +29562,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -29590,15 +29584,15 @@
     },
     {
       "objectId": 462369,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 142592748,
       "name": "Viticulture: Bordeaux Expansion",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/DAe50nSwheTHeOUs4wJWsQ__original/img/DDGvd4dt69Mwg-qaUnZ17w9oQyU=/0x0/filters:format(jpeg)/pic9338844.jpg",
       "thumbnail": "https://cf.geekdo-images.com/DAe50nSwheTHeOUs4wJWsQ__small/img/Wcmiz0ucB3QttumjQp0kWPUZgKs=/fit-in/200x150/filters:strip_icc()/pic9338844.jpg",
       "link": "https://boardgamegeek.com/boardgame/462369",
-      "bggAverageRating": 8.59,
-      "bggBayesAverageRating": 5.8,
+      "bggAverageRating": 8.58,
+      "bggBayesAverageRating": 5.81,
       "bggRank": null,
       "weight": 3.25,
       "minPlayers": 1,
@@ -29608,7 +29602,7 @@
       "bestPlayers": "3,4",
       "recommendedPlayers": "1,2,3,4,5,6",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -29629,7 +29623,7 @@
     },
     {
       "objectId": 193823,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 143296528,
       "name": "Viticulture: Moor Visitors Expansion",
       "yearPublished": 2016,
@@ -29647,7 +29641,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "1,2,3,4,5,6",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -29668,7 +29662,7 @@
     },
     {
       "objectId": 202174,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 135952433,
       "name": "Viticulture: Tuscany Essential Edition",
       "yearPublished": 2016,
@@ -29686,7 +29680,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "1,2,3,4,5,6",
       "recommendedAge": "12+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes",
@@ -29716,7 +29710,7 @@
     },
     {
       "objectId": 214463,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 135952466,
       "name": "Viticulture: Tuscany \u2013 Special Worker Promo Cards",
       "yearPublished": 2016,
@@ -29734,7 +29728,7 @@
       "bestPlayers": "4",
       "recommendedPlayers": "1,2,3,4,5,6",
       "recommendedAge": "14+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "alem0nes"
@@ -29933,7 +29927,7 @@
     },
     {
       "objectId": 392106,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 133895772,
       "name": "Wandering Towers: Mini Spell Expansion 1",
       "yearPublished": 2023,
@@ -29951,7 +29945,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -29969,7 +29963,7 @@
     },
     {
       "objectId": 398755,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 133897609,
       "name": "Wandering Towers: Mini Spell Expansion 2",
       "yearPublished": 2023,
@@ -29987,7 +29981,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -30405,15 +30399,15 @@
     },
     {
       "objectId": 461932,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144257927,
       "name": "Wingspan: Americas Expansion",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/DidRjYgGarrVcK1fXkbCIA__original/img/G-iE2bXFZT2JuRegcnhvbo_ifVA=/0x0/filters:format(jpeg)/pic9326617.jpg",
       "thumbnail": "https://cf.geekdo-images.com/DidRjYgGarrVcK1fXkbCIA__small/img/L9rEO1gmcQVmHDr6hrnhe4OUSyU=/fit-in/200x150/filters:strip_icc()/pic9326617.jpg",
       "link": "https://boardgamegeek.com/boardgame/461932",
-      "bggAverageRating": 8.47,
-      "bggBayesAverageRating": 5.92,
+      "bggAverageRating": 8.48,
+      "bggBayesAverageRating": 5.93,
       "bggRank": null,
       "weight": 2.57,
       "minPlayers": 1,
@@ -30423,7 +30417,7 @@
       "bestPlayers": "2,3",
       "recommendedPlayers": "1,2,3,4",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "Petter_03"
@@ -30445,7 +30439,7 @@
     },
     {
       "objectId": 290448,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144257924,
       "name": "Wingspan: European Expansion",
       "yearPublished": 2019,
@@ -30463,7 +30457,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "1,2,3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "Petter_03"
@@ -30487,7 +30481,7 @@
     },
     {
       "objectId": 300580,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144257922,
       "name": "Wingspan: Oceania Expansion",
       "yearPublished": 2020,
@@ -30505,7 +30499,7 @@
       "bestPlayers": "3",
       "recommendedPlayers": "1,2,3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "Petter_03"
@@ -30838,14 +30832,14 @@
     },
     {
       "objectId": 422261,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242798,
       "name": "World Wonders: Cristo Redentor Promo Pack",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/SwJjoJiwljWkYNS0Qc8B-w__original/img/bEedfDGxlznRT0to3ZYK0sO5xIM=/0x0/filters:format(jpeg)/pic8958298.jpg",
       "thumbnail": "https://cf.geekdo-images.com/SwJjoJiwljWkYNS0Qc8B-w__small/img/2MvrUcyTd27CWIvD_6RwH79GiK0=/fit-in/200x150/filters:strip_icc()/pic8958298.jpg",
       "link": "https://boardgamegeek.com/boardgame/422261",
-      "bggAverageRating": 7.79,
+      "bggAverageRating": 7.77,
       "bggBayesAverageRating": 5.53,
       "bggRank": null,
       "weight": null,
@@ -30856,7 +30850,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -30874,7 +30868,7 @@
     },
     {
       "objectId": 406746,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242802,
       "name": "World Wonders: Mundo Wonders Pack",
       "yearPublished": 2024,
@@ -30892,7 +30886,7 @@
       "bestPlayers": "1,2,3,4",
       "recommendedPlayers": "1,2,3,4,5",
       "recommendedAge": "10+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard",
@@ -31334,7 +31328,7 @@
     },
     {
       "objectId": 336637,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 92443116,
       "name": "Zombicide (2nd Edition): Reboot Box",
       "yearPublished": 2021,
@@ -31352,7 +31346,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "ragasil"
@@ -31785,7 +31779,7 @@
     },
     {
       "objectId": 455231,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144259465,
       "name": "\u30b5\u3099\u30fb\u30ab\u30ab\u30db\u309a\u3000\u30cf\u3099\u30c6\u3099\u30a3\uff06\u30cf\u309a\u30fc\u30c6\u30a3_\u30cf\u30b7\u30d3\u30ed\u30b3\u30a6\u62e1\u5f35 (The Kakapo: Buddy & Party - Shoebill Expansion)",
       "yearPublished": 2024,
@@ -31803,7 +31797,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": null,
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
@@ -31901,7 +31895,7 @@
     },
     {
       "objectId": 405914,
-      "subtype": "boardgame",
+      "subtype": "boardgameexpansion",
       "collId": 144242636,
       "name": "\u30cf\u30fc\u30d9\u30b9\u30c8\uff1a\u53ce\u7a6b\u796d (Harvest: Festival)",
       "yearPublished": 2023,
@@ -31919,7 +31913,7 @@
       "bestPlayers": null,
       "recommendedPlayers": null,
       "recommendedAge": "2+",
-      "itemType": "standalone",
+      "itemType": "expansion",
       "versionNickname": null,
       "owners": [
         "paradoxbard"
