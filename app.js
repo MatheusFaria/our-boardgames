@@ -434,7 +434,7 @@ function renderOwners(item) {
             (status) =>
               `<span class="pill active">${escapeHtml(detail.owner)} | ${escapeHtml(status)}</span>`
           )
-        : [`<span class="pill subtle">${escapeHtml(detail.owner)} | No status</span>`]
+        : [`<span class="pill subtle" title="This user added the game to their collection without setting a status">${escapeHtml(detail.owner)} | No status</span>`]
     )
     .join("")}</div>`;
 }
@@ -484,7 +484,6 @@ function renderCard(item, expansions = [], compact = false) {
           )}</span></div>
         </div>
         <div class="card-section">
-          <div class="section-label">Owners</div>
           ${renderOwners(item)}
         </div>
         ${expansionsMarkup}
@@ -548,7 +547,7 @@ function renderPaginationControls(totalRows) {
 function renderCollection(items, groupExpansions) {
   const allRows = getRows(items, groupExpansions);
   const start = (state.page - 1) * state.pageSize;
-  const pageRows = allRows.slice(start, start + state.pageSize);
+  const pageRows = state.pageSize === Infinity ? allRows : allRows.slice(start, start + state.pageSize);
   const cards = pageRows.map(({ item, expansions }) => renderCard(item, expansions)).join("");
   return { html: `<div class="card-list">${cards}</div>`, totalRows: allRows.length };
 }

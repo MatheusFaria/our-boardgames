@@ -497,6 +497,7 @@ def build_snapshot(
     usernames: list[str],
     existing_items: dict[int, dict] | None = None,
     cache_days: int = THING_CACHE_DAYS,
+    merge: bool = False,
 ) -> dict:
     if existing_items is None:
         existing_items = {}
@@ -543,12 +544,27 @@ def build_snapshot(
     if stale_ids:
         now = datetime.now(timezone.utc).isoformat()
         extras = fetch_thing_extras(stale_ids)
+        fetched_count = skipped_count = 0
         for oid in stale_ids:
             item = merged[oid]
-            extra = extras.get(oid, {})
-            for field in thing_fields:
-                item[field] = _choose(item.get(field), extra.get(field))
-            item["thingFetchedAt"] = now
+            extra = extras.get(oid)
+            if extra is not None:
+                # Successful fetch — update thing fields and timestamp
+                for field in thing_fields:
+                    item[field] = _choose(item.get(field), extra.get(field))
+                item["thingFetchedAt"] = now
+                fetched_count += 1
+            else:
+                # Fetch failed (e.g. 429) — restore existing data if available
+                skipped_count += 1
+                cached = existing_items.get(oid) if merge else None
+                if cached:
+                    for field in (*thing_fields, "thingFetchedAt"):
+                        if field in cached:
+                            item[field] = cached[field]
+        if skipped_count:
+            mode = "restored from cache" if merge else "left empty"
+            print(f"  {fetched_count} fetched, {skipped_count} skipped ({mode})")
     else:
         print("  All games are fresh — skipping /thing requests.")
 
@@ -616,6 +632,14 @@ def build_parser() -> argparse.ArgumentParser:
         help="Ignore cached /thing data and re-fetch everything.",
     )
     parser.add_argument(
+        "--merge",
+        action="store_true",
+        help=(
+            "Preserve existing game data for any /thing fetches that fail. "
+            "Useful for incremental updates when the API rate-limits you."
+        ),
+    )
+    parser.add_argument(
         "--object-ids",
         nargs="+",
         type=int,
@@ -669,11 +693,16 @@ def main() -> int:
         print(f"Discovered usernames from {collections_dir}: {', '.join(usernames)}\n")
 
     cache_days = 0 if args.no_cache else args.cache_days
-    existing_items = load_existing_items(output_path) if cache_days > 0 else {}
+    existing_items = load_existing_items(output_path) if (cache_days > 0 or args.merge) else {}
     if existing_items:
         print(f"Loaded {len(existing_items)} cached games from {output_path}\n")
 
-    snapshot = build_snapshot(usernames, existing_items=existing_items, cache_days=cache_days)
+    snapshot = build_snapshot(
+        usernames,
+        existing_items=existing_items,
+        cache_days=cache_days,
+        merge=args.merge,
+    )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
