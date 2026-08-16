@@ -1,0 +1,435 @@
+{
+  "event": {
+    "previewId": 93,
+    "title": "SPIEL Essen 2026",
+    "location": "Essen, Germany",
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-25",
+    "url": "https://www.spiel-essen.de/en/"
+  },
+  "priorityLabels": {
+    "1": "Must Have",
+    "2": "Interested",
+    "3": "Not Decided",
+    "4": "Not Interested",
+    "unprioritized": "Unprioritized"
+  },
+  "users": [
+    "JoyfulFicus"
+  ],
+  "sourceLabel": "BGG GeekPreview 93 + XML API2",
+  "generatedAt": "2026-08-16T21:15:17.279840+00:00",
+  "itemCount": 14,
+  "items": [
+    {
+      "objectId": 474289,
+      "name": "Carpet Racers",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/0PwtWhurgylWu8UTI_UeCw__original/img/jR0_nGDMZR1K0wG3vXSCzMk3Wqo=/0x0/filters:format(jpeg)/pic9684967.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/0PwtWhurgylWu8UTI_UeCw__small/img/8nSInNI5VygZ1NEve3_D1wg0SZE=/fit-in/200x150/filters:strip_icc()/pic9684967.jpg",
+      "link": "https://boardgamegeek.com/boardgame/474289",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 45,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 421254,
+      "name": "Fame & Fable",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/ddlLddl3umhy1MtCntfWxw__original/img/wvi76m5-ZV2GS75oP4PcUW4Yvdo=/0x0/filters:format(jpeg)/pic8209465.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/ddlLddl3umhy1MtCntfWxw__small/img/UngbXT818xfiT6szqu7oVbf0Nfw=/fit-in/200x150/filters:strip_icc()/pic8209465.jpg",
+      "link": "https://boardgamegeek.com/boardgame/421254",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": 2.33,
+      "bggAverageRating": 7.57,
+      "bggBayesAverageRating": 5.56,
+      "bggRank": 12587,
+      "price": {
+        "amount": 45.0,
+        "currency": "EUR"
+      },
+      "location": "2C130",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "Find english version"
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 444234,
+      "name": "For the Gods!",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/b3uRj8YM62TwhJH9r6FCEA__original/img/3HFGVRZO-BvkBO9Hp7Se5GkWtRY=/0x0/filters:format(png)/pic9147311.png",
+      "thumbnail": "https://cf.geekdo-images.com/b3uRj8YM62TwhJH9r6FCEA__small/img/MXuTWs4NFy3DAbQ-g9TffQPAwJo=/fit-in/200x150/filters:strip_icc()/pic9147311.png",
+      "link": "https://boardgamegeek.com/boardgame/444234",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.25,
+      "bggAverageRating": 7.55,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17299,
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 472021,
+      "name": "Medico",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/g6fDLlE5K_oNGHwU3SdDPQ__original/img/Nu7_JNAjJ7vmcdVC94XBuUdu5OQ=/0x0/filters:format(jpeg)/pic9614871.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/g6fDLlE5K_oNGHwU3SdDPQ__small/img/nx-qvQI__JcMHCwxIwJMUNW5dkM=/fit-in/200x150/filters:strip_icc()/pic9614871.jpg",
+      "link": "https://boardgamegeek.com/boardgame/472021",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 8.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 35503,
+      "name": "Ra: The Dice Game",
+      "yearPublished": 2009,
+      "image": "https://cf.geekdo-images.com/ZGOw8TuJIL5Hz3TbTyqwww__original/img/71yt7T0zKXMU8TarPxbqmzjhqAU=/0x0/filters:format(png)/pic9261781.png",
+      "thumbnail": "https://cf.geekdo-images.com/ZGOw8TuJIL5Hz3TbTyqwww__small/img/L2YoCFSQJhoxUPWyULpEG7cMUZ4=/fit-in/200x150/filters:strip_icc()/pic9261781.png",
+      "link": "https://boardgamegeek.com/boardgame/35503",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "recommendedAge": "10+",
+      "weight": 1.74,
+      "bggAverageRating": 6.79,
+      "bggBayesAverageRating": 6.19,
+      "bggRank": 2291,
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 470241,
+      "name": "Railway Porters",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/ZGmCO7QRrie9S1nMm8s83g__original/img/ai572Y1UZrSRzO7GCLLMsHK5WNA=/0x0/filters:format(png)/pic9575321.png",
+      "thumbnail": "https://cf.geekdo-images.com/ZGmCO7QRrie9S1nMm8s83g__small/img/QCB1slMtX92BPzyvH9sshsz6bHs=/fit-in/200x150/filters:strip_icc()/pic9575321.png",
+      "link": "https://boardgamegeek.com/boardgame/470241",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": 1.75,
+      "bggAverageRating": 7.1,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16714,
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 111,
+      "name": "Rheinl\u00e4nder",
+      "yearPublished": 1999,
+      "image": "https://cf.geekdo-images.com/pW9fJpYKB2SN-oY5HAibGA__original/img/lffat-EUvgQVL3hV1_fNjGlWkEg=/0x0/filters:format(png)/pic9261801.png",
+      "thumbnail": "https://cf.geekdo-images.com/pW9fJpYKB2SN-oY5HAibGA__small/img/Wq4Jhd4uAeWdxHL8cVECKREiFGE=/fit-in/200x150/filters:strip_icc()/pic9261801.png",
+      "link": "https://boardgamegeek.com/boardgame/111",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 45,
+      "recommendedAge": "12+",
+      "weight": 2.31,
+      "bggAverageRating": 6.66,
+      "bggBayesAverageRating": 6.0,
+      "bggRank": 3205,
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 465891,
+      "name": "Seagrass",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/_91bydbd1kgqW_YNttyNpQ__original/img/Mvt6dX4gwLfULmBcXf97L1LQXv0=/0x0/filters:format(jpeg)/pic9438253.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/_91bydbd1kgqW_YNttyNpQ__small/img/HM2yiMdZqFBuobTBW_VO1Afyno8=/fit-in/200x150/filters:strip_icc()/pic9438253.jpg",
+      "link": "https://boardgamegeek.com/boardgame/465891",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 7.77,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "price": {
+        "amount": 35.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 405769,
+      "name": "The Mix",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/PDkweowGucoe24PfpEgzEg__original/img/wWNLja4X1pUoDDeJnFBk_Gl6g4g=/0x0/filters:format(jpeg)/pic9714674.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/PDkweowGucoe24PfpEgzEg__small/img/sEV_QA-zmqrFdo_Yvjf9bdjL2KQ=/fit-in/200x150/filters:strip_icc()/pic9714674.jpg",
+      "link": "https://boardgamegeek.com/boardgame/405769",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": 7.99,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 436127,
+      "name": "Three Sisters: Harvest Edition",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/qoyJAN-ePS6EiR8GOx-Ing__original/img/LgMDXxOoDCrXSEuUHeXx4x_mQfQ=/0x0/filters:format(png)/pic8654327.png",
+      "thumbnail": "https://cf.geekdo-images.com/qoyJAN-ePS6EiR8GOx-Ing__small/img/ydbGCArA8ci2DdqJdCCk73LCYyY=/fit-in/200x150/filters:strip_icc()/pic8654327.png",
+      "link": "https://boardgamegeek.com/boardgame/436127",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "12+",
+      "weight": 2.67,
+      "bggAverageRating": 8.27,
+      "bggBayesAverageRating": 5.64,
+      "bggRank": null,
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 442095,
+      "name": "Toshi T\u014dshi",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/mTJbYbBY6G_EaihL4F9t0w__original/img/0ZggFPAsGxclepFJTse6LDMbmJs=/0x0/filters:format(png)/pic8786507.png",
+      "thumbnail": "https://cf.geekdo-images.com/mTJbYbBY6G_EaihL4F9t0w__small/img/Qd7DYnm5hqp4Ml6LFIeyPMKTmeI=/fit-in/200x150/filters:strip_icc()/pic8786507.png",
+      "link": "https://boardgamegeek.com/boardgame/442095",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 7.27,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 18123,
+      "price": {
+        "amount": 13.0,
+        "currency": "EUR"
+      },
+      "location": "PTS",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 436751,
+      "name": "Under the Leaves",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/hc-nyRZBGR4OvOEMNckzjw__original/img/K9y4UK5rvX-p_T0-AigCDPfSRRU=/0x0/filters:format(jpeg)/pic8636789.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/hc-nyRZBGR4OvOEMNckzjw__small/img/r4Ah7iJY4P64cA5tdgV_U5SCnbM=/fit-in/200x150/filters:strip_icc()/pic8636789.jpg",
+      "link": "https://boardgamegeek.com/boardgame/436751",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": 7.35,
+      "bggBayesAverageRating": 5.78,
+      "bggRank": 5070,
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
+      "location": "3E400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 459462,
+      "name": "Word Buffet",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/UBFn6rfSfnR7xD706MHp3A__original/img/IrVCY2L5bXYMLK1pGExY9rW8Ob0=/0x0/filters:format(png)/pic9370111.png",
+      "thumbnail": "https://cf.geekdo-images.com/UBFn6rfSfnR7xD706MHp3A__small/img/wWq7tC7W801mr9Hq0A7ZYR4gSsQ=/fit-in/200x150/filters:strip_icc()/pic9370111.png",
+      "link": "https://boardgamegeek.com/boardgame/459462",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 8.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "location": "4.J300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    },
+    {
+      "objectId": 456860,
+      "name": "Yotei",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/5bFdfIuP0vynKpiim9mQ0g__original/img/56JMhQ6gSpkKQ-TGcvI_tTpp2hw=/0x0/filters:format(png)/pic9208306.png",
+      "thumbnail": "https://cf.geekdo-images.com/5bFdfIuP0vynKpiim9mQ0g__small/img/Okl5VQ6f539N3ExE8KdyIBsUq4A=/fit-in/200x150/filters:strip_icc()/pic9208306.png",
+      "link": "https://boardgamegeek.com/boardgame/456860",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 7.44,
+      "bggBayesAverageRating": 5.54,
+      "bggRank": 14155,
+      "price": null,
+      "location": "3M300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+    }
+  ]
+}

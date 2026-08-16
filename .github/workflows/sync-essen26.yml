@@ -1,0 +1,47 @@
+name: Sync Essen 2026 Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * *"
+  push:
+    paths:
+      - "essen26/sources.json"
+      - "scripts/fetch_essen_preview.py"
+      - ".github/workflows/sync-essen26.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10"
+
+      - name: Regenerate Essen 2026 snapshot
+        env:
+          BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
+        run: python3 scripts/fetch_essen_preview.py
+
+      - name: Commit updated snapshot
+        run: |
+          if git diff --quiet -- data/essen26.json; then
+            echo "No snapshot changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/essen26.json
+          git commit -m "chore: refresh essen26 snapshot"
+          git push
