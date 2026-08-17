@@ -21,7 +21,7 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-17T21:15:46.774462+00:00",
+  "generatedAt": "2026-08-17T22:06:19.896768+00:00",
   "itemCount": 810,
   "interestedCount": 106,
   "noOneCount": 704,
@@ -10008,20 +10008,37 @@
       "name": "Era of Atlantis",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/Msaw4aINaYn-k7mZ8ZIGCg__original/img/PhWRIDQVbVUK7Leou20Pgq95EoQ=/0x0/filters:format(jpeg)/pic7464914.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/Msaw4aINaYn-k7mZ8ZIGCg__mediacard/img/aJAia17gbJ3ZpyGj905MaL26T1A=/0x0:1024x576/288x162/filters:strip_icc()/pic7464914.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Msaw4aINaYn-k7mZ8ZIGCg__small/img/vpbJ0nKsLmNlmGYPkpkJrL5FmqY=/fit-in/200x150/filters:strip_icc()/pic7464914.jpg",
       "link": "https://boardgamegeek.com/boardgame/385960",
-      "minPlayers": null,
-      "maxPlayers": null,
-      "playingTime": null,
-      "recommendedAge": null,
-      "weight": null,
-      "bggAverageRating": null,
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.6,
+      "bggAverageRating": 7.8,
       "bggBayesAverageRating": null,
       "bggRank": null,
-      "mechanics": null,
-      "designers": null,
-      "artists": null,
-      "publishers": null,
+      "mechanics": [
+        "Alliances",
+        "Area Movement",
+        "Auction / Bidding",
+        "Hidden Victory Points",
+        "Highest-Lowest Scoring",
+        "Semi-Cooperative Game",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Channing Jones"
+      ],
+      "artists": [
+        "Wirawan Pranoto",
+        "Diego Sanchez"
+      ],
+      "publishers": [
+        "Seajay Games"
+      ],
       "price": {
         "amount": 110.0,
         "currency": "EUR"
@@ -10036,7 +10053,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": null
+      "thingFetchedAt": "2026-08-17T22:06:19.540879+00:00"
     },
     {
       "objectId": 468791,
