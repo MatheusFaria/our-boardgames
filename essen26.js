@@ -244,6 +244,47 @@ function matchesWantedByFilter(item) {
   );
 }
 
+function singleSelectedUser() {
+  if (state.userFilters.length !== 1) return null;
+  const user = state.userFilters[0];
+  return user === NO_ONE_KEY ? null : user;
+}
+
+function formatEur(amount) {
+  const rounded = Math.round(amount * 100) / 100;
+  const shown = Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(2);
+  return `€${shown}`;
+}
+
+function updateSpendSummary() {
+  const item = document.getElementById("meta-spend-item");
+  if (!item) return;
+  const user = singleSelectedUser();
+  if (!user) {
+    item.hidden = true;
+    return;
+  }
+  let mustHave = 0;
+  let interested = 0;
+  let missing = 0;
+  for (const game of state.snapshot?.items || []) {
+    const entry = (game.interested || []).find((e) => e.user === user);
+    if (!entry || (entry.priority !== 1 && entry.priority !== 2)) continue;
+    const amount = game.price && game.price.amount != null ? Number(game.price.amount) : null;
+    if (amount == null) {
+      missing += 1;
+      continue;
+    }
+    if (entry.priority === 1) mustHave += amount;
+    else interested += amount;
+  }
+  document.getElementById("meta-spend-label").textContent = `${user} spend`;
+  let text = `Must Have ${formatEur(mustHave)} · Interested ${formatEur(interested)}`;
+  if (missing) text += ` · ${missing} no price`;
+  document.getElementById("meta-spend").textContent = text;
+  item.hidden = false;
+}
+
 function matchesInterestFilters(item) {
   if (hasNoPositiveWanter(item)) {
     return state.userFilters.includes(NO_ONE_KEY);
@@ -444,6 +485,7 @@ function renderContent() {
 
   renderPaginationControls(pagination, totalPages);
   renderActiveFilterChips();
+  updateSpendSummary();
 }
 
 function renderPaginationControls(container, totalPages) {

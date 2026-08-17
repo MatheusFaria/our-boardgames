@@ -186,6 +186,10 @@
         color: var(--text);
       }
 
+      .meta-item--spend .meta-value {
+        color: var(--accent, #2f8f5b);
+      }
+
       /* ── Layout: sidebar + main ─────────────────────────── */
 
       .content-layout {
