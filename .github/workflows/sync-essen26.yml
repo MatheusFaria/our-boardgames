@@ -3,7 +3,7 @@ name: Sync Essen 2026 Snapshot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "0 3 * * *"
   push:
     paths:
       - "essen26/sources.json"
