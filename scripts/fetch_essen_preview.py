@@ -249,6 +249,10 @@ def fetch_event_info(previewid: int) -> dict:
 # XML API2 /thing (game name + stats)
 # ---------------------------------------------------------------------------
 
+def _parse_link_values(item_el: ET.Element, link_type: str) -> list[str]:
+    return [el.get("value") for el in item_el.findall(f"./link[@type='{link_type}']") if el.get("value")]
+
+
 def parse_thing_item(item_el: ET.Element) -> dict:
     name_el = next(
         (el for el in item_el.findall("name") if el.get("type") == "primary"), None
@@ -303,6 +307,10 @@ def parse_thing_item(item_el: ET.Element) -> dict:
         "bggAverageRating": bgg_avg,
         "bggBayesAverageRating": bgg_bayes,
         "bggRank": bgg_rank,
+        "mechanics": _parse_link_values(item_el, "boardgamemechanic"),
+        "designers": _parse_link_values(item_el, "boardgamedesigner"),
+        "artists": _parse_link_values(item_el, "boardgameartist"),
+        "publishers": _parse_link_values(item_el, "boardgamepublisher"),
     }
 
 
@@ -336,6 +344,7 @@ THING_FIELDS = (
     "name", "yearPublished", "image", "thumbnail",
     "minPlayers", "maxPlayers", "playingTime", "recommendedAge",
     "weight", "bggAverageRating", "bggBayesAverageRating", "bggRank",
+    "mechanics", "designers", "artists", "publishers",
 )
 
 
@@ -390,7 +399,14 @@ def build_snapshot(sources: list[dict], previewid: int, existing_items: dict[int
                 "notes": pick["notes"],
             }
 
-    object_ids = sorted(preview_by_oid)
+    not_interested = 4
+    object_ids = sorted(
+        oid for oid in preview_by_oid
+        if any(pick["priority"] != not_interested for pick in interested_by_oid[oid].values())
+    )
+    dropped = len(preview_by_oid) - len(object_ids)
+    if dropped:
+        print(f"    -> dropping {dropped} games with no interested user (all 'Not Interested')")
 
     stale_ids: list[int] = []
     fresh_things: dict[int, dict] = {}
@@ -442,6 +458,10 @@ def build_snapshot(sources: list[dict], previewid: int, existing_items: dict[int
             "bggAverageRating": thing.get("bggAverageRating"),
             "bggBayesAverageRating": thing.get("bggBayesAverageRating"),
             "bggRank": thing.get("bggRank"),
+            "mechanics": thing.get("mechanics"),
+            "designers": thing.get("designers"),
+            "artists": thing.get("artists"),
+            "publishers": thing.get("publishers"),
             "price": preview.get("price"),
             "location": preview.get("location"),
             "availability": preview.get("availability"),

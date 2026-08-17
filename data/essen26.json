@@ -15,12 +15,534 @@
     "unprioritized": "Unprioritized"
   },
   "users": [
-    "JoyfulFicus"
+    "JoyfulFicus",
+    "ParadoxBard",
+    "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 + XML API2",
-  "generatedAt": "2026-08-16T21:15:17.279840+00:00",
-  "itemCount": 14,
+  "generatedAt": "2026-08-17T12:44:44.008480+00:00",
+  "itemCount": 83,
   "items": [
+    {
+      "objectId": 445868,
+      "name": "10 to Leave",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/cbJmW9u2tvqK1LwpNqlAxg__original/img/jny6jvMswYRCX4aLCoZJBLNmR58=/0x0/filters:format(png)/pic8863147.png",
+      "thumbnail": "https://cf.geekdo-images.com/cbJmW9u2tvqK1LwpNqlAxg__small/img/lh8ic1vPCjXPVvo_BBkxb-2lXK4=/fit-in/200x150/filters:strip_icc()/pic8863147.png",
+      "link": "https://boardgamegeek.com/boardgame/445868",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": 1.25,
+      "bggAverageRating": 6.77,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 18294,
+      "mechanics": [
+        "Hand Management"
+      ],
+      "designers": [
+        "Kula"
+      ],
+      "artists": [
+        "Kula",
+        "Ping Tseng"
+      ],
+      "publishers": [
+        "Compound Eye Fox Studio",
+        "JJ Board Game"
+      ],
+      "price": {
+        "amount": 15.0,
+        "currency": "EUR"
+      },
+      "location": "5H400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 454438,
+      "name": "8 Dragons",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/R5iIG_-VyhoDw2kYX-lVdA__original/img/iM3aQoOsbjmtlGLCpxP6HpDYk8U=/0x0/filters:format(jpeg)/pic9108005.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/R5iIG_-VyhoDw2kYX-lVdA__small/img/NirLT2eua3WI05cvZXj4XJn0Gh8=/fit-in/200x150/filters:strip_icc()/pic9108005.jpg",
+      "link": "https://boardgamegeek.com/boardgame/454438",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.5,
+      "bggAverageRating": 7.33,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "S\u00f6nke Schmidt"
+      ],
+      "artists": [
+        "Pauliina Hannuniemi"
+      ],
+      "publishers": [
+        "Wonderbow Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 453804,
+      "name": "Ancient Empires",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/MF_JADENNOCe3M_iKkrLJQ__original/img/h09-0GxP4qwrb-91CmjBlnQXWTY=/0x0/filters:format(jpeg)/pic9099829.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/MF_JADENNOCe3M_iKkrLJQ__small/img/nxRT4S688mIYyS7dh2SwciQjzh4=/fit-in/200x150/filters:strip_icc()/pic9099829.jpg",
+      "link": "https://boardgamegeek.com/boardgame/453804",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 8.13,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Queue",
+        "Area Majority / Influence",
+        "Modular Board",
+        "Programmed Movement",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Milan Tasevski"
+      ],
+      "artists": [
+        "Daniel Cunha"
+      ],
+      "publishers": [
+        "Archona Games",
+        "HIT Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 470482,
+      "name": "Apocalypse",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/vikoQHcO4liCE8gSysnOHg__original/img/-wjCYycNNRsRzO7KYcfJ8fGFhxE=/0x0/filters:format(png)/pic9576269.png",
+      "thumbnail": "https://cf.geekdo-images.com/vikoQHcO4liCE8gSysnOHg__small/img/HXbDlqOseWnN1ZDJAc6Jmtg0sx0=/fit-in/200x150/filters:strip_icc()/pic9576269.png",
+      "link": "https://boardgamegeek.com/boardgame/470482",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 9.33,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "Yoriyasu Harano"
+      ],
+      "artists": [
+        "Sylvain Leroy"
+      ],
+      "publishers": [
+        "Grail Games",
+        "Locomuse studio"
+      ],
+      "price": null,
+      "location": "Fremont CA",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 444527,
+      "name": "Bean to Bar",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/U6or9Bb1W56l_rIoOS-_ig__original/img/3ApO6BitUPfMLmkpdEfAHQKZDSI=/0x0/filters:format(jpeg)/pic8835419.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/U6or9Bb1W56l_rIoOS-_ig__small/img/nLaclUYsH3yQUB3eEx8kKcGzbaI=/fit-in/200x150/filters:strip_icc()/pic8835419.jpg",
+      "link": "https://boardgamegeek.com/boardgame/444527",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 180,
+      "recommendedAge": "14+",
+      "weight": 3.5,
+      "bggAverageRating": 7.82,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17504,
+      "mechanics": [
+        "Worker Placement"
+      ],
+      "designers": [
+        "Masaki Suga (\u9808\u8cc0 \u6b63\u6a39)"
+      ],
+      "artists": [
+        "Harald Lieske",
+        "Saori Shibata (\u67f4\u7530 \u6c99\u592e\u91cc)"
+      ],
+      "publishers": [
+        "analog lunchbox (\u30a2\u30ca\u30ed\u30b0\u30e9\u30f3\u30c1\u30dc\u30c3\u30af\u30b9)",
+        "Spielefaible"
+      ],
+      "price": null,
+      "location": "3G515",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 452171,
+      "name": "Bella Vista",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/2R1zbmBkLp2rrV0TZY6MGA__original/img/zJvNCzRA3xyf7SjYjGOjg1iNJFE=/0x0/filters:format(png)/pic9384066.png",
+      "thumbnail": "https://cf.geekdo-images.com/2R1zbmBkLp2rrV0TZY6MGA__small/img/blYvok5hkPZRpPvdEN8pHntftJI=/fit-in/200x150/filters:strip_icc()/pic9384066.png",
+      "link": "https://boardgamegeek.com/boardgame/452171",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "recommendedAge": "10+",
+      "weight": 2.17,
+      "bggAverageRating": 7.54,
+      "bggBayesAverageRating": 5.63,
+      "bggRank": 8197,
+      "mechanics": [],
+      "designers": [
+        "Bruno Cathala",
+        "Andrea Mainini"
+      ],
+      "artists": [
+        "Cyrille Bertin",
+        "L\u00e9a Menard"
+      ],
+      "publishers": [
+        "Studio H",
+        "Arrakis Games",
+        "Hachette Boardgames UK",
+        "Pandasaurus Games"
+      ],
+      "price": {
+        "amount": 37.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 455186,
+      "name": "Bharat: Kings of Legend",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/QMVfYGY28ImCo0Uo6zxIvg__original/img/kMbUS5wMHkbI9T0SlCK4iBwAFcQ=/0x0/filters:format(jpeg)/pic9254239.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/QMVfYGY28ImCo0Uo6zxIvg__small/img/kNkGFv7fpNWjgzVwTjzCRe5DD58=/fit-in/200x150/filters:strip_icc()/pic9254239.jpg",
+      "link": "https://boardgamegeek.com/boardgame/455186",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Queue",
+        "Area Majority / Influence",
+        "Rondel",
+        "Worker Placement"
+      ],
+      "designers": [
+        "R\u00f3bert K\u00f3r\u00f3di",
+        "L\u00edvia Nemeth"
+      ],
+      "artists": [
+        "Peter Diamond",
+        "R\u00f3bert K\u00f3r\u00f3di"
+      ],
+      "publishers": [
+        "Kolossal Games"
+      ],
+      "price": null,
+      "location": "Indianapolis",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 474458,
+      "name": "Bollywood Blockbuster",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Fx08mb6Io9Z79EjJJ6fZZg__original/img/ESg4K-Vq2Yjaq3He85jNuTycE4s=/0x0/filters:format(png)/pic9683172.png",
+      "thumbnail": "https://cf.geekdo-images.com/Fx08mb6Io9Z79EjJJ6fZZg__small/img/JBRtobc8YNj1pP3Z4zmIZ3mdQdg=/fit-in/200x150/filters:strip_icc()/pic9683172.png",
+      "link": "https://boardgamegeek.com/boardgame/474458",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 1.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Drafting",
+        "Auction / Bidding",
+        "Auction Compensation",
+        "Auction: Dutch",
+        "Auction: Dutch Priority",
+        "Auction: Multiple Lot",
+        "Hand Management",
+        "Investment",
+        "Loans",
+        "Market",
+        "Open Drafting",
+        "Set Collection",
+        "Tile Placement",
+        "Track Movement",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Dirk Henn"
+      ],
+      "artists": [],
+      "publishers": [
+        "Queen Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 458571,
+      "name": "Bookshelf",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1gy_22IJLIpaSMUzQ0LjuA__original/img/PzW_5i8RbdMrQM5FYmE52CE4IJ4=/0x0/filters:format(jpeg)/pic9464953.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/1gy_22IJLIpaSMUzQ0LjuA__small/img/oSf6U91149ODYIuTv-1S7Rvn4WA=/fit-in/200x150/filters:strip_icc()/pic9464953.jpg",
+      "link": "https://boardgamegeek.com/boardgame/458571",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 6.95,
+      "bggBayesAverageRating": 5.59,
+      "bggRank": 10089,
+      "mechanics": [
+        "Cooperative Game"
+      ],
+      "designers": [
+        "Caezar Al-Jassar"
+      ],
+      "artists": [
+        "Rory Muldoon"
+      ],
+      "publishers": [
+        "Alley Cat Games",
+        "BoardM Factory",
+        "Maldito Games"
+      ],
+      "price": {
+        "amount": 15.0,
+        "currency": "EUR"
+      },
+      "location": "3F400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 473933,
+      "name": "Buried Memories",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/JI9DlG6yCn-OHs9W6BfNWg__original/img/WHWIEsHprA5g66Qzhqi03Afmbjs=/0x0/filters:format(png)/pic9669381.png",
+      "thumbnail": "https://cf.geekdo-images.com/JI9DlG6yCn-OHs9W6BfNWg__small/img/vg-7yckpV8TALKibUItLmdSdnHw=/fit-in/200x150/filters:strip_icc()/pic9669381.png",
+      "link": "https://boardgamegeek.com/boardgame/473933",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "designers": [
+        "Kristian Amundsen \u00d8stby",
+        "Aleksander \u00d8stby"
+      ],
+      "artists": [
+        "Nathan Lemonnier"
+      ],
+      "publishers": [
+        "Aporta Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 469384,
+      "name": "Camboya",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/GCqxIxLHNA3ts407FIVJyw__original/img/-Q9PGWhsI0TBwYNqqLYP2CrV95M=/0x0/filters:format(png)/pic9575144.png",
+      "thumbnail": "https://cf.geekdo-images.com/GCqxIxLHNA3ts407FIVJyw__small/img/xmyFm7RoY974TO4H7FLtfTEG6yo=/fit-in/200x150/filters:strip_icc()/pic9575144.png",
+      "link": "https://boardgamegeek.com/boardgame/469384",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Jorge Tabanera Redondo"
+      ],
+      "artists": [
+        "Jorge Tabanera Redondo"
+      ],
+      "publishers": [
+        "Tranjis Games"
+      ],
+      "price": null,
+      "location": "3-U130",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 475390,
+      "name": "Caribe",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/vjM7hmJsQg1fnDLVmtpvig__original/img/8eGJJGmJf1vjbnoYlZcdlWzBs7I=/0x0/filters:format(jpeg)/pic9707338.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/vjM7hmJsQg1fnDLVmtpvig__small/img/LxFdEGY34ZpR52YrjurAxRRRNsQ=/fit-in/200x150/filters:strip_icc()/pic9707338.jpg",
+      "link": "https://boardgamegeek.com/boardgame/475390",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 100,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 9.33,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Modular Board",
+        "Multi-Use Cards"
+      ],
+      "designers": [
+        "Orlando S\u00e1"
+      ],
+      "artists": [
+        "Lukas Siegmon"
+      ],
+      "publishers": [
+        "PYTHAGORAS"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
     {
       "objectId": 474289,
       "name": "Carpet Racers",
@@ -36,6 +558,20 @@
       "bggAverageRating": null,
       "bggBayesAverageRating": null,
       "bggRank": null,
+      "mechanics": [
+        "Movement Points",
+        "Moving Multiple Units",
+        "Race",
+        "Track Movement",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Tom\u00e1\u0161 Holek"
+      ],
+      "artists": [],
+      "publishers": [
+        "Pink Troubadour"
+      ],
       "price": {
         "amount": 30.0,
         "currency": "EUR"
@@ -48,9 +584,562 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 424751,
+      "name": "Cat and the Tower",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/qXqiP8J-D82ovawXAgypGA__original/img/ai_ZJI3jGRiPBIlCjCPF0VfvVpw=/0x0/filters:format(png)/pic8923066.png",
+      "thumbnail": "https://cf.geekdo-images.com/qXqiP8J-D82ovawXAgypGA__small/img/ZtXotiGRZ3oQ_KLFC7zDRukOobA=/fit-in/200x150/filters:strip_icc()/pic8923066.png",
+      "link": "https://boardgamegeek.com/boardgame/424751",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 30,
+      "recommendedAge": "6+",
+      "weight": 1.29,
+      "bggAverageRating": 7.36,
+      "bggBayesAverageRating": 5.95,
+      "bggRank": 3553,
+      "mechanics": [
+        "Cooperative Game",
+        "Multi-Use Cards",
+        "Solo / Solitaire Game",
+        "Stacking and Balancing",
+        "Three Dimensional Movement"
+      ],
+      "designers": [
+        "Masakazu Takizawa (\u305f\u304d\u3056\u308f \u307e\u3055\u304b\u305a)"
+      ],
+      "artists": [
+        "Namiki (\u30ca\u30df\u30ad)"
+      ],
+      "publishers": [
+        "Arclight Games",
+        "Arcane Wonders",
+        "ArsEdition",
+        "Fractal Juegos",
+        "Maldito Games",
+        "Mandoo Games",
+        "MeepleBR",
+        "Old Dawg",
+        "Studio Supernova",
+        "Unfriendly Games"
+      ],
+      "price": null,
+      "location": "6A200",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 468531,
+      "name": "Cat years",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/pbNFvY2WHVxsCvxufnkiWA__original/img/PDShQQmueqjWmBYq04_pF9LSq1w=/0x0/filters:format(jpeg)/pic9706982.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/pbNFvY2WHVxsCvxufnkiWA__small/img/Iv_TP_mvHeSweaE5_5AB2G2MhXs=/fit-in/200x150/filters:strip_icc()/pic9706982.jpg",
+      "link": "https://boardgamegeek.com/boardgame/468531",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 9.6,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Events",
+        "Roll / Spin and Move",
+        "Simulation"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "(Self-Published)",
+        "Trybe Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 447850,
+      "name": "Colosseum: The Grand Spectacle",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/MVLISJeNBFA0WjRQwb9B6g__original/img/IK-WOvTDNJSx1zZHSZPXtWACe8Q=/0x0/filters:format(jpeg)/pic8930669.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/MVLISJeNBFA0WjRQwb9B6g__small/img/zzbJRPKbHTbObwAx6Uin_Fm_Tfk=/fit-in/200x150/filters:strip_icc()/pic8930669.jpg",
+      "link": "https://boardgamegeek.com/boardgame/447850",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 90,
+      "recommendedAge": "10+",
+      "weight": 2.71,
+      "bggAverageRating": 7.8,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16972,
+      "mechanics": [
+        "Auction / Bidding",
+        "Dice Rolling",
+        "Roll / Spin and Move",
+        "Set Collection",
+        "Trading"
+      ],
+      "designers": [
+        "Wolfgang Kramer",
+        "Markus L\u00fcbke"
+      ],
+      "artists": [
+        "Mihajlo Dimitrievski",
+        "Ian O'Toole"
+      ],
+      "publishers": [
+        "Fantasia Games",
+        "Intrafin Games"
+      ],
+      "price": null,
+      "location": "3Q315",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 453740,
+      "name": "Container",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/AXJ3ur6OZecgmPSACVm2Lw__original/img/Eu753bTK_xgrPZUkMsL76m0e8nM=/0x0/filters:format(jpeg)/pic9085223.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/AXJ3ur6OZecgmPSACVm2Lw__small/img/c0Y6cYn2rNN4oxcd3InUsOCxd3k=/fit-in/200x150/filters:strip_icc()/pic9085223.jpg",
+      "link": "https://boardgamegeek.com/boardgame/453740",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 90,
+      "recommendedAge": "12+",
+      "weight": 2.87,
+      "bggAverageRating": 7.93,
+      "bggBayesAverageRating": 6.35,
+      "bggRank": 1720,
+      "mechanics": [
+        "Auction / Bidding",
+        "Closed Economy Auction",
+        "Commodity Speculation",
+        "Loans",
+        "Pick-up and Deliver",
+        "Set Collection"
+      ],
+      "designers": [
+        "Franz-Benno Delonge",
+        "Thomas Ewert",
+        "Kevin Nesbitt"
+      ],
+      "artists": [
+        "Adam Allsuch Boardman"
+      ],
+      "publishers": [
+        "Allplay"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 463741,
+      "name": "Courtisans: Diplomates et confidents",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1swS0IXwqLgDjT-3IrzLPw__original/img/9odxRriw93IYUJfWF_SLUkrAiHE=/0x0/filters:format(jpeg)/pic9386224.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/1swS0IXwqLgDjT-3IrzLPw__small/img/NtWskTgwwUGCQNsWRvL8jzO3WHc=/fit-in/200x150/filters:strip_icc()/pic9386224.jpg",
+      "link": "https://boardgamegeek.com/boardgame/463741",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 7.89,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "End Game Bonuses",
+        "Set Collection",
+        "Take That",
+        "Team-Based Game"
+      ],
+      "designers": [
+        "Romaric Galonnier",
+        "Anthony Perone"
+      ],
+      "artists": [
+        "No\u00ebmie Chevalier"
+      ],
+      "publishers": [
+        "Catch Up Games",
+        "White Goblin Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 436907,
+      "name": "Crits & Tricks",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/D8KVw6zRpRzzbXA2IOX1Jg__original/img/3HBnpXcfMlUhCjX22mDBYZNRyDQ=/0x0/filters:format(png)/pic8644669.png",
+      "thumbnail": "https://cf.geekdo-images.com/D8KVw6zRpRzzbXA2IOX1Jg__small/img/Wzu8flJsdlEuPfSumRUT6ZjmZFI=/fit-in/200x150/filters:strip_icc()/pic8644669.png",
+      "link": "https://boardgamegeek.com/boardgame/436907",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "recommendedAge": "14+",
+      "weight": 2.25,
+      "bggAverageRating": 7.45,
+      "bggBayesAverageRating": 5.67,
+      "bggRank": 7158,
+      "mechanics": [
+        "Closed Drafting",
+        "Contracts",
+        "Dice Rolling",
+        "Hand Management",
+        "Predictive Bid",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Pete Wissinger"
+      ],
+      "artists": [
+        "Arad Safarzadegan"
+      ],
+      "publishers": [
+        "Inside Up Games"
+      ],
+      "price": {
+        "amount": 40.0,
+        "currency": "EUR"
+      },
+      "location": "R-3400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 469504,
+      "name": "Diables",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/22F1rYdp8beUphBIopp7xA__original/img/RosSC6k3ujXRcut50BIIpg8wTlo=/0x0/filters:format(jpeg)/pic9544452.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/22F1rYdp8beUphBIopp7xA__small/img/lLz0AtoEJ1AaYFgOgDWpQMFLLqU=/fit-in/200x150/filters:strip_icc()/pic9544452.jpg",
+      "link": "https://boardgamegeek.com/boardgame/469504",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.5,
+      "bggAverageRating": 7.74,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Income",
+        "Multi-Use Cards",
+        "Track Movement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Dani Garcia"
+      ],
+      "artists": [
+        "Amelia Sales",
+        "Dossom Studio"
+      ],
+      "publishers": [
+        "Salt & Pepper Games"
+      ],
+      "price": {
+        "amount": 75.0,
+        "currency": "EUR"
+      },
+      "location": "3A400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 465669,
+      "name": "Drillers",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Uz4rr8VRTss1PKSbxspV0Q__original/img/6p0BE5ScmaQAlpnowUy2yzn70R8=/0x0/filters:format(jpeg)/pic9628641.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Uz4rr8VRTss1PKSbxspV0Q__small/img/dsgH9yJYFydcwnyVSz4spJz0eIU=/fit-in/200x150/filters:strip_icc()/pic9628641.jpg",
+      "link": "https://boardgamegeek.com/boardgame/465669",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "12+",
+      "weight": 2.64,
+      "bggAverageRating": 8.0,
+      "bggBayesAverageRating": 5.77,
+      "bggRank": 5162,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "Deck, Bag, and Pool Building",
+        "Delayed Purchase",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Resource to Move",
+        "Solo / Solitaire Game"
+      ],
+      "designers": [
+        "Roman Bedn\u00e1\u0159",
+        "Adam \u0160pan\u011bl"
+      ],
+      "artists": [
+        "Ond\u0159ej Hrdina",
+        "Ji\u0159\u00ed K\u016fs",
+        "Ji\u0159\u00ed Mikovec",
+        "Jakub Politzer"
+      ],
+      "publishers": [
+        "Czech Games Edition (CGE)",
+        "Cranio Creations",
+        "DiceTree Games",
+        "DSV Games",
+        "HeidelB\u00c4R Games"
+      ],
+      "price": {
+        "amount": 50.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 475466,
+      "name": "Drops of Evil",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/FbTTS-grB-4v8ubDlpqRsA__original/img/RxYADCpQynamlZQtCGnPdGWy0fw=/0x0/filters:format(jpeg)/pic9707213.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/FbTTS-grB-4v8ubDlpqRsA__small/img/oDRy9IFYqngBVPfXDfgJG31UlKE=/fit-in/200x150/filters:strip_icc()/pic9707213.jpg",
+      "link": "https://boardgamegeek.com/boardgame/475466",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Pattern Building",
+        "Square Grid",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Hjalmar Hach",
+        "Lorenzo Silva"
+      ],
+      "artists": [
+        "Weberson Santiago"
+      ],
+      "publishers": [
+        "Horrible Guild"
+      ],
+      "price": null,
+      "location": "6B115",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 433614,
+      "name": "Dutch Flower Auction",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/CdgVSgw2j-DbiL1JiakDGw__original/img/9VH0oK74a0ECF3niY-pSga42oNM=/0x0/filters:format(png)/pic8599800.png",
+      "thumbnail": "https://cf.geekdo-images.com/CdgVSgw2j-DbiL1JiakDGw__small/img/omn_uQcCGtKxU7Ywu9BZyRAaot4=/fit-in/200x150/filters:strip_icc()/pic8599800.png",
+      "link": "https://boardgamegeek.com/boardgame/433614",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 15,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 7.01,
+      "bggBayesAverageRating": 5.51,
+      "bggRank": 22709,
+      "mechanics": [
+        "Auction / Bidding",
+        "Auction: Dutch",
+        "Constrained Bidding",
+        "Hand Management"
+      ],
+      "designers": [
+        "Zong-Ger(\u8525\u54e5)"
+      ],
+      "artists": [
+        "Midjourney AI"
+      ],
+      "publishers": [
+        "Good Game Studio"
+      ],
+      "price": {
+        "amount": 10.0,
+        "currency": "EUR"
+      },
+      "location": "5H400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 468800,
+      "name": "Excursions",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/1_iqwOIhDpZQdFqci_6SRQ__original/img/k3VghHWLeLQmunCg_Fe3--f4HkA=/0x0/filters:format(jpeg)/pic9527854.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/1_iqwOIhDpZQdFqci_6SRQ__small/img/4AxU8dBLWRKubqQ9BoEcP3m9dZ8=/fit-in/200x150/filters:strip_icc()/pic9527854.jpg",
+      "link": "https://boardgamegeek.com/boardgame/468800",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playingTime": 90,
+      "recommendedAge": "10+",
+      "weight": 3.0,
+      "bggAverageRating": 7.36,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "End Game Bonuses",
+        "Follow",
+        "Hand Management",
+        "Income",
+        "Market",
+        "Multi-Use Cards",
+        "Race",
+        "Solo / Solitaire Game",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Ben Rosset"
+      ],
+      "artists": [
+        "Ian O'Toole"
+      ],
+      "publishers": [
+        "Kinson Key Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "Only demo - KS will happen soon"
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 421254,
@@ -64,9 +1153,31 @@
       "playingTime": 90,
       "recommendedAge": "14+",
       "weight": 2.33,
-      "bggAverageRating": 7.57,
+      "bggAverageRating": 7.61,
       "bggBayesAverageRating": 5.56,
-      "bggRank": 12587,
+      "bggRank": 12135,
+      "mechanics": [
+        "Contracts",
+        "Deck Construction",
+        "Hand Management",
+        "Market",
+        "Push Your Luck",
+        "Solo / Solitaire Game",
+        "Take That"
+      ],
+      "designers": [
+        "Owen Davey"
+      ],
+      "artists": [
+        "Owen Davey"
+      ],
+      "publishers": [
+        "Owen Davey Games",
+        "Board Game Circus",
+        "Choo Choo Games",
+        "Mosaico Jogos",
+        "Raven Distribution"
+      ],
       "price": {
         "amount": 45.0,
         "currency": "EUR"
@@ -79,9 +1190,115 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": "Find english version"
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 7805,
+      "name": "Fearsome Floors",
+      "yearPublished": 2003,
+      "image": "https://cf.geekdo-images.com/vnZut6hUJywmtSutjSAcjQ__original/img/tbrdi8wrcGpfNQGoOVAwKWsHptg=/0x0/filters:format(png)/pic9525639.png",
+      "thumbnail": "https://cf.geekdo-images.com/vnZut6hUJywmtSutjSAcjQ__small/img/bAok0PH3R8mSSFmgBYHRZjUWAUY=/fit-in/200x150/filters:strip_icc()/pic9525639.png",
+      "link": "https://boardgamegeek.com/boardgame/7805",
+      "minPlayers": 2,
+      "maxPlayers": 7,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 1.81,
+      "bggAverageRating": 6.67,
+      "bggBayesAverageRating": 6.39,
+      "bggRank": 1617,
+      "mechanics": [
+        "Grid Movement",
+        "Line of Sight",
+        "Modular Board",
+        "Race",
+        "Square Grid"
+      ],
+      "designers": [
+        "Friedemann Friese"
+      ],
+      "artists": [
+        "Lars-Arne \"Maura\" Kalusky",
+        "Prapach Lapamnuaysap"
+      ],
+      "publishers": [
+        "2F-Spiele",
+        "2Tomatoes Games",
+        "Filosofia \u00c9ditions",
+        "Giochi Uniti",
+        "Ludofun",
+        "Matagot",
+        "Rio Grande Games",
+        "Siam Board Games",
+        "Swan Panasia Co., Ltd.",
+        "Tilsit"
+      ],
+      "price": {
+        "amount": 28.0,
+        "currency": "EUR"
+      },
+      "location": "3G215",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 472256,
+      "name": "Food Truck Fury",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/C30lqildAbWgLO402dWDCw__original/img/aeMZgkXgzuPHTApmuAolUz1l3VQ=/0x0/filters:format(jpeg)/pic9629208.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/C30lqildAbWgLO402dWDCw__small/img/TXxtM9oBLgQ-P-M3fAfFc-Xd80E=/fit-in/200x150/filters:strip_icc()/pic9629208.jpg",
+      "link": "https://boardgamegeek.com/boardgame/472256",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "13+",
+      "weight": null,
+      "bggAverageRating": 7.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Deck, Bag, and Pool Building"
+      ],
+      "designers": [
+        "Ryan Jorjorian"
+      ],
+      "artists": [
+        "Agnieszka Dabrowiecka"
+      ],
+      "publishers": [
+        "Van Ryder Games"
+      ],
+      "price": {
+        "amount": 50.0,
+        "currency": "USD"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 444234,
@@ -97,7 +1314,23 @@
       "weight": 2.25,
       "bggAverageRating": 7.55,
       "bggBayesAverageRating": 5.53,
-      "bggRank": 17299,
+      "bggRank": 17306,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building"
+      ],
+      "designers": [
+        "Trevor Benjamin",
+        "Brett J. Gilbert",
+        "David Thompson (I)"
+      ],
+      "artists": [
+        "Katarzyna Bekus",
+        "Max Kosek"
+      ],
+      "publishers": [
+        "Mighty Boards"
+      ],
       "price": null,
       "location": null,
       "availability": "For Sale",
@@ -107,9 +1340,295 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 459401,
+      "name": "Greylune",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/VwCU6wEDPmElxkOGpgPPDA__original/img/IFrLkrRfEvJ2tTm1o6cfemVvj3A=/0x0/filters:format(jpeg)/pic9289628.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/VwCU6wEDPmElxkOGpgPPDA__small/img/OkvdzxSqHFv6o8VYHp59GzkuR8o=/fit-in/200x150/filters:strip_icc()/pic9289628.jpg",
+      "link": "https://boardgamegeek.com/boardgame/459401",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": 3.22,
+      "bggAverageRating": 7.93,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 12840,
+      "mechanics": [
+        "Auction: Dutch Priority",
+        "Events",
+        "Worker Placement"
+      ],
+      "designers": [
+        "William Attia"
+      ],
+      "artists": [
+        "Ulric Maes",
+        "David Sitbon"
+      ],
+      "publishers": [
+        "Sorry We Are French",
+        "Pandasaurus Games"
+      ],
+      "price": {
+        "amount": 28.0,
+        "currency": "EUR"
+      },
+      "location": "6K400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 470343,
+      "name": "Kano",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/PDnoVBrwFxGLneDSvhHhkg__original/img/p2DQvU5VOPCOxqYgd6WPs3BZQis=/0x0/filters:format(png)/pic9590444.png",
+      "thumbnail": "https://cf.geekdo-images.com/PDnoVBrwFxGLneDSvhHhkg__small/img/I6YRBM3648LEe-MIUYr2GkPLYO0=/fit-in/200x150/filters:strip_icc()/pic9590444.png",
+      "link": "https://boardgamegeek.com/boardgame/470343",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "12+",
+      "weight": 2.0,
+      "bggAverageRating": 7.92,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 13584,
+      "mechanics": [
+        "Contracts",
+        "Pattern Building",
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Pablo Jim\u00e9nez",
+        "Angel Pintero"
+      ],
+      "artists": [
+        "Jun Sato"
+      ],
+      "publishers": [
+        "Matagot"
+      ],
+      "price": null,
+      "location": "Bordeaux",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 474694,
+      "name": "KumoKumo Park",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/MwFH3IJkhI7eAYLRjdwfRw__original/img/gSN1nPuvfKOLsyowiPoPSgN_xow=/0x0/filters:format(png)/pic9703959.png",
+      "thumbnail": "https://cf.geekdo-images.com/MwFH3IJkhI7eAYLRjdwfRw__small/img/biIyZjbEnanCVnp7KwawX57d17A=/fit-in/200x150/filters:strip_icc()/pic9703959.png",
+      "link": "https://boardgamegeek.com/boardgame/474694",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Closed Drafting",
+        "Dice Rolling",
+        "End Game Bonuses"
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [],
+      "publishers": [
+        "CMON Global Limited"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 456018,
+      "name": "Lionwake",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/lteNmFsbtT9r7LHRG_qkkg__original/img/tnaDfBQsqylJ0T4rdNGy1a2tPTU=/0x0/filters:format(jpeg)/pic9157625.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/lteNmFsbtT9r7LHRG_qkkg__small/img/e4OOTqmcfRwM1fgVNahmhQlw78A=/fit-in/200x150/filters:strip_icc()/pic9157625.jpg",
+      "link": "https://boardgamegeek.com/boardgame/456018",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 9.17,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Chaining",
+        "Deck Construction",
+        "Die Icon Resolution",
+        "End Game Bonuses",
+        "Modular Board",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Duke Su"
+      ],
+      "artists": [],
+      "publishers": [
+        "NUWA Board Games"
+      ],
+      "price": null,
+      "location": "5H400",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 475207,
+      "name": "Lost Ruins of Arnak: Surprise Shipment",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/NWDPiFiOQHtrmxQ4Sj_S6A__original/img/FMdnIUcvpUF5IS8Qgv09LivsZlU=/0x0/filters:format(png)/pic9702605.png",
+      "thumbnail": "https://cf.geekdo-images.com/NWDPiFiOQHtrmxQ4Sj_S6A__small/img/xn4tjAIqQG2RgjeKzPx_P0f0frg=/fit-in/200x150/filters:strip_icc()/pic9702605.png",
+      "link": "https://boardgamegeek.com/boardgame/475207",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "12+",
+      "weight": 2.0,
+      "bggAverageRating": 8.38,
+      "bggBayesAverageRating": 5.54,
+      "bggRank": null,
+      "mechanics": [
+        "Deck Construction",
+        "Deck, Bag, and Pool Building",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Elwen",
+        "M\u00edn"
+      ],
+      "artists": [
+        "Ond\u0159ej Hrdina",
+        "Milan Vavro\u0148"
+      ],
+      "publishers": [
+        "Czech Games Edition (CGE)",
+        "DiceTree Games",
+        "G\u00e9mklub",
+        "HeidelB\u00c4R Games",
+        "IELLO"
+      ],
+      "price": {
+        "amount": 15.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 474696,
+      "name": "Matchmakers",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/-eJoqwTPDuKO8X50hhVmtA__original/img/UGdhMRpX9u-fvy6_-_HLzs9jz8Y=/0x0/filters:format(jpeg)/pic9705497.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/-eJoqwTPDuKO8X50hhVmtA__small/img/nwlkoGdlHWk_NUYsM0f8jjvXWGM=/fit-in/200x150/filters:strip_icc()/pic9705497.jpg",
+      "link": "https://boardgamegeek.com/boardgame/474696",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Push Your Luck",
+        "Set Collection",
+        "Team-Based Game",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Baudet Sylvain"
+      ],
+      "artists": [
+        "Osamu Inoue (\u4e95\u4e0a\u78e8)"
+      ],
+      "publishers": [
+        "AllPines Society"
+      ],
+      "price": {
+        "amount": 18.0,
+        "currency": "EUR"
+      },
+      "location": "4F510",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 472021,
@@ -126,6 +1645,19 @@
       "bggAverageRating": 8.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
+      "mechanics": [
+        "Pick-up and Deliver"
+      ],
+      "designers": [
+        "Stefan Feld"
+      ],
+      "artists": [
+        "Dennis Lohausen"
+      ],
+      "publishers": [
+        "Hall Games",
+        "Pegasus Spiele"
+      ],
       "price": null,
       "location": null,
       "availability": "For Sale",
@@ -135,9 +1667,745 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 462488,
+      "name": "Meow Heist",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/ccockj4WfAfi28aKsSRkrg__original/img/N5YyRX6rMQhWjfa-savQf7uRIgg=/0x0/filters:format(png)/pic9633812.png",
+      "thumbnail": "https://cf.geekdo-images.com/ccockj4WfAfi28aKsSRkrg__small/img/liGyaxNfx0qzbtIl1XWp5gVsIRc=/fit-in/200x150/filters:strip_icc()/pic9633812.png",
+      "link": "https://boardgamegeek.com/boardgame/462488",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 15,
+      "recommendedAge": "6+",
+      "weight": 1.0,
+      "bggAverageRating": 7.45,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Auction / Bidding",
+        "Hidden Victory Points"
+      ],
+      "designers": [
+        "Ibuink"
+      ],
+      "artists": [],
+      "publishers": [
+        "Ibuink",
+        "Nekuma"
+      ],
+      "price": null,
+      "location": "5.K415",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 419993,
+      "name": "Mission Amazonia",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/9HNDXz8wSOjh0F4qY7ewHA__original/img/wlr1RDVxDE4_k-RFWh5SOS3fyBE=/0x0/filters:format(jpeg)/pic8280686.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/9HNDXz8wSOjh0F4qY7ewHA__small/img/WquY9BtkZXO4cxpiDI2Gk_5XW4E=/fit-in/200x150/filters:strip_icc()/pic8280686.jpg",
+      "link": "https://boardgamegeek.com/boardgame/419993",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.6,
+      "bggAverageRating": 8.05,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 18005,
+      "mechanics": [
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Grid Movement",
+        "Hand Management",
+        "Open Drafting",
+        "Race",
+        "Scenario / Mission / Campaign Game",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Markus Lehmann"
+      ],
+      "artists": [
+        "Victor Sales"
+      ],
+      "publishers": [
+        "Humming Games"
+      ],
+      "price": {
+        "amount": 49.0,
+        "currency": "EUR"
+      },
+      "location": "8D315 - Halle 8",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 468181,
+      "name": "More Containers",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/90mBTr7byh16dKQIAGYUvA__original/img/hUF9KmQWe0OdlhR3mJ8spM42V-E=/0x0/filters:format(jpeg)/pic9506830.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/90mBTr7byh16dKQIAGYUvA__small/img/dQZ6BwbjORmvaSsLUwjbZl4H_KI=/fit-in/200x150/filters:strip_icc()/pic9506830.jpg",
+      "link": "https://boardgamegeek.com/boardgame/468181",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": null,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 7.73,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": null,
+      "mechanics": [
+        "Auction / Bidding",
+        "Closed Economy Auction",
+        "Commodity Speculation",
+        "Loans",
+        "Pick-up and Deliver",
+        "Set Collection"
+      ],
+      "designers": [
+        "Kevin Nesbitt"
+      ],
+      "artists": [],
+      "publishers": [
+        "Allplay"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 472460,
+      "name": "Nakasendo",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Q6FFlFO5vg0YJ08PWEkV6g__original/img/rxxAIZzwKqrQynG09T_pMJ353L4=/0x0/filters:format(jpeg)/pic9627137.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Q6FFlFO5vg0YJ08PWEkV6g__small/img/8-oKPCpLKWvwSE7t_RnmnEdzl7U=/fit-in/200x150/filters:strip_icc()/pic9627137.jpg",
+      "link": "https://boardgamegeek.com/boardgame/472460",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "End Game Bonuses",
+        "Network and Route Building",
+        "Open Drafting",
+        "Pattern Building",
+        "Set Collection",
+        "Tile Placement",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Jorge Tabanera Redondo"
+      ],
+      "artists": [
+        "Jorge Tabanera Redondo"
+      ],
+      "publishers": [
+        "Little Rocket Games"
+      ],
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
+      "location": "2-D511",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 475356,
+      "name": "Nascard",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/DGVZynzxDYLr3lKrBhvwiQ__original/img/Mf9zYh8mlqBgOeQzUBl9fwtluoQ=/0x0/filters:format(jpeg)/pic9705462.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/DGVZynzxDYLr3lKrBhvwiQ__small/img/nOcAhNjM7CA92bqFbFRWHmcvV5Q=/fit-in/200x150/filters:strip_icc()/pic9705462.jpg",
+      "link": "https://boardgamegeek.com/boardgame/475356",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playingTime": 45,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": 9.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Race",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Guillem Coll",
+        "Ferran Renalias"
+      ],
+      "artists": [
+        "Carlos Ureta"
+      ],
+      "publishers": [
+        "Devir"
+      ],
+      "price": null,
+      "location": "3D600",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 471157,
+      "name": "Near: Echoes of Civilizations",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/rK0rfNsYU27u5gE7EtFkOQ__original/img/zQ3erKsIAA57vOpmK2l8FhtKtjM=/0x0/filters:format(png)/pic9616813.png",
+      "thumbnail": "https://cf.geekdo-images.com/rK0rfNsYU27u5gE7EtFkOQ__small/img/Gil34LJpln5So8AJM5TWKH9Ph2E=/fit-in/200x150/filters:strip_icc()/pic9616813.png",
+      "link": "https://boardgamegeek.com/boardgame/471157",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": 9.67,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Campaign / Battle Card Driven",
+        "Events",
+        "Grid Movement",
+        "Hand Management",
+        "Hexagon Grid",
+        "Multi-Use Cards",
+        "Set Collection"
+      ],
+      "designers": [
+        "Matthieu Podevin"
+      ],
+      "artists": [
+        "Anthony Wolff"
+      ],
+      "publishers": [
+        "La Bo\u00eete de Jeu"
+      ],
+      "price": {
+        "amount": 55.0,
+        "currency": "EUR"
+      },
+      "location": "Blackrock and La Boite de Jeu booth: 6K400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 438840,
+      "name": "Numberwang",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/36140gW_c5TXT4cfwfeB3Q__original/img/C1fkEbgLg8_eu5ohfRX8OVtLAHo=/0x0/filters:format(jpeg)/pic9623880.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/36140gW_c5TXT4cfwfeB3Q__small/img/lB_6txa-oZPwoTOX7kvNWWmJNDA=/fit-in/200x150/filters:strip_icc()/pic9623880.jpg",
+      "link": "https://boardgamegeek.com/boardgame/438840",
+      "minPlayers": 4,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 7.94,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 15955,
+      "mechanics": [
+        "Bids As Wagers",
+        "Predictive Bid",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Cardner Babakitis"
+      ],
+      "artists": [
+        "Alex Babakitis"
+      ],
+      "publishers": [
+        "Gotcha Gotcha Games",
+        "Odd Candy"
+      ],
+      "price": null,
+      "location": "Golden Meeple (Hall 4 4F510)",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 455881,
+      "name": "N\u00edjar",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/4pLrKeNNGrKWdVzF2A-jUg__original/img/b4Hft6fwuz1WwbOVOker_5JVNfs=/0x0/filters:format(png)/pic9150899.png",
+      "thumbnail": "https://cf.geekdo-images.com/4pLrKeNNGrKWdVzF2A-jUg__small/img/JZR-cr2Py9oXrbwmVjTXKIbVAfQ=/fit-in/200x150/filters:strip_icc()/pic9150899.png",
+      "link": "https://boardgamegeek.com/boardgame/455881",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": 8.81,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Retrieval",
+        "End Game Bonuses",
+        "Hand Management",
+        "Market",
+        "Trading",
+        "Turn Order: Claim Action"
+      ],
+      "designers": [
+        "David Bernal"
+      ],
+      "artists": [
+        "Jorge Tabanera Redondo"
+      ],
+      "publishers": [
+        "Perro Loko Games"
+      ],
+      "price": {
+        "amount": 35.0,
+        "currency": "EUR"
+      },
+      "location": "3U115 - PERRO LOKO GAMES",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 470814,
+      "name": "Oil Rock",
+      "yearPublished": null,
+      "image": "https://cf.geekdo-images.com/VhHNmP34OIs2KKXFJoCRRg__original/img/QLbCcYXCQi2fhQBNOuZoaA7jjOA=/0x0/filters:format(jpeg)/pic9581054.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/VhHNmP34OIs2KKXFJoCRRg__small/img/2NBmE6wz726R-032tGN69ereFcM=/fit-in/200x150/filters:strip_icc()/pic9581054.jpg",
+      "link": "https://boardgamegeek.com/boardgame/470814",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "13+",
+      "weight": null,
+      "bggAverageRating": 8.22,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hexagon Grid",
+        "Rondel",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Marco Piola Caselli"
+      ],
+      "artists": [
+        "Giovanni Calore",
+        "Klemens Franz"
+      ],
+      "publishers": [
+        "Cranio Creations",
+        "Intrafin Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 464928,
+      "name": "Onsen",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/StIbcrti-P2bZzZktMhvlQ__original/img/wH6UTtjJKcGVLQKoDJ0qnKkqL-c=/0x0/filters:format(png)/pic9687883.png",
+      "thumbnail": "https://cf.geekdo-images.com/StIbcrti-P2bZzZktMhvlQ__small/img/UGx_DJvprGZC3ODcANJE_xR4_CY=/fit-in/200x150/filters:strip_icc()/pic9687883.png",
+      "link": "https://boardgamegeek.com/boardgame/464928",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 5.97,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Set Collection"
+      ],
+      "designers": [
+        "Wei Chang",
+        "Phar Lo"
+      ],
+      "artists": [],
+      "publishers": [
+        "Wonderful World Board Games"
+      ],
+      "price": null,
+      "location": "5H400",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 450604,
+      "name": "Paragliders",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/GoWfYqaWiq7C84a5C8qZUQ__original/img/3g3UZhe96xpKvljrZNTPfbafTbk=/0x0/filters:format(png)/pic8995997.png",
+      "thumbnail": "https://cf.geekdo-images.com/GoWfYqaWiq7C84a5C8qZUQ__small/img/HH83jbbjhLFFxtsfoheMaYI0BkA=/fit-in/200x150/filters:strip_icc()/pic8995997.png",
+      "link": "https://boardgamegeek.com/boardgame/450604",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 100,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 8.24,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Grid Movement",
+        "Hexagon Grid",
+        "Modular Board",
+        "Race",
+        "Set Collection",
+        "Simulation",
+        "Three Dimensional Movement"
+      ],
+      "designers": [
+        "Alban Nanty"
+      ],
+      "artists": [
+        "Banbann",
+        "Dahata Studio"
+      ],
+      "publishers": [
+        "Thematic Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 353572,
+      "name": "Pest",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/xaNcZAEJe1NSckE927dSbQ__original/img/iUvCKJjfzNpBhdVHla7X96Svv90=/0x0/filters:format(png)/pic9704096.png",
+      "thumbnail": "https://cf.geekdo-images.com/xaNcZAEJe1NSckE927dSbQ__small/img/2C8TB1hIwZB8mskPN2alRAgIh10=/fit-in/200x150/filters:strip_icc()/pic9704096.png",
+      "link": "https://boardgamegeek.com/boardgame/353572",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 150,
+      "recommendedAge": "13+",
+      "weight": 3.27,
+      "bggAverageRating": 7.3,
+      "bggBayesAverageRating": 5.9,
+      "bggRank": 3899,
+      "mechanics": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Area Movement",
+        "End Game Bonuses",
+        "Events",
+        "Modular Board",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Thomas Nielsen",
+        "Kai Starck"
+      ],
+      "artists": [
+        "Daniel Cunha",
+        "Sara Stanoeska"
+      ],
+      "publishers": [
+        "Archona Games",
+        "Across the Board",
+        "Cranio Creations",
+        "CrowD Games",
+        "Ediciones MasQueOca",
+        "Matagot"
+      ],
+      "price": {
+        "amount": 89.0,
+        "currency": "USD"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 425752,
+      "name": "Pest: Guilds of Thokaia",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/YgBghRVJwgUB03fl6Jxnog__original/img/ZswvI-i6dInJPqIXUuH5ANYOz3g=/0x0/filters:format(png)/pic9704097.png",
+      "thumbnail": "https://cf.geekdo-images.com/YgBghRVJwgUB03fl6Jxnog__small/img/BdHei62IoM-D6i8WaMTCgfR1my4=/fit-in/200x150/filters:strip_icc()/pic9704097.png",
+      "link": "https://boardgamegeek.com/boardgame/425752",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 150,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 8.67,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Area Movement",
+        "End Game Bonuses",
+        "Events",
+        "Modular Board",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Milan Tasevski"
+      ],
+      "artists": [
+        "Daniel Cunha"
+      ],
+      "publishers": [
+        "Archona Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 457410,
+      "name": "Prague Unseen",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/LgY5YfUfSTtcdRYjGcZYEg__original/img/dgnUzjFSXwY2EcJJRxTeqKBSr38=/0x0/filters:format(jpeg)/pic9443257.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/LgY5YfUfSTtcdRYjGcZYEg__small/img/k86TShpWbbQ8patPXlL_6eQZKww=/fit-in/200x150/filters:strip_icc()/pic9443257.jpg",
+      "link": "https://boardgamegeek.com/boardgame/457410",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.25,
+      "bggAverageRating": 8.57,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17658,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Solo / Solitaire Game",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Jind\u0159ich Pavl\u00e1sek",
+        "Michal Peichl",
+        "Petr Vojt\u011bch"
+      ],
+      "artists": [
+        "Jind\u0159ich Pavl\u00e1sek"
+      ],
+      "publishers": [
+        "Albi",
+        "Albi Polska",
+        "Brettspielloesung (BSL Games)"
+      ],
+      "price": {
+        "amount": 52.0,
+        "currency": "EUR"
+      },
+      "location": "4-D400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 458532,
+      "name": "President Maker",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/6cmhHBai3-nVVg5DoXIczQ__original/img/MIhU8_23kNHOze_5ZBLP6yXJjhg=/0x0/filters:format(jpeg)/pic9231196.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/6cmhHBai3-nVVg5DoXIczQ__small/img/mIcx_Q4yV_Z02KB2R-maD1PnFsI=/fit-in/200x150/filters:strip_icc()/pic9231196.jpg",
+      "link": "https://boardgamegeek.com/boardgame/458532",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "recommendedAge": "14+",
+      "weight": 2.0,
+      "bggAverageRating": 7.44,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Race",
+        "Simultaneous Action Selection",
+        "Track Movement"
+      ],
+      "designers": [
+        "Bonghwan Ju"
+      ],
+      "artists": [
+        "Wanjin Gill"
+      ],
+      "publishers": [
+        "Pluto Games"
+      ],
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 35503,
@@ -153,7 +2421,26 @@
       "weight": 1.74,
       "bggAverageRating": 6.79,
       "bggBayesAverageRating": 6.19,
-      "bggRank": 2291,
+      "bggRank": 2290,
+      "mechanics": [
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "End Game Bonuses",
+        "Re-rolling and Locking",
+        "Set Collection"
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Ian O'Toole",
+        "Franz Vohwinkel"
+      ],
+      "publishers": [
+        "Rio Grande Games",
+        "25th Century Games",
+        "ABACUSSPIELE"
+      ],
       "price": null,
       "location": null,
       "availability": "For Sale",
@@ -163,9 +2450,15 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 470241,
@@ -179,9 +2472,22 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": 1.75,
-      "bggAverageRating": 7.1,
+      "bggAverageRating": 7.11,
       "bggBayesAverageRating": 5.53,
-      "bggRank": 16714,
+      "bggRank": 16528,
+      "mechanics": [
+        "Dice Rolling",
+        "Pattern Building"
+      ],
+      "designers": [
+        "Saashi"
+      ],
+      "artists": [
+        "Takako Takarai"
+      ],
+      "publishers": [
+        "Saashi & Saashi"
+      ],
       "price": null,
       "location": null,
       "availability": "For Sale",
@@ -191,9 +2497,124 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 474162,
+      "name": "Rebel Princess: Deluxe Edition \u2013 Marianne",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/wD1DwSAbs2goT3dkNED8yg__original/img/PWcbzKy5IaGlqKHJxfD466qFJQQ=/0x0/filters:format(png)/pic9682672.png",
+      "thumbnail": "https://cf.geekdo-images.com/wD1DwSAbs2goT3dkNED8yg__small/img/dodi7kPPvIjhZ9OuZsoKC361SXA=/fit-in/200x150/filters:strip_icc()/pic9682672.png",
+      "link": "https://boardgamegeek.com/boardgame/474162",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 45,
+      "recommendedAge": null,
+      "weight": null,
+      "bggAverageRating": 8.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [],
+      "artists": [
+        "Alfredo C\u00e1ceres"
+      ],
+      "publishers": [
+        "B\u00e9zier Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 417197,
+      "name": "Rebirth",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/tyv6lPMlyU7YIUztlILQYQ__original/img/KUY_vKJZenJVl0cv05Qkt-Gx-ao=/0x0/filters:format(png)/pic8587890.png",
+      "thumbnail": "https://cf.geekdo-images.com/tyv6lPMlyU7YIUztlILQYQ__small/img/_CXQQbXsewUlde4R22XCRApxZ5k=/fit-in/200x150/filters:strip_icc()/pic8587890.png",
+      "link": "https://boardgamegeek.com/boardgame/417197",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 1.98,
+      "bggAverageRating": 7.76,
+      "bggBayesAverageRating": 7.16,
+      "bggRank": 346,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Contracts",
+        "End Game Bonuses",
+        "Hexagon Grid",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Anna \"Mikado\" Przybylska",
+        "Vesna \"vesner\" Redesiuk"
+      ],
+      "publishers": [
+        "Mighty Boards",
+        "Cranio Creations",
+        "Devir",
+        "DSV Games",
+        "Fabrika Igr",
+        "Frosted Games",
+        "Game Harbor",
+        "Geekach LLC",
+        "Jelly Monster",
+        "Kutugo",
+        "Laguna",
+        "Lucky Duck Games",
+        "Nasza Ksi\u0119garnia",
+        "Rexhry",
+        "Siam Board Games"
+      ],
+      "price": null,
+      "location": "3M300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 111,
@@ -209,7 +2630,26 @@
       "weight": 2.31,
       "bggAverageRating": 6.66,
       "bggBayesAverageRating": 6.0,
-      "bggRank": 3205,
+      "bggRank": 3208,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Enclosure",
+        "Hand Management"
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "William O'Connor",
+        "Ian O'Toole",
+        "Franz Vohwinkel"
+      ],
+      "publishers": [
+        "25th Century Games",
+        "Face2Face Games",
+        "Hasbro",
+        "Parker Brothers"
+      ],
       "price": null,
       "location": null,
       "availability": "For Sale",
@@ -219,9 +2659,66 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 324711,
+      "name": "Schadenfreude",
+      "yearPublished": 2020,
+      "image": "https://cf.geekdo-images.com/hNV_PutDSb6Sw6qIs0TYWg__original/img/fe-jgRBQzul0wXWXEgJAmb6h9ms=/0x0/filters:format(png)/pic9651404.png",
+      "thumbnail": "https://cf.geekdo-images.com/hNV_PutDSb6Sw6qIs0TYWg__small/img/Y4a5qk0sYS_etANKgYGFD7XHPnU=/fit-in/200x150/filters:strip_icc()/pic9651404.png",
+      "link": "https://boardgamegeek.com/boardgame/324711",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": 1.76,
+      "bggAverageRating": 7.64,
+      "bggBayesAverageRating": 6.34,
+      "bggRank": 1767,
+      "mechanics": [
+        "Set Collection",
+        "Trick-taking"
+      ],
+      "designers": [
+        "ctr"
+      ],
+      "artists": [
+        "(Uncredited)",
+        "Weberson Santiago"
+      ],
+      "publishers": [
+        "G\u00e9mklub",
+        "Office Dog",
+        "Rebel Sp. z o.o.",
+        "Studio Turbine"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 465891,
@@ -238,6 +2735,22 @@
       "bggAverageRating": 7.77,
       "bggBayesAverageRating": null,
       "bggRank": null,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Enclosure",
+        "Hand Management",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Trevor Benjamin",
+        "Brett J. Gilbert"
+      ],
+      "artists": [
+        "A. Giroux"
+      ],
+      "publishers": [
+        "Bitewing Games"
+      ],
       "price": {
         "amount": 35.0,
         "currency": "EUR"
@@ -250,9 +2763,374 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 451772,
+      "name": "Shards of Creation",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/wWBsf6pf9v-H7IW-l6VItA__original/img/lw1HGc9u0Fuz5N_eZ7LE8vuppV0=/0x0/filters:format(jpeg)/pic9590834.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/wWBsf6pf9v-H7IW-l6VItA__small/img/AUAxG5IxkaP7k_p82bn_U_owwC0=/fit-in/200x150/filters:strip_icc()/pic9590834.jpg",
+      "link": "https://boardgamegeek.com/boardgame/451772",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "12+",
+      "weight": 2.0,
+      "bggAverageRating": 7.43,
+      "bggBayesAverageRating": 5.56,
+      "bggRank": 12368,
+      "mechanics": [
+        "Set Collection",
+        "Trick-taking",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Hayden Dillard"
+      ],
+      "artists": [
+        "Medusa Dollmaker"
+      ],
+      "publishers": [
+        "Brotherwise Games"
+      ],
+      "price": null,
+      "location": "3F610",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 469382,
+      "name": "Shooter",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/FP2WTUbUTnlD2jnPb1h2Hg__original/img/ZrrQtWJ6ylWFi9lRzdtu2MSy-cg=/0x0/filters:format(jpeg)/pic9575146.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/FP2WTUbUTnlD2jnPb1h2Hg__small/img/hXTxHGpMXZTXTd5kIYYlaC6ik-o=/fit-in/200x150/filters:strip_icc()/pic9575146.jpg",
+      "link": "https://boardgamegeek.com/boardgame/469382",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 8.4,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Real-Time"
+      ],
+      "designers": [
+        "Pedro Berenguel Nieto"
+      ],
+      "artists": [],
+      "publishers": [
+        "Tranjis Games"
+      ],
+      "price": null,
+      "location": "3-U130",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 473225,
+      "name": "Steam & Cheese",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/yq3krPCRDi0Y3IuJ2Qh3cQ__original/img/LcXldf1ydBk3lKkc39snya3Jcqk=/0x0/filters:format(png)/pic9707969.png",
+      "thumbnail": "https://cf.geekdo-images.com/yq3krPCRDi0Y3IuJ2Qh3cQ__small/img/lPWPPFbUfcPgHf8bMSzrEwEyRwo=/fit-in/200x150/filters:strip_icc()/pic9707969.png",
+      "link": "https://boardgamegeek.com/boardgame/473225",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 180,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Contracts",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Set Collection",
+        "Worker Placement",
+        "Worker Placement with Dice Workers"
+      ],
+      "designers": [
+        "Alexander Rein"
+      ],
+      "artists": [
+        "Roman Kucharski"
+      ],
+      "publishers": [
+        "Skellig Games"
+      ],
+      "price": null,
+      "location": "3-C300",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 354,
+      "name": "Stick 'Em",
+      "yearPublished": 1993,
+      "image": "https://cf.geekdo-images.com/y9n_OHYdYjAZ4dEPadZ60w__original/img/zaPFle6nXVIoDXcDf2JXw4pwZ-E=/0x0/filters:format(png)/pic5282281.png",
+      "thumbnail": "https://cf.geekdo-images.com/y9n_OHYdYjAZ4dEPadZ60w__small/img/kxpD8JpCSzFVLr4SbWIXu-lW3Ls=/fit-in/200x150/filters:strip_icc()/pic5282281.png",
+      "link": "https://boardgamegeek.com/boardgame/354",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 1.9,
+      "bggAverageRating": 7.04,
+      "bggBayesAverageRating": 6.47,
+      "bggRank": 1395,
+      "mechanics": [
+        "Hand Management",
+        "Take That",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Klaus Palesch"
+      ],
+      "artists": [
+        "Oliver Freudenreich",
+        "Sylvain Leroy",
+        "Franz Vohwinkel"
+      ],
+      "publishers": [
+        "AMIGO",
+        "N\u00fcrnberger-Spielkarten-Verlag",
+        "Capstone Games",
+        "Grail Games",
+        "Popcorn Games",
+        "\u6570\u5bc4\u30b2\u30fc\u30e0\u30ba (Suki Games)"
+      ],
+      "price": null,
+      "location": "Fremont CA",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 471086,
+      "name": "The Amazing Journey",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/DfC_dfAYlOZDFCF8jD1MHw__original/img/Q_ExsyKWThD5Oh5yYW6HbT2BA7Y=/0x0/filters:format(jpeg)/pic9633696.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/DfC_dfAYlOZDFCF8jD1MHw__small/img/ZDL2p6cl2ub9A98H7kbd1XAaH1Q=/fit-in/200x150/filters:strip_icc()/pic9633696.jpg",
+      "link": "https://boardgamegeek.com/boardgame/471086",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Movement",
+        "Connections",
+        "Dice Rolling",
+        "Once-Per-Game Abilities"
+      ],
+      "designers": [
+        "Hjalmar Hach",
+        "Lorenzo Silva"
+      ],
+      "artists": [
+        "Adam W\u00f3jcicki"
+      ],
+      "publishers": [
+        "Horrible Guild"
+      ],
+      "price": null,
+      "location": "6B115",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 474888,
+      "name": "The Book Women",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/qGNu6iWQLVopKsaNGSC8KA__original/img/dG9I02oMY-894g2RW6REkp9pfgQ=/0x0/filters:format(jpeg)/pic9694582.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/qGNu6iWQLVopKsaNGSC8KA__small/img/gjGbaJf7P1k7ARE35VQDlKy1YPE=/fit-in/200x150/filters:strip_icc()/pic9694582.jpg",
+      "link": "https://boardgamegeek.com/boardgame/474888",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "12+",
+      "weight": 3.0,
+      "bggAverageRating": 7.46,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Contracts",
+        "Dice Rolling",
+        "Pick-up and Deliver",
+        "Point to Point Movement",
+        "Worker Placement with Dice Workers"
+      ],
+      "designers": [
+        "David Bernal",
+        "Eugeni Casta\u00f1o"
+      ],
+      "artists": [
+        "Amelia Sales"
+      ],
+      "publishers": [
+        "Salt & Pepper Games"
+      ],
+      "price": null,
+      "location": "3A400",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 398776,
+      "name": "The Great Harbor",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/DimMf-U0M3YXcJnIv53R7g__original/img/DyQznFZbHToFZoluVZHC8CfoVi0=/0x0/filters:format(jpeg)/pic8668635.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/DimMf-U0M3YXcJnIv53R7g__small/img/_AuDiKTVebJBBD55JM02l2xK2a4=/fit-in/200x150/filters:strip_icc()/pic8668635.jpg",
+      "link": "https://boardgamegeek.com/boardgame/398776",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "13+",
+      "weight": null,
+      "bggAverageRating": 7.5,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Drafting",
+        "Dice Rolling",
+        "Modular Board",
+        "Multi-Use Cards",
+        "Variable Player Powers",
+        "Worker Placement with Dice Workers"
+      ],
+      "designers": [
+        "Matteo De Nardis"
+      ],
+      "artists": [
+        "Daniel Cunha"
+      ],
+      "publishers": [
+        "Archona Games"
+      ],
+      "price": {
+        "amount": 49.0,
+        "currency": "USD"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 463717,
+      "name": "The Happiest Cat In The World",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/QyBhjl-1LxRkk7fm7SfUhg__original/img/RyegrX5zZdWX3Gl5EkLYA9ktTK4=/0x0/filters:format(png)/pic9376007.png",
+      "thumbnail": "https://cf.geekdo-images.com/QyBhjl-1LxRkk7fm7SfUhg__small/img/F1qFIP77CrXggU_HGgI1mRIDruY=/fit-in/200x150/filters:strip_icc()/pic9376007.png",
+      "link": "https://boardgamegeek.com/boardgame/463717",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 6.95,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Movement",
+        "Deck Construction",
+        "End Game Bonuses",
+        "Grid Movement",
+        "Hand Management",
+        "Market",
+        "Pattern Building"
+      ],
+      "designers": [
+        "Olivier Cipi\u00e8re",
+        "Oussama Khelifati"
+      ],
+      "artists": [
+        "Bart\u0142omiej Kordowski"
+      ],
+      "publishers": [
+        "Rebel Studio",
+        "G\u00e9mklub"
+      ],
+      "price": null,
+      "location": "7B111",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 405769,
@@ -269,6 +3147,25 @@
       "bggAverageRating": 7.99,
       "bggBayesAverageRating": null,
       "bggRank": null,
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Income",
+        "Market",
+        "Resource to Move",
+        "Simultaneous Action Selection",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Guime"
+      ],
+      "artists": [
+        "Guime"
+      ],
+      "publishers": [
+        "Ruse.Games",
+        "HABA"
+      ],
       "price": null,
       "location": null,
       "availability": "For Sale",
@@ -278,37 +3175,206 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
-    },
-    {
-      "objectId": 436127,
-      "name": "Three Sisters: Harvest Edition",
-      "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/qoyJAN-ePS6EiR8GOx-Ing__original/img/LgMDXxOoDCrXSEuUHeXx4x_mQfQ=/0x0/filters:format(png)/pic8654327.png",
-      "thumbnail": "https://cf.geekdo-images.com/qoyJAN-ePS6EiR8GOx-Ing__small/img/ydbGCArA8ci2DdqJdCCk73LCYyY=/fit-in/200x150/filters:strip_icc()/pic8654327.png",
-      "link": "https://boardgamegeek.com/boardgame/436127",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 60,
-      "recommendedAge": "12+",
-      "weight": 2.67,
-      "bggAverageRating": 8.27,
-      "bggBayesAverageRating": 5.64,
-      "bggRank": null,
-      "price": null,
-      "location": null,
-      "availability": "For Sale",
-      "interested": [
+        },
         {
-          "user": "JoyfulFicus",
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 449260,
+      "name": "The Old Ones of El Dorado",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1OZXlLYvtzg9nbdEt-3DgQ__original/img/VK-_Avj7PKoTwBuaiy3N02upPrg=/0x0/filters:format(jpeg)/pic8965008.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/1OZXlLYvtzg9nbdEt-3DgQ__small/img/kJVWgbACLHnWDEEpbbx0dn8VdRA=/fit-in/200x150/filters:strip_icc()/pic8965008.jpg",
+      "link": "https://boardgamegeek.com/boardgame/449260",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": 8.33,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Drafting",
+        "Area Majority / Influence",
+        "End Game Bonuses",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Track Movement",
+        "Variable Set-up",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Bruno Liguori Sia"
+      ],
+      "artists": [
+        "Jacqui Davis"
+      ],
+      "publishers": [
+        "Dranda Games"
+      ],
+      "price": {
+        "amount": 45.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 394691,
+      "name": "The Six of VIII",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/V0ARl80XL135jig9hNYCRw__original/img/jw5lMx9bRhUwN0PRgkVSt2gvRFY=/0x0/filters:format(png)/pic9089547.png",
+      "thumbnail": "https://cf.geekdo-images.com/V0ARl80XL135jig9hNYCRw__small/img/MRjBclXxGwm9VrEMscO7ECiAfuk=/fit-in/200x150/filters:strip_icc()/pic9089547.png",
+      "link": "https://boardgamegeek.com/boardgame/394691",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": 7.26,
+      "bggBayesAverageRating": 5.68,
+      "bggRank": 6761,
+      "mechanics": [
+        "Team-Based Game",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Carol LaGrow"
+      ],
+      "artists": [
+        "Faith Schaffer"
+      ],
+      "publishers": [
+        "New Mill Industries",
+        "25th Century Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 462479,
+      "name": "Timespan",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/YrHXIu4shaLJ5zqQtHDc9w__original/img/l5vRstmSyuqv3-jnj_kGtEhAwdg=/0x0/filters:format(png)/pic9389424.png",
+      "thumbnail": "https://cf.geekdo-images.com/YrHXIu4shaLJ5zqQtHDc9w__small/img/oTfwOhvFJPqNsOwWs4obdw7Hbd4=/fit-in/200x150/filters:strip_icc()/pic9389424.png",
+      "link": "https://boardgamegeek.com/boardgame/462479",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 90,
+      "recommendedAge": "12+",
+      "weight": 2.0,
+      "bggAverageRating": 8.38,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Tech Trees / Tech Tracks",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Kenneth Minde",
+        "Kristian Amundsen \u00d8stby"
+      ],
+      "artists": [
+        "Nilanjan Malakar"
+      ],
+      "publishers": [
+        "Alion \u2013 by Dr \u00d8"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 458320,
+      "name": "Tinctura",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/lW6lKVR4BvTkUf5IbeFISw__original/img/U9iXy3jtGD3Z8xmxFMndc4oj6uA=/0x0/filters:format(jpeg)/pic9222123.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/lW6lKVR4BvTkUf5IbeFISw__small/img/kuqgwcuL67txWgAShOaDwgXQ3uk=/fit-in/200x150/filters:strip_icc()/pic9222123.jpg",
+      "link": "https://boardgamegeek.com/boardgame/458320",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "10+",
+      "weight": 3.0,
+      "bggAverageRating": 7.06,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Contracts",
+        "Simultaneous Action Selection",
+        "Turn Order: Stat-Based",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Franziska St\u00fcrzenhofecker",
+        "J\u00fcrgen Then"
+      ],
+      "artists": [
+        "Roman Kucharski",
+        "Christian Schaarschmidt"
+      ],
+      "publishers": [
+        "Skellig Games"
+      ],
+      "price": {
+        "amount": 55.0,
+        "currency": "EUR"
+      },
+      "location": "3-C300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 442095,
@@ -325,6 +3391,20 @@
       "bggAverageRating": 7.27,
       "bggBayesAverageRating": 5.53,
       "bggRank": 18123,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Trick-taking",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Suzuki Takayuki (\u9234\u6728 \u30bf\u30ab\u30e6\u30ad)"
+      ],
+      "artists": [
+        "Katarzyna Ko\u0142ody\u0144ska"
+      ],
+      "publishers": [
+        "Locomuse studio"
+      ],
       "price": {
         "amount": 13.0,
         "currency": "EUR"
@@ -337,9 +3417,145 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 464355,
+      "name": "Toshi: die bl\u00fchende Stadt",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/b5L7ySFUwLw4v7_C8ZBxjw__original/img/83cEGiwJg8enKEyfK72eBqub2wI=/0x0/filters:format(png)/pic9529795.png",
+      "thumbnail": "https://cf.geekdo-images.com/b5L7ySFUwLw4v7_C8ZBxjw__small/img/9B3RIFfuzWXqXAp_a66W_-0WzRw=/fit-in/200x150/filters:strip_icc()/pic9529795.png",
+      "link": "https://boardgamegeek.com/boardgame/464355",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Simultaneous Action Selection",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Friedemann Friese"
+      ],
+      "artists": [],
+      "publishers": [
+        "ArsEdition"
+      ],
+      "price": null,
+      "location": "6A200",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 420932,
+      "name": "Trick Stakes",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/BZXyKygnOo3LqOW4PH446A__original/img/BGry_rcWsFc5mwcbNElyBndkZso=/0x0/filters:format(png)/pic9265646.png",
+      "thumbnail": "https://cf.geekdo-images.com/BZXyKygnOo3LqOW4PH446A__small/img/HOvXiPsl-cE3FFbCuKHx8gEbn_M=/fit-in/200x150/filters:strip_icc()/pic9265646.png",
+      "link": "https://boardgamegeek.com/boardgame/420932",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 7.65,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 18109,
+      "mechanics": [
+        "Betting and Bluffing",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Susumu Kawasaki",
+        "\u5834\u54b2\u5de5(Basaki Takumi)"
+      ],
+      "artists": [
+        "Wanjin Gill"
+      ],
+      "publishers": [
+        "Kawasaki Factory",
+        "Musoka Studio"
+      ],
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "4F510",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 473436,
+      "name": "Tricky Time Crisis: Call of Heroes",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/qR52sQuM0-t7726C9jHkRg__original/img/i_QZAhCbnSfxD1redK7GEA5oZy0=/0x0/filters:format(png)/pic9653075.png",
+      "thumbnail": "https://cf.geekdo-images.com/qR52sQuM0-t7726C9jHkRg__small/img/gu99IHo6WNjINqxM7NpXzVGRxbU=/fit-in/200x150/filters:strip_icc()/pic9653075.png",
+      "link": "https://boardgamegeek.com/boardgame/473436",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 60,
+      "recommendedAge": "9+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Alliances",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Jon Barron"
+      ],
+      "artists": [
+        "\u5225\u5e9c\u3055\u3044 (Sai Beppu)"
+      ],
+      "publishers": [
+        "Baron Jon Games",
+        "Musoka Studio"
+      ],
+      "price": {
+        "amount": 7.0,
+        "currency": "EUR"
+      },
+      "location": "4F510",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 436751,
@@ -353,9 +3569,30 @@
       "playingTime": 40,
       "recommendedAge": "8+",
       "weight": 2.0,
-      "bggAverageRating": 7.35,
+      "bggAverageRating": 7.34,
       "bggBayesAverageRating": 5.78,
-      "bggRank": 5070,
+      "bggRank": 5025,
+      "mechanics": [
+        "Chaining",
+        "Connections",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Trevor Benjamin",
+        "Brett J. Gilbert"
+      ],
+      "artists": [
+        "Paulina Victoria"
+      ],
+      "publishers": [
+        "Fractal Juegos",
+        "CrowD Games",
+        "Frosted Games",
+        "Grand Gamers Guild",
+        "Old Dawg",
+        "Red Square Games",
+        "Rocket Lemon Games"
+      ],
       "price": {
         "amount": 30.0,
         "currency": "EUR"
@@ -368,9 +3605,115 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 461381,
+      "name": "Vroom",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/0uT5prEhWEGvy1pc2FZJnw__original/img/8rH0dAMu9Kqe87cKhJgI7rKTzZo=/0x0/filters:format(jpeg)/pic9309968.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/0uT5prEhWEGvy1pc2FZJnw__small/img/mhck3kQU5dk7UKmKC22KBJRcDIc=/fit-in/200x150/filters:strip_icc()/pic9309968.jpg",
+      "link": "https://boardgamegeek.com/boardgame/461381",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 15,
+      "recommendedAge": "8+",
+      "weight": 1.33,
+      "bggAverageRating": 7.08,
+      "bggBayesAverageRating": 5.57,
+      "bggRank": 11052,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Events",
+        "Induction",
+        "Pattern Recognition",
+        "Relative Movement"
+      ],
+      "designers": [
+        "Antonin Boccara"
+      ],
+      "artists": [
+        "Am\u00e9lie Guinet"
+      ],
+      "publishers": [
+        "Big Moustache Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 462932,
+      "name": "Wildscape",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/SiMv9VoFJkV1eU2jpfhkAw__original/img/jwIBUdlP1nE2xUdW7wt-pZMXiMQ=/0x0/filters:format(jpeg)/pic9436861.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/SiMv9VoFJkV1eU2jpfhkAw__small/img/ICcl3FaXUfDiERGRflcR3ocgPGg=/fit-in/200x150/filters:strip_icc()/pic9436861.jpg",
+      "link": "https://boardgamegeek.com/boardgame/462932",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": null,
+      "weight": 3.4,
+      "bggAverageRating": 8.28,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Points",
+        "End Game Bonuses",
+        "Hand Management",
+        "Increase Value of Unchosen Resources",
+        "Mancala",
+        "Neighbor Scope",
+        "Rondel",
+        "Solo / Solitaire Game",
+        "Tile Placement",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Sebastian Bleasdale"
+      ],
+      "artists": [
+        "Miguel Coimbra"
+      ],
+      "publishers": [
+        "Karma Games"
+      ],
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 459462,
@@ -384,9 +3727,28 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 8.25,
+      "bggAverageRating": 7.83,
       "bggBayesAverageRating": null,
       "bggRank": null,
+      "mechanics": [
+        "End Game Bonuses",
+        "Modular Board",
+        "Real-Time",
+        "Spelling",
+        "Square Grid",
+        "Turn Order: Stat-Based",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Simone Luciani",
+        "Andrea Mainini"
+      ],
+      "artists": [
+        "Gianfranco Giordano"
+      ],
+      "publishers": [
+        "Fractal Juegos"
+      ],
       "price": {
         "amount": 25.0,
         "currency": "EUR"
@@ -399,9 +3761,250 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 403150,
+      "name": "World Order",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/sE0K_85H5PmIBa2RWvmTwA__original/img/IEDwR8EstLVq3-qYBuAf7ZP2vCI=/0x0/filters:format(jpeg)/pic9162146.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/sE0K_85H5PmIBa2RWvmTwA__small/img/hAqsFOmwfQGE1eoDgH0qePwigvo=/fit-in/200x150/filters:strip_icc()/pic9162146.jpg",
+      "link": "https://boardgamegeek.com/boardgame/403150",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 180,
+      "recommendedAge": "14+",
+      "weight": 3.77,
+      "bggAverageRating": 8.13,
+      "bggBayesAverageRating": 6.49,
+      "bggRank": 1368,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Vangelis Bagiartakis",
+        "Varnavas Timotheou"
+      ],
+      "artists": [
+        "Gong Studios",
+        "Angga Satriohadi",
+        "Mi\u0142osz Wojtasik"
+      ],
+      "publishers": [
+        "Hegemonic Project Games",
+        "Bumble3ee Interactive",
+        "G\u00e9mklub",
+        "Giant Roc",
+        "HIT Games",
+        "Lavka Games",
+        "Portal Games",
+        "Super Meeple"
+      ],
+      "price": {
+        "amount": 65.0,
+        "currency": "EUR"
+      },
+      "location": "3.Q500",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 463353,
+      "name": "World Order: Diplomacy & Dominance",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/D5SIB-FRpDcF6QQabyakPw__original/img/Sl21D1wBlTAH232vhom8jvgLI3E=/0x0/filters:format(png)/pic9504938.png",
+      "thumbnail": "https://cf.geekdo-images.com/D5SIB-FRpDcF6QQabyakPw__small/img/y6tmSx7NMPY-cBXLdmywrhnHl9Q=/fit-in/200x150/filters:strip_icc()/pic9504938.png",
+      "link": "https://boardgamegeek.com/boardgame/463353",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 180,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": 8.52,
+      "bggBayesAverageRating": 5.63,
+      "bggRank": null,
+      "mechanics": [
+        "Solo / Solitaire Game"
+      ],
+      "designers": [
+        "Vangelis Bagiartakis",
+        "Dimitris Siakampenis",
+        "Varnavas Timotheou"
+      ],
+      "artists": [
+        "Gong Studios",
+        "Mi\u0142osz Wojtasik"
+      ],
+      "publishers": [
+        "Giant Roc",
+        "Hegemonic Project Games",
+        "HIT Games",
+        "Portal Games",
+        "Super Meeple"
+      ],
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 432708,
+      "name": "World Order: World in Turmoil",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/amElV1ReQhv9kkzMMehT7Q__original/img/5ChirKACLCnuv4vXj1ezJEbYYkY=/0x0/filters:format(png)/pic8853815.png",
+      "thumbnail": "https://cf.geekdo-images.com/amElV1ReQhv9kkzMMehT7Q__small/img/UXRTEWE80SWKM4BwU5t4SHPC4nk=/fit-in/200x150/filters:strip_icc()/pic8853815.png",
+      "link": "https://boardgamegeek.com/boardgame/432708",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 180,
+      "recommendedAge": "14+",
+      "weight": 4.0,
+      "bggAverageRating": 8.44,
+      "bggBayesAverageRating": 5.6,
+      "bggRank": null,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Vangelis Bagiartakis",
+        "Dimitris Siakampenis",
+        "Varnavas Timotheou"
+      ],
+      "artists": [
+        "Mi\u0142osz Wojtasik"
+      ],
+      "publishers": [
+        "Hegemonic Project Games",
+        "Bumble3ee Interactive",
+        "G\u00e9mklub",
+        "Giant Roc",
+        "HIT Games",
+        "Lavka Games",
+        "Portal Games",
+        "Super Meeple"
+      ],
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
+    },
+    {
+      "objectId": 452684,
+      "name": "Yami",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/kXQ1Wc0XeFGTKHDz6gRTNA__original/img/XHH-uEdQZsr4r7iPD8IjvQLjbe4=/0x0/filters:format(png)/pic9084601.png",
+      "thumbnail": "https://cf.geekdo-images.com/kXQ1Wc0XeFGTKHDz6gRTNA__small/img/_NKz7_tQbQvztQvEltBG4OpMnao=/fit-in/200x150/filters:strip_icc()/pic9084601.png",
+      "link": "https://boardgamegeek.com/boardgame/452684",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": 2.29,
+      "bggAverageRating": 7.45,
+      "bggBayesAverageRating": 5.56,
+      "bggRank": 12729,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deduction",
+        "Real-Time",
+        "Scenario / Mission / Campaign Game",
+        "Tile Placement",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Hiroki Ohba",
+        "Anthony Perone",
+        "Ryoji Suzuki",
+        "Hiraku Tezuka"
+      ],
+      "artists": [
+        "\u305f\u304b\u307f\u307e\u3053\u3068 (Makoto Takami)"
+      ],
+      "publishers": [
+        "Musoka Studio",
+        "CrowD Games"
+      ],
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
+      "location": "4F510",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     },
     {
       "objectId": 456860,
@@ -417,7 +4020,21 @@
       "weight": null,
       "bggAverageRating": 7.44,
       "bggBayesAverageRating": 5.54,
-      "bggRank": 14155,
+      "bggRank": 14157,
+      "mechanics": [
+        "Auction / Bidding",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Huy Pham"
+      ],
+      "artists": [
+        "Maria Kato"
+      ],
+      "publishers": [
+        "Kumagera Seisaku G.K.",
+        "Mighty Boards"
+      ],
       "price": null,
       "location": "3M300",
       "availability": "For Sale",
@@ -427,9 +4044,15 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-16T21:15:13.778687+00:00"
+      "thingFetchedAt": "2026-08-17T12:44:24.757367+00:00"
     }
   ]
 }
