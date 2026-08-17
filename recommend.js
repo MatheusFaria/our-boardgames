@@ -13,6 +13,14 @@ const SORT_OPTIONS = [
   { key: "name", label: "Name" },
 ];
 
+const SOURCE_OPTIONS = [
+  { key: "all", label: "All" },
+  { key: "preview", label: "Preview" },
+  { key: "auction", label: "Auction" },
+];
+
+const CURRENCY_SYMBOLS = { EUR: "€", USD: "$", GBP: "£" };
+
 const PAGE_SIZE_OPTIONS = [
   { value: 12, label: "12" },
   { value: 24, label: "24" },
@@ -26,12 +34,14 @@ const MECHANIC_OVERALL = "__overall__";
 const state = {
   collection: null,
   essen: null,
+  auction: null,
   users: [],
   user: null,
   category: "designers",
   selectedMechanic: MECHANIC_OVERALL,
   searchQuery: "",
   sortKey: "match",
+  sourceFilter: "all",
   page: 1,
   pageSize: 24,
 };
@@ -96,6 +106,13 @@ function formatPlayerCount(item) {
   const min = item.minPlayers;
   const max = item.maxPlayers;
   return min === max ? `${min}` : `${min}-${max}`;
+}
+
+function formatOfferPrice(offer) {
+  const source = offer?.startingBid?.amount != null ? offer.startingBid : offer?.bin;
+  if (!source || source.amount == null) return "—";
+  const symbol = CURRENCY_SYMBOLS[source.currency] || "";
+  return `${symbol}${source.amount}`;
 }
 
 function formatGeneratedAt(iso) {
@@ -209,6 +226,40 @@ function getOwnedMechanicCounts(user) {
 // Matching + ranking
 // ---------------------------------------------------------------------------
 
+function isEmptyValue(value) {
+  if (value === null || value === undefined || value === "") return true;
+  if (Array.isArray(value)) return value.length === 0;
+  return false;
+}
+
+// Unified pool of Essen preview + auction candidates, deduped by objectId.
+function buildCandidates() {
+  const candidates = new Map();
+  for (const item of state.essen?.items || []) {
+    candidates.set(item.objectId, { item, inPreview: true, inAuction: false, offers: null });
+  }
+  for (const auctionItem of state.auction?.items || []) {
+    const existing = candidates.get(auctionItem.objectId);
+    if (existing) {
+      existing.inAuction = true;
+      existing.offers = auctionItem.offers || [];
+      for (const category of CATEGORIES) {
+        if (isEmptyValue(existing.item[category.key]) && !isEmptyValue(auctionItem[category.key])) {
+          existing.item[category.key] = auctionItem[category.key];
+        }
+      }
+    } else {
+      candidates.set(auctionItem.objectId, {
+        item: auctionItem,
+        inPreview: false,
+        inAuction: true,
+        offers: auctionItem.offers || [],
+      });
+    }
+  }
+  return candidates;
+}
+
 function computeMatches() {
   const user = state.user;
   const categoryKey = state.category;
@@ -220,13 +271,24 @@ function computeMatches() {
   const targetValues = specific ? [state.selectedMechanic] : [...valueMap.keys()];
   if (!targetValues.length) return [];
 
+  const candidates = buildCandidates();
   const results = [];
-  for (const item of state.essen.items || []) {
+  for (const candidate of candidates.values()) {
+    if (state.sourceFilter === "preview" && !candidate.inPreview) continue;
+    if (state.sourceFilter === "auction" && !candidate.inAuction) continue;
+    const item = candidate.item;
     if (ownedIds.has(item.objectId)) continue;
     const itemValues = item[categoryKey] || [];
     const overlap = targetValues.filter((value) => itemValues.includes(value));
     if (!overlap.length) continue;
-    results.push({ item, overlap, valueMap });
+    results.push({
+      item,
+      overlap,
+      valueMap,
+      inPreview: candidate.inPreview,
+      inAuction: candidate.inAuction,
+      offers: candidate.offers,
+    });
   }
   return results;
 }
@@ -307,6 +369,24 @@ function renderCard(match) {
 
   const yearLabel = item.yearPublished ? ` (${escapeHtml(item.yearPublished)})` : "";
 
+  const badges = [];
+  if (match.inPreview) badges.push('<span class="source-badge source-badge--preview">Preview</span>');
+  if (match.inAuction) badges.push('<span class="source-badge source-badge--auction">Auction</span>');
+  const badgeHtml = badges.length ? `<div class="source-badges">${badges.join("")}</div>` : "";
+
+  let offerLine = "";
+  if (match.inAuction && match.offers && match.offers.length) {
+    const offer = match.offers[0];
+    const label = `From ${formatOfferPrice(offer)} · ${match.offers.length} offer${
+      match.offers.length === 1 ? "" : "s"
+    }`;
+    offerLine = offer.listingUrl
+      ? `<a class="match-offer" href="${escapeHtml(
+          offer.listingUrl
+        )}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>`
+      : `<span class="match-offer">${escapeHtml(label)}</span>`;
+  }
+
   const lines = [];
   if (item.minPlayers != null && item.maxPlayers != null) {
     lines.push(
@@ -347,11 +427,13 @@ function renderCard(match) {
           <div>
             <h3 class="game-name">${renderLink(item.name, item.link)}${yearLabel}</h3>
             <div class="game-meta">#${escapeHtml(formatValue(item.objectId))}</div>
+            ${badgeHtml}
           </div>
         </div>
         <div class="detail-list">
           ${lines.join("")}
         </div>
+        ${offerLine}
         <div class="card-section">
           ${renderMatchBadges(match)}
         </div>
@@ -365,11 +447,11 @@ function renderEmptyState(ownedValueCount) {
   if (!ownedValueCount) {
     return `<div class="empty-state">No matches — ${escapeHtml(
       state.user
-    )} owns no ${escapeHtml(label)}s that appear in the Essen preview.</div>`;
+    )} owns no ${escapeHtml(label)}s that appear in the Essen preview or auction.</div>`;
   }
   return `<div class="empty-state">No matches — ${escapeHtml(
     state.user
-  )}'s owned ${escapeHtml(label)}s don't appear in the Essen preview.</div>`;
+  )}'s owned ${escapeHtml(label)}s don't appear in the Essen preview or auction.</div>`;
 }
 
 function renderContent() {
@@ -556,6 +638,24 @@ function renderSortOptions() {
   }
 }
 
+function renderSourceOptions() {
+  const container = document.getElementById("source-options");
+  container.innerHTML = "";
+  for (const option of SOURCE_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.sourceFilter === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.sourceFilter = option.key;
+      state.page = 1;
+      renderSourceOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
 function renderPageSizeOptions() {
   const container = document.getElementById("page-size-options");
   container.innerHTML = "";
@@ -652,14 +752,18 @@ async function loadSnapshots() {
   const statusPill = document.getElementById("status-pill");
   const content = document.getElementById("content");
   try {
-    const [collectionResponse, essenResponse] = await Promise.all([
+    const [collectionResponse, essenResponse, auctionResult] = await Promise.all([
       fetch("./data/collection.json", { cache: "no-store" }),
       fetch("./data/essen26.json", { cache: "no-store" }),
+      fetch("./data/essen26_auction.json", { cache: "no-store" })
+        .then((res) => (res.ok ? res.json() : null))
+        .catch(() => null),
     ]);
     if (!collectionResponse.ok) throw new Error(`HTTP ${collectionResponse.status}`);
     if (!essenResponse.ok) throw new Error(`HTTP ${essenResponse.status}`);
     state.collection = await collectionResponse.json();
     state.essen = await essenResponse.json();
+    state.auction = auctionResult && Array.isArray(auctionResult.items) ? auctionResult : { items: [] };
   } catch (error) {
     statusPill.className = "status error";
     statusPill.textContent = "Could not load snapshots";
@@ -682,6 +786,7 @@ async function loadSnapshots() {
   syncMechanicVisibility();
   renderMechanicOptions();
   renderSortOptions();
+  renderSourceOptions();
   renderPageSizeOptions();
   renderContent();
 }

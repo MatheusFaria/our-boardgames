@@ -10,6 +10,8 @@
         --muted: #52606d;
         --accent: #b85c38;
         --accent-soft: rgba(184, 92, 56, 0.12);
+        --auction-accent: #b8860b;
+        --auction-accent-soft: rgba(184, 134, 11, 0.14);
         --success: #1f7a5a;
         --status-success-bg: rgba(31, 122, 90, 0.12);
         --shadow: 0 18px 52px rgba(31, 41, 51, 0.12);
@@ -38,6 +40,8 @@
           --muted: #8c99a6;
           --accent: #d4785a;
           --accent-soft: rgba(212, 120, 90, 0.18);
+          --auction-accent: #e0a941;
+          --auction-accent-soft: rgba(224, 169, 65, 0.18);
           --success: #36b07e;
           --status-success-bg: rgba(54, 176, 126, 0.15);
           --shadow: 0 18px 52px rgba(0, 0, 0, 0.5);
@@ -65,6 +69,8 @@
         --muted: #8c99a6;
         --accent: #d4785a;
         --accent-soft: rgba(212, 120, 90, 0.18);
+        --auction-accent: #e0a941;
+        --auction-accent-soft: rgba(224, 169, 65, 0.18);
         --success: #36b07e;
         --status-success-bg: rgba(54, 176, 126, 0.15);
         --shadow: 0 18px 52px rgba(0, 0, 0, 0.5);
@@ -1101,4 +1107,45 @@
       .match-more {
         font-size: 0.82rem;
         font-weight: 700;
+      }
+
+      .source-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 6px;
+      }
+
+      .source-badge {
+        display: inline-block;
+        padding: 3px 8px;
+        border-radius: 999px;
+        font-size: 0.62rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .source-badge--preview {
+        background: var(--pill-bg);
+        color: var(--muted);
+      }
+
+      .source-badge--auction {
+        background: var(--auction-accent-soft);
+        color: var(--auction-accent);
+      }
+
+      .match-offer {
+        display: inline-block;
+        margin-top: 12px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--auction-accent);
+        text-decoration: none;
+      }
+
+      .match-offer:hover {
+        text-decoration: underline;
       }
