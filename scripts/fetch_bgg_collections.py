@@ -270,6 +270,10 @@ def _parse_suggested_age(poll_el: ET.Element) -> str | None:
     return f"{best_age}+" if best_age else None
 
 
+def _parse_link_values(item_el: ET.Element, link_type: str) -> list[str]:
+    return [el.get("value") for el in item_el.findall(f"./link[@type='{link_type}']") if el.get("value")]
+
+
 def parse_thing_extra(item_el: ET.Element) -> dict:
     weight = None
     stats_el = item_el.find("statistics")
@@ -290,11 +294,10 @@ def parse_thing_extra(item_el: ET.Element) -> dict:
         elif name == "suggested_playerage":
             rec_age = _parse_suggested_age(poll_el)
 
-    mechanics = [
-        link_el.get("value")
-        for link_el in item_el.findall("link")
-        if link_el.get("type") == "boardgamemechanic" and link_el.get("value")
-    ]
+    mechanics = _parse_link_values(item_el, "boardgamemechanic")
+    designers = _parse_link_values(item_el, "boardgamedesigner")
+    artists = _parse_link_values(item_el, "boardgameartist")
+    publishers = _parse_link_values(item_el, "boardgamepublisher")
 
     expansion_of = [
         int(eid)
@@ -312,11 +315,14 @@ def parse_thing_extra(item_el: ET.Element) -> dict:
         "recommendedPlayers": rec_players,
         "recommendedAge": rec_age,
         "mechanics": mechanics or None,
+        "designers": designers or None,
+        "artists": artists or None,
+        "publishers": publishers or None,
         "expansionOf": expansion_of or None,
     }
 
 
-def fetch_thing_extras(object_ids: list[int]) -> dict[int, dict]:
+def fetch_thing_extras(object_ids: list[int], batch_delay: float = THING_BATCH_DELAY) -> dict[int, dict]:
     extras: dict[int, dict] = {}
     total = len(object_ids)
     for i in range(0, total, THING_BATCH_SIZE):
@@ -334,7 +340,7 @@ def fetch_thing_extras(object_ids: list[int]) -> dict[int, dict]:
             if oid is not None:
                 extras[oid] = parse_thing_extra(item_el)
         if i + THING_BATCH_SIZE < total:
-            time.sleep(THING_BATCH_DELAY)
+            time.sleep(batch_delay)
     return extras
 
 
@@ -352,6 +358,11 @@ def _is_fresh(item: dict, cache_days: int) -> bool:
         return (datetime.now(timezone.utc) - fetched).days < cache_days
     except (ValueError, TypeError):
         return False
+
+
+def _has_credits(item: dict) -> bool:
+    """Return True if the item already has designers/artists/publishers (empty list counts)."""
+    return "designers" in item and "artists" in item and "publishers" in item
 
 
 def load_existing_items(output_path: Path) -> dict[int, dict]:
@@ -498,6 +509,8 @@ def build_snapshot(
     existing_items: dict[int, dict] | None = None,
     cache_days: int = THING_CACHE_DAYS,
     merge: bool = False,
+    max_fetch: int | None = None,
+    thing_batch_delay: float = THING_BATCH_DELAY,
 ) -> dict:
     if existing_items is None:
         existing_items = {}
@@ -524,13 +537,13 @@ def build_snapshot(
                 _merge_into(existing, item, username)
 
     # 3. Split games into fresh (cached) and stale (need /thing fetch)
-    thing_fields = ("weight", "languageDependence", "bestPlayers", "recommendedPlayers", "recommendedAge", "mechanics", "expansionOf")
+    thing_fields = ("weight", "languageDependence", "bestPlayers", "recommendedPlayers", "recommendedAge", "mechanics", "designers", "artists", "publishers", "expansionOf")
     stale_ids: list[int] = []
     fresh_count = 0
 
     for oid, item in merged.items():
         cached = existing_items.get(oid)
-        if cached and _is_fresh(cached, cache_days):
+        if cached and _is_fresh(cached, cache_days) and _has_credits(cached):
             for field in (*thing_fields, "thingFetchedAt"):
                 if field in cached:
                     item[field] = cached[field]
@@ -540,12 +553,29 @@ def build_snapshot(
 
     print(f"\n=== Fetching game details: {len(stale_ids)} stale, {fresh_count} cached (threshold: {cache_days}d) ===")
 
-    # 4. Batch-fetch /thing only for stale games
-    if stale_ids:
+    # 3b. Cap how many stale games are fetched this run; defer the rest (resumable backfill)
+    if max_fetch is not None and len(stale_ids) > max_fetch:
+        to_fetch, deferred_ids = stale_ids[:max_fetch], stale_ids[max_fetch:]
+    else:
+        to_fetch, deferred_ids = stale_ids, []
+
+    for oid in deferred_ids:
+        cached = existing_items.get(oid)
+        if cached:
+            item = merged[oid]
+            for field in (*thing_fields, "thingFetchedAt"):
+                if field in cached:
+                    item[field] = cached[field]
+
+    if deferred_ids:
+        print(f"  {len(to_fetch)} fetched this run, {len(deferred_ids)} deferred to a later run")
+
+    # 4. Batch-fetch /thing only for stale games (up to max_fetch)
+    if to_fetch:
         now = datetime.now(timezone.utc).isoformat()
-        extras = fetch_thing_extras(stale_ids)
+        extras = fetch_thing_extras(to_fetch, batch_delay=thing_batch_delay)
         fetched_count = skipped_count = 0
-        for oid in stale_ids:
+        for oid in to_fetch:
             item = merged[oid]
             extra = extras.get(oid)
             if extra is not None:
@@ -565,7 +595,7 @@ def build_snapshot(
         if skipped_count:
             mode = "restored from cache" if merge else "left empty"
             print(f"  {fetched_count} fetched, {skipped_count} skipped ({mode})")
-    else:
+    elif not stale_ids:
         print("  All games are fresh — skipping /thing requests.")
 
     # 5. Sort and clean up
@@ -646,6 +676,20 @@ def build_parser() -> argparse.ArgumentParser:
         metavar="ID",
         help="Fetch specific games by BGG object ID, bypassing the collection API (for testing).",
     )
+    parser.add_argument(
+        "--max-fetch",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Cap the number of stale games fetched via /thing this run; the rest are deferred to a later run.",
+    )
+    parser.add_argument(
+        "--thing-batch-delay",
+        type=float,
+        default=THING_BATCH_DELAY,
+        metavar="SECONDS",
+        help=f"Delay between /thing batch requests (default: {THING_BATCH_DELAY}).",
+    )
     return parser
 
 
@@ -693,7 +737,7 @@ def main() -> int:
         print(f"Discovered usernames from {collections_dir}: {', '.join(usernames)}\n")
 
     cache_days = 0 if args.no_cache else args.cache_days
-    existing_items = load_existing_items(output_path) if (cache_days > 0 or args.merge) else {}
+    existing_items = load_existing_items(output_path) if (cache_days > 0 or args.merge or args.max_fetch is not None) else {}
     if existing_items:
         print(f"Loaded {len(existing_items)} cached games from {output_path}\n")
 
@@ -701,6 +745,8 @@ def main() -> int:
         usernames,
         existing_items=existing_items,
         cache_days=cache_days,
+        max_fetch=args.max_fetch,
+        thing_batch_delay=args.thing_batch_delay,
         merge=args.merge,
     )
 
