@@ -1,0 +1,692 @@
+const FUZZY_THRESHOLD = 0.5;
+
+const CATEGORIES = [
+  { key: "designers", label: "Designer", noun: "designer" },
+  { key: "mechanics", label: "Mechanics", noun: "mechanic" },
+  { key: "publishers", label: "Publisher", noun: "publisher" },
+  { key: "artists", label: "Artist", noun: "artist" },
+];
+
+const SORT_OPTIONS = [
+  { key: "match", label: "Best match" },
+  { key: "bggRank", label: "BGG rank" },
+  { key: "name", label: "Name" },
+];
+
+const PAGE_SIZE_OPTIONS = [
+  { value: 12, label: "12" },
+  { value: 24, label: "24" },
+  { value: 48, label: "48" },
+  { value: 96, label: "96" },
+  { value: Infinity, label: "All" },
+];
+
+const MECHANIC_OVERALL = "__overall__";
+
+const state = {
+  collection: null,
+  essen: null,
+  users: [],
+  user: null,
+  category: "designers",
+  selectedMechanic: MECHANIC_OVERALL,
+  searchQuery: "",
+  sortKey: "match",
+  page: 1,
+  pageSize: 24,
+};
+
+// ---------------------------------------------------------------------------
+// Formatting helpers
+// ---------------------------------------------------------------------------
+
+function formatValue(value, fallback = "—") {
+  if (value === null || value === undefined || value === "") {
+    return fallback;
+  }
+  return String(value);
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function renderLink(name, link) {
+  if (!link) {
+    return escapeHtml(formatValue(name));
+  }
+  return `<a href="${escapeHtml(link)}" target="_blank" rel="noreferrer">${escapeHtml(
+    formatValue(name)
+  )}</a>`;
+}
+
+function formatWeight(value) {
+  return Number(value).toFixed(2);
+}
+
+function renderWeightValue(value) {
+  const numeric = Math.max(0, Math.min(5, Number(value)));
+  const hue = 140 - (numeric / 5) * 140;
+  const color = `hsl(${hue} 70% 38%)`;
+  return `<span class="weight-value" style="color:${color}">${escapeHtml(
+    formatWeight(numeric)
+  )}</span><span class="weight-max">/5.00</span>`;
+}
+
+function getRankBadge(value) {
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric) || numeric <= 0) return "";
+  if (numeric === 1) return " 🏆";
+  if (numeric <= 100) return " 🥇";
+  if (numeric <= 500) return " 🥈";
+  if (numeric <= 1000) return " 🥉";
+  return "";
+}
+
+function renderBggRank(value) {
+  return `${escapeHtml(formatValue(value))}${getRankBadge(value)}`;
+}
+
+function formatPlayerCount(item) {
+  const min = item.minPlayers;
+  const max = item.maxPlayers;
+  return min === max ? `${min}` : `${min}-${max}`;
+}
+
+function formatGeneratedAt(iso) {
+  if (!iso) return "—";
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "—";
+  return date.toLocaleString(undefined, {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Fuzzy search
+// ---------------------------------------------------------------------------
+
+function levenshtein(a, b) {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+  const row = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    let prev = row[0];
+    row[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const temp = row[j];
+      row[j] = a[i - 1] === b[j - 1] ? prev : 1 + Math.min(prev, row[j], row[j - 1]);
+      prev = temp;
+    }
+  }
+  return row[b.length];
+}
+
+function tokenScore(queryToken, nameToken) {
+  if (nameToken.includes(queryToken)) return 1;
+  const dist = levenshtein(queryToken, nameToken);
+  return 1 - dist / Math.max(queryToken.length, nameToken.length);
+}
+
+function fuzzyScore(query, name) {
+  const q = query.toLowerCase().trim();
+  if (!q) return 1;
+  const n = name.toLowerCase();
+  if (n.includes(q)) return 1;
+  const queryWords = q.split(/\s+/).filter(Boolean);
+  const nameWords = n.split(/\s+/).filter(Boolean);
+  let total = 0;
+  for (const qw of queryWords) {
+    let best = 0;
+    for (const nw of nameWords) {
+      best = Math.max(best, tokenScore(qw, nw));
+      if (best === 1) break;
+    }
+    total += best;
+  }
+  return total / queryWords.length;
+}
+
+function matchesFuzzySearch(item) {
+  if (!state.searchQuery) return true;
+  return fuzzyScore(state.searchQuery, item.name || "") >= FUZZY_THRESHOLD;
+}
+
+// ---------------------------------------------------------------------------
+// Taste model
+// ---------------------------------------------------------------------------
+
+function categoryLabel(key) {
+  return CATEGORIES.find((c) => c.key === key)?.label || key;
+}
+
+function categoryNoun(key) {
+  return CATEGORIES.find((c) => c.key === key)?.noun || key;
+}
+
+function isMechanicsSpecific() {
+  return state.category === "mechanics" && state.selectedMechanic !== MECHANIC_OVERALL;
+}
+
+function getOwnedGames(user) {
+  return (state.collection.items || []).filter((item) =>
+    (item.ownerDetails || []).some(
+      (detail) => detail.owner === user && (detail.statuses || []).includes("Owned")
+    )
+  );
+}
+
+function getOwnedIds(user) {
+  return new Set(getOwnedGames(user).map((item) => item.objectId));
+}
+
+// value -> array of owned game names that carry that value in the given category
+function getOwnedValueMap(user, categoryKey) {
+  const map = new Map();
+  for (const game of getOwnedGames(user)) {
+    for (const value of game[categoryKey] || []) {
+      if (!map.has(value)) map.set(value, []);
+      map.get(value).push(game.name);
+    }
+  }
+  return map;
+}
+
+function getOwnedMechanicCounts(user) {
+  return getOwnedValueMap(user, "mechanics");
+}
+
+// ---------------------------------------------------------------------------
+// Matching + ranking
+// ---------------------------------------------------------------------------
+
+function computeMatches() {
+  const user = state.user;
+  const categoryKey = state.category;
+  if (!user) return [];
+
+  const ownedIds = getOwnedIds(user);
+  const specific = isMechanicsSpecific();
+  const valueMap = getOwnedValueMap(user, categoryKey);
+  const targetValues = specific ? [state.selectedMechanic] : [...valueMap.keys()];
+  if (!targetValues.length) return [];
+
+  const results = [];
+  for (const item of state.essen.items || []) {
+    if (ownedIds.has(item.objectId)) continue;
+    const itemValues = item[categoryKey] || [];
+    const overlap = targetValues.filter((value) => itemValues.includes(value));
+    if (!overlap.length) continue;
+    results.push({ item, overlap, valueMap });
+  }
+  return results;
+}
+
+function compareValues(a, b, nullsLast = true) {
+  const aNull = a === null || a === undefined;
+  const bNull = b === null || b === undefined;
+  if (aNull && bNull) return 0;
+  if (aNull) return nullsLast ? 1 : -1;
+  if (bNull) return nullsLast ? -1 : 1;
+  if (typeof a === "string" || typeof b === "string") {
+    return String(a).localeCompare(String(b));
+  }
+  return a - b;
+}
+
+function sortMatches(matches) {
+  return [...matches].sort((x, y) => {
+    if (state.sortKey === "bggRank") {
+      const rank = compareValues(x.item.bggRank, y.item.bggRank);
+      if (rank !== 0) return rank;
+      return String(x.item.name || "").localeCompare(String(y.item.name || ""));
+    }
+    if (state.sortKey === "name") {
+      return String(x.item.name || "").localeCompare(String(y.item.name || ""));
+    }
+    // Best match: overlap count desc, then BGG rank asc (nulls last), then name
+    if (x.overlap.length !== y.overlap.length) {
+      return y.overlap.length - x.overlap.length;
+    }
+    const rank = compareValues(x.item.bggRank, y.item.bggRank);
+    if (rank !== 0) return rank;
+    return String(x.item.name || "").localeCompare(String(y.item.name || ""));
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Rendering
+// ---------------------------------------------------------------------------
+
+function renderMatchBadges(match) {
+  const label = isMechanicsSpecific() ? "Mechanic" : categoryLabel(state.category);
+  const shown = match.overlap.slice(0, 6);
+  const extra = match.overlap.length - shown.length;
+
+  const rows = shown
+    .map((value) => {
+      const ownedGames = match.valueMap.get(value) || [];
+      const names = ownedGames.slice(0, 3);
+      const moreCount = ownedGames.length - names.length;
+      const ownedLine = names.length
+        ? `<span class="match-owned muted">you own: ${escapeHtml(names.join(", "))}${
+            moreCount > 0 ? ` +${moreCount} more` : ""
+          }</span>`
+        : "";
+      return `<div class="match-item"><span class="pill active">${escapeHtml(
+        label
+      )}: ${escapeHtml(value)}</span>${ownedLine}</div>`;
+    })
+    .join("");
+
+  const moreBadge = extra > 0 ? `<div class="match-more muted">+${extra} more</div>` : "";
+
+  const noun = categoryNoun(state.category);
+  return `
+    <div class="section-label">Matches ${match.overlap.length} of your ${escapeHtml(
+      noun
+    )}${match.overlap.length === 1 ? "" : "s"}</div>
+    <div class="match-list">${rows}${moreBadge}</div>
+  `;
+}
+
+function renderCard(match) {
+  const item = match.item;
+  const image = item.thumbnail
+    ? `<img src="${escapeHtml(item.thumbnail)}" alt="${escapeHtml(item.name)} cover" loading="lazy">`
+    : '<div class="card-thumb placeholder">No image</div>';
+
+  const yearLabel = item.yearPublished ? ` (${escapeHtml(item.yearPublished)})` : "";
+
+  const lines = [];
+  if (item.minPlayers != null && item.maxPlayers != null) {
+    lines.push(
+      `<div class="detail-line"><span class="detail-label">Players</span><span class="detail-value">${escapeHtml(
+        formatPlayerCount(item)
+      )}</span></div>`
+    );
+  }
+  if (item.weight != null) {
+    lines.push(
+      `<div class="detail-line"><span class="detail-label">Weight</span><span class="detail-value">${renderWeightValue(
+        item.weight
+      )}</span></div>`
+    );
+  }
+  if (item.bggAverageRating != null) {
+    lines.push(
+      `<div class="detail-line"><span class="detail-label">BGG Rating</span><span class="detail-value">${escapeHtml(
+        formatValue(item.bggAverageRating)
+      )}</span></div>`
+    );
+  }
+  if (item.bggRank != null) {
+    lines.push(
+      `<div class="detail-line"><span class="detail-label">BGG Rank</span><span class="detail-value">${renderBggRank(
+        item.bggRank
+      )}</span></div>`
+    );
+  }
+
+  return `
+    <article class="game-card">
+      <div class="card-thumb-wrap">
+        ${image}
+      </div>
+      <div class="card-body">
+        <div class="card-heading">
+          <div>
+            <h3 class="game-name">${renderLink(item.name, item.link)}${yearLabel}</h3>
+            <div class="game-meta">#${escapeHtml(formatValue(item.objectId))}</div>
+          </div>
+        </div>
+        <div class="detail-list">
+          ${lines.join("")}
+        </div>
+        <div class="card-section">
+          ${renderMatchBadges(match)}
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderEmptyState(ownedValueCount) {
+  const label = categoryNoun(state.category);
+  if (!ownedValueCount) {
+    return `<div class="empty-state">No matches — ${escapeHtml(
+      state.user
+    )} owns no ${escapeHtml(label)}s that appear in the Essen preview.</div>`;
+  }
+  return `<div class="empty-state">No matches — ${escapeHtml(
+    state.user
+  )}'s owned ${escapeHtml(label)}s don't appear in the Essen preview.</div>`;
+}
+
+function renderContent() {
+  const content = document.getElementById("content");
+  const pagination = document.getElementById("pagination");
+  const statusPill = document.getElementById("status-pill");
+
+  const rawMatches = computeMatches();
+  const categoryKey = state.category;
+  const ownedValueCount = isMechanicsSpecific()
+    ? 1
+    : getOwnedValueMap(state.user, categoryKey).size;
+
+  const filtered = sortMatches(
+    rawMatches.filter((match) => matchesFuzzySearch(match.item))
+  );
+
+  const totalPages =
+    state.pageSize === Infinity ? 1 : Math.max(1, Math.ceil(filtered.length / state.pageSize));
+  if (state.page > totalPages) state.page = totalPages;
+
+  const start = state.pageSize === Infinity ? 0 : (state.page - 1) * state.pageSize;
+  const end = state.pageSize === Infinity ? filtered.length : start + state.pageSize;
+  const pageItems = filtered.slice(start, end);
+
+  if (!filtered.length) {
+    content.innerHTML = renderEmptyState(ownedValueCount);
+  } else {
+    content.innerHTML = `<div class="card-list">${pageItems
+      .map((match) => renderCard(match))
+      .join("")}</div>`;
+  }
+
+  const sortLabel = SORT_OPTIONS.find((o) => o.key === state.sortKey)?.label || state.sortKey;
+  statusPill.className = "status";
+  statusPill.textContent = `${filtered.length} game${
+    filtered.length === 1 ? "" : "s"
+  } shown · sorted by ${sortLabel}`;
+
+  document.getElementById("meta-matches").textContent = String(filtered.length);
+
+  renderPaginationControls(pagination, totalPages);
+}
+
+function renderPaginationControls(container, totalPages) {
+  if (state.pageSize === Infinity || totalPages <= 1) {
+    container.innerHTML = "";
+    return;
+  }
+  const pages = [];
+  const add = (p) => pages.push(p);
+  const windowSize = 1;
+  for (let p = 1; p <= totalPages; p++) {
+    if (
+      p === 1 ||
+      p === totalPages ||
+      (p >= state.page - windowSize && p <= state.page + windowSize)
+    ) {
+      add(p);
+    } else if (pages[pages.length - 1] !== "…") {
+      add("…");
+    }
+  }
+  const btn = (label, page, opts = {}) => {
+    const disabled = opts.disabled ? " disabled" : "";
+    const active = opts.active ? " active" : "";
+    if (label === "…") return `<span class="page-ellipsis">…</span>`;
+    return `<button class="page-btn${active}"${disabled} data-page="${page}">${label}</button>`;
+  };
+  container.innerHTML = [
+    btn("‹ Prev", state.page - 1, { disabled: state.page === 1 }),
+    ...pages.map((p) => (p === "…" ? btn("…") : btn(p, p, { active: p === state.page }))),
+    btn("Next ›", state.page + 1, { disabled: state.page === totalPages }),
+  ].join("");
+  container.querySelectorAll("button[data-page]").forEach((el) => {
+    el.addEventListener("click", () => {
+      state.page = Number(el.dataset.page);
+      renderContent();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Filter UI
+// ---------------------------------------------------------------------------
+
+function renderMeta() {
+  document.getElementById("meta-for").textContent = state.user || "—";
+  document.getElementById("meta-category").textContent = isMechanicsSpecific()
+    ? `Mechanics: ${state.selectedMechanic}`
+    : categoryLabel(state.category);
+  document.getElementById("meta-generated").textContent = formatGeneratedAt(
+    state.essen?.generatedAt
+  );
+}
+
+function renderUserOptions() {
+  const container = document.getElementById("user-options");
+  container.innerHTML = "";
+  for (const user of state.users) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.user === user) btn.classList.add("active");
+    btn.textContent = user;
+    btn.addEventListener("click", () => {
+      state.user = user;
+      state.page = 1;
+      renderMechanicOptions();
+      renderUserOptions();
+      renderMeta();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function renderCategoryOptions() {
+  const container = document.getElementById("category-options");
+  container.innerHTML = "";
+  for (const category of CATEGORIES) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.category === category.key) btn.classList.add("active");
+    btn.textContent = category.label;
+    btn.addEventListener("click", () => {
+      state.category = category.key;
+      state.selectedMechanic = MECHANIC_OVERALL;
+      state.page = 1;
+      syncMechanicVisibility();
+      renderMechanicOptions();
+      renderCategoryOptions();
+      renderMeta();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function syncMechanicVisibility() {
+  const group = document.getElementById("mechanic-filter-group");
+  group.style.display = state.category === "mechanics" ? "" : "none";
+}
+
+function renderMechanicOptions() {
+  const select = document.getElementById("mechanic-select");
+  const counts = getOwnedMechanicCounts(state.user);
+  const mechanics = [...counts.keys()].sort((a, b) => a.localeCompare(b));
+
+  select.innerHTML = "";
+  const overallOption = document.createElement("option");
+  overallOption.value = MECHANIC_OVERALL;
+  overallOption.textContent = "Overall";
+  select.appendChild(overallOption);
+
+  for (const mechanic of mechanics) {
+    const option = document.createElement("option");
+    option.value = mechanic;
+    option.textContent = `${mechanic} (${counts.get(mechanic).length})`;
+    select.appendChild(option);
+  }
+
+  if (!mechanics.includes(state.selectedMechanic)) {
+    state.selectedMechanic = MECHANIC_OVERALL;
+  }
+  select.value = state.selectedMechanic;
+}
+
+function renderSortOptions() {
+  const container = document.getElementById("sort-options");
+  container.innerHTML = "";
+  for (const option of SORT_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.sortKey === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.sortKey = option.key;
+      state.page = 1;
+      renderSortOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function renderPageSizeOptions() {
+  const container = document.getElementById("page-size-options");
+  container.innerHTML = "";
+  for (const option of PAGE_SIZE_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.pageSize === option.value) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.pageSize = option.value;
+      state.page = 1;
+      localStorage.setItem("recommendPageSize", String(option.value));
+      renderPageSizeOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Controls + boot
+// ---------------------------------------------------------------------------
+
+function setupControls() {
+  const searchDesktop = document.getElementById("search-input");
+  const searchMobile = document.getElementById("search-input-mobile");
+  const onSearch = (value) => {
+    state.searchQuery = value;
+    state.page = 1;
+    if (searchDesktop.value !== value) searchDesktop.value = value;
+    if (searchMobile.value !== value) searchMobile.value = value;
+    renderContent();
+  };
+  searchDesktop.addEventListener("input", (e) => onSearch(e.target.value));
+  searchMobile.addEventListener("input", (e) => onSearch(e.target.value));
+
+  document.getElementById("mechanic-select").addEventListener("change", (e) => {
+    state.selectedMechanic = e.target.value;
+    state.page = 1;
+    renderMeta();
+    renderContent();
+  });
+
+  const savedPageSize = localStorage.getItem("recommendPageSize");
+  if (savedPageSize !== null) {
+    state.pageSize = savedPageSize === "Infinity" ? Infinity : Number(savedPageSize);
+  }
+}
+
+function setupMobileNav() {
+  const toggleBtn = document.getElementById("filter-toggle-btn");
+  const sidebar = document.getElementById("sidebar");
+  const backdrop = document.getElementById("drawer-backdrop");
+  const closeBtn = document.getElementById("sidebar-close-btn");
+  if (!toggleBtn || !sidebar) return;
+  const open = () => {
+    sidebar.classList.add("sidebar--open");
+    backdrop.classList.add("drawer-backdrop--visible");
+  };
+  const close = () => {
+    sidebar.classList.remove("sidebar--open");
+    backdrop.classList.remove("drawer-backdrop--visible");
+  };
+  toggleBtn.addEventListener("click", open);
+  closeBtn.addEventListener("click", close);
+  backdrop.addEventListener("click", close);
+}
+
+function setupThemeToggle() {
+  const lightBtn = document.getElementById("theme-light-btn");
+  const darkBtn = document.getElementById("theme-dark-btn");
+  if (!lightBtn || !darkBtn) return;
+
+  function getEffectiveTheme() {
+    const saved = localStorage.getItem("theme");
+    if (saved === "dark" || saved === "light") return saved;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  function applyTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+    lightBtn.classList.toggle("active", theme === "light");
+    darkBtn.classList.toggle("active", theme === "dark");
+  }
+  applyTheme(getEffectiveTheme());
+  lightBtn.addEventListener("click", () => applyTheme("light"));
+  darkBtn.addEventListener("click", () => applyTheme("dark"));
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    if (!localStorage.getItem("theme")) applyTheme(e.matches ? "dark" : "light");
+  });
+}
+
+async function loadSnapshots() {
+  const statusPill = document.getElementById("status-pill");
+  const content = document.getElementById("content");
+  try {
+    const [collectionResponse, essenResponse] = await Promise.all([
+      fetch("./data/collection.json", { cache: "no-store" }),
+      fetch("./data/essen26.json", { cache: "no-store" }),
+    ]);
+    if (!collectionResponse.ok) throw new Error(`HTTP ${collectionResponse.status}`);
+    if (!essenResponse.ok) throw new Error(`HTTP ${essenResponse.status}`);
+    state.collection = await collectionResponse.json();
+    state.essen = await essenResponse.json();
+  } catch (error) {
+    statusPill.className = "status error";
+    statusPill.textContent = "Could not load snapshots";
+    const hint =
+      location.protocol === "file:"
+        ? " Serve the site over http (e.g. <span class=\"code\">python3 -m http.server</span>) so the JSON can load."
+        : "";
+    content.innerHTML = `<div class="empty-state">Failed to load <span class="code">data/collection.json</span> or <span class="code">data/essen26.json</span>.${hint}</div>`;
+    return;
+  }
+
+  state.users = [...(state.collection.owners || [])].sort((a, b) =>
+    a.localeCompare(b, undefined, { sensitivity: "base" })
+  );
+  state.user = state.users[0] || null;
+
+  renderMeta();
+  renderUserOptions();
+  renderCategoryOptions();
+  syncMechanicVisibility();
+  renderMechanicOptions();
+  renderSortOptions();
+  renderPageSizeOptions();
+  renderContent();
+}
+
+setupControls();
+setupMobileNav();
+setupThemeToggle();
+loadSnapshots();

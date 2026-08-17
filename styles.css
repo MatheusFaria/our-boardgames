@@ -1053,3 +1053,43 @@
         background: var(--accent);
         color: #fff;
       }
+
+      /* ── Recommendations ────────────────────────────────── */
+
+      .select-input {
+        width: 100%;
+        padding: 10px 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 18px;
+        background: var(--ctrl-bg);
+        color: var(--text);
+        font: inherit;
+        font-size: 0.92rem;
+      }
+
+      .select-input:focus {
+        outline: none;
+        border-color: rgba(184, 92, 56, 0.35);
+      }
+
+      .match-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .match-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .match-owned {
+        font-size: 0.82rem;
+      }
+
+      .match-more {
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
