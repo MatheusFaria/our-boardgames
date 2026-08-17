@@ -30,11 +30,18 @@ DEFAULT_COLLECTION = Path("data/collection.json")
 DEFAULT_OUTPUT = Path("data/essen26_auction.json")
 
 BGG_XMLAPI_BASE = "https://boardgamegeek.com/xmlapi"
+BGG_XML2_BASE = "https://boardgamegeek.com/xmlapi2"
+
+DEFAULT_PREVIEW = Path("data/essen26.json")
 
 USER_AGENT = "our-boardgames-essen-auction/1.0"
 
 QUEUE_RETRY_DELAY = 5   # seconds between retries
 QUEUE_MAX_RETRIES = 12
+
+THING_BATCH_SIZE = 10
+THING_BATCH_DELAY = 2.0  # seconds
+THING_CACHE_DAYS = 30
 
 WISHLIST_STATUSES = ["Wishlist", "Want to Play", "Want to Buy"]
 
@@ -42,6 +49,14 @@ DETAIL_FIELDS = (
     "name", "thumbnail", "image", "yearPublished", "bggRank",
     "bggAverageRating", "weight", "minPlayers", "maxPlayers",
     "playingTime", "link",
+    "designers", "artists", "publishers", "mechanics",
+)
+
+THING_FIELDS = (
+    "name", "yearPublished", "image", "thumbnail",
+    "minPlayers", "maxPlayers", "playingTime",
+    "weight", "bggAverageRating", "bggRank",
+    "mechanics", "designers", "artists", "publishers",
 )
 
 CURRENCY_SYMBOLS = {"€": "EUR", "$": "USD", "£": "GBP"}
@@ -103,6 +118,16 @@ def _int(value) -> int | None:
         return None
     try:
         return int(float(value))
+    except (ValueError, TypeError):
+        return None
+
+
+def _float(value) -> float | None:
+    if value is None or value in ("", "N/A", "0"):
+        return None
+    try:
+        v = round(float(value), 2)
+        return v if v != 0.0 else None
     except (ValueError, TypeError):
         return None
 
@@ -304,7 +329,161 @@ def _offer_sort_key(offer: dict) -> tuple:
     return (bin_amount is None, bin_amount or 0.0, bid_amount is None, bid_amount or 0.0)
 
 
-def build_snapshot(geeklist_id: int, root: ET.Element, wishers: dict[int, list[dict]], details: dict[int, dict]) -> dict:
+# ---------------------------------------------------------------------------
+# XML API2 /thing (credits + stats), mirroring fetch_essen_preview.py
+# ---------------------------------------------------------------------------
+
+def _parse_link_values(item_el: ET.Element, link_type: str) -> list[str]:
+    return [el.get("value") for el in item_el.findall(f"./link[@type='{link_type}']") if el.get("value")]
+
+
+def parse_thing_item(item_el: ET.Element) -> dict:
+    name_el = next(
+        (el for el in item_el.findall("name") if el.get("type") == "primary"), None
+    )
+    name = _text(name_el.get("value")) if name_el is not None else None
+
+    year_el = item_el.find("yearpublished")
+    year = _int(year_el.get("value") if year_el is not None else None)
+
+    image_el = item_el.find("image")
+    image = _text(image_el.text) if image_el is not None else None
+
+    thumb_el = item_el.find("thumbnail")
+    thumbnail = _text(thumb_el.text) if thumb_el is not None else None
+
+    minplayers_el = item_el.find("minplayers")
+    min_players = _int(minplayers_el.get("value") if minplayers_el is not None else None)
+    maxplayers_el = item_el.find("maxplayers")
+    max_players = _int(maxplayers_el.get("value") if maxplayers_el is not None else None)
+    playingtime_el = item_el.find("playingtime")
+    playing_time = _int(playingtime_el.get("value") if playingtime_el is not None else None)
+
+    weight = bgg_avg = bgg_rank = None
+    stats_el = item_el.find("statistics")
+    if stats_el is not None:
+        ratings_el = stats_el.find("ratings")
+        if ratings_el is not None:
+            avg_el = ratings_el.find("average")
+            bgg_avg = _float(avg_el.get("value") if avg_el is not None else None)
+            aw_el = ratings_el.find("averageweight")
+            weight = _float(aw_el.get("value") if aw_el is not None else None)
+            ranks_el = ratings_el.find("ranks")
+            for rank_el in (ranks_el.findall("rank") if ranks_el is not None else []):
+                if rank_el.get("name") == "boardgame":
+                    bgg_rank = _int(rank_el.get("value"))
+                    break
+
+    return {
+        "name": name,
+        "yearPublished": year,
+        "image": image,
+        "thumbnail": thumbnail,
+        "minPlayers": min_players,
+        "maxPlayers": max_players,
+        "playingTime": playing_time,
+        "weight": weight,
+        "bggAverageRating": bgg_avg,
+        "bggRank": bgg_rank,
+        "mechanics": _parse_link_values(item_el, "boardgamemechanic"),
+        "designers": _parse_link_values(item_el, "boardgamedesigner"),
+        "artists": _parse_link_values(item_el, "boardgameartist"),
+        "publishers": _parse_link_values(item_el, "boardgamepublisher"),
+    }
+
+
+def fetch_thing_details(object_ids: list[int], batch_delay: float = THING_BATCH_DELAY) -> dict[int, dict]:
+    details: dict[int, dict] = {}
+    total = len(object_ids)
+    for i in range(0, total, THING_BATCH_SIZE):
+        batch = object_ids[i : i + THING_BATCH_SIZE]
+        ids_str = ",".join(str(oid) for oid in batch)
+        url = f"{BGG_XML2_BASE}/thing?id={ids_str}&stats=1"
+        desc = f"thing details {i + 1}–{i + len(batch)} of {total}"
+        try:
+            root = fetch_xml(url, desc)
+        except RuntimeError as exc:
+            print(f"    WARNING: {exc} — skipping batch")
+            continue
+        for item_el in root.findall("item"):
+            oid = _int(item_el.get("id"))
+            if oid is not None:
+                details[oid] = parse_thing_item(item_el)
+        if i + THING_BATCH_SIZE < total:
+            time.sleep(batch_delay)
+    return details
+
+
+def _is_fresh(item: dict, cache_days: int) -> bool:
+    fetched_at = item.get("thingFetchedAt")
+    if not fetched_at:
+        return False
+    try:
+        fetched = datetime.fromisoformat(fetched_at)
+        return (datetime.now(timezone.utc) - fetched).days < cache_days
+    except (ValueError, TypeError):
+        return False
+
+
+def _has_credits(item: dict) -> bool:
+    """Return True if the item already has designers/artists/publishers (empty list counts)."""
+    return "designers" in item and "artists" in item and "publishers" in item
+
+
+def _load_items_by_objectid(path: Path) -> dict[int, dict]:
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return {
+            item["objectId"]: item
+            for item in data.get("items", [])
+            if item.get("objectId") is not None
+        }
+    except Exception:
+        return {}
+
+
+def build_thing_seed(
+    object_ids: list[int],
+    details: dict[int, dict],
+    preview_items: dict[int, dict],
+    prior_items: dict[int, dict],
+    cache_days: int,
+) -> dict[int, dict]:
+    """Merge free local sources into a per-game credits/stats seed, keyed by
+    objectId. Precedence: fresh-cached prior auction output > collection
+    detail > preview snapshot. Only non-null fields are merged, so a missing
+    credit key still signals "never fetched" to _has_credits."""
+    seed: dict[int, dict] = {}
+    for oid in object_ids:
+        entry: dict = {}
+        preview_item = preview_items.get(oid)
+        if preview_item:
+            entry.update({f: preview_item[f] for f in THING_FIELDS if preview_item.get(f) is not None})
+        collection_detail = details.get(oid)
+        if collection_detail:
+            entry.update({f: collection_detail[f] for f in THING_FIELDS if collection_detail.get(f) is not None})
+        prior_item = prior_items.get(oid)
+        if prior_item and _is_fresh(prior_item, cache_days) and _has_credits(prior_item):
+            entry.update({f: prior_item[f] for f in THING_FIELDS if prior_item.get(f) is not None})
+            entry["thingFetchedAt"] = prior_item.get("thingFetchedAt")
+        seed[oid] = entry
+    return seed
+
+
+def build_snapshot(
+    geeklist_id: int,
+    root: ET.Element,
+    wishers: dict[int, list[dict]],
+    details: dict[int, dict],
+    preview_items: dict[int, dict],
+    prior_items: dict[int, dict],
+    cache_days: int,
+    max_fetch: int | None,
+    thing_batch_delay: float,
+    skip_thing: bool,
+) -> dict:
     title = _text(root.findtext("title"))
 
     listings_by_oid: dict[int, list[dict]] = {}
@@ -318,24 +497,64 @@ def build_snapshot(geeklist_id: int, root: ET.Element, wishers: dict[int, list[d
         if oid not in object_names and listing["objectName"]:
             object_names[oid] = listing["objectName"]
 
+    object_ids = sorted(listings_by_oid)
+    seed = build_thing_seed(object_ids, details, preview_items, prior_items, cache_days)
+    stale_ids = [oid for oid in object_ids if not _has_credits(seed[oid]) or not _is_fresh(seed[oid], cache_days)]
+
+    if max_fetch is not None and len(stale_ids) > max_fetch:
+        to_fetch, deferred_ids = stale_ids[:max_fetch], stale_ids[max_fetch:]
+    else:
+        to_fetch, deferred_ids = stale_ids, []
+    if deferred_ids:
+        print(f"  {len(to_fetch)} stale game(s) to fetch this run, {len(deferred_ids)} deferred to a later run")
+
+    fetched_things: dict[int, dict] = {}
+    if to_fetch and not skip_thing:
+        print(f"\n=== Fetching game details: {len(to_fetch)} of {len(stale_ids)} stale ===")
+        now = datetime.now(timezone.utc).isoformat()
+        results = fetch_thing_details(to_fetch, batch_delay=thing_batch_delay)
+        for oid in to_fetch:
+            thing = results.get(oid)
+            if thing is not None:
+                thing["thingFetchedAt"] = now
+                fetched_things[oid] = thing
+    elif to_fetch:
+        print("\n=== Skipping /thing fetch (no token or --no-thing) ===")
+
+    things: dict[int, dict] = {oid: fetched_things.get(oid) or seed.get(oid, {}) for oid in object_ids}
+
+    cached_count = len(object_ids) - len(stale_ids)
+    fetched_count = len(fetched_things)
+    uncredited_count = sum(1 for oid in object_ids if not _has_credits(things[oid]))
+    print(
+        f"=== Thing enrichment: {cached_count} cached, {len(stale_ids)} stale, "
+        f"{fetched_count} fetched, {uncredited_count} still uncredited ==="
+    )
+
     items = []
     for oid, offers in listings_by_oid.items():
         offers.sort(key=_offer_sort_key)
         detail = details.get(oid, {})
+        thing = things.get(oid, {})
         wished_by = wishers.get(oid, [])
         items.append({
             "objectId": oid,
-            "name": detail.get("name") or object_names.get(oid),
+            "name": detail.get("name") or thing.get("name") or object_names.get(oid),
             "link": detail.get("link") or f"https://boardgamegeek.com/boardgame/{oid}",
-            "thumbnail": detail.get("thumbnail"),
-            "image": detail.get("image"),
-            "yearPublished": detail.get("yearPublished"),
-            "bggRank": detail.get("bggRank"),
-            "bggAverageRating": detail.get("bggAverageRating"),
-            "weight": detail.get("weight"),
-            "minPlayers": detail.get("minPlayers"),
-            "maxPlayers": detail.get("maxPlayers"),
-            "playingTime": detail.get("playingTime"),
+            "thumbnail": detail.get("thumbnail") or thing.get("thumbnail"),
+            "image": detail.get("image") or thing.get("image"),
+            "yearPublished": detail.get("yearPublished") or thing.get("yearPublished"),
+            "bggRank": detail.get("bggRank") or thing.get("bggRank"),
+            "bggAverageRating": detail.get("bggAverageRating") or thing.get("bggAverageRating"),
+            "weight": detail.get("weight") or thing.get("weight"),
+            "minPlayers": detail.get("minPlayers") or thing.get("minPlayers"),
+            "maxPlayers": detail.get("maxPlayers") or thing.get("maxPlayers"),
+            "playingTime": detail.get("playingTime") or thing.get("playingTime"),
+            "designers": detail.get("designers") or thing.get("designers") or [],
+            "artists": detail.get("artists") or thing.get("artists") or [],
+            "publishers": detail.get("publishers") or thing.get("publishers") or [],
+            "mechanics": detail.get("mechanics") or thing.get("mechanics") or [],
+            "thingFetchedAt": thing.get("thingFetchedAt"),
             "onWishlist": bool(wished_by),
             "wishedBy": wished_by,
             "offers": offers,
@@ -397,6 +616,32 @@ def build_parser() -> argparse.ArgumentParser:
         metavar="PATH",
         help="Read GeekList XML from this file instead of fetching it live (for offline tests).",
     )
+    parser.add_argument(
+        "--cache-days",
+        type=int,
+        default=THING_CACHE_DAYS,
+        metavar="N",
+        help=f"Re-fetch /thing data for games older than N days (default: {THING_CACHE_DAYS}).",
+    )
+    parser.add_argument(
+        "--max-fetch",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Cap the number of stale games fetched via /thing this run; the rest are deferred to a later run.",
+    )
+    parser.add_argument(
+        "--thing-batch-delay",
+        type=float,
+        default=THING_BATCH_DELAY,
+        metavar="SECONDS",
+        help=f"Delay between /thing batch requests (default: {THING_BATCH_DELAY}).",
+    )
+    parser.add_argument(
+        "--no-thing",
+        action="store_true",
+        help="Skip all /thing network fetches; use only cached/seeded credits and stats.",
+    )
     return parser
 
 
@@ -411,6 +656,10 @@ def main() -> int:
         parser.error(f"collection file not found: {collection_path}")
     wishers, details = load_collection(collection_path)
 
+    output_path = Path(args.output)
+    preview_items = _load_items_by_objectid(DEFAULT_PREVIEW)
+    prior_items = _load_items_by_objectid(output_path)
+
     if args.input_xml:
         input_path = Path(args.input_xml)
         if not input_path.exists():
@@ -422,9 +671,16 @@ def main() -> int:
         url = f"{BGG_XMLAPI_BASE}/geeklist/{args.geeklist_id}"
         root = fetch_xml(url, f"geeklist {args.geeklist_id}")
 
-    snapshot = build_snapshot(args.geeklist_id, root, wishers, details)
+    skip_thing = args.no_thing or not _bearer_token
+    snapshot = build_snapshot(
+        args.geeklist_id, root, wishers, details,
+        preview_items, prior_items,
+        cache_days=args.cache_days,
+        max_fetch=args.max_fetch,
+        thing_batch_delay=args.thing_batch_delay,
+        skip_thing=skip_thing,
+    )
 
-    output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(snapshot, indent=2, ensure_ascii=True) + "\n",
