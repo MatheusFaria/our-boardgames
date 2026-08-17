@@ -998,3 +998,58 @@
           grid-column: 1 / -1;
         }
       }
+
+      /* ── Auction offers ──────────────────────────────────── */
+
+      .offer-list {
+        display: grid;
+        gap: 10px;
+      }
+
+      .offer-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 16px;
+        padding: 10px 14px;
+        border: 1px solid var(--surface-border);
+        border-radius: 14px;
+        background: var(--subtle-bg);
+      }
+
+      .offer-seller {
+        font-weight: 700;
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .offer-seller:hover {
+        text-decoration: underline;
+      }
+
+      .offer-stars {
+        color: var(--accent);
+        letter-spacing: 1px;
+      }
+
+      .offer-meta {
+        width: 100%;
+        font-size: 0.82rem;
+      }
+
+      .offer-bid-link {
+        margin-left: auto;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 700;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
+      .offer-bid-link:hover {
+        background: var(--accent);
+        color: #fff;
+      }

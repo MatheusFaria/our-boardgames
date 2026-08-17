@@ -1,0 +1,46 @@
+name: Sync Essen 2026 Auction Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+  push:
+    paths:
+      - "scripts/fetch_essen_auction.py"
+      - ".github/workflows/sync-essen26-auction.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10"
+
+      - name: Regenerate Essen 2026 auction snapshot
+        env:
+          BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
+        run: python3 scripts/fetch_essen_auction.py
+
+      - name: Commit updated snapshot
+        run: |
+          if git diff --quiet -- data/essen26_auction.json; then
+            echo "No snapshot changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/essen26_auction.json
+          git commit -m "chore: refresh essen26 auction snapshot"
+          git push
