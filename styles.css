@@ -423,6 +423,11 @@
         accent-color: var(--accent);
       }
 
+      .owner-filter-option--noone {
+        color: var(--muted);
+        border: 1px dashed var(--surface-border);
+      }
+
       .filter-clear {
         padding: 8px 12px;
         border: 1px solid var(--surface-border);

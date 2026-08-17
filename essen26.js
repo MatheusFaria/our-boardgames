@@ -1,5 +1,7 @@
 const FUZZY_THRESHOLD = 0.5;
 
+const NO_ONE_KEY = "__no_one__";
+
 const PRIORITY_ORDER = ["1", "2", "3", "4", "unprioritized"];
 
 const DEFAULT_PRIORITY_LABELS = {
@@ -147,6 +149,18 @@ function priorityLabel(key) {
   return state.priorityLabels[key] || DEFAULT_PRIORITY_LABELS[key] || key;
 }
 
+function isPositiveWant(entry) {
+  return entry.priority === 1 || entry.priority === 2 || entry.priority === 3;
+}
+
+function getPositiveWanters(item) {
+  return (item.interested || []).filter(isPositiveWant);
+}
+
+function hasNoPositiveWanter(item) {
+  return getPositiveWanters(item).length === 0;
+}
+
 // ---------------------------------------------------------------------------
 // Fuzzy search
 // ---------------------------------------------------------------------------
@@ -213,13 +227,28 @@ function matchesPlayerRange(item) {
   return gameMax >= selectedMin && gameMin <= selectedMax;
 }
 
-function getVisibleInterest(item) {
-  return (item.interested || []).filter((entry) => {
-    const userMatches = !state.userFilters.length || state.userFilters.includes(entry.user);
-    const priorityMatches =
-      !state.priorityFilters.length || state.priorityFilters.includes(priorityKey(entry));
-    return userMatches && priorityMatches;
-  });
+function matchesPriorityFilter(item) {
+  if (!state.priorityFilters.length) return true;
+  const entries = item.interested || [];
+  if (!entries.length) return true;
+  return entries.some((entry) => state.priorityFilters.includes(priorityKey(entry)));
+}
+
+function matchesWantedByFilter(item) {
+  if (!state.userFilters.length) return false;
+  const noOneSelected = state.userFilters.includes(NO_ONE_KEY);
+  if (noOneSelected && hasNoPositiveWanter(item)) return true;
+  const positive = getPositiveWanters(item);
+  return state.userFilters.some(
+    (user) => user !== NO_ONE_KEY && positive.some((entry) => entry.user === user)
+  );
+}
+
+function matchesInterestFilters(item) {
+  if (hasNoPositiveWanter(item)) {
+    return state.userFilters.includes(NO_ONE_KEY);
+  }
+  return matchesWantedByFilter(item) && matchesPriorityFilter(item);
 }
 
 function matchesAvailability(item) {
@@ -228,10 +257,9 @@ function matchesAvailability(item) {
 }
 
 function applyActiveFilters(items) {
-  const hasInterestFilter = state.priorityFilters.length > 0 || state.userFilters.length > 0;
   return items.filter(
     (item) =>
-      (!hasInterestFilter || getVisibleInterest(item).length > 0) &&
+      matchesInterestFilters(item) &&
       matchesAvailability(item) &&
       matchesPlayerRange(item) &&
       matchesFuzzySearch(item)
@@ -301,10 +329,9 @@ function sortItems(items) {
 // ---------------------------------------------------------------------------
 
 function renderInterest(item) {
-  const visible = getVisibleInterest(item);
-  const entries = visible.length ? visible : item.interested || [];
+  const entries = item.interested || [];
   if (!entries.length) {
-    return '<span class="muted">—</span>';
+    return '<span class="muted">No one interested yet</span>';
   }
   const sorted = [...entries].sort(
     (a, b) => PRIORITY_ORDER.indexOf(priorityKey(a)) - PRIORITY_ORDER.indexOf(priorityKey(b))
@@ -469,8 +496,16 @@ function renderActiveFilterChips() {
       chips.push({ label: `Priority: ${priorityLabel(key)}`, remove: () => togglePriorityFilter(key) });
     }
   }
-  for (const user of state.userFilters) {
-    chips.push({ label: `User: ${user}`, remove: () => toggleUserFilter(user) });
+  const defaultUsers = state.snapshot.users || [];
+  const atDefaultUserFilters =
+    state.userFilters.length === defaultUsers.length &&
+    !state.userFilters.includes(NO_ONE_KEY) &&
+    defaultUsers.every((user) => state.userFilters.includes(user));
+  if (!atDefaultUserFilters) {
+    for (const user of state.userFilters) {
+      const label = user === NO_ONE_KEY ? "No one" : user;
+      chips.push({ label: `Wanted by: ${label}`, remove: () => toggleUserFilter(user) });
+    }
   }
   for (const avail of state.availabilityFilters) {
     chips.push({ label: avail, remove: () => toggleAvailabilityFilter(avail) });
@@ -571,12 +606,33 @@ function renderPriorityFilterGrid() {
 function renderUserFilterGrid() {
   const grid = document.getElementById("user-filter-grid");
   grid.innerHTML = "";
+  const wantedCounts = {};
+  for (const item of state.snapshot.items) {
+    for (const entry of getPositiveWanters(item)) {
+      wantedCounts[entry.user] = (wantedCounts[entry.user] || 0) + 1;
+    }
+  }
   for (const user of state.snapshot.users || []) {
     const checked = state.userFilters.includes(user);
     grid.appendChild(
-      buildCheckboxOption("owner-filter-option", checked, user, () => toggleUserFilter(user))
+      buildCheckboxOption(
+        "owner-filter-option",
+        checked,
+        `${user} (${wantedCounts[user] || 0})`,
+        () => toggleUserFilter(user)
+      )
     );
   }
+  const noOneCount = state.snapshot.noOneCount ?? state.snapshot.items.filter(hasNoPositiveWanter).length;
+  const noOneChecked = state.userFilters.includes(NO_ONE_KEY);
+  grid.appendChild(
+    buildCheckboxOption(
+      "owner-filter-option owner-filter-option--noone",
+      noOneChecked,
+      `No one (${noOneCount})`,
+      () => toggleUserFilter(NO_ONE_KEY)
+    )
+  );
 }
 
 function renderAvailabilityFilterGrid() {
@@ -687,7 +743,7 @@ function setupControls() {
       renderContent();
     });
   document.getElementById("clear-user-filters").addEventListener("click", () => {
-    state.userFilters = [];
+    state.userFilters = [...(state.snapshot.users || []), NO_ONE_KEY];
     state.page = 1;
     syncFilterUI();
     renderContent();
@@ -714,12 +770,12 @@ function setupMobileNav() {
   const closeBtn = document.getElementById("sidebar-close-btn");
   if (!toggleBtn || !sidebar) return;
   const open = () => {
-    sidebar.classList.add("open");
-    backdrop.classList.add("visible");
+    sidebar.classList.add("sidebar--open");
+    backdrop.classList.add("drawer-backdrop--visible");
   };
   const close = () => {
-    sidebar.classList.remove("open");
-    backdrop.classList.remove("visible");
+    sidebar.classList.remove("sidebar--open");
+    backdrop.classList.remove("drawer-backdrop--visible");
   };
   toggleBtn.addEventListener("click", open);
   closeBtn.addEventListener("click", close);
@@ -767,6 +823,8 @@ function renderMeta() {
   const snap = state.snapshot;
   document.getElementById("meta-users").textContent = (snap.users || []).join(", ") || "—";
   document.getElementById("meta-count").textContent = String(snap.itemCount ?? (snap.items || []).length);
+  document.getElementById("meta-wanted").textContent = String(snap.interestedCount ?? "—");
+  document.getElementById("meta-noone").textContent = String(snap.noOneCount ?? "—");
   document.getElementById("meta-generated").textContent = formatGeneratedAt(snap.generatedAt);
   const event = snap.event || {};
   document.getElementById("meta-event").textContent = event.location || event.title || "—";
@@ -801,6 +859,7 @@ async function loadSnapshot() {
   );
   state.defaultPriorityKeys = presentPriorities.filter((key) => key !== "4");
   state.priorityFilters = [...state.defaultPriorityKeys];
+  state.userFilters = [...(state.snapshot.users || [])];
 
   renderMeta();
   syncFilterUI();

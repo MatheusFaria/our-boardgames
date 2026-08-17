@@ -2,9 +2,10 @@
 """Fetch BGG GeekPreview data for the Essen Spiel 2026 preview and write
 data/essen26.json.
 
-Reads share-key-based user picks from the BGG GeekPreview userinfo API,
-per-item event data (price, hall, availability) from the GeekPreview item
-API, and game details (name, stats) from the XML API2 /thing endpoint.
+Crawls the full public GeekPreview catalog (all items, paginated) and
+overlays each user's share-key-based picks from the userinfo API on top of
+it, so every catalog game is kept — including games no one has picked.
+Game details (name, stats, credits) come from the XML API2 /thing endpoint.
 
 No third-party dependencies — uses only the Python standard library.
 """
@@ -34,6 +35,8 @@ USER_AGENT = "our-boardgames-essen-preview/1.0"
 
 QUEUE_RETRY_DELAY = 5   # seconds between retries
 QUEUE_MAX_RETRIES = 12
+
+CATALOG_PAGE_SIZE = 10
 
 THING_BATCH_SIZE = 10
 THING_BATCH_DELAY = 2.0  # seconds
@@ -184,44 +187,70 @@ def fetch_saved_items(sources: list[dict], previewid: int) -> dict[str, dict[int
 
 
 # ---------------------------------------------------------------------------
-# GeekPreview per-item event data (price, hall, availability)
+# GeekPreview full catalog (all items, paginated)
 # ---------------------------------------------------------------------------
 
-def fetch_preview_items(itemids: list[int]) -> dict[int, dict]:
-    """Return itemid -> {"objectid", "price", "location", "availability", "thumbnail"}."""
-    print(f"\n=== Fetching {len(itemids)} preview items ===")
-    preview_by_itemid: dict[int, dict] = {}
-    for itemid in itemids:
-        url = f"{GEEKDO_API_BASE}/geekpreviewitems/{itemid}"
-        data = fetch_json(url, f"preview item {itemid}", headers={"User-Agent": USER_AGENT})
+def parse_catalog_entry(entry: dict) -> dict | None:
+    """Parse one geekpreviewitems catalog entry into our itemid-keyed shape."""
+    itemid = _int_keep_zero(entry.get("itemid"))
+    objectid = _int_keep_zero(entry.get("objectid"))
+    if itemid is None or objectid is None:
+        return None
+
+    item = ((entry.get("geekitem") or {}).get("item")) or {}
+    primaryname = item.get("primaryname") or {}
+    images = item.get("images") or {}
+
+    thumbnail = entry.get("thumbnail")
+    if isinstance(thumbnail, dict):
+        thumbnail = thumbnail.get("src")
+    thumbnail = _text(thumbnail) or _text(images.get("thumb"))
+
+    showprice = _float(entry.get("showprice"))
+    price = (
+        {"amount": showprice, "currency": _text(entry.get("showprice_currency"))}
+        if showprice
+        else None
+    )
+
+    return {
+        "itemid": itemid,
+        "objectid": objectid,
+        "name": _text(primaryname.get("name")),
+        "yearPublished": _int(item.get("yearpublished")),
+        "image": _text(images.get("original")),
+        "thumbnail": thumbnail,
+        "price": price,
+        "location": _text(entry.get("location")),
+        "availability": _text(entry.get("pretty_availability_status")),
+        "dateUpdated": _text(entry.get("date_updated")),
+    }
+
+
+def fetch_catalog(previewid: int, max_pages: int | None = None) -> dict[int, dict]:
+    """Page through the full public GeekPreview catalog.
+
+    10 items/page, ordered by itemid ascending; stops on the first empty
+    page (or after max_pages pages if given)."""
+    print(f"=== Fetching full catalog (previewid={previewid}) ===")
+    catalog: dict[int, dict] = {}
+    page = 1
+    pages_fetched = 0
+    while max_pages is None or page <= max_pages:
+        url = f"{GEEKDO_API_BASE}/geekpreviewitems?previewid={previewid}&pageid={page}"
+        data = fetch_json(url, f"catalog page {page}", headers={"User-Agent": USER_AGENT})
+        pages_fetched += 1
         if not data:
-            print(f"    WARNING: empty response for preview item {itemid} — skipping")
-            continue
-        entry = data[0] if isinstance(data, list) else data
-        objectid = _int_keep_zero(entry.get("objectid"))
-        if objectid is None:
-            print(f"    WARNING: preview item {itemid} has no objectid — skipping")
-            continue
-
-        showprice = _float(entry.get("showprice"))
-        price = (
-            {"amount": showprice, "currency": _text(entry.get("showprice_currency"))}
-            if showprice
-            else None
-        )
-
-        thumbnail = entry.get("thumbnail")
-        if isinstance(thumbnail, dict):
-            thumbnail = thumbnail.get("src")
-
-        preview_by_itemid[itemid] = {
-            "objectid": objectid,
-            "price": price,
-            "location": _text(entry.get("location")),
-            "availability": _text(entry.get("pretty_availability_status")),
-            "thumbnail": _text(thumbnail),
-        }
-    return preview_by_itemid
+            break
+        for entry in data:
+            parsed = parse_catalog_entry(entry)
+            if parsed is not None:
+                catalog[parsed["itemid"]] = parsed
+        if len(data) < CATALOG_PAGE_SIZE:
+            break
+        page += 1
+    print(f"    -> {len(catalog)} catalog items across {pages_fetched} page(s)")
+    return catalog
 
 
 # ---------------------------------------------------------------------------
@@ -314,7 +343,7 @@ def parse_thing_item(item_el: ET.Element) -> dict:
     }
 
 
-def fetch_thing_details(object_ids: list[int]) -> dict[int, dict]:
+def fetch_thing_details(object_ids: list[int], batch_delay: float = THING_BATCH_DELAY) -> dict[int, dict]:
     details: dict[int, dict] = {}
     total = len(object_ids)
     for i in range(0, total, THING_BATCH_SIZE):
@@ -332,7 +361,7 @@ def fetch_thing_details(object_ids: list[int]) -> dict[int, dict]:
             if oid is not None:
                 details[oid] = parse_thing_item(item_el)
         if i + THING_BATCH_SIZE < total:
-            time.sleep(THING_BATCH_DELAY)
+            time.sleep(batch_delay)
     return details
 
 
@@ -359,6 +388,11 @@ def _is_fresh(item: dict, cache_days: int) -> bool:
         return False
 
 
+def _has_credits(item: dict) -> bool:
+    """Return True if the item already has designers/artists/publishers (empty list counts)."""
+    return "designers" in item and "artists" in item and "publishers" in item
+
+
 def load_existing_items(output_path: Path) -> dict[int, dict]:
     if not output_path.exists():
         return {}
@@ -377,21 +411,28 @@ def load_existing_items(output_path: Path) -> dict[int, dict]:
 # Main snapshot builder
 # ---------------------------------------------------------------------------
 
-def build_snapshot(sources: list[dict], previewid: int, existing_items: dict[int, dict], cache_days: int) -> dict:
+def build_snapshot(
+    sources: list[dict],
+    previewid: int,
+    existing_items: dict[int, dict],
+    cache_days: int,
+    max_pages: int | None = None,
+    max_fetch: int | None = None,
+    thing_batch_delay: float = THING_BATCH_DELAY,
+) -> dict:
+    catalog = fetch_catalog(previewid, max_pages)
     saved_by_user = fetch_saved_items(sources, previewid)
 
-    all_itemids = sorted({itemid for saved in saved_by_user.values() for itemid in saved})
-    preview_by_itemid = fetch_preview_items(all_itemids)
+    catalog_by_oid: dict[int, dict] = {entry["objectid"]: entry for entry in catalog.values()}
+    object_ids = sorted(catalog_by_oid)
 
     interested_by_oid: dict[int, dict[str, dict]] = {}
-    preview_by_oid: dict[int, dict] = {}
     for username, saved in saved_by_user.items():
         for itemid, pick in saved.items():
-            preview = preview_by_itemid.get(itemid)
-            if preview is None:
+            entry = catalog.get(itemid)
+            if entry is None:
                 continue
-            oid = preview["objectid"]
-            preview_by_oid.setdefault(oid, preview)
+            oid = entry["objectid"]
             interested_by_oid.setdefault(oid, {})[username] = {
                 "user": username,
                 "priority": pick["priority"],
@@ -399,20 +440,11 @@ def build_snapshot(sources: list[dict], previewid: int, existing_items: dict[int
                 "notes": pick["notes"],
             }
 
-    not_interested = 4
-    object_ids = sorted(
-        oid for oid in preview_by_oid
-        if any(pick["priority"] != not_interested for pick in interested_by_oid[oid].values())
-    )
-    dropped = len(preview_by_oid) - len(object_ids)
-    if dropped:
-        print(f"    -> dropping {dropped} games with no interested user (all 'Not Interested')")
-
     stale_ids: list[int] = []
     fresh_things: dict[int, dict] = {}
     for oid in object_ids:
         cached = existing_items.get(oid)
-        if cached and _is_fresh(cached, cache_days):
+        if cached and _is_fresh(cached, cache_days) and _has_credits(cached):
             fresh_things[oid] = {field: cached.get(field) for field in THING_FIELDS}
             fresh_things[oid]["thingFetchedAt"] = cached.get("thingFetchedAt")
         else:
@@ -420,35 +452,56 @@ def build_snapshot(sources: list[dict], previewid: int, existing_items: dict[int
 
     print(f"\n=== Fetching game details: {len(stale_ids)} stale, {len(fresh_things)} cached (threshold: {cache_days}d) ===")
 
+    if max_fetch is not None and len(stale_ids) > max_fetch:
+        to_fetch, deferred_ids = stale_ids[:max_fetch], stale_ids[max_fetch:]
+    else:
+        to_fetch, deferred_ids = stale_ids, []
+
+    for oid in deferred_ids:
+        cached = existing_items.get(oid)
+        if cached:
+            fresh_things[oid] = {field: cached.get(field) for field in THING_FIELDS}
+            fresh_things[oid]["thingFetchedAt"] = cached.get("thingFetchedAt")
+    if deferred_ids:
+        print(f"  {len(to_fetch)} fetched this run, {len(deferred_ids)} deferred to a later run")
+
     fetched_things: dict[int, dict] = {}
-    if stale_ids:
+    if to_fetch:
         now = datetime.now(timezone.utc).isoformat()
-        details = fetch_thing_details(stale_ids)
-        for oid in stale_ids:
+        details = fetch_thing_details(to_fetch, batch_delay=thing_batch_delay)
+        for oid in to_fetch:
             thing = details.get(oid)
             if thing is None:
-                print(f"    WARNING: no /thing data for objectid {oid} — leaving game details empty")
-                thing = {field: None for field in THING_FIELDS}
-            thing["thumbnail"] = thing.get("thumbnail") or preview_by_oid[oid].get("thumbnail")
-            thing["thingFetchedAt"] = now
+                cached = existing_items.get(oid)
+                if cached:
+                    print(f"    WARNING: no /thing data for objectid {oid} — restoring cached details")
+                    thing = {field: cached.get(field) for field in THING_FIELDS}
+                    thing["thingFetchedAt"] = cached.get("thingFetchedAt")
+                else:
+                    print(f"    WARNING: no /thing data for objectid {oid} — leaving game details empty")
+                    thing = {field: None for field in THING_FIELDS}
+                    thing["thingFetchedAt"] = None
+            else:
+                thing["thumbnail"] = thing.get("thumbnail") or catalog_by_oid[oid].get("thumbnail")
+                thing["thingFetchedAt"] = now
             fetched_things[oid] = thing
     else:
         print("  All games are fresh — skipping /thing requests.")
 
     items = []
     for oid in object_ids:
-        thing = fresh_things.get(oid) or fetched_things[oid]
-        preview = preview_by_oid[oid]
+        thing = fresh_things.get(oid) or fetched_things.get(oid) or {field: None for field in THING_FIELDS}
+        entry = catalog_by_oid[oid]
         interested = sorted(
-            interested_by_oid[oid].values(),
-            key=lambda entry: (entry["priority"] is None, entry["priority"] or 0),
+            interested_by_oid.get(oid, {}).values(),
+            key=lambda pick: (pick["priority"] is None, pick["priority"] or 0),
         )
         items.append({
             "objectId": oid,
-            "name": thing.get("name"),
-            "yearPublished": thing.get("yearPublished"),
-            "image": thing.get("image"),
-            "thumbnail": thing.get("thumbnail"),
+            "name": thing.get("name") or entry.get("name"),
+            "yearPublished": thing.get("yearPublished") or entry.get("yearPublished"),
+            "image": thing.get("image") or entry.get("image"),
+            "thumbnail": thing.get("thumbnail") or entry.get("thumbnail"),
             "link": f"https://boardgamegeek.com/boardgame/{oid}",
             "minPlayers": thing.get("minPlayers"),
             "maxPlayers": thing.get("maxPlayers"),
@@ -462,14 +515,19 @@ def build_snapshot(sources: list[dict], previewid: int, existing_items: dict[int
             "designers": thing.get("designers"),
             "artists": thing.get("artists"),
             "publishers": thing.get("publishers"),
-            "price": preview.get("price"),
-            "location": preview.get("location"),
-            "availability": preview.get("availability"),
+            "price": entry.get("price"),
+            "location": entry.get("location"),
+            "availability": entry.get("availability"),
             "interested": interested,
             "thingFetchedAt": thing.get("thingFetchedAt"),
         })
 
     items.sort(key=lambda item: (item.get("name") or "").lower())
+
+    interested_count = sum(
+        1 for item in items
+        if any(pick.get("priority") in (1, 2, 3) for pick in item["interested"])
+    )
 
     event = fetch_event_info(previewid)
     priority_labels = {str(k): v for k, v in PRIORITY_LABELS.items()}
@@ -479,9 +537,11 @@ def build_snapshot(sources: list[dict], previewid: int, existing_items: dict[int
         "event": event,
         "priorityLabels": priority_labels,
         "users": sorted(saved_by_user, key=str.lower),
-        "sourceLabel": "BGG GeekPreview 93 + XML API2",
+        "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "itemCount": len(items),
+        "interestedCount": interested_count,
+        "noOneCount": len(items) - interested_count,
         "items": items,
     }
 
@@ -528,6 +588,27 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Ignore cached /thing data and re-fetch everything.",
     )
+    parser.add_argument(
+        "--max-pages",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Cap the number of catalog pages fetched (10 items/page). Default: crawl the full catalog.",
+    )
+    parser.add_argument(
+        "--max-fetch",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Cap the number of stale games fetched via /thing this run; the rest are deferred to a later run.",
+    )
+    parser.add_argument(
+        "--thing-batch-delay",
+        type=float,
+        default=THING_BATCH_DELAY,
+        metavar="SECONDS",
+        help=f"Delay between /thing batch requests (default: {THING_BATCH_DELAY}).",
+    )
     return parser
 
 
@@ -544,11 +625,23 @@ def main() -> int:
 
     output_path = Path(args.output)
     cache_days = 0 if args.no_cache else args.cache_days
-    existing_items = load_existing_items(output_path) if cache_days > 0 else {}
+    existing_items = (
+        load_existing_items(output_path)
+        if (cache_days > 0 or args.max_fetch is not None)
+        else {}
+    )
     if existing_items:
         print(f"Loaded {len(existing_items)} cached games from {output_path}\n")
 
-    snapshot = build_snapshot(sources, args.previewid, existing_items, cache_days)
+    snapshot = build_snapshot(
+        sources,
+        args.previewid,
+        existing_items,
+        cache_days,
+        max_pages=args.max_pages,
+        max_fetch=args.max_fetch,
+        thing_batch_delay=args.thing_batch_delay,
+    )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
