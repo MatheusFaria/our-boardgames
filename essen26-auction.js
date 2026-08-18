@@ -416,11 +416,12 @@ function renderOfferRow(offer) {
   `;
 }
 
+function visibleOffers(item) {
+  return (item.offers || []).filter((offer) => state.showSold || !offerHiddenBySold(offer));
+}
+
 function renderOffers(item) {
-  const visibleOffers = (item.offers || []).filter(
-    (offer) => state.showSold || !offerHiddenBySold(offer)
-  );
-  const sorted = sortOffersForDisplay(visibleOffers);
+  const sorted = sortOffersForDisplay(visibleOffers(item));
   if (!sorted.length) {
     return '<span class="muted">No offers</span>';
   }
@@ -433,7 +434,7 @@ function renderCard(item) {
     : '<div class="card-thumb placeholder">No image</div>';
 
   const yearLabel = item.yearPublished ? ` (${escapeHtml(item.yearPublished)})` : "";
-  const offerCount = item.offerCount ?? (item.offers || []).length;
+  const offerCount = visibleOffers(item).length;
   const offerBadge = `<span class="avail-badge">${offerCount} offer${offerCount === 1 ? "" : "s"}</span>`;
 
   const detailLines = [];
