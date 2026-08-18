@@ -631,6 +631,46 @@
         margin-top: 16px;
       }
 
+      .vote-row {
+        display: flex;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .vote-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 32px;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: transparent;
+        cursor: pointer;
+        font-size: 0.95rem;
+        line-height: 1;
+        opacity: 0.65;
+        transition: opacity 0.15s, background 0.15s, border-color 0.15s;
+      }
+
+      .vote-btn:hover {
+        opacity: 1;
+      }
+
+      .vote-btn.is-active {
+        opacity: 1;
+      }
+
+      .vote-btn--like.is-active {
+        background: var(--status-success-bg);
+        border-color: var(--success);
+      }
+
+      .vote-btn--dislike.is-active {
+        background: var(--accent-soft);
+        border-color: var(--accent);
+      }
+
       .section-label {
         margin-bottom: 10px;
         font-size: 0.76rem;

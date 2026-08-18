@@ -34,6 +34,17 @@ const EXPANSION_OPTIONS = [
   { key: "show", label: "Shown" },
 ];
 
+const DISLIKED_OPTIONS = [
+  { key: "hide", label: "Hidden" },
+  { key: "show", label: "Shown" },
+];
+
+const VOTED_OPTIONS = [
+  { key: "all", label: "All" },
+  { key: "hide", label: "Hide voted" },
+  { key: "only", label: "Only voted" },
+];
+
 const TIER_RANK = { light: 0, medium: 1, strong: 2 };
 
 const MATCH_PREPOSITIONS = {
@@ -72,7 +83,45 @@ const state = {
   playerMax: null,
   page: 1,
   pageSize: 24,
+  votes: {},
+  dislikedFilter: "hide",
+  votedFilter: "all",
 };
+
+// ---------------------------------------------------------------------------
+// Vote storage
+// ---------------------------------------------------------------------------
+
+function votesStorageKey(user) {
+  return `obg:recVotes:v1:${user}`;
+}
+function loadVotes(user) {
+  state.votes = {};
+  if (!user) return;
+  try {
+    const raw = localStorage.getItem(votesStorageKey(user));
+    if (raw) state.votes = JSON.parse(raw) || {};
+  } catch (e) {
+    state.votes = {};
+  }
+}
+function saveVotes(user) {
+  if (!user) return;
+  try {
+    localStorage.setItem(votesStorageKey(user), JSON.stringify(state.votes));
+  } catch (e) {}
+}
+function getVote(objectId) {
+  return state.votes[String(objectId)] || 0;
+}
+function setVote(objectId, vote) {
+  const key = String(objectId);
+  if (state.votes[key] === vote) delete state.votes[key];
+  else state.votes[key] = vote;
+  saveVotes(state.user);
+  renderContent();
+  renderDislikedOptions();
+}
 
 // ---------------------------------------------------------------------------
 // Formatting helpers
@@ -401,6 +450,8 @@ function isBetterTopValue(candidate, current) {
   return candidate.value.localeCompare(current.value) < 0;
 }
 
+const VOTE_GAIN = 1.5;
+
 function computeMatches() {
   const user = state.user;
   const categoryKey = state.category;
@@ -417,6 +468,15 @@ function computeMatches() {
   const { df, total } = buildCandidateDf(candidates, categoryKey, expansionIds);
   const minTierRank = TIER_RANK[state.confidenceFilter] ?? 0;
 
+  const voteWeights = new Map();
+  for (const [objId, vote] of Object.entries(state.votes)) {
+    const c = candidates.get(Number(objId));
+    if (!c) continue;
+    for (const value of c.item[categoryKey] || []) {
+      voteWeights.set(value, (voteWeights.get(value) || 0) + vote);
+    }
+  }
+
   const results = [];
   for (const candidate of candidates.values()) {
     if (state.sourceFilter === "preview" && !candidate.inPreview) continue;
@@ -425,6 +485,10 @@ function computeMatches() {
     if (ownedIds.has(item.objectId)) continue;
     if (state.expansionFilter === "hide" && isExpansion(item, expansionIds)) continue;
     if (!matchesPlayerRange(item)) continue;
+    if (state.dislikedFilter === "hide" && getVote(item.objectId) === -1) continue;
+    const voteState = getVote(item.objectId);
+    if (state.votedFilter === "hide" && voteState !== 0) continue;
+    if (state.votedFilter === "only" && voteState === 0) continue;
     const itemValues = item[categoryKey] || [];
     const overlap = targetValues.filter((value) => itemValues.includes(value));
     if (!overlap.length) continue;
@@ -441,6 +505,15 @@ function computeMatches() {
       const contender = { value, weight, ownedCount };
       if (!top || isBetterTopValue(contender, top)) top = contender;
     }
+
+    let voteBonus = 0;
+    for (const value of item[categoryKey] || []) {
+      const net = Math.max(-3, Math.min(3, voteWeights.get(value) || 0));
+      if (net === 0) continue;
+      const idf = Math.log(total / Math.max(1, df.get(value) || 1));
+      voteBonus += net * idf * VOTE_GAIN;
+    }
+    score += voteBonus;
 
     const tier = tierFor(maxOwned);
     if (TIER_RANK[tier] < minTierRank) continue;
@@ -492,7 +565,8 @@ function rareScore(match, maxAffinity) {
   }
   const price = cheapestOfferAmount(match);
   const deal = match.inAuction && price != null ? 0.5 + RARE_PRICE_REF / (price + RARE_PRICE_REF) : 1;
-  const affinity = 1 + (maxAffinity > 0 ? (match.score || 0) / maxAffinity : 0);
+  const ratio = maxAffinity > 0 ? (match.score || 0) / maxAffinity : 0;
+  const affinity = 1 + Math.max(-0.5, ratio);
   return pedigree * deal * affinity;
 }
 
@@ -618,6 +692,17 @@ function renderCard(match) {
 
   const offerHtml = match.inAuction ? renderOffers(match) : "";
 
+  const vote = getVote(item.objectId);
+  const voteRow = `
+    <div class="vote-row">
+      <button class="vote-btn vote-btn--like${vote === 1 ? " is-active" : ""}" data-object-id="${escapeHtml(
+        String(item.objectId)
+      )}" data-vote="1" type="button" aria-label="Like">👍</button>
+      <button class="vote-btn vote-btn--dislike${vote === -1 ? " is-active" : ""}" data-object-id="${escapeHtml(
+        String(item.objectId)
+      )}" data-vote="-1" type="button" aria-label="Dislike">👎</button>
+    </div>`;
+
   const lines = [];
   if (item.minPlayers != null && item.maxPlayers != null) {
     lines.push(
@@ -668,6 +753,7 @@ function renderCard(match) {
         <div class="card-section">
           ${renderMatchBadges(match)}
         </div>
+        ${voteRow}
       </div>
     </article>
   `;
@@ -715,6 +801,12 @@ function renderContent() {
       .map((match) => renderCard(match))
       .join("")}</div>`;
   }
+
+  content.querySelectorAll(".vote-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      setVote(Number(btn.dataset.objectId), Number(btn.dataset.vote));
+    });
+  });
 
   const sortLabel = SORT_OPTIONS.find((o) => o.key === state.sortKey)?.label || state.sortKey;
   statusPill.className = "status";
@@ -790,6 +882,7 @@ function renderUserOptions() {
     btn.textContent = user;
     btn.addEventListener("click", () => {
       state.user = user;
+      loadVotes(state.user);
       state.page = 1;
       renderMechanicOptions();
       renderUserOptions();
@@ -917,6 +1010,48 @@ function renderExpansionOptions() {
       state.expansionFilter = option.key;
       state.page = 1;
       renderExpansionOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function renderDislikedOptions() {
+  const container = document.getElementById("disliked-options");
+  container.innerHTML = "";
+  for (const option of DISLIKED_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.dislikedFilter === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.dislikedFilter = option.key;
+      state.page = 1;
+      renderDislikedOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+
+  const title = document.getElementById("disliked-title");
+  if (title) {
+    const count = Object.values(state.votes).filter((v) => v === -1).length;
+    title.textContent = `Disliked (${count})`;
+  }
+}
+
+function renderVotedOptions() {
+  const container = document.getElementById("voted-options");
+  container.innerHTML = "";
+  for (const option of VOTED_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.votedFilter === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.votedFilter = option.key;
+      state.page = 1;
+      renderVotedOptions();
       renderContent();
     });
     container.appendChild(btn);
@@ -1074,6 +1209,7 @@ async function loadSnapshots() {
     a.localeCompare(b, undefined, { sensitivity: "base" })
   );
   state.user = state.users[0] || null;
+  loadVotes(state.user);
 
   renderMeta();
   renderUserOptions();
@@ -1084,6 +1220,8 @@ async function loadSnapshots() {
   renderSourceOptions();
   renderConfidenceOptions();
   renderExpansionOptions();
+  renderDislikedOptions();
+  renderVotedOptions();
   renderPageSizeOptions();
   setupPlayerFilter();
   renderContent();
