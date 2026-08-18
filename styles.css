@@ -1137,6 +1137,39 @@
         color: var(--auction-accent);
       }
 
+      .tier-badge {
+        display: inline-block;
+        padding: 3px 8px;
+        border-radius: 999px;
+        font-size: 0.62rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .tier-badge--strong {
+        background: var(--status-success-bg);
+        color: var(--success);
+      }
+
+      .tier-badge--medium {
+        background: var(--auction-accent-soft);
+        color: var(--auction-accent);
+      }
+
+      .tier-badge--light {
+        background: var(--pill-bg);
+        color: var(--muted);
+      }
+
+      .match-explanation {
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: var(--text);
+        margin-bottom: 8px;
+      }
+
       .match-offer {
         display: inline-block;
         margin-top: 12px;

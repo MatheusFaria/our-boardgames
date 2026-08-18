@@ -19,6 +19,21 @@ const SOURCE_OPTIONS = [
   { key: "auction", label: "Auction" },
 ];
 
+const CONFIDENCE_OPTIONS = [
+  { key: "all", label: "All" },
+  { key: "medium", label: "Medium+" },
+  { key: "strong", label: "Strong" },
+];
+
+const TIER_RANK = { light: 0, medium: 1, strong: 2 };
+
+const MATCH_PREPOSITIONS = {
+  designers: "by",
+  artists: "by",
+  publishers: "from",
+  mechanics: "with",
+};
+
 const CURRENCY_SYMBOLS = { EUR: "€", USD: "$", GBP: "£" };
 
 const PAGE_SIZE_OPTIONS = [
@@ -42,6 +57,7 @@ const state = {
   searchQuery: "",
   sortKey: "match",
   sourceFilter: "all",
+  confidenceFilter: "all",
   page: 1,
   pageSize: 24,
 };
@@ -260,6 +276,31 @@ function buildCandidates() {
   return candidates;
 }
 
+// Document frequency of each category value across the full candidate pool,
+// used to dampen generic values (e.g. "Hand Management") in the affinity score.
+function buildCandidateDf(candidates, categoryKey) {
+  const df = new Map();
+  for (const candidate of candidates.values()) {
+    const values = new Set(candidate.item[categoryKey] || []);
+    for (const value of values) {
+      df.set(value, (df.get(value) || 0) + 1);
+    }
+  }
+  return { df, total: candidates.size };
+}
+
+function tierFor(maxOwned) {
+  if (maxOwned >= 4) return "strong";
+  if (maxOwned >= 2) return "medium";
+  return "light";
+}
+
+function isBetterTopValue(candidate, current) {
+  if (candidate.weight !== current.weight) return candidate.weight > current.weight;
+  if (candidate.ownedCount !== current.ownedCount) return candidate.ownedCount > current.ownedCount;
+  return candidate.value.localeCompare(current.value) < 0;
+}
+
 function computeMatches() {
   const user = state.user;
   const categoryKey = state.category;
@@ -272,6 +313,9 @@ function computeMatches() {
   if (!targetValues.length) return [];
 
   const candidates = buildCandidates();
+  const { df, total } = buildCandidateDf(candidates, categoryKey);
+  const minTierRank = TIER_RANK[state.confidenceFilter] ?? 0;
+
   const results = [];
   for (const candidate of candidates.values()) {
     if (state.sourceFilter === "preview" && !candidate.inPreview) continue;
@@ -281,6 +325,23 @@ function computeMatches() {
     const itemValues = item[categoryKey] || [];
     const overlap = targetValues.filter((value) => itemValues.includes(value));
     if (!overlap.length) continue;
+
+    let score = 0;
+    let maxOwned = 0;
+    let top = null;
+    for (const value of overlap) {
+      const ownedCount = valueMap.get(value)?.length || 0;
+      const idf = Math.log(total / Math.max(1, df.get(value) || 1));
+      const weight = ownedCount * idf;
+      score += weight;
+      if (ownedCount > maxOwned) maxOwned = ownedCount;
+      const contender = { value, weight, ownedCount };
+      if (!top || isBetterTopValue(contender, top)) top = contender;
+    }
+
+    const tier = tierFor(maxOwned);
+    if (TIER_RANK[tier] < minTierRank) continue;
+
     results.push({
       item,
       overlap,
@@ -288,6 +349,11 @@ function computeMatches() {
       inPreview: candidate.inPreview,
       inAuction: candidate.inAuction,
       offers: candidate.offers,
+      score,
+      topValue: top.value,
+      topValueOwned: top.ownedCount,
+      maxOwned,
+      tier,
     });
   }
   return results;
@@ -315,9 +381,9 @@ function sortMatches(matches) {
     if (state.sortKey === "name") {
       return String(x.item.name || "").localeCompare(String(y.item.name || ""));
     }
-    // Best match: overlap count desc, then BGG rank asc (nulls last), then name
-    if (x.overlap.length !== y.overlap.length) {
-      return y.overlap.length - x.overlap.length;
+    // Best match: affinity score desc, then BGG rank asc (nulls last), then name
+    if (x.score !== y.score) {
+      return y.score - x.score;
     }
     const rank = compareValues(x.item.bggRank, y.item.bggRank);
     if (rank !== 0) return rank;
@@ -328,6 +394,18 @@ function sortMatches(matches) {
 // ---------------------------------------------------------------------------
 // Rendering
 // ---------------------------------------------------------------------------
+
+function tierDisplayLabel(tier) {
+  return tier.charAt(0).toUpperCase() + tier.slice(1);
+}
+
+function matchExplanation(match) {
+  const prep = MATCH_PREPOSITIONS[state.category] || "with";
+  const count = match.topValueOwned;
+  return `${tierDisplayLabel(match.tier)} match — you own ${count} game${
+    count === 1 ? "" : "s"
+  } ${prep} ${escapeHtml(match.topValue)}`;
+}
 
 function renderMatchBadges(match) {
   const label = isMechanicsSpecific() ? "Mechanic" : categoryLabel(state.category);
@@ -354,6 +432,7 @@ function renderMatchBadges(match) {
 
   const noun = categoryNoun(state.category);
   return `
+    <div class="match-explanation">${matchExplanation(match)}</div>
     <div class="section-label">Matches ${match.overlap.length} of your ${escapeHtml(
       noun
     )}${match.overlap.length === 1 ? "" : "s"}</div>
@@ -370,6 +449,9 @@ function renderCard(match) {
   const yearLabel = item.yearPublished ? ` (${escapeHtml(item.yearPublished)})` : "";
 
   const badges = [];
+  badges.push(
+    `<span class="tier-badge tier-badge--${match.tier}">${escapeHtml(tierDisplayLabel(match.tier))}</span>`
+  );
   if (match.inPreview) badges.push('<span class="source-badge source-badge--preview">Preview</span>');
   if (match.inAuction) badges.push('<span class="source-badge source-badge--auction">Auction</span>');
   const badgeHtml = badges.length ? `<div class="source-badges">${badges.join("")}</div>` : "";
@@ -656,6 +738,24 @@ function renderSourceOptions() {
   }
 }
 
+function renderConfidenceOptions() {
+  const container = document.getElementById("confidence-options");
+  container.innerHTML = "";
+  for (const option of CONFIDENCE_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.confidenceFilter === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.confidenceFilter = option.key;
+      state.page = 1;
+      renderConfidenceOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
 function renderPageSizeOptions() {
   const container = document.getElementById("page-size-options");
   container.innerHTML = "";
@@ -787,6 +887,7 @@ async function loadSnapshots() {
   renderMechanicOptions();
   renderSortOptions();
   renderSourceOptions();
+  renderConfidenceOptions();
   renderPageSizeOptions();
   renderContent();
 }
