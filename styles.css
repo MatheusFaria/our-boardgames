@@ -1132,6 +1132,15 @@
         color: var(--muted);
       }
 
+      a.source-badge--preview {
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      a.source-badge--preview:hover {
+        text-decoration: underline;
+      }
+
       .source-badge--auction {
         background: var(--auction-accent-soft);
         color: var(--auction-accent);

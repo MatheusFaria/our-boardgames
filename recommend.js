@@ -232,6 +232,7 @@ function getOwnedIds(user) {
 function getOwnedValueMap(user, categoryKey) {
   const map = new Map();
   for (const game of getOwnedGames(user)) {
+    if (game.itemType === "expansion") continue;
     for (const value of game[categoryKey] || []) {
       if (!map.has(value)) map.set(value, []);
       map.get(value).push(game.name);
@@ -296,17 +297,21 @@ function buildCandidates() {
   return candidates;
 }
 
-// Document frequency of each category value across the full candidate pool,
-// used to dampen generic values (e.g. "Hand Management") in the affinity score.
-function buildCandidateDf(candidates, categoryKey) {
+// Document frequency of each category value across the non-expansion candidate
+// pool, used to dampen generic values (e.g. "Hand Management") in the affinity
+// score. Expansions are excluded so they never influence the weighting.
+function buildCandidateDf(candidates, categoryKey, expansionIds) {
   const df = new Map();
+  let total = 0;
   for (const candidate of candidates.values()) {
+    if (isExpansion(candidate.item, expansionIds)) continue;
+    total += 1;
     const values = new Set(candidate.item[categoryKey] || []);
     for (const value of values) {
       df.set(value, (df.get(value) || 0) + 1);
     }
   }
-  return { df, total: candidates.size };
+  return { df, total };
 }
 
 function tierFor(maxOwned) {
@@ -333,9 +338,9 @@ function computeMatches() {
   if (!targetValues.length) return [];
 
   const candidates = buildCandidates();
-  const { df, total } = buildCandidateDf(candidates, categoryKey);
-  const minTierRank = TIER_RANK[state.confidenceFilter] ?? 0;
   const expansionIds = buildExpansionIds();
+  const { df, total } = buildCandidateDf(candidates, categoryKey, expansionIds);
+  const minTierRank = TIER_RANK[state.confidenceFilter] ?? 0;
 
   const results = [];
   for (const candidate of candidates.values()) {
@@ -462,6 +467,11 @@ function renderMatchBadges(match) {
   `;
 }
 
+function previewListUrl() {
+  const previewId = state.essen?.event?.previewId || 93;
+  return `https://boardgamegeek.com/geekpreview/${previewId}/spiel-essen-2026`;
+}
+
 function renderCard(match) {
   const item = match.item;
   const image = item.thumbnail
@@ -474,7 +484,13 @@ function renderCard(match) {
   badges.push(
     `<span class="tier-badge tier-badge--${match.tier}">${escapeHtml(tierDisplayLabel(match.tier))}</span>`
   );
-  if (match.inPreview) badges.push('<span class="source-badge source-badge--preview">Preview</span>');
+  if (match.inPreview) {
+    badges.push(
+      `<a class="source-badge source-badge--preview" href="${escapeHtml(
+        previewListUrl()
+      )}" target="_blank" rel="noreferrer">Preview</a>`
+    );
+  }
   if (match.inAuction) badges.push('<span class="source-badge source-badge--auction">Auction</span>');
   const badgeHtml = badges.length ? `<div class="source-badges">${badges.join("")}</div>` : "";
 
