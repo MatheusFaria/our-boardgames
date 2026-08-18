@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-18T18:30:17.875090+00:00",
+  "generatedAt": "2026-08-18T22:35:17.455626+00:00",
   "itemCount": 813,
-  "interestedCount": 116,
-  "noOneCount": 697,
+  "interestedCount": 109,
+  "noOneCount": 704,
   "items": [
     {
       "objectId": 474125,
@@ -2036,8 +2036,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -3995,8 +3995,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         }
       ],
@@ -4191,8 +4191,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         }
       ],
@@ -5542,8 +5542,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -6686,6 +6686,12 @@
       "location": "5-A300",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -8481,8 +8487,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -11386,6 +11392,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -11754,8 +11766,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -12426,15 +12438,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -14305,15 +14317,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
+          "user": "Petter_03",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "Petter_03",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -18892,15 +18904,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -20865,8 +20877,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         }
       ],
@@ -23444,15 +23456,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
+          "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
           "notes": null
         },
         {
-          "user": "Alem0nes",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -25936,8 +25948,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -27191,8 +27203,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -28533,8 +28545,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -32528,8 +32540,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         }
       ],
@@ -34155,8 +34167,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -34735,15 +34747,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
+          "user": "Petter_03",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "Petter_03",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -34793,8 +34805,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -36313,8 +36325,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -38528,8 +38540,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
