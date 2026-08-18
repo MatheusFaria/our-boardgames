@@ -733,12 +733,13 @@
 
       /* ── Pagination ──────────────────────────────────────── */
 
-      .pagination {
+      #pagination {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 4px;
-        padding: 20px 0 4px;
+        gap: 8px 6px;
+        padding: 20px 8px 4px;
       }
 
       .page-btn {
@@ -782,7 +783,8 @@
       .page-ellipsis {
         display: flex;
         align-items: center;
-        padding: 0 4px;
+        height: 34px;
+        padding: 0 2px;
         color: var(--muted);
         font-size: 0.88rem;
         user-select: none;
