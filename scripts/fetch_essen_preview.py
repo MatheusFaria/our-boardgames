@@ -514,6 +514,7 @@ def build_snapshot(
         )
         items.append({
             "objectId": oid,
+            "itemid": entry.get("itemid"),
             "name": thing.get("name") or entry.get("name"),
             "yearPublished": thing.get("yearPublished") or entry.get("yearPublished"),
             "image": thing.get("image") or entry.get("image"),

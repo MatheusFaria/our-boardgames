@@ -467,9 +467,10 @@ function renderMatchBadges(match) {
   `;
 }
 
-function previewListUrl() {
+function previewUrl(item) {
   const previewId = state.essen?.event?.previewId || 93;
-  return `https://boardgamegeek.com/geekpreview/${previewId}/spiel-essen-2026`;
+  const base = `https://boardgamegeek.com/geekpreview/${previewId}`;
+  return item?.itemid != null ? `${base}/item/${item.itemid}` : `${base}/spiel-essen-2026`;
 }
 
 function renderCard(match) {
@@ -487,7 +488,7 @@ function renderCard(match) {
   if (match.inPreview) {
     badges.push(
       `<a class="source-badge source-badge--preview" href="${escapeHtml(
-        previewListUrl()
+        previewUrl(item)
       )}" target="_blank" rel="noreferrer">Preview</a>`
     );
   }
