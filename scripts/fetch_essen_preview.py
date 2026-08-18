@@ -282,6 +282,14 @@ def _parse_link_values(item_el: ET.Element, link_type: str) -> list[str]:
     return [el.get("value") for el in item_el.findall(f"./link[@type='{link_type}']") if el.get("value")]
 
 
+def _item_type_from_subtype(subtype: str | None) -> str | None:
+    if subtype == "boardgameexpansion":
+        return "expansion"
+    if subtype == "boardgame":
+        return "standalone"
+    return None
+
+
 def parse_thing_item(item_el: ET.Element) -> dict:
     name_el = next(
         (el for el in item_el.findall("name") if el.get("type") == "primary"), None
@@ -340,6 +348,8 @@ def parse_thing_item(item_el: ET.Element) -> dict:
         "designers": _parse_link_values(item_el, "boardgamedesigner"),
         "artists": _parse_link_values(item_el, "boardgameartist"),
         "publishers": _parse_link_values(item_el, "boardgamepublisher"),
+        "subtype": item_el.get("type"),
+        "itemType": _item_type_from_subtype(item_el.get("type")),
     }
 
 
@@ -374,6 +384,7 @@ THING_FIELDS = (
     "minPlayers", "maxPlayers", "playingTime", "recommendedAge",
     "weight", "bggAverageRating", "bggBayesAverageRating", "bggRank",
     "mechanics", "designers", "artists", "publishers",
+    "subtype", "itemType",
 )
 
 
@@ -391,6 +402,11 @@ def _is_fresh(item: dict, cache_days: int) -> bool:
 def _has_credits(item: dict) -> bool:
     """Return True if the item already has designers/artists/publishers (empty list counts)."""
     return "designers" in item and "artists" in item and "publishers" in item
+
+
+def _has_type(item: dict) -> bool:
+    """Return True if the item already has an itemType (fetched, even if the value is None)."""
+    return "itemType" in item
 
 
 def load_existing_items(output_path: Path) -> dict[int, dict]:
@@ -444,7 +460,7 @@ def build_snapshot(
     fresh_things: dict[int, dict] = {}
     for oid in object_ids:
         cached = existing_items.get(oid)
-        if cached and _is_fresh(cached, cache_days) and _has_credits(cached):
+        if cached and _is_fresh(cached, cache_days) and _has_credits(cached) and _has_type(cached):
             fresh_things[oid] = {field: cached.get(field) for field in THING_FIELDS}
             fresh_things[oid]["thingFetchedAt"] = cached.get("thingFetchedAt")
         else:
@@ -515,6 +531,8 @@ def build_snapshot(
             "designers": thing.get("designers"),
             "artists": thing.get("artists"),
             "publishers": thing.get("publishers"),
+            "subtype": thing.get("subtype"),
+            "itemType": thing.get("itemType"),
             "price": entry.get("price"),
             "location": entry.get("location"),
             "availability": entry.get("availability"),

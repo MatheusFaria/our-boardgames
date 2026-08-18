@@ -50,6 +50,7 @@ DETAIL_FIELDS = (
     "bggAverageRating", "weight", "minPlayers", "maxPlayers",
     "playingTime", "link",
     "designers", "artists", "publishers", "mechanics",
+    "subtype", "itemType",
 )
 
 THING_FIELDS = (
@@ -57,6 +58,7 @@ THING_FIELDS = (
     "minPlayers", "maxPlayers", "playingTime",
     "weight", "bggAverageRating", "bggRank",
     "mechanics", "designers", "artists", "publishers",
+    "subtype", "itemType",
 )
 
 CURRENCY_SYMBOLS = {"€": "EUR", "$": "USD", "£": "GBP"}
@@ -337,6 +339,14 @@ def _parse_link_values(item_el: ET.Element, link_type: str) -> list[str]:
     return [el.get("value") for el in item_el.findall(f"./link[@type='{link_type}']") if el.get("value")]
 
 
+def _item_type_from_subtype(subtype: str | None) -> str | None:
+    if subtype == "boardgameexpansion":
+        return "expansion"
+    if subtype == "boardgame":
+        return "standalone"
+    return None
+
+
 def parse_thing_item(item_el: ET.Element) -> dict:
     name_el = next(
         (el for el in item_el.findall("name") if el.get("type") == "primary"), None
@@ -389,6 +399,8 @@ def parse_thing_item(item_el: ET.Element) -> dict:
         "designers": _parse_link_values(item_el, "boardgamedesigner"),
         "artists": _parse_link_values(item_el, "boardgameartist"),
         "publishers": _parse_link_values(item_el, "boardgamepublisher"),
+        "subtype": item_el.get("type"),
+        "itemType": _item_type_from_subtype(item_el.get("type")),
     }
 
 
@@ -428,6 +440,11 @@ def _is_fresh(item: dict, cache_days: int) -> bool:
 def _has_credits(item: dict) -> bool:
     """Return True if the item already has designers/artists/publishers (empty list counts)."""
     return "designers" in item and "artists" in item and "publishers" in item
+
+
+def _has_type(item: dict) -> bool:
+    """Return True if the item already has an itemType (fetched, even if the value is None)."""
+    return "itemType" in item
 
 
 def _load_items_by_objectid(path: Path) -> dict[int, dict]:
@@ -499,7 +516,10 @@ def build_snapshot(
 
     object_ids = sorted(listings_by_oid)
     seed = build_thing_seed(object_ids, details, preview_items, prior_items, cache_days)
-    stale_ids = [oid for oid in object_ids if not _has_credits(seed[oid]) or not _is_fresh(seed[oid], cache_days)]
+    stale_ids = [
+        oid for oid in object_ids
+        if not _has_credits(seed[oid]) or not _is_fresh(seed[oid], cache_days) or not _has_type(seed[oid])
+    ]
 
     if max_fetch is not None and len(stale_ids) > max_fetch:
         to_fetch, deferred_ids = stale_ids[:max_fetch], stale_ids[max_fetch:]
@@ -554,6 +574,8 @@ def build_snapshot(
             "artists": detail.get("artists") or thing.get("artists") or [],
             "publishers": detail.get("publishers") or thing.get("publishers") or [],
             "mechanics": detail.get("mechanics") or thing.get("mechanics") or [],
+            "subtype": detail.get("subtype") or thing.get("subtype"),
+            "itemType": detail.get("itemType") or thing.get("itemType"),
             "thingFetchedAt": thing.get("thingFetchedAt"),
             "onWishlist": bool(wished_by),
             "wishedBy": wished_by,

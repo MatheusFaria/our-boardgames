@@ -25,6 +25,11 @@ const CONFIDENCE_OPTIONS = [
   { key: "strong", label: "Strong" },
 ];
 
+const EXPANSION_OPTIONS = [
+  { key: "hide", label: "Hidden" },
+  { key: "show", label: "Shown" },
+];
+
 const TIER_RANK = { light: 0, medium: 1, strong: 2 };
 
 const MATCH_PREPOSITIONS = {
@@ -58,6 +63,7 @@ const state = {
   sortKey: "match",
   sourceFilter: "all",
   confidenceFilter: "all",
+  expansionFilter: "hide",
   page: 1,
   pageSize: 24,
 };
@@ -248,6 +254,20 @@ function isEmptyValue(value) {
   return false;
 }
 
+// Fallback expansion set from the collection, for candidates the Essen fetch
+// scripts haven't backfilled an itemType for yet.
+function buildExpansionIds() {
+  const ids = new Set();
+  for (const item of state.collection?.items || []) {
+    if (item.itemType === "expansion") ids.add(item.objectId);
+  }
+  return ids;
+}
+
+function isExpansion(item, expansionIds) {
+  return item.itemType === "expansion" || expansionIds.has(item.objectId);
+}
+
 // Unified pool of Essen preview + auction candidates, deduped by objectId.
 function buildCandidates() {
   const candidates = new Map();
@@ -315,6 +335,7 @@ function computeMatches() {
   const candidates = buildCandidates();
   const { df, total } = buildCandidateDf(candidates, categoryKey);
   const minTierRank = TIER_RANK[state.confidenceFilter] ?? 0;
+  const expansionIds = buildExpansionIds();
 
   const results = [];
   for (const candidate of candidates.values()) {
@@ -322,6 +343,7 @@ function computeMatches() {
     if (state.sourceFilter === "auction" && !candidate.inAuction) continue;
     const item = candidate.item;
     if (ownedIds.has(item.objectId)) continue;
+    if (state.expansionFilter === "hide" && isExpansion(item, expansionIds)) continue;
     const itemValues = item[categoryKey] || [];
     const overlap = targetValues.filter((value) => itemValues.includes(value));
     if (!overlap.length) continue;
@@ -756,6 +778,24 @@ function renderConfidenceOptions() {
   }
 }
 
+function renderExpansionOptions() {
+  const container = document.getElementById("expansion-options");
+  container.innerHTML = "";
+  for (const option of EXPANSION_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.expansionFilter === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.expansionFilter = option.key;
+      state.page = 1;
+      renderExpansionOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
 function renderPageSizeOptions() {
   const container = document.getElementById("page-size-options");
   container.innerHTML = "";
@@ -888,6 +928,7 @@ async function loadSnapshots() {
   renderSortOptions();
   renderSourceOptions();
   renderConfidenceOptions();
+  renderExpansionOptions();
   renderPageSizeOptions();
   renderContent();
 }
