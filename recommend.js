@@ -8,10 +8,14 @@ const CATEGORIES = [
 ];
 
 const SORT_OPTIONS = [
+  { key: "rare", label: "Rare finds" },
   { key: "match", label: "Best match" },
   { key: "bggRank", label: "BGG rank" },
   { key: "name", label: "Name" },
 ];
+
+const RARE_RANK_CAP = 3000;
+const RARE_PRICE_REF = 25;
 
 const SOURCE_OPTIONS = [
   { key: "all", label: "All" },
@@ -60,10 +64,12 @@ const state = {
   category: "designers",
   selectedMechanic: MECHANIC_OVERALL,
   searchQuery: "",
-  sortKey: "match",
+  sortKey: "rare",
   sourceFilter: "all",
   confidenceFilter: "all",
   expansionFilter: "hide",
+  playerMin: null,
+  playerMax: null,
   page: 1,
   pageSize: 24,
 };
@@ -198,6 +204,22 @@ function fuzzyScore(query, name) {
 function matchesFuzzySearch(item) {
   if (!state.searchQuery) return true;
   return fuzzyScore(state.searchQuery, item.name || "") >= FUZZY_THRESHOLD;
+}
+
+function matchesPlayerRange(item) {
+  if (state.playerMin === null && state.playerMax === null) {
+    return true;
+  }
+
+  const gameMin = item.minPlayers;
+  const gameMax = item.maxPlayers;
+  if (gameMin === null || gameMin === undefined || gameMax === null || gameMax === undefined) {
+    return false;
+  }
+
+  const selectedMin = state.playerMin ?? 1;
+  const selectedMax = state.playerMax ?? Number.MAX_SAFE_INTEGER;
+  return gameMax >= selectedMin && gameMin <= selectedMax;
 }
 
 // ---------------------------------------------------------------------------
@@ -349,6 +371,7 @@ function computeMatches() {
     const item = candidate.item;
     if (ownedIds.has(item.objectId)) continue;
     if (state.expansionFilter === "hide" && isExpansion(item, expansionIds)) continue;
+    if (!matchesPlayerRange(item)) continue;
     const itemValues = item[categoryKey] || [];
     const overlap = targetValues.filter((value) => itemValues.includes(value));
     if (!overlap.length) continue;
@@ -386,6 +409,40 @@ function computeMatches() {
   return results;
 }
 
+function cheapestOfferAmount(match) {
+  if (!match.inAuction || !match.offers) return null;
+  let min = null;
+  for (const offer of match.offers) {
+    const amounts = [offer.startingBid?.amount, offer.bin?.amount].filter(
+      (amount) => amount != null
+    );
+    for (const amount of amounts) {
+      const numeric = Number(amount);
+      if (min === null || numeric < min) min = numeric;
+    }
+  }
+  return min;
+}
+
+function rareScore(match, maxAffinity) {
+  const item = match.item;
+  const clamp = (v) => Math.max(0, Math.min(1, v));
+  const rankScore =
+    !match.inPreview && item.bggRank != null ? clamp(1 - item.bggRank / RARE_RANK_CAP) : null;
+  const ratingScore =
+    item.bggAverageRating != null ? clamp((Number(item.bggAverageRating) - 6) / 2.5) : 0;
+  let pedigree;
+  if (match.inAuction && rankScore != null) {
+    pedigree = 0.65 * rankScore + 0.35 * ratingScore;
+  } else {
+    pedigree = ratingScore;
+  }
+  const price = cheapestOfferAmount(match);
+  const deal = match.inAuction && price != null ? 0.5 + RARE_PRICE_REF / (price + RARE_PRICE_REF) : 1;
+  const affinity = 1 + (maxAffinity > 0 ? (match.score || 0) / maxAffinity : 0);
+  return pedigree * deal * affinity;
+}
+
 function compareValues(a, b, nullsLast = true) {
   const aNull = a === null || a === undefined;
   const bNull = b === null || b === undefined;
@@ -399,7 +456,18 @@ function compareValues(a, b, nullsLast = true) {
 }
 
 function sortMatches(matches) {
+  const maxAffinity = matches.reduce((m, x) => Math.max(m, x.score || 0), 0);
+  matches.forEach((m) => {
+    m._rare = rareScore(m, maxAffinity);
+  });
   return [...matches].sort((x, y) => {
+    if (state.sortKey === "rare") {
+      if (x._rare !== y._rare) return y._rare - x._rare;
+      const rank = compareValues(x.item.bggRank, y.item.bggRank);
+      if (rank !== 0) return rank;
+      if (x.score !== y.score) return y.score - x.score;
+      return String(x.item.name || "").localeCompare(String(y.item.name || ""));
+    }
     if (state.sortKey === "bggRank") {
       const rank = compareValues(x.item.bggRank, y.item.bggRank);
       if (rank !== 0) return rank;
@@ -862,6 +930,34 @@ function setupControls() {
   }
 }
 
+function setupPlayerFilter() {
+  const playerMinInput = document.getElementById("player-min-filter");
+  const playerMaxInput = document.getElementById("player-max-filter");
+  if (!playerMinInput || !playerMaxInput) return;
+
+  function syncPlayerRangeState() {
+    const minValue = playerMinInput.value.trim();
+    const maxValue = playerMaxInput.value.trim();
+
+    state.playerMin = minValue ? Number(minValue) : null;
+    state.playerMax = maxValue ? Number(maxValue) : null;
+
+    if (state.playerMin !== null && state.playerMax !== null && state.playerMin > state.playerMax) {
+      [state.playerMin, state.playerMax] = [state.playerMax, state.playerMin];
+      playerMinInput.value = String(state.playerMin);
+      playerMaxInput.value = String(state.playerMax);
+    }
+  }
+
+  for (const input of [playerMinInput, playerMaxInput]) {
+    input.addEventListener("input", () => {
+      syncPlayerRangeState();
+      state.page = 1;
+      renderContent();
+    });
+  }
+}
+
 function setupMobileNav() {
   const toggleBtn = document.getElementById("filter-toggle-btn");
   const sidebar = document.getElementById("sidebar");
@@ -947,6 +1043,7 @@ async function loadSnapshots() {
   renderConfidenceOptions();
   renderExpansionOptions();
   renderPageSizeOptions();
+  setupPlayerFilter();
   renderContent();
 }
 
