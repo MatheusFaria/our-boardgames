@@ -22,14 +22,26 @@ const state = {
   wishlistOnly: true,
   ownerFilters: [],
   statusFilters: [],
-  conditionFilters: [],
   hasBinOnly: false,
   maxStartingBid: null,
+  showSold: false,
+  myBidsFilter: "all",
   sortKey: "wishlist",
   sortDirection: "asc",
   page: 1,
   pageSize: 24,
 };
+
+const SOLD_OPTIONS = [
+  { key: "hide", label: "Hide sold" },
+  { key: "show", label: "Show sold" },
+];
+
+const MYBIDS_OPTIONS = [
+  { key: "all", label: "All" },
+  { key: "only", label: "Only yours" },
+  { key: "hide", label: "Hide yours" },
+];
 
 // ---------------------------------------------------------------------------
 // Formatting helpers
@@ -190,6 +202,7 @@ function matchesFuzzySearch(item) {
 }
 
 function matchesWishlistOnly(item) {
+  if (state.myBidsFilter === "only") return true;
   return !state.wishlistOnly || item.onWishlist === true;
 }
 
@@ -201,14 +214,17 @@ function getVisibleWishedBy(item) {
   });
 }
 
-function matchesOwnerStatus(item) {
-  if (!state.ownerFilters.length && !state.statusFilters.length) return true;
-  return getVisibleWishedBy(item).length > 0;
+function itemBidByOwner(item, owner) {
+  const target = owner.toLowerCase();
+  return (item.offers || []).some(
+    (offer) => (offer.bids?.ours?.user || "").toLowerCase() === target
+  );
 }
 
-function matchesCondition(item) {
-  if (!state.conditionFilters.length) return true;
-  return (item.offers || []).some((offer) => state.conditionFilters.includes(offer.condition));
+function matchesOwnerStatus(item) {
+  if (!state.ownerFilters.length && !state.statusFilters.length) return true;
+  if (getVisibleWishedBy(item).length > 0) return true;
+  return state.ownerFilters.some((owner) => itemBidByOwner(item, owner));
 }
 
 function matchesHasBin(item) {
@@ -224,14 +240,36 @@ function matchesMaxStartingBid(item) {
   });
 }
 
+function offerHiddenBySold(offer) {
+  return offer.bids?.status === "sold" && offer.bids?.ours?.state !== "won";
+}
+
+function matchesSold(item) {
+  return state.showSold || (item.offers || []).some((offer) => !offerHiddenBySold(offer));
+}
+
+function itemHasOurBids(item) {
+  if (state.ownerFilters.length) {
+    return state.ownerFilters.some((owner) => itemBidByOwner(item, owner));
+  }
+  return (item.offers || []).some((offer) => offer.bids?.ours);
+}
+
+function matchesMyBids(item) {
+  if (state.myBidsFilter === "only") return itemHasOurBids(item);
+  if (state.myBidsFilter === "hide") return !itemHasOurBids(item);
+  return true;
+}
+
 function applyActiveFilters(items) {
   return items.filter(
     (item) =>
       matchesWishlistOnly(item) &&
       matchesOwnerStatus(item) &&
-      matchesCondition(item) &&
       matchesHasBin(item) &&
       matchesMaxStartingBid(item) &&
+      matchesSold(item) &&
+      matchesMyBids(item) &&
       matchesFuzzySearch(item)
   );
 }
@@ -312,6 +350,43 @@ function renderWishedByBadges(item) {
     .join("")}</div>`;
 }
 
+function renderBidState(offer) {
+  const b = offer.bids;
+  if (!b) return "";
+
+  let statusHtml = "";
+  if (b.status === "live") {
+    const amount = formatMoney(b.currentBid);
+    statusHtml = `<span class="bid-status bid-status--live">Current bid ${
+      amount ? escapeHtml(amount) : "—"
+    } · ${b.bidCount} bid${b.bidCount === 1 ? "" : "s"}</span>`;
+  } else if (b.status === "open") {
+    statusHtml = `<span class="bid-status bid-status--open">No bids yet</span>`;
+  } else if (b.status === "sold") {
+    statusHtml = `<span class="bid-status bid-status--sold">Sold (BIN)</span>`;
+  }
+
+  let yoursHtml = "";
+  if (b.ours) {
+    const labels = {
+      leading: "Winning",
+      outbid: "Outbid",
+      won: "Won (BIN)",
+      lost: "Missed — BIN'd",
+    };
+    const label = labels[b.ours.state];
+    if (label) {
+      const who = b.ours.user ? ` · ${escapeHtml(b.ours.user)}` : "";
+      const amount = formatMoney({ amount: b.ours.amount, currency: "EUR" });
+      const amt = amount ? ` · ${escapeHtml(amount)}` : "";
+      yoursHtml = `<span class="bid-you bid-you--${b.ours.state}">${label}${who}${amt}</span>`;
+    }
+  }
+
+  if (!statusHtml && !yoursHtml) return "";
+  return `<div class="offer-bids">${statusHtml}${yoursHtml}</div>`;
+}
+
 function renderOfferRow(offer) {
   const stars = renderStars(offer.conditionStars);
   const condition = offer.condition ? escapeHtml(offer.condition) : "";
@@ -334,6 +409,7 @@ function renderOfferRow(offer) {
       <span class="detail-line"><span class="detail-label">BIN</span><span class="detail-value">${
         bin ? escapeHtml(bin) : '<span class="muted">—</span>'
       }</span></span>
+      ${renderBidState(offer)}
       ${metaParts.length ? `<div class="offer-meta muted">${metaParts.join(" · ")}</div>` : ""}
       <a class="offer-bid-link" href="${escapeHtml(offer.listingUrl)}" target="_blank" rel="noreferrer">Place bid ↗</a>
     </div>
@@ -341,7 +417,10 @@ function renderOfferRow(offer) {
 }
 
 function renderOffers(item) {
-  const sorted = sortOffersForDisplay(item.offers || []);
+  const visibleOffers = (item.offers || []).filter(
+    (offer) => state.showSold || !offerHiddenBySold(offer)
+  );
+  const sorted = sortOffersForDisplay(visibleOffers);
   if (!sorted.length) {
     return '<span class="muted">No offers</span>';
   }
@@ -507,9 +586,6 @@ function renderActiveFilterChips() {
   for (const status of state.statusFilters) {
     chips.push({ label: `Status: ${status}`, remove: () => toggleStatusFilter(status) });
   }
-  for (const condition of state.conditionFilters) {
-    chips.push({ label: `Condition: ${condition}`, remove: () => toggleConditionFilter(condition) });
-  }
   if (state.hasBinOnly) {
     chips.push({
       label: "Has Buy-It-Now",
@@ -527,6 +603,17 @@ function renderActiveFilterChips() {
       remove: () => {
         state.maxStartingBid = null;
         document.getElementById("max-starting-bid-filter").value = "";
+        state.page = 1;
+        renderContent();
+      },
+    });
+  }
+  if (state.myBidsFilter !== "all") {
+    chips.push({
+      label: state.myBidsFilter === "only" ? "Your bids: Only yours" : "Your bids: Hidden",
+      remove: () => {
+        state.myBidsFilter = "all";
+        renderMyBidsOptions();
         state.page = 1;
         renderContent();
       },
@@ -558,15 +645,6 @@ function toggleStatusFilter(status) {
   const i = state.statusFilters.indexOf(status);
   if (i >= 0) state.statusFilters.splice(i, 1);
   else state.statusFilters.push(status);
-  state.page = 1;
-  syncFilterUI();
-  renderContent();
-}
-
-function toggleConditionFilter(condition) {
-  const i = state.conditionFilters.indexOf(condition);
-  if (i >= 0) state.conditionFilters.splice(i, 1);
-  else state.conditionFilters.push(condition);
   state.page = 1;
   syncFilterUI();
   renderContent();
@@ -629,34 +707,9 @@ function renderStatusFilterGrid() {
   }
 }
 
-function renderConditionFilterGrid() {
-  const grid = document.getElementById("condition-filter-grid");
-  const counts = {};
-  for (const item of state.snapshot.items) {
-    for (const offer of item.offers || []) {
-      if (!offer.condition) continue;
-      counts[offer.condition] = (counts[offer.condition] || 0) + 1;
-    }
-  }
-  const conditions = Object.keys(counts).sort();
-  grid.innerHTML = "";
-  for (const condition of conditions) {
-    const checked = state.conditionFilters.includes(condition);
-    grid.appendChild(
-      buildCheckboxOption(
-        "status-filter-option",
-        checked,
-        `${condition} (${counts[condition]})`,
-        () => toggleConditionFilter(condition)
-      )
-    );
-  }
-}
-
 function syncFilterUI() {
   renderOwnerFilterGrid();
   renderStatusFilterGrid();
-  renderConditionFilterGrid();
 }
 
 function renderSortOptions() {
@@ -697,6 +750,43 @@ function renderPageSizeOptions() {
       state.page = 1;
       localStorage.setItem("essenAuctionPageSize", String(option.value));
       renderPageSizeOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function renderSoldOptions() {
+  const container = document.getElementById("sold-options");
+  container.innerHTML = "";
+  for (const option of SOLD_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    const isActive = (state.showSold ? "show" : "hide") === option.key;
+    if (isActive) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.showSold = option.key === "show";
+      state.page = 1;
+      renderSoldOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function renderMyBidsOptions() {
+  const container = document.getElementById("mybids-options");
+  container.innerHTML = "";
+  for (const option of MYBIDS_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.myBidsFilter === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.myBidsFilter = option.key;
+      state.page = 1;
+      renderMyBidsOptions();
       renderContent();
     });
     container.appendChild(btn);
@@ -746,12 +836,6 @@ function setupControls() {
   });
   document.getElementById("clear-status-filters").addEventListener("click", () => {
     state.statusFilters = [];
-    state.page = 1;
-    syncFilterUI();
-    renderContent();
-  });
-  document.getElementById("clear-condition-filters").addEventListener("click", () => {
-    state.conditionFilters = [];
     state.page = 1;
     syncFilterUI();
     renderContent();
@@ -848,6 +932,8 @@ async function loadSnapshot() {
   renderMeta();
   syncFilterUI();
   renderSortOptions();
+  renderSoldOptions();
+  renderMyBidsOptions();
   renderPageSizeOptions();
   renderContent();
 }

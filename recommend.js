@@ -45,6 +45,17 @@ const VOTED_OPTIONS = [
   { key: "only", label: "Only voted" },
 ];
 
+const SOLD_OPTIONS = [
+  { key: "hide", label: "Hide sold" },
+  { key: "show", label: "Show sold" },
+];
+
+const MYBIDS_OPTIONS = [
+  { key: "all", label: "All" },
+  { key: "only", label: "Only yours" },
+  { key: "hide", label: "Hide yours" },
+];
+
 const TIER_RANK = { light: 0, medium: 1, strong: 2 };
 
 const MATCH_PREPOSITIONS = {
@@ -86,6 +97,8 @@ const state = {
   votes: {},
   dislikedFilter: "hide",
   votedFilter: "all",
+  showSold: false,
+  myBidsFilter: "all",
 };
 
 // ---------------------------------------------------------------------------
@@ -212,6 +225,43 @@ function sortOffersForDisplay(offers) {
   });
 }
 
+function renderBidState(offer) {
+  const b = offer.bids;
+  if (!b) return "";
+
+  let statusHtml = "";
+  if (b.status === "live") {
+    const amount = formatMoney(b.currentBid);
+    statusHtml = `<span class="bid-status bid-status--live">Current bid ${
+      amount ? escapeHtml(amount) : "—"
+    } · ${b.bidCount} bid${b.bidCount === 1 ? "" : "s"}</span>`;
+  } else if (b.status === "open") {
+    statusHtml = `<span class="bid-status bid-status--open">No bids yet</span>`;
+  } else if (b.status === "sold") {
+    statusHtml = `<span class="bid-status bid-status--sold">Sold (BIN)</span>`;
+  }
+
+  let yoursHtml = "";
+  if (b.ours) {
+    const labels = {
+      leading: "Winning",
+      outbid: "Outbid",
+      won: "Won (BIN)",
+      lost: "Missed — BIN'd",
+    };
+    const label = labels[b.ours.state];
+    if (label) {
+      const who = b.ours.user ? ` · ${escapeHtml(b.ours.user)}` : "";
+      const amount = formatMoney({ amount: b.ours.amount, currency: "EUR" });
+      const amt = amount ? ` · ${escapeHtml(amount)}` : "";
+      yoursHtml = `<span class="bid-you bid-you--${b.ours.state}">${label}${who}${amt}</span>`;
+    }
+  }
+
+  if (!statusHtml && !yoursHtml) return "";
+  return `<div class="offer-bids">${statusHtml}${yoursHtml}</div>`;
+}
+
 function renderOfferRow(offer) {
   const stars = renderStars(offer.conditionStars);
   const condition = offer.condition ? escapeHtml(offer.condition) : "";
@@ -233,14 +283,22 @@ function renderOfferRow(offer) {
       <span class="detail-line"><span class="detail-label">BIN</span><span class="detail-value">${
         bin ? escapeHtml(bin) : '<span class="muted">—</span>'
       }</span></span>
+      ${renderBidState(offer)}
       ${metaParts.length ? `<div class="offer-meta muted">${metaParts.join(" · ")}</div>` : ""}
       <a class="offer-bid-link" href="${escapeHtml(offer.listingUrl)}" target="_blank" rel="noreferrer">Place bid ↗</a>
     </div>
   `;
 }
 
+function offerHiddenBySold(offer) {
+  return offer.bids?.status === "sold" && offer.bids?.ours?.state !== "won";
+}
+
 function renderOffers(match) {
-  const sorted = sortOffersForDisplay(match.offers || []);
+  const visibleOffers = (match.offers || []).filter(
+    (offer) => state.showSold || !offerHiddenBySold(offer)
+  );
+  const sorted = sortOffersForDisplay(visibleOffers);
   if (!sorted.length) return "";
   return `<div class="offer-list">${sorted.map(renderOfferRow).join("")}</div>`;
 }
@@ -489,6 +547,16 @@ function computeMatches() {
     const voteState = getVote(item.objectId);
     if (state.votedFilter === "hide" && voteState !== 0) continue;
     if (state.votedFilter === "only" && voteState === 0) continue;
+    if (
+      !state.showSold &&
+      candidate.inAuction &&
+      (item.offers || []).length &&
+      (item.offers || []).every(offerHiddenBySold)
+    )
+      continue;
+    const hasOurBids = (item.offers || []).some((o) => o.bids?.ours);
+    if (state.myBidsFilter === "only" && !hasOurBids) continue;
+    if (state.myBidsFilter === "hide" && hasOurBids) continue;
     const itemValues = item[categoryKey] || [];
     const overlap = targetValues.filter((value) => itemValues.includes(value));
     if (!overlap.length) continue;
@@ -1058,6 +1126,43 @@ function renderVotedOptions() {
   }
 }
 
+function renderSoldOptions() {
+  const container = document.getElementById("sold-options");
+  container.innerHTML = "";
+  for (const option of SOLD_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    const isActive = (state.showSold ? "show" : "hide") === option.key;
+    if (isActive) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.showSold = option.key === "show";
+      state.page = 1;
+      renderSoldOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function renderMyBidsOptions() {
+  const container = document.getElementById("mybids-options");
+  container.innerHTML = "";
+  for (const option of MYBIDS_OPTIONS) {
+    const btn = document.createElement("button");
+    btn.className = "sort-option";
+    if (state.myBidsFilter === option.key) btn.classList.add("active");
+    btn.textContent = option.label;
+    btn.addEventListener("click", () => {
+      state.myBidsFilter = option.key;
+      state.page = 1;
+      renderMyBidsOptions();
+      renderContent();
+    });
+    container.appendChild(btn);
+  }
+}
+
 function renderPageSizeOptions() {
   const container = document.getElementById("page-size-options");
   container.innerHTML = "";
@@ -1222,6 +1327,8 @@ async function loadSnapshots() {
   renderExpansionOptions();
   renderDislikedOptions();
   renderVotedOptions();
+  renderSoldOptions();
+  renderMyBidsOptions();
   renderPageSizeOptions();
   setupPlayerFilter();
   renderContent();

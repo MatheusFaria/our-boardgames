@@ -13,7 +13,24 @@ permissions:
   contents: write
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      active: ${{ steps.check.outputs.active }}
+    steps:
+      - name: Check Essen 2026 season window
+        id: check
+        run: |
+          if [ "$(date -u +%Y%m%d)" -le 20261031 ]; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "active=false" >> "$GITHUB_OUTPUT"
+            echo "Essen 2026 season ended (after 2026-10-31); skipping sync."
+          fi
+
   sync:
+    needs: gate
+    if: needs.gate.outputs.active == 'true'
     runs-on: ubuntu-latest
 
     steps:

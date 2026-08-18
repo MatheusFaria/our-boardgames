@@ -1231,6 +1231,63 @@
         color: var(--muted);
       }
 
+      .offer-bids {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin: 4px 0;
+      }
+
+      .bid-status {
+        display: inline-flex;
+        padding: 3px 9px;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      .bid-status--live {
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .bid-status--open {
+        background: var(--pill-bg);
+        color: var(--muted);
+      }
+
+      .bid-status--sold {
+        background: var(--pill-bg);
+        color: var(--muted);
+        text-decoration: line-through;
+      }
+
+      .bid-you {
+        display: inline-flex;
+        padding: 3px 9px;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .bid-you--leading,
+      .bid-you--won {
+        background: var(--status-success-bg);
+        color: var(--success);
+      }
+
+      .bid-you--outbid {
+        background: rgba(201, 146, 46, 0.18);
+        color: #c9922e;
+      }
+
+      .bid-you--lost {
+        background: rgba(192, 69, 63, 0.16);
+        color: #c0453f;
+      }
+
       .match-explanation {
         font-size: 0.82rem;
         font-weight: 600;

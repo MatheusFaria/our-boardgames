@@ -69,6 +69,7 @@ CURRENCY_SYMBOLS = {"€": "EUR", "$": "USD", "£": "GBP"}
 # ---------------------------------------------------------------------------
 
 _bearer_token: str | None = None
+_our_users: frozenset[str] = frozenset()
 
 
 def _get(url: str, headers: dict[str, str] | None = None, bearer: bool = False) -> tuple[int, bytes]:
@@ -284,11 +285,108 @@ def parse_offer_body(bbcode: str | None) -> dict:
 # GeekList item parsing
 # ---------------------------------------------------------------------------
 
+_STRIKE_RE = re.compile(r"\[-\].*?\[/-\]", re.DOTALL)
+_BIN_RE = re.compile(r"\bBIN\b", re.IGNORECASE)
+_SOLD_RE = re.compile(r"\bSOLD\b", re.IGNORECASE)
+_AMOUNT_CUR_RE = re.compile(
+    r"(?:€|\beur\b)\s*(\d+(?:[.,]\d{1,2})?)|(\d+(?:[.,]\d{1,2})?)\s*(?:€|\beur\b)",
+    re.IGNORECASE,
+)
+_LEADING_NUM_RE = re.compile(r"^\s*(\d+(?:[.,]\d{1,2})?)\b")
+
+
+def _comment_amount(text: str) -> float | None:
+    m = _AMOUNT_CUR_RE.search(text)
+    num = (m.group(1) or m.group(2)) if m else None
+    if num is None:
+        lead = _LEADING_NUM_RE.match(text)
+        num = lead.group(1) if lead else None
+    if num is None:
+        return None
+    try:
+        return float(num.replace(",", "."))
+    except ValueError:
+        return None
+
+
+def parse_comments(item_el: ET.Element) -> dict:
+    comments = item_el.findall("comment")
+    result = {
+        "status": "open",
+        "commentCount": len(comments),
+        "bidCount": 0,
+        "currentBid": None,
+        "currentBidder": None,
+        "soldBy": None,
+        "soldPrice": None,
+        "lastCommentDate": None,
+        "ours": None,
+    }
+    if not comments:
+        return result
+
+    last = comments[-1]
+    result["lastCommentDate"] = last.get("editdate") or last.get("postdate")
+
+    bids: list[tuple[float, str]] = []
+    our_bids: list[tuple[float, str]] = []
+    sold_by = None
+    sold_amount = None
+    for c in comments:
+        user = c.get("username") or ""
+        stripped = _STRIKE_RE.sub("", c.text or "")
+        amount = _comment_amount(stripped)
+        is_close = bool(_BIN_RE.search(stripped) or _SOLD_RE.search(stripped))
+        if is_close and sold_by is None:
+            sold_by = user
+            sold_amount = amount
+        elif amount is not None:
+            bids.append((amount, user))
+            if user.lower() in _our_users:
+                our_bids.append((amount, user))
+
+    result["bidCount"] = len(bids)
+
+    current_amount = None
+    current_bidder = None
+    for amount, user in bids:
+        if current_amount is None or amount >= current_amount:
+            current_amount, current_bidder = amount, user
+
+    if sold_by is not None:
+        result["status"] = "sold"
+        result["soldBy"] = sold_by
+        if sold_amount is not None:
+            result["soldPrice"] = {"amount": sold_amount, "currency": "EUR"}
+        if sold_by.lower() in _our_users:
+            result["ours"] = {"state": "won", "user": sold_by, "amount": sold_amount}
+        elif our_bids:
+            best = max(our_bids)
+            result["ours"] = {"state": "lost", "user": best[1], "amount": best[0]}
+        return result
+
+    if current_amount is not None:
+        result["status"] = "live"
+        result["currentBid"] = {"amount": current_amount, "currency": "EUR"}
+        result["currentBidder"] = current_bidder
+        if our_bids:
+            best = max(our_bids)
+            leading = current_bidder is not None and current_bidder.lower() in _our_users
+            result["ours"] = {
+                "state": "leading" if leading else "outbid",
+                "user": best[1],
+                "amount": best[0],
+            }
+
+    return result
+
+
 def parse_listing(item_el: ET.Element, geeklist_id: int) -> dict:
     itemid = _text(item_el.get("id"))
     objectid = _int(item_el.get("objectid"))
     body_el = item_el.find("body")
     offer = parse_offer_body(body_el.text if body_el is not None else None)
+    offer["bids"] = parse_comments(item_el)
     offer.update({
         "seller": _text(item_el.get("username")),
         "sellerName": None,
@@ -307,6 +405,23 @@ def parse_listing(item_el: ET.Element, geeklist_id: int) -> dict:
 # ---------------------------------------------------------------------------
 # Collection join
 # ---------------------------------------------------------------------------
+
+def _load_our_users(collection_path: Path) -> frozenset[str]:
+    names: set[str] = set()
+    try:
+        data = json.loads(collection_path.read_text(encoding="utf-8"))
+        names.update(str(o) for o in (data.get("owners") or []))
+    except (OSError, ValueError):
+        pass
+    sources_path = collection_path.parent.parent / "essen26" / "sources.json"
+    try:
+        for entry in json.loads(sources_path.read_text(encoding="utf-8")):
+            if entry.get("username"):
+                names.add(str(entry["username"]))
+    except (OSError, ValueError):
+        pass
+    return frozenset(n.lower() for n in names if n)
+
 
 def load_collection(collection_path: Path) -> tuple[dict[int, list[dict]], dict[int, dict]]:
     data = json.loads(collection_path.read_text(encoding="utf-8"))
@@ -500,6 +615,7 @@ def build_snapshot(
     max_fetch: int | None,
     thing_batch_delay: float,
     skip_thing: bool,
+    collection_owners: list[str] | None = None,
 ) -> dict:
     title = _text(root.findtext("title"))
 
@@ -585,7 +701,9 @@ def build_snapshot(
 
     items.sort(key=lambda item: (not item["onWishlist"], (item.get("name") or "").lower()))
 
-    owners = sorted({entry["owner"] for item in items for entry in item["wishedBy"]}, key=str.lower)
+    owner_set = {entry["owner"] for item in items for entry in item["wishedBy"]}
+    owner_set.update(collection_owners or [])
+    owners = sorted(owner_set, key=str.lower)
     listing_count = sum(item["offerCount"] for item in items)
     matched_game_count = sum(1 for item in items if item["onWishlist"])
 
@@ -594,6 +712,7 @@ def build_snapshot(
         "title": title,
         "sourceLabel": f"BGG GeekList {geeklist_id}",
         "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "commentsFetchedAt": datetime.now(timezone.utc).isoformat(),
         "statuses": WISHLIST_STATUSES,
         "owners": owners,
         "listingCount": listing_count,
@@ -668,7 +787,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
-    global _bearer_token
+    global _bearer_token, _our_users
     parser = build_parser()
     args = parser.parse_args()
     _bearer_token = args.token
@@ -677,6 +796,8 @@ def main() -> int:
     if not collection_path.exists():
         parser.error(f"collection file not found: {collection_path}")
     wishers, details = load_collection(collection_path)
+    _our_users = _load_our_users(collection_path)
+    collection_owners = json.loads(collection_path.read_text(encoding="utf-8")).get("owners") or []
 
     output_path = Path(args.output)
     preview_items = _load_items_by_objectid(DEFAULT_PREVIEW)
@@ -690,7 +811,7 @@ def main() -> int:
         root = ET.fromstring(input_path.read_bytes())
     else:
         print(f"=== Fetching GeekList {args.geeklist_id} ===")
-        url = f"{BGG_XMLAPI_BASE}/geeklist/{args.geeklist_id}"
+        url = f"{BGG_XMLAPI_BASE}/geeklist/{args.geeklist_id}?comments=1"
         root = fetch_xml(url, f"geeklist {args.geeklist_id}")
 
     skip_thing = args.no_thing or not _bearer_token
@@ -701,6 +822,7 @@ def main() -> int:
         max_fetch=args.max_fetch,
         thing_batch_delay=args.thing_batch_delay,
         skip_thing=skip_thing,
+        collection_owners=collection_owners,
     )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
