@@ -2,7 +2,7 @@
   "geeklistId": 382717,
   "title": "The Essen 2026 no-shipping auction list. Post your own items for sale!",
   "sourceLabel": "BGG GeekList 382717",
-  "generatedAt": "2026-08-17T22:25:56.050097+00:00",
+  "generatedAt": "2026-08-18T06:44:31.552415+00:00",
   "statuses": [
     "Wishlist",
     "Want to Play",
@@ -14,9 +14,9 @@
     "JuhBass",
     "paradoxbard"
   ],
-  "listingCount": 2379,
-  "gameCount": 2033,
-  "matchedGameCount": 102,
+  "listingCount": 2398,
+  "gameCount": 2042,
+  "matchedGameCount": 103,
   "items": [
     {
       "objectId": 451594,
@@ -6644,7 +6644,7 @@
           "sellerName": null,
           "geeklistItemId": "13058858",
           "postDate": "Sun, 16 Aug 2026 12:51:51 +0000",
-          "editDate": "Sun, 16 Aug 2026 12:51:51 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:39:23 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058858"
         }
       ],
@@ -7075,6 +7075,72 @@
           "postDate": "Sun, 16 Aug 2026 05:32:45 +0000",
           "editDate": "Sun, 16 Aug 2026 05:32:45 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13057709"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
+      "objectId": 456017,
+      "name": "The Magic Shop",
+      "link": "https://boardgamegeek.com/boardgame/456017",
+      "thumbnail": "https://cf.geekdo-images.com/OYfUBzVIC2hTmwMfo8Gmyw__small/img/hZfYz2-ikCFkE1iOiHAPqamPu0A=/fit-in/200x150/filters:strip_icc()/pic9151161.jpg",
+      "image": "https://cf.geekdo-images.com/OYfUBzVIC2hTmwMfo8Gmyw__original/img/LvenXW2mmrN8yyW3oIX-PxDa75s=/0x0/filters:format(jpeg)/pic9151161.jpg",
+      "yearPublished": 2025,
+      "bggRank": null,
+      "bggAverageRating": 7.33,
+      "weight": 2.0,
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 35,
+      "designers": [
+        "Anuc Kim",
+        "Reader on Jupiter"
+      ],
+      "artists": [
+        "Karl Friedrich Schinkel"
+      ],
+      "publishers": [
+        "Jupiters Club"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Trick-taking"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": true,
+      "wishedBy": [
+        {
+          "owner": "paradoxbard",
+          "status": "Wishlist"
+        }
+      ],
+      "offers": [
+        {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "English/Japanese edition - Jupiters Club (2025)",
+          "versionId": 776235,
+          "language": "English & Japanese",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 20.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 40.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "All days",
+          "handover": "Any day NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "kelberkelber",
+          "sellerName": null,
+          "geeklistItemId": "13064765",
+          "postDate": "Tue, 18 Aug 2026 04:26:18 +0000",
+          "editDate": "Tue, 18 Aug 2026 04:26:18 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064765"
         }
       ],
       "offerCount": 1
@@ -11192,7 +11258,7 @@
           "language": "Dutch",
           "languageDependency": "No necessary in-game text",
           "startingBid": {
-            "amount": 20.0,
+            "amount": 18.0,
             "currency": "EUR"
           },
           "bin": {
@@ -11207,7 +11273,7 @@
           "sellerName": null,
           "geeklistItemId": "13058394",
           "postDate": "Sun, 16 Aug 2026 11:14:21 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:14:21 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:50:16 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058394"
         },
         {
@@ -12054,6 +12120,67 @@
           "postDate": "Sun, 16 Aug 2026 11:33:43 +0000",
           "editDate": "Sun, 16 Aug 2026 11:33:43 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058447"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
+      "objectId": 408839,
+      "name": "A Nice Cuppa",
+      "link": "https://boardgamegeek.com/boardgame/408839",
+      "thumbnail": "https://cf.geekdo-images.com/0-bQbZmBGWpvExEh1JCjWA__small/img/xmG6XKTASZbXHiQzxsMZ8ybb6mc=/fit-in/200x150/filters:strip_icc()/pic8168180.png",
+      "image": "https://cf.geekdo-images.com/0-bQbZmBGWpvExEh1JCjWA__original/img/18VcsqCTMhKfTp33E6u9P_9gnic=/0x0/filters:format(png)/pic8168180.png",
+      "yearPublished": 2024,
+      "bggRank": 4648,
+      "bggAverageRating": 7.37,
+      "weight": 1.5,
+      "minPlayers": 1,
+      "maxPlayers": 1,
+      "playingTime": 15,
+      "designers": [
+        "Scott Almes"
+      ],
+      "artists": [
+        "Andrea Ivetic Vicai"
+      ],
+      "publishers": [
+        "Button Shy",
+        "Matagot"
+      ],
+      "mechanics": [
+        "Action Queue",
+        "Solo / Solitaire Game"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "English Wallet edition - Button Shy (2024)",
+          "versionId": 693692,
+          "language": "English",
+          "languageDependency": "Moderate in-game text - needs crib sheet or paste ups",
+          "startingBid": {
+            "amount": 10.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 25.0,
+            "currency": "EUR"
+          },
+          "payment": "Cash in Essen",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Sat 10 Oct, random time",
+          "seller": "tadej1986",
+          "sellerName": null,
+          "geeklistItemId": "13064799",
+          "postDate": "Tue, 18 Aug 2026 05:01:34 +0000",
+          "editDate": "Tue, 18 Aug 2026 05:01:34 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064799"
         }
       ],
       "offerCount": 1
@@ -16426,7 +16553,7 @@
           "language": "Dutch",
           "languageDependency": "No necessary in-game text",
           "startingBid": {
-            "amount": 35.0,
+            "amount": 30.0,
             "currency": "EUR"
           },
           "bin": {
@@ -16441,7 +16568,7 @@
           "sellerName": null,
           "geeklistItemId": "13059882",
           "postDate": "Sun, 16 Aug 2026 18:48:52 +0000",
-          "editDate": "Sun, 16 Aug 2026 18:48:52 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:47:30 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059882"
         }
       ],
@@ -22155,7 +22282,7 @@
           "language": null,
           "languageDependency": null,
           "startingBid": {
-            "amount": 14.0,
+            "amount": 10.0,
             "currency": "EUR"
           },
           "bin": {
@@ -22170,7 +22297,7 @@
           "sellerName": null,
           "geeklistItemId": "13058411",
           "postDate": "Sun, 16 Aug 2026 11:21:24 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:21:24 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:49:38 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058411"
         }
       ],
@@ -22442,6 +22569,33 @@
       "wishedBy": [],
       "offers": [
         {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "English second edition - eggertspiele (2019)",
+          "versionId": 460275,
+          "language": "English",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 10.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 20.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064832",
+          "postDate": "Tue, 18 Aug 2026 06:05:07 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:05:07 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064832"
+        },
+        {
           "condition": "Very Good",
           "conditionStars": 3,
           "conditionNote": null,
@@ -22469,7 +22623,7 @@
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058383"
         }
       ],
-      "offerCount": 1
+      "offerCount": 2
     },
     {
       "objectId": 332317,
@@ -27068,7 +27222,7 @@
           "language": null,
           "languageDependency": null,
           "startingBid": {
-            "amount": 14.0,
+            "amount": 10.0,
             "currency": "EUR"
           },
           "bin": {
@@ -27083,7 +27237,7 @@
           "sellerName": null,
           "geeklistItemId": "13058425",
           "postDate": "Sun, 16 Aug 2026 11:24:53 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:24:53 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:48:42 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058425"
         }
       ],
@@ -31351,6 +31505,67 @@
       "offerCount": 3
     },
     {
+      "objectId": 401371,
+      "name": "Colonial 1700-1800",
+      "link": "https://boardgamegeek.com/boardgame/401371",
+      "thumbnail": "https://cf.geekdo-images.com/ioKnaLujUlZQw9Pp7IawbA__small/img/SfYBBzLCN-GKtqA2JXYxFBSTDiw=/fit-in/200x150/filters:strip_icc()/pic8708444.jpg",
+      "image": "https://cf.geekdo-images.com/ioKnaLujUlZQw9Pp7IawbA__original/img/MaeuAu315g-d1s9muFAiK_peKts=/0x0/filters:format(jpeg)/pic8708444.jpg",
+      "yearPublished": 2025,
+      "bggRank": 16062,
+      "bggAverageRating": 7.3,
+      "weight": 3.5,
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 90,
+      "designers": [
+        "Jos\u00e9 Manuel Sanz"
+      ],
+      "artists": [],
+      "publishers": [
+        "Juegos Mosquete"
+      ],
+      "mechanics": [
+        "Campaign / Battle Card Driven",
+        "Card Play Conflict Resolution",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Zone of Control"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "English edition - Juegos Mosquete (2025)",
+          "versionId": 681009,
+          "language": "English & Spanish",
+          "languageDependency": "Moderate in-game text - needs crib sheet or paste ups",
+          "startingBid": {
+            "amount": 75.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 130.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064858",
+          "postDate": "Tue, 18 Aug 2026 06:15:06 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:15:06 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064858"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
       "objectId": 99392,
       "name": "Colonial: Europe's Empires Overseas",
       "link": "https://boardgamegeek.com/boardgame/99392",
@@ -32810,6 +33025,71 @@
           "postDate": "Mon, 17 Aug 2026 13:37:59 +0000",
           "editDate": "Mon, 17 Aug 2026 13:37:59 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13062119"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
+      "objectId": 402024,
+      "name": "Conservas",
+      "link": "https://boardgamegeek.com/boardgame/402024",
+      "thumbnail": "https://cf.geekdo-images.com/ShmrX5D3QG7RqG60HoNLIA__small/img/FIjh0MigQQjLRGg2rJ6GqKtGhTg=/fit-in/200x150/filters:strip_icc()/pic7884933.png",
+      "image": "https://cf.geekdo-images.com/ShmrX5D3QG7RqG60HoNLIA__original/img/YyReaGm9eE1CClEF5BFXBvyIxl0=/0x0/filters:format(png)/pic7884933.png",
+      "yearPublished": 2024,
+      "bggRank": 1803,
+      "bggAverageRating": 7.43,
+      "weight": 2.16,
+      "minPlayers": 1,
+      "maxPlayers": 1,
+      "playingTime": 40,
+      "designers": [
+        "Scott Almes"
+      ],
+      "artists": [
+        "Jorge Tabanera Redondo"
+      ],
+      "publishers": [
+        "Salt & Pepper Games",
+        "25th Century Games",
+        "Fox in the Box",
+        "Frosted Games",
+        "Matagot",
+        "Vagabund"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Solo / Solitaire Game"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "English/Spanish edition - Salt & Pepper Games (2024)",
+          "versionId": 682089,
+          "language": "English & Spanish",
+          "languageDependency": "Moderate in-game text - needs crib sheet or paste ups",
+          "startingBid": {
+            "amount": 15.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 25.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064864",
+          "postDate": "Tue, 18 Aug 2026 06:25:48 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:25:48 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064864"
         }
       ],
       "offerCount": 1
@@ -48784,6 +49064,33 @@
       "wishedBy": [],
       "offers": [
         {
+          "condition": "Very Good",
+          "conditionStars": 3,
+          "conditionNote": null,
+          "version": "English edition - Awaken Realms (2020)",
+          "versionId": 458300,
+          "language": "English",
+          "languageDependency": "Unplayable in another language",
+          "startingBid": {
+            "amount": 80.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 120.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064861",
+          "postDate": "Tue, 18 Aug 2026 06:21:55 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:21:55 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064861"
+        },
+        {
           "condition": "Like New",
           "conditionStars": 4,
           "conditionNote": null,
@@ -48811,7 +49118,7 @@
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13060631"
         }
       ],
-      "offerCount": 1
+      "offerCount": 2
     },
     {
       "objectId": 133848,
@@ -57324,6 +57631,33 @@
       "wishedBy": [],
       "offers": [
         {
+          "condition": "Very Good",
+          "conditionStars": 3,
+          "conditionNote": null,
+          "version": "Capstone Games English edition (2025)",
+          "versionId": 731318,
+          "language": "English",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 15.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 25.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064869",
+          "postDate": "Tue, 18 Aug 2026 06:31:32 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:31:32 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064869"
+        },
+        {
           "condition": "Like New",
           "conditionStars": 4,
           "conditionNote": null,
@@ -57351,7 +57685,7 @@
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13063095"
         }
       ],
-      "offerCount": 1
+      "offerCount": 2
     },
     {
       "objectId": 294231,
@@ -58656,6 +58990,33 @@
       "wishedBy": [],
       "offers": [
         {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "English edition - Cephalofair Games (2024)",
+          "versionId": 669782,
+          "language": "English",
+          "languageDependency": "Extensive use of text - massive conversion needed to be playable",
+          "startingBid": {
+            "amount": 10.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 15.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064882",
+          "postDate": "Tue, 18 Aug 2026 06:37:20 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:37:20 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064882"
+        },
+        {
           "condition": "Very Good",
           "conditionStars": 3,
           "conditionNote": null,
@@ -58683,7 +59044,7 @@
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059963"
         }
       ],
-      "offerCount": 1
+      "offerCount": 2
     },
     {
       "objectId": 434578,
@@ -62658,7 +63019,7 @@
           "sellerName": null,
           "geeklistItemId": "13063917",
           "postDate": "Mon, 17 Aug 2026 20:09:59 +0000",
-          "editDate": "Mon, 17 Aug 2026 20:09:59 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:41:42 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13063917"
         }
       ],
@@ -66039,6 +66400,33 @@
       "wishedBy": [],
       "offers": [
         {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "English deluxe edition - Godot Games (2018)",
+          "versionId": 409061,
+          "language": "English",
+          "languageDependency": "Extensive use of text - massive conversion needed to be playable",
+          "startingBid": {
+            "amount": 5.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 15.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064885",
+          "postDate": "Tue, 18 Aug 2026 06:39:57 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:39:57 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064885"
+        },
+        {
           "condition": "New",
           "conditionStars": 5,
           "conditionNote": null,
@@ -66087,7 +66475,7 @@
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058107"
         }
       ],
-      "offerCount": 2
+      "offerCount": 3
     },
     {
       "objectId": 355735,
@@ -67133,6 +67521,69 @@
           "postDate": "Sun, 16 Aug 2026 14:35:38 +0000",
           "editDate": "Sun, 16 Aug 2026 14:35:38 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059162"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
+      "objectId": 418471,
+      "name": "Impression: Kickstarter Edition",
+      "link": "https://boardgamegeek.com/boardgame/418471",
+      "thumbnail": "https://cf.geekdo-images.com/629R28GX4aAzZqfJlS_vkA__small/img/D3MTJ7lEHmLLAkbPXtm35mBxx6E=/fit-in/200x150/filters:strip_icc()/pic9079553.png",
+      "image": "https://cf.geekdo-images.com/629R28GX4aAzZqfJlS_vkA__original/img/qV8o1X6umZjhwdfNIJlEFapEBNw=/0x0/filters:format(png)/pic9079553.png",
+      "yearPublished": 2021,
+      "bggRank": null,
+      "bggAverageRating": 7.33,
+      "weight": null,
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "designers": [
+        "Heged\u0171s Csaba",
+        "Attila Sz\u0151gyi"
+      ],
+      "artists": [
+        "Attila Sz\u0151gyi"
+      ],
+      "publishers": [
+        "A-games (Board Game)",
+        "Delta Vision Publishing"
+      ],
+      "mechanics": [
+        "Tile Placement",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "Very Good",
+          "conditionStars": 3,
+          "conditionNote": null,
+          "version": "Multilingual edition (2021)",
+          "versionId": 709033,
+          "language": "English, German & Hungarian",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 20.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 30.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "Attila_S",
+          "sellerName": null,
+          "geeklistItemId": "13064887",
+          "postDate": "Tue, 18 Aug 2026 06:42:57 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:42:57 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064887"
         }
       ],
       "offerCount": 1
@@ -72002,9 +72453,36 @@
           "postDate": "Mon, 17 Aug 2026 07:45:51 +0000",
           "editDate": "Mon, 17 Aug 2026 07:45:51 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13061319"
+        },
+        {
+          "condition": "New",
+          "conditionStars": 5,
+          "conditionNote": null,
+          "version": "English/German edition - Queen Games (2011)",
+          "versionId": 128248,
+          "language": "English & German",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 2.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 8.0,
+            "currency": "EUR"
+          },
+          "payment": "Cash, Paypal, Wero",
+          "presence": "Saturday and Sunday",
+          "handover": "Saturday or Sunday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "pietlavens",
+          "sellerName": null,
+          "geeklistItemId": "13064856",
+          "postDate": "Tue, 18 Aug 2026 06:13:12 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:13:12 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064856"
         }
       ],
-      "offerCount": 1
+      "offerCount": 2
     },
     {
       "objectId": 437245,
@@ -72497,6 +72975,84 @@
           "postDate": "Mon, 17 Aug 2026 17:05:53 +0000",
           "editDate": "Mon, 17 Aug 2026 17:05:53 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13062982"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
+      "objectId": 421606,
+      "name": "Knitting Circle",
+      "link": "https://boardgamegeek.com/boardgame/421606",
+      "thumbnail": "https://cf.geekdo-images.com/fJglCnZK6DH1w_14FMCWjg__small/img/vVbEtLNvTq9wWDshhlA6IPlPdA4=/fit-in/200x150/filters:strip_icc()/pic8426961.jpg",
+      "image": "https://cf.geekdo-images.com/fJglCnZK6DH1w_14FMCWjg__original/img/UJ3VoM1xDR2gqCOzQUw0mTnuOkQ=/0x0/filters:format(jpeg)/pic8426961.jpg",
+      "yearPublished": 2025,
+      "bggRank": 3059,
+      "bggAverageRating": 7.3,
+      "weight": 2.09,
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "designers": [
+        "Emily Vincent"
+      ],
+      "artists": [
+        "Beth Sobel"
+      ],
+      "publishers": [
+        "Flatout Games",
+        "Alderac Entertainment Group",
+        "CrowD Games",
+        "Little Rocket Games",
+        "Lucky Duck Games",
+        "MINDOK",
+        "Moona Games",
+        "White Goblin Games"
+      ],
+      "mechanics": [
+        "Chaining",
+        "Contracts",
+        "End Game Bonuses",
+        "Market",
+        "Matching",
+        "Open Drafting",
+        "Pattern Building",
+        "Rondel",
+        "Scenario / Mission / Campaign Game",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Tile Placement",
+        "Variable Set-up"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "Very Good",
+          "conditionStars": 3,
+          "conditionNote": null,
+          "version": "English edition - Flatout Games (2025)",
+          "versionId": 714916,
+          "language": "English",
+          "languageDependency": "Some necessary text - easily memorized or small crib sheet",
+          "startingBid": {
+            "amount": 25.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 50.0,
+            "currency": "EUR"
+          },
+          "payment": "Cash in Essen",
+          "presence": "Thursday and Friday",
+          "handover": "Thursday or Friday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Sat 10 Oct, random time",
+          "seller": "tadej1986",
+          "sellerName": null,
+          "geeklistItemId": "13064796",
+          "postDate": "Tue, 18 Aug 2026 04:59:16 +0000",
+          "editDate": "Tue, 18 Aug 2026 04:59:16 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064796"
         }
       ],
       "offerCount": 1
@@ -80752,6 +81308,66 @@
           "postDate": "Sun, 16 Aug 2026 13:59:43 +0000",
           "editDate": "Sun, 16 Aug 2026 13:59:43 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059089"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
+      "objectId": 468437,
+      "name": "Masquerade Trick Party",
+      "link": "https://boardgamegeek.com/boardgame/468437",
+      "thumbnail": "https://cf.geekdo-images.com/5mCZgob1Lbl8v9GIXckIFg__small/img/yR6BsBdRDfupkyHEfzFrXC4J5JY=/fit-in/200x150/filters:strip_icc()/pic9533210.png",
+      "image": "https://cf.geekdo-images.com/5mCZgob1Lbl8v9GIXckIFg__original/img/RStJqh6qTchR2e-ziiJgoMdWHW8=/0x0/filters:format(png)/pic9533210.png",
+      "yearPublished": 2026,
+      "bggRank": null,
+      "bggAverageRating": 7.55,
+      "weight": 2.0,
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 15,
+      "designers": [
+        "Makoto Akiyama (\u79cb\u5c71\u771f\u7434)",
+        "Pekora (\u307a\u3053\u3089)"
+      ],
+      "artists": [],
+      "publishers": [
+        "Mysboard Games (\u30df\u30b9\u30dc\u30c9\u30b2\u30fc\u30e0\u30ba)"
+      ],
+      "mechanics": [
+        "Deduction",
+        "Hidden Roles",
+        "Trick-taking"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "New",
+          "conditionStars": 5,
+          "conditionNote": null,
+          "version": "English/Japanese edition - Mysboard Games (\u30df\u30b9\u30dc\u30c9\u30b2\u30fc\u30e0\u30ba) (2026)",
+          "versionId": 797570,
+          "language": "English & Japanese",
+          "languageDependency": "Some necessary text - easily memorized or small crib sheet",
+          "startingBid": {
+            "amount": 20.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 40.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "All days",
+          "handover": "Any day NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "kelberkelber",
+          "sellerName": null,
+          "geeklistItemId": "13064770",
+          "postDate": "Tue, 18 Aug 2026 04:27:50 +0000",
+          "editDate": "Tue, 18 Aug 2026 04:27:50 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064770"
         }
       ],
       "offerCount": 1
@@ -97444,9 +98060,36 @@
           "postDate": "Sun, 16 Aug 2026 12:02:48 +0000",
           "editDate": "Mon, 17 Aug 2026 14:28:17 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058626"
+        },
+        {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "Korean Eevee edition (2022)",
+          "versionId": 617597,
+          "language": "Korean",
+          "languageDependency": "Some necessary text - easily memorized or small crib sheet",
+          "startingBid": {
+            "amount": 30.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 60.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "All days",
+          "handover": "Any day NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "kelberkelber",
+          "sellerName": null,
+          "geeklistItemId": "13064764",
+          "postDate": "Tue, 18 Aug 2026 04:25:26 +0000",
+          "editDate": "Tue, 18 Aug 2026 04:25:26 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064764"
         }
       ],
-      "offerCount": 1
+      "offerCount": 2
     },
     {
       "objectId": 339052,
@@ -102296,7 +102939,7 @@
           "language": "English",
           "languageDependency": "Some necessary text - easily memorized or small crib sheet",
           "startingBid": {
-            "amount": 50.0,
+            "amount": 45.0,
             "currency": "EUR"
           },
           "bin": {
@@ -102311,7 +102954,7 @@
           "sellerName": null,
           "geeklistItemId": "13059908",
           "postDate": "Sun, 16 Aug 2026 18:57:44 +0000",
-          "editDate": "Sun, 16 Aug 2026 18:57:44 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:47:02 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059908"
         }
       ],
@@ -102495,7 +103138,7 @@
           "sellerName": null,
           "geeklistItemId": "13058324",
           "postDate": "Sun, 16 Aug 2026 10:42:34 +0000",
-          "editDate": "Sun, 16 Aug 2026 10:42:34 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:40:35 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058324"
         }
       ],
@@ -103381,7 +104024,7 @@
           "language": null,
           "languageDependency": null,
           "startingBid": {
-            "amount": 14.0,
+            "amount": 10.0,
             "currency": "EUR"
           },
           "bin": {
@@ -103396,7 +104039,7 @@
           "sellerName": null,
           "geeklistItemId": "13058414",
           "postDate": "Sun, 16 Aug 2026 11:22:08 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:22:08 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:49:24 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058414"
         }
       ],
@@ -104578,6 +105221,63 @@
           "postDate": "Sun, 16 Aug 2026 16:03:26 +0000",
           "editDate": "Sun, 16 Aug 2026 16:03:26 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059436"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
+      "objectId": 42954,
+      "name": "Robotics: Die neuen Robotics-Marken",
+      "link": "https://boardgamegeek.com/boardgame/42954",
+      "thumbnail": "https://cf.geekdo-images.com/tPOA5qBF9rE-N47AjWg5UQ__small/img/fdlU7FcuWkNwWIuqB3yJkW-qEhk=/fit-in/200x150/filters:strip_icc()/pic323481.jpg",
+      "image": "https://cf.geekdo-images.com/tPOA5qBF9rE-N47AjWg5UQ__original/img/x9cueK5aPpQBn4MjCQ6-BLkhdio=/0x0/filters:format(jpeg)/pic323481.jpg",
+      "yearPublished": 2008,
+      "bggRank": null,
+      "bggAverageRating": 6.16,
+      "weight": 1.33,
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": null,
+      "designers": [
+        "Mario Coopmann"
+      ],
+      "artists": [
+        "Michael Menzel"
+      ],
+      "publishers": [
+        "W. Nostheide Verlag GmbH"
+      ],
+      "mechanics": [],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "Spielbox edition - W. Nostheide Verlag GmbH (2008)",
+          "versionId": 21683,
+          "language": "German",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 2.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 8.0,
+            "currency": "EUR"
+          },
+          "payment": "Cash, Paypal, Wero",
+          "presence": "Saturday and Sunday",
+          "handover": "Saturday or Sunday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "pietlavens",
+          "sellerName": null,
+          "geeklistItemId": "13064857",
+          "postDate": "Tue, 18 Aug 2026 06:14:26 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:14:26 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064857"
         }
       ],
       "offerCount": 1
@@ -111550,6 +112250,33 @@
       "wishedBy": [],
       "offers": [
         {
+          "condition": "Very Good",
+          "conditionStars": 3,
+          "conditionNote": null,
+          "version": "English edition - Rule & Make (2017)",
+          "versionId": 327448,
+          "language": "English",
+          "languageDependency": "Moderate in-game text - needs crib sheet or paste ups",
+          "startingBid": {
+            "amount": 1.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 5.0,
+            "currency": "EUR"
+          },
+          "payment": "Cash",
+          "presence": "Saturday and Sunday",
+          "handover": "Saturday or Sunday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Sun 11 Oct, random time",
+          "seller": "Schmopf",
+          "sellerName": null,
+          "geeklistItemId": "13064282",
+          "postDate": "Mon, 17 Aug 2026 22:45:50 +0000",
+          "editDate": "Mon, 17 Aug 2026 22:45:50 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064282"
+        },
+        {
           "condition": "New",
           "conditionStars": 5,
           "conditionNote": null,
@@ -111577,7 +112304,7 @@
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13061305"
         }
       ],
-      "offerCount": 1
+      "offerCount": 2
     },
     {
       "objectId": 362205,
@@ -115566,7 +116293,7 @@
           "language": null,
           "languageDependency": null,
           "startingBid": {
-            "amount": 14.0,
+            "amount": 10.0,
             "currency": "EUR"
           },
           "bin": {
@@ -115581,7 +116308,7 @@
           "sellerName": null,
           "geeklistItemId": "13058427",
           "postDate": "Sun, 16 Aug 2026 11:25:32 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:25:32 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:48:27 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058427"
         }
       ],
@@ -117472,7 +118199,7 @@
           "sellerName": null,
           "geeklistItemId": "13056515",
           "postDate": "Sat, 15 Aug 2026 19:42:36 +0000",
-          "editDate": "Sat, 15 Aug 2026 19:42:36 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:27:36 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13056515"
         }
       ],
@@ -125282,7 +126009,7 @@
           "language": null,
           "languageDependency": null,
           "startingBid": {
-            "amount": 14.0,
+            "amount": 10.0,
             "currency": "EUR"
           },
           "bin": {
@@ -125297,7 +126024,7 @@
           "sellerName": null,
           "geeklistItemId": "13058410",
           "postDate": "Sun, 16 Aug 2026 11:20:38 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:20:38 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:49:52 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058410"
         }
       ],
@@ -130418,7 +131145,7 @@
           "sellerName": null,
           "geeklistItemId": "13061537",
           "postDate": "Mon, 17 Aug 2026 09:00:47 +0000",
-          "editDate": "Mon, 17 Aug 2026 09:00:47 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:35:31 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13061537"
         }
       ],
@@ -130800,7 +131527,7 @@
           "language": null,
           "languageDependency": null,
           "startingBid": {
-            "amount": 16.0,
+            "amount": 14.0,
             "currency": "EUR"
           },
           "bin": {
@@ -130815,7 +131542,7 @@
           "sellerName": null,
           "geeklistItemId": "13058422",
           "postDate": "Sun, 16 Aug 2026 11:24:13 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:24:13 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:49:00 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058422"
         }
       ],
@@ -138334,7 +139061,7 @@
           "language": "English",
           "languageDependency": "Some necessary text - easily memorized or small crib sheet",
           "startingBid": {
-            "amount": 18.0,
+            "amount": 15.0,
             "currency": "EUR"
           },
           "bin": {
@@ -138349,7 +139076,7 @@
           "sellerName": null,
           "geeklistItemId": "13058440",
           "postDate": "Sun, 16 Aug 2026 11:29:10 +0000",
-          "editDate": "Sun, 16 Aug 2026 11:29:10 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:48:04 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13058440"
         }
       ],
@@ -139599,7 +140326,7 @@
           "language": "English",
           "languageDependency": "Moderate in-game text - needs crib sheet or paste ups",
           "startingBid": {
-            "amount": 85.0,
+            "amount": 75.0,
             "currency": "EUR"
           },
           "bin": {
@@ -139614,7 +140341,7 @@
           "sellerName": null,
           "geeklistItemId": "13059920",
           "postDate": "Sun, 16 Aug 2026 19:06:12 +0000",
-          "editDate": "Sun, 16 Aug 2026 19:06:12 +0000",
+          "editDate": "Tue, 18 Aug 2026 00:46:23 +0000",
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059920"
         },
         {
@@ -145690,6 +146417,67 @@
       "offerCount": 1
     },
     {
+      "objectId": 63869,
+      "name": "Zooloretto: Christmas Tree",
+      "link": "https://boardgamegeek.com/boardgame/63869",
+      "thumbnail": "https://cf.geekdo-images.com/wUxl6Yu-fQz_QLDQqdL7hw__small/img/kZN7OMBVgrfnLutQgcczd3XPbK4=/fit-in/200x150/filters:strip_icc()/pic903368.jpg",
+      "image": "https://cf.geekdo-images.com/wUxl6Yu-fQz_QLDQqdL7hw__original/img/2sLUnKCImsRDTp8YABtc2LiqVks=/0x0/filters:format(jpeg)/pic903368.jpg",
+      "yearPublished": 2009,
+      "bggRank": null,
+      "bggAverageRating": 6.49,
+      "weight": 1.86,
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 45,
+      "designers": [
+        "Michael Schacht"
+      ],
+      "artists": [
+        "Design/Main"
+      ],
+      "publishers": [
+        "Spiele aus Timbuktu",
+        "W. Nostheide Verlag GmbH"
+      ],
+      "mechanics": [
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "thingFetchedAt": "2026-08-18T06:44:31.372876+00:00",
+      "onWishlist": false,
+      "wishedBy": [],
+      "offers": [
+        {
+          "condition": "New",
+          "conditionStars": 5,
+          "conditionNote": null,
+          "version": "English/German edition - W. Nostheide Verlag GmbH (2010)",
+          "versionId": 77146,
+          "language": "English & German",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 2.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 8.0,
+            "currency": "EUR"
+          },
+          "payment": "Cash, Paypal, Wero",
+          "presence": "Saturday and Sunday",
+          "handover": "Saturday or Sunday NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "pietlavens",
+          "sellerName": null,
+          "geeklistItemId": "13064855",
+          "postDate": "Tue, 18 Aug 2026 06:11:54 +0000",
+          "editDate": "Tue, 18 Aug 2026 06:11:54 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064855"
+        }
+      ],
+      "offerCount": 1
+    },
+    {
       "objectId": 263947,
       "name": "Zooloretto: Kea",
       "link": "https://boardgamegeek.com/boardgame/263947",
@@ -146190,6 +146978,60 @@
       "wishedBy": [],
       "offers": [
         {
+          "condition": "Like New",
+          "conditionStars": 4,
+          "conditionNote": null,
+          "version": "Korean edition - Space Cowboys (2023)",
+          "versionId": 689464,
+          "language": "Korean",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 40.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 65.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "All days",
+          "handover": "Any day NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "kelberkelber",
+          "sellerName": null,
+          "geeklistItemId": "13064758",
+          "postDate": "Tue, 18 Aug 2026 04:20:32 +0000",
+          "editDate": "Tue, 18 Aug 2026 04:20:32 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064758"
+        },
+        {
+          "condition": "New",
+          "conditionStars": 5,
+          "conditionNote": null,
+          "version": "Korean edition - Space Cowboys (2023)",
+          "versionId": 689464,
+          "language": "Korean",
+          "languageDependency": "No necessary in-game text",
+          "startingBid": {
+            "amount": 50.0,
+            "currency": "EUR"
+          },
+          "bin": {
+            "amount": 75.0,
+            "currency": "EUR"
+          },
+          "payment": "cash",
+          "presence": "All days",
+          "handover": "Any day NEW General Math Trade spot in Hall 1A around 15:00",
+          "auctionEnds": "Thu 8 Oct, random time",
+          "seller": "kelberkelber",
+          "sellerName": null,
+          "geeklistItemId": "13064760",
+          "postDate": "Tue, 18 Aug 2026 04:21:53 +0000",
+          "editDate": "Tue, 18 Aug 2026 04:21:53 +0000",
+          "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13064760"
+        },
+        {
           "condition": "Very Good",
           "conditionStars": 3,
           "conditionNote": null,
@@ -146214,7 +147056,7 @@
           "listingUrl": "https://boardgamegeek.com/geeklist/382717/item/13059036"
         }
       ],
-      "offerCount": 1
+      "offerCount": 3
     }
   ]
 }
