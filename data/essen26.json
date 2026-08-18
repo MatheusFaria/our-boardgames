@@ -18,13 +18,14 @@
     "Alem0nes",
     "JoyfulFicus",
     "ParadoxBard",
+    "Petter_03",
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-18T15:16:34.388592+00:00",
-  "itemCount": 812,
-  "interestedCount": 110,
-  "noOneCount": 702,
+  "generatedAt": "2026-08-18T16:59:19.596649+00:00",
+  "itemCount": 813,
+  "interestedCount": 116,
+  "noOneCount": 697,
   "items": [
     {
       "objectId": 474125,
@@ -4439,6 +4440,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Petter_03",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -7092,6 +7099,12 @@
           "notes": null
         },
         {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -7099,6 +7112,47 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 477069,
+      "name": "Courtroom: The Noir Trilogy",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/p1i7Wmbktl8cyET0ka_zLw__original/img/v97uxnHpQ-MblhJHS3lKFbY-cmY=/0x0/filters:format(jpeg)/pic9755925.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/p1i7Wmbktl8cyET0ka_zLw__small/img/qXtbelpvp3IKTxxqyR9MTSLXdwo=/fit-in/200x150/filters:strip_icc()/pic9755925.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477069",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Deduction",
+        "Interrupts",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling",
+        "Team-Based Game"
+      ],
+      "designers": [
+        "Robin Heged\u0171s",
+        "T\u00fcnde M\u00e1t\u00e9"
+      ],
+      "artists": [
+        "Barbara Bern\u00e1t",
+        "Vill\u0151 Farkas"
+      ],
+      "publishers": [
+        "Mindclash Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-08-18T16:59:19.089263+00:00"
     },
     {
       "objectId": 476031,
@@ -11663,6 +11717,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -12476,6 +12536,12 @@
       "location": "3F400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -13954,6 +14020,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "Petter_03",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
@@ -17963,6 +18035,12 @@
       "location": "3P500",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -30182,6 +30260,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Petter_03",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -30295,6 +30379,12 @@
       "location": "4G110",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -33955,6 +34045,12 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "Petter_03",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
@@ -34302,6 +34398,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Petter_03",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
           "user": "JoyfulFicus",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -34416,6 +34518,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "Petter_03",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
@@ -39593,6 +39701,12 @@
           "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Petter_03",
+          "priority": null,
+          "priorityLabel": "Unprioritized",
           "notes": null
         }
       ],
