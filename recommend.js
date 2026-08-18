@@ -136,11 +136,64 @@ function formatPlayerCount(item) {
   return min === max ? `${min}` : `${min}-${max}`;
 }
 
-function formatOfferPrice(offer) {
-  const source = offer?.startingBid?.amount != null ? offer.startingBid : offer?.bin;
-  if (!source || source.amount == null) return "—";
-  const symbol = CURRENCY_SYMBOLS[source.currency] || "";
-  return `${symbol}${source.amount}`;
+function formatMoney(price) {
+  if (!price || price.amount == null) return "";
+  const symbol = CURRENCY_SYMBOLS[price.currency] || "";
+  const amount = Number(price.amount);
+  const shown = Number.isInteger(amount) ? amount : amount.toFixed(2);
+  return symbol ? `${symbol}${shown}` : `${shown} ${price.currency || ""}`.trim();
+}
+
+function renderStars(stars) {
+  if (stars === null || stars === undefined) return "";
+  const n = Math.max(0, Math.min(5, Number(stars)));
+  return `<span class="offer-stars">${"★".repeat(n)}${"☆".repeat(5 - n)}</span>`;
+}
+
+function offerAmount(offer, field) {
+  const price = offer[field];
+  return price && price.amount != null ? Number(price.amount) : null;
+}
+
+function sortOffersForDisplay(offers) {
+  return [...offers].sort((a, b) => {
+    const binCmp = compareValues(offerAmount(a, "bin"), offerAmount(b, "bin"));
+    if (binCmp !== 0) return binCmp;
+    return compareValues(offerAmount(a, "startingBid"), offerAmount(b, "startingBid"));
+  });
+}
+
+function renderOfferRow(offer) {
+  const stars = renderStars(offer.conditionStars);
+  const condition = offer.condition ? escapeHtml(offer.condition) : "";
+  const bid = formatMoney(offer.startingBid);
+  const bin = formatMoney(offer.bin);
+  const metaParts = [];
+  if (offer.version) metaParts.push(escapeHtml(offer.version));
+  if (offer.languageDependency) metaParts.push(escapeHtml(offer.languageDependency));
+  if (offer.auctionEnds) metaParts.push(`Ends ${escapeHtml(offer.auctionEnds)}`);
+  return `
+    <div class="offer-row">
+      <a class="offer-seller" href="https://boardgamegeek.com/user/${encodeURIComponent(
+        offer.seller
+      )}" target="_blank" rel="noreferrer">${escapeHtml(formatValue(offer.seller))}</a>
+      <span class="detail-value">${condition}${stars ? ` ${stars}` : ""}</span>
+      <span class="detail-line"><span class="detail-label">Starting bid</span><span class="detail-value">${
+        bid ? escapeHtml(bid) : '<span class="muted">—</span>'
+      }</span></span>
+      <span class="detail-line"><span class="detail-label">BIN</span><span class="detail-value">${
+        bin ? escapeHtml(bin) : '<span class="muted">—</span>'
+      }</span></span>
+      ${metaParts.length ? `<div class="offer-meta muted">${metaParts.join(" · ")}</div>` : ""}
+      <a class="offer-bid-link" href="${escapeHtml(offer.listingUrl)}" target="_blank" rel="noreferrer">Place bid ↗</a>
+    </div>
+  `;
+}
+
+function renderOffers(match) {
+  const sorted = sortOffersForDisplay(match.offers || []);
+  if (!sorted.length) return "";
+  return `<div class="offer-list">${sorted.map(renderOfferRow).join("")}</div>`;
 }
 
 function formatGeneratedAt(iso) {
@@ -563,18 +616,7 @@ function renderCard(match) {
   if (match.inAuction) badges.push('<span class="source-badge source-badge--auction">Auction</span>');
   const badgeHtml = badges.length ? `<div class="source-badges">${badges.join("")}</div>` : "";
 
-  let offerLine = "";
-  if (match.inAuction && match.offers && match.offers.length) {
-    const offer = match.offers[0];
-    const label = `From ${formatOfferPrice(offer)} · ${match.offers.length} offer${
-      match.offers.length === 1 ? "" : "s"
-    }`;
-    offerLine = offer.listingUrl
-      ? `<a class="match-offer" href="${escapeHtml(
-          offer.listingUrl
-        )}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>`
-      : `<span class="match-offer">${escapeHtml(label)}</span>`;
-  }
+  const offerHtml = match.inAuction ? renderOffers(match) : "";
 
   const lines = [];
   if (item.minPlayers != null && item.maxPlayers != null) {
@@ -622,7 +664,7 @@ function renderCard(match) {
         <div class="detail-list">
           ${lines.join("")}
         </div>
-        ${offerLine}
+        ${offerHtml}
         <div class="card-section">
           ${renderMatchBadges(match)}
         </div>
