@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-18T22:35:17.455626+00:00",
-  "itemCount": 813,
+  "generatedAt": "2026-08-19T03:40:22.745322+00:00",
+  "itemCount": 814,
   "interestedCount": 109,
-  "noOneCount": 704,
+  "noOneCount": 705,
   "items": [
     {
       "objectId": 474125,
@@ -40763,6 +40763,40 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 476905,
+      "itemid": 25043,
+      "name": "\u30bf\u30a4\u30d1\u81f3\u4e0a\u4e3b\u7fa9\u82b1\u672d (Taipa Supremacy: Quick Hanafuda)",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "link": "https://boardgamegeek.com/boardgame/476905",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 10,
+      "recommendedAge": "6+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hand Management",
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Trybe Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-08-19T03:40:22.318431+00:00"
     }
   ]
 }
