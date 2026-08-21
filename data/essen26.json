@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-20T03:40:08.831019+00:00",
-  "itemCount": 837,
-  "interestedCount": 110,
-  "noOneCount": 727,
+  "generatedAt": "2026-08-21T03:43:50.338135+00:00",
+  "itemCount": 851,
+  "interestedCount": 119,
+  "noOneCount": 732,
   "items": [
     {
       "objectId": 474125,
@@ -74,6 +74,12 @@
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -612,6 +618,12 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
@@ -903,6 +915,12 @@
       "location": "3Q315",
       "availability": "Demo",
       "interested": [
+        {
+          "user": "Alem0nes",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -1305,6 +1323,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -1940,6 +1964,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -2077,6 +2107,12 @@
       "location": null,
       "availability": "Demo",
       "interested": [
+        {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -2583,6 +2619,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -2803,6 +2845,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -3147,6 +3195,49 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 470753,
+      "itemid": 25071,
+      "name": "Batman: Gotham City Crimes",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/yOGrkVZfToSq_7DvbbuYxQ__original/img/xhMp_NA5IthYFHb_Rwk4cULBdVk=/0x0/filters:format(jpeg)/pic9643228.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/yOGrkVZfToSq_7DvbbuYxQ__small/img/Tla58me2DDHufT9ebwVPAej7pVI=/fit-in/200x150/filters:strip_icc()/pic9643228.jpg",
+      "link": "https://boardgamegeek.com/boardgame/470753",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 6.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game"
+      ],
+      "designers": [
+        "Michael Menzel"
+      ],
+      "artists": [
+        "Michael Menzel"
+      ],
+      "publishers": [
+        "KOSMOS"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
       "objectId": 444527,
       "itemid": 24268,
       "name": "Bean to Bar",
@@ -3184,8 +3275,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         }
       ],
@@ -4089,8 +4180,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -4285,6 +4376,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
@@ -4932,8 +5029,8 @@
         },
         {
           "user": "Alem0nes",
-          "priority": null,
-          "priorityLabel": "Unprioritized",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": "Test"
         }
       ],
@@ -5161,6 +5258,47 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 477089,
+      "itemid": 25070,
+      "name": "Capybara Run & Fun",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/B4IpgK37Oy4lTpBMyDmZpg__original/img/0xRiSMUUCAJqL1i9pAt0vPux-mA=/0x0/filters:format(jpeg)/pic9759289.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/B4IpgK37Oy4lTpBMyDmZpg__small/img/IaC3Fl5b4VD9D-_0W8fbzWlTAIk=/fit-in/200x150/filters:strip_icc()/pic9759289.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477089",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 60,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Movement",
+        "Dice Rolling",
+        "Race"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Queen Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 469236,
@@ -5525,7 +5663,7 @@
     },
     {
       "objectId": 446815,
-      "itemid": 24193,
+      "itemid": 25077,
       "name": "Cascadia: Alpine Lakes",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/4IiXVZwvsS0Z-BGlv15Qlw__original/img/w5YBWK-W_YLUPlbRGIX3O2h8zGE=/0x0/filters:format(jpeg)/pic8893820.jpg",
@@ -5917,6 +6055,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
@@ -6016,7 +6160,7 @@
     },
     {
       "objectId": 466862,
-      "itemid": 24398,
+      "itemid": 25087,
       "name": "Chronocritters",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/TT2a7Plxpnli-dBqc3mIPA__original/img/J77XPzf3JlbEAYlsurqiddp4Q8g=/0x0/filters:format(jpeg)/pic9474139.jpg",
@@ -6060,6 +6204,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -7173,6 +7323,12 @@
       "location": "3-A400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -10145,7 +10301,14 @@
       },
       "location": "3A110",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
     },
     {
@@ -11470,7 +11633,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": null,
+      "location": "4-D320",
       "availability": "Demo",
       "interested": [
         {
@@ -11493,6 +11656,50 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 462524,
+      "itemid": 25084,
+      "name": "EXIT: Das Spiel \u2013 Der perfekte Einbruch (Jubil\u00e4ums-Edition)",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/uLSgJVSjR_wrYB6HiENQIg__original/img/eN_H9Lb-oOt2ClBj0KDdAwlwcYc=/0x0/filters:format(jpeg)/pic9415127.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/uLSgJVSjR_wrYB6HiENQIg__small/img/q-gvQg674WOP7P4VyAm1GRXzR3Y=/fit-in/200x150/filters:strip_icc()/pic9415127.jpg",
+      "link": "https://boardgamegeek.com/boardgame/462524",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction"
+      ],
+      "designers": [
+        "Inka Brand",
+        "Markus Brand",
+        "Emely Brand"
+      ],
+      "artists": [],
+      "publishers": [
+        "KOSMOS"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 471406,
@@ -11535,6 +11742,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -12471,7 +12684,7 @@
     },
     {
       "objectId": 463441,
-      "itemid": 24420,
+      "itemid": 25076,
       "name": "Flip 7: With A Vengeance",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/ZW3pPCcG069GkXkk7HSHlg__original/img/A-MS4ZUWEhiaDBSKChOq50Qcdnw=/0x0/filters:format(jpeg)/pic9385115.jpg",
@@ -12506,12 +12719,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.97,
-        "currency": "USD"
-      },
+      "price": null,
       "location": null,
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -12959,6 +13169,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
@@ -13003,6 +13219,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -13101,6 +13323,45 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 472985,
+      "itemid": 25081,
+      "name": "Fourth Wing: Das Spiel \u2013 Die Wahl der Drachen",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Qzd9DasEdKFcicfjG1dr-Q__original/img/LADT7ZOgl9DTk9RfLnGyqAdkLAs=/0x0/filters:format(jpeg)/pic9643227.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Qzd9DasEdKFcicfjG1dr-Q__small/img/BQz7zu435yH-TOx0M17Or_oKREI=/fit-in/200x150/filters:strip_icc()/pic9643227.jpg",
+      "link": "https://boardgamegeek.com/boardgame/472985",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "KOSMOS"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 466715,
@@ -13635,7 +13896,7 @@
         "amount": 2.0,
         "currency": "EUR"
       },
-      "location": null,
+      "location": "4-D320",
       "availability": "For Sale",
       "interested": [
         {
@@ -13682,7 +13943,7 @@
         "amount": 2.0,
         "currency": "EUR"
       },
-      "location": null,
+      "location": "4-D320",
       "availability": "For Sale",
       "interested": [
         {
@@ -14415,6 +14676,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -14659,6 +14926,12 @@
           "user": "Petter_03",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -15298,6 +15571,47 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 472986,
+      "itemid": 25082,
+      "name": "Heartbeats",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zvH4nP_XihqLYkSQxJsyiw__original/img/jeea8_dcrT1N5nQyKL42g1VQlPI=/0x0/filters:format(jpeg)/pic9644602.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zvH4nP_XihqLYkSQxJsyiw__small/img/BXx9KwUqDkyjYyr4EDVzb1zX_So=/fit-in/200x150/filters:strip_icc()/pic9644602.jpg",
+      "link": "https://boardgamegeek.com/boardgame/472986",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "16+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Team-Based Game"
+      ],
+      "designers": [
+        "Julien Gupta"
+      ],
+      "artists": [],
+      "publishers": [
+        "KOSMOS"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 456369,
@@ -16451,8 +16765,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -17706,8 +18020,8 @@
       "interested": [
         {
           "user": "Alem0nes",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -18618,6 +18932,56 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 475864,
+      "itemid": 25075,
+      "name": "Kitchen Rally",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Ii7BUdkGoWti3alLYljC6w__original/img/7D6bnoVpb6GGAaptsBn_IFHMnIM=/0x0/filters:format(png)/pic9757681.png",
+      "thumbnail": "https://cf.geekdo-images.com/Ii7BUdkGoWti3alLYljC6w__small/img/zOltyi9CJS_OsSD6jd4PwGjn9lM=/fit-in/200x150/filters:strip_icc()/pic9757681.png",
+      "link": "https://boardgamegeek.com/boardgame/475864",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "9+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action / Event",
+        "Dice Rolling",
+        "Drawing",
+        "Grid Movement",
+        "Multiple Maps",
+        "Real-Time"
+      ],
+      "designers": [
+        "Gabriele Bubola",
+        "Simone Luciani"
+      ],
+      "artists": [
+        "Dalibor Krch"
+      ],
+      "publishers": [
+        "Boardcubator",
+        "GravitiX Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "4C120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 473942,
@@ -21841,8 +22205,8 @@
         },
         {
           "user": "Alem0nes",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -21902,6 +22266,73 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 465996,
+      "itemid": 25089,
+      "name": "Mega Empires: The Far East \u2013 North",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/ivfUag0MA50u_eCIYhnDCQ__original/img/TbQTRmS2o5RYhG9BMtj6BtGpwGA=/0x0/filters:format(jpeg)/pic9447459.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/ivfUag0MA50u_eCIYhnDCQ__small/img/6dQMlWhOViaCkb4RFNBeROeu7qY=/fit-in/200x150/filters:strip_icc()/pic9447459.jpg",
+      "link": "https://boardgamegeek.com/boardgame/465996",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 780,
+      "recommendedAge": "13+",
+      "weight": null,
+      "bggAverageRating": 7.7,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Advantage Token",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Betting and Bluffing",
+        "Bribery",
+        "Hand Management",
+        "Memory",
+        "Negotiation",
+        "Real-Time",
+        "Set Collection",
+        "Take That",
+        "Tech Trees / Tech Tracks",
+        "Trading",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Flo de Haan",
+        "Gerart de Haan"
+      ],
+      "artists": [
+        "Elena Bonamoneta",
+        "Ross Ciuppa",
+        "Flo de Haan",
+        "James Hayball",
+        "Anselmi Hyytinen",
+        "Jhee Haejun",
+        "Federica Mele",
+        "Riccardo Piovan",
+        "Xenia Sepelevici",
+        "Odysseas Stamoglou"
+      ],
+      "publishers": [
+        "Ares Games",
+        "Colossus Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 475188,
@@ -23275,7 +23706,7 @@
     },
     {
       "objectId": 448428,
-      "itemid": 24873,
+      "itemid": 25074,
       "name": "Moustache",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/3vzNlkeEPykCNkce2WqMIQ__original/img/LV6UuG70dP5RqcM1-geYdP0_6sE=/0x0/filters:format(jpeg)/pic8970227.jpg",
@@ -23314,10 +23745,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 17.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -24607,6 +25035,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -24652,6 +25086,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -25050,6 +25490,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -25260,6 +25706,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -26513,6 +26965,57 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 462763,
+      "itemid": 25073,
+      "name": "Panorama",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/HVLLk8LnIIiIBuvuwBwh_A__original/img/3BSZzR-wH9r42n_D8cwFewnaj_o=/0x0/filters:format(jpeg)/pic9357693.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/HVLLk8LnIIiIBuvuwBwh_A__small/img/9lST3UdkLWz2OtdhK07B2UWV5mY=/fit-in/200x150/filters:strip_icc()/pic9357693.jpg",
+      "link": "https://boardgamegeek.com/boardgame/462763",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 7.39,
+      "bggBayesAverageRating": 5.58,
+      "bggRank": 10714,
+      "mechanics": [
+        "End Game Bonuses",
+        "Open Drafting",
+        "Pattern Building",
+        "Tile Placement",
+        "Turn Order: Time Track",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Melody Leblond",
+        "Jules Messaud"
+      ],
+      "artists": [
+        "Melody Leblond"
+      ],
+      "publishers": [
+        "Scorpion Masqu\u00e9",
+        "Hachette Boardgames USA",
+        "KOSMOS"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
       "objectId": 365128,
       "itemid": 24712,
       "name": "Paper Tales : \u00c9dition int\u00e9grale",
@@ -26653,6 +27156,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -26871,6 +27380,12 @@
           "user": "ParadoxBard",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -28124,6 +28639,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -30052,6 +30573,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -31289,7 +31816,14 @@
       },
       "location": "3A110",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
     },
     {
@@ -31954,6 +32488,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
@@ -32127,6 +32667,97 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 465213,
+      "itemid": 25085,
+      "name": "Skyrift: Edge of Darkness",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Ve6cC4Lauuwwx5MPCEJIJA__original/img/IKyKDtd6RUNjbm2RW_WzJIF1Jyk=/0x0/filters:format(png)/pic9744411.png",
+      "thumbnail": "https://cf.geekdo-images.com/Ve6cC4Lauuwwx5MPCEJIJA__small/img/Yrq5cmNxQhgSVAKLpGsYACD85b8=/fit-in/200x150/filters:strip_icc()/pic9744411.png",
+      "link": "https://boardgamegeek.com/boardgame/465213",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 30,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 7.9,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hand Management",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Richard Garfield"
+      ],
+      "artists": [
+        "Semyon Proskuryakov"
+      ],
+      "publishers": [
+        "Origames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
+      "objectId": 465214,
+      "itemid": 25086,
+      "name": "Skyrift: Tides of Fate",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/vqqabOZg6_UAnDE6poKjTQ__original/img/gUcn9KFLwGt5up8DjGcMB20c1iY=/0x0/filters:format(png)/pic9744412.png",
+      "thumbnail": "https://cf.geekdo-images.com/vqqabOZg6_UAnDE6poKjTQ__small/img/TFXzua4bih51vmeDAd4g9peqfVY=/fit-in/200x150/filters:strip_icc()/pic9744412.png",
+      "link": "https://boardgamegeek.com/boardgame/465214",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 40,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 8.15,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hand Management",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Richard Garfield"
+      ],
+      "artists": [
+        "Louis Gennart",
+        "Semyon Proskuryakov"
+      ],
+      "publishers": [
+        "Origames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
       "objectId": 454971,
       "itemid": 24155,
       "name": "Slay the Spire: The Board Game \u2013 Downfall",
@@ -32163,6 +32794,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -34550,6 +35187,59 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 460556,
+      "itemid": 25080,
+      "name": "Tag Team: Arthur's Legacy",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/l3EX6yKONe3U_QA2-z8FZA__original/img/j0XyslCxdCNOAEK5sQ6-CWHoD48=/0x0/filters:format(jpeg)/pic9651511.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/l3EX6yKONe3U_QA2-z8FZA__small/img/ZhFfAPZNuMAkTDpwPM9fXNvBHuE=/fit-in/200x150/filters:strip_icc()/pic9651511.jpg",
+      "link": "https://boardgamegeek.com/boardgame/460556",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 7.73,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17177,
+      "mechanics": [
+        "Card Play Conflict Resolution",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Gricha German",
+        "Corentin Lebrat",
+        "Florian Sirieix",
+        "Benoit Turpin"
+      ],
+      "artists": [
+        "Xavier Gueniffey Durin",
+        "Robin Lagofun"
+      ],
+      "publishers": [
+        "Scorpion Masqu\u00e9",
+        "Hachette Boardgames USA",
+        "KOSMOS"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
       "objectId": 471206,
       "itemid": 24442,
       "name": "Take Time: Mirage",
@@ -35366,8 +36056,8 @@
         },
         {
           "user": "Alem0nes",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -35420,6 +36110,56 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 462192,
+      "itemid": 25078,
+      "name": "The Crew: Journey to the Ends of the Earth",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/SgRVzHG2LZUVhPsdZsL6xA__original/img/gZ0Tms-4H2SzzjnBCrk7NNFbbrQ=/0x0/filters:format(jpeg)/pic9328836.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/SgRVzHG2LZUVhPsdZsL6xA__small/img/RDCLY5F8V3Y5TYfC-R-69qYlVFI=/fit-in/200x150/filters:strip_icc()/pic9328836.jpg",
+      "link": "https://boardgamegeek.com/boardgame/462192",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 7.84,
+      "bggBayesAverageRating": 5.61,
+      "bggRank": 8965,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Hand Management",
+        "Scenario / Mission / Campaign Game",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Thomas Sing"
+      ],
+      "artists": [
+        "Fiore GmbH"
+      ],
+      "publishers": [
+        "KOSMOS",
+        "999 Games",
+        "IELLO",
+        "Thames & Kosmos"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 449854,
@@ -35696,9 +36436,107 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 469104,
+      "itemid": 25083,
+      "name": "The Game of Birds",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/NmW1XlMi7qoJ5pt0YQtEhA__original/img/LKLssJOk0iWqLYMh2JcEG6YNfng=/0x0/filters:format(jpeg)/pic9615014.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/NmW1XlMi7qoJ5pt0YQtEhA__small/img/P-T1ibhfyJx4tr3jGoPMt0B0ASU=/fit-in/200x150/filters:strip_icc()/pic9615014.jpg",
+      "link": "https://boardgamegeek.com/boardgame/469104",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": null,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 6.07,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling",
+        "Set Collection",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Robert Macfarlane",
+        "Michael Rieneck"
+      ],
+      "artists": [],
+      "publishers": [
+        "KOSMOS"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
+      "objectId": 462191,
+      "itemid": 25079,
+      "name": "The Gang: Deluxe Edition",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/eIOV_ceUucPSHxYRTtC_wg__original/img/alRSMGzDN28b4zkWFSiO4MAW3jo=/0x0/filters:format(jpeg)/pic9328832.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/eIOV_ceUucPSHxYRTtC_wg__small/img/HVIPSWpDM1uPj9BLymlcwGpzrpY=/fit-in/200x150/filters:strip_icc()/pic9328832.jpg",
+      "link": "https://boardgamegeek.com/boardgame/462191",
+      "minPlayers": 3,
+      "maxPlayers": 10,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 8.05,
+      "bggBayesAverageRating": 5.58,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Predictive Bid"
+      ],
+      "designers": [
+        "John Cooper",
+        "Kory Heath"
+      ],
+      "artists": [
+        "Fiore GmbH"
+      ],
+      "publishers": [
+        "IELLO",
+        "KOSMOS",
+        "Thames & Kosmos"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
     },
     {
       "objectId": 450539,
@@ -36288,15 +37126,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
+          "user": "Petter_03",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "Petter_03",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -36770,6 +37608,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -36830,6 +37674,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -39547,6 +40397,12 @@
       "availability": "Demo",
       "interested": [
         {
+          "user": "Alem0nes",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -40456,6 +41312,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
