@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-21T03:43:50.338135+00:00",
-  "itemCount": 851,
-  "interestedCount": 119,
-  "noOneCount": 732,
+  "generatedAt": "2026-08-22T03:36:00.586347+00:00",
+  "itemCount": 864,
+  "interestedCount": 124,
+  "noOneCount": 740,
   "items": [
     {
       "objectId": 474125,
@@ -1775,6 +1775,52 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 467955,
+      "itemid": 25100,
+      "name": "All Mine!",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/TaR-hR-jgfyjD2RQ6pI6Jg__original/img/rszB1ublkliUAMrU-q2_QxsxTDk=/0x0/filters:format(jpeg)/pic9526276.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/TaR-hR-jgfyjD2RQ6pI6Jg__small/img/EshB6LD_I-bloFJs1UGaGftOoIA=/fit-in/200x150/filters:strip_icc()/pic9526276.jpg",
+      "link": "https://boardgamegeek.com/boardgame/467955",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 6.85,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Betting and Bluffing",
+        "Hand Management",
+        "Predictive Bid",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Arve D. F\u00fchler"
+      ],
+      "artists": [
+        "Lars Besten"
+      ],
+      "publishers": [
+        "Capstone Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3B300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
       "objectId": 463489,
@@ -3790,6 +3836,52 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 471485,
+      "itemid": 25098,
+      "name": "Black Rose Wars: Rebirth \u2013 Mathemagics",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/jry0eO6KyAPTtOWfPP14Cw__original/img/4buip5xfmSF6r1GODcE21XZaJKA=/0x0/filters:format(png)/pic9755720.png",
+      "thumbnail": "https://cf.geekdo-images.com/jry0eO6KyAPTtOWfPP14Cw__small/img/Hwb_KUQMIUPtyAn_oqrLSnMKYpE=/fit-in/200x150/filters:strip_icc()/pic9755720.png",
+      "link": "https://boardgamegeek.com/boardgame/471485",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 9.5,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action / Event",
+        "Action Queue",
+        "Campaign / Battle Card Driven",
+        "Deck Construction",
+        "Events",
+        "Modular Board",
+        "Scenario / Mission / Campaign Game",
+        "Variable Player Powers"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Ludus Magnus Studio"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "3B225",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
+    },
+    {
       "objectId": 462649,
       "itemid": 24860,
       "name": "Blancat",
@@ -4929,6 +5021,50 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 457858,
+      "itemid": 25090,
+      "name": "Button",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/gYITwQolmrKohkSZnqvtDw__original/img/vAaFfxhEDA7nNw-zCcbkKyNN5VE=/0x0/filters:format(png)/pic9213959.png",
+      "thumbnail": "https://cf.geekdo-images.com/gYITwQolmrKohkSZnqvtDw__small/img/iCmo-_0HeOGNytqeSKLTG9G5COU=/fit-in/200x150/filters:strip_icc()/pic9213959.png",
+      "link": "https://boardgamegeek.com/boardgame/457858",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 7.36,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "Valou Leuba"
+      ],
+      "artists": [],
+      "publishers": [
+        "Shilipash Studio"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "4F510",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
       "objectId": 473161,
@@ -10731,6 +10867,63 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 446825,
+      "itemid": 25093,
+      "name": "Eldertide: A Thousand Lights",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/KbK3EyzADAgrGRawrHKPmg__original/img/uYfPj-RbWymAdSNopXfyp5np5As=/0x0/filters:format(jpeg)/pic9531290.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/KbK3EyzADAgrGRawrHKPmg__small/img/ffuz5CHK07DRfEc4G9GfuJ7La50=/fit-in/200x150/filters:strip_icc()/pic9531290.jpg",
+      "link": "https://boardgamegeek.com/boardgame/446825",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 2.75,
+      "bggAverageRating": 7.21,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 18890,
+      "mechanics": [
+        "Area Movement",
+        "Betting and Bluffing",
+        "Contracts",
+        "End Game Bonuses",
+        "Grid Movement",
+        "Modular Board",
+        "Pick-up and Deliver",
+        "Resource to Move",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Mahawira S. Dillon",
+        "Rodrigo Esper",
+        "Yofiandhy D Indrayana"
+      ],
+      "artists": [
+        "Gou Eisuke",
+        "Thomas Romain"
+      ],
+      "publishers": [
+        "Esper Game Studio"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 70.0,
+        "currency": "USD"
+      },
+      "location": "5K325",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
+    },
+    {
       "objectId": 424446,
       "itemid": 24522,
       "name": "Eldur",
@@ -12948,6 +13141,55 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 457050,
+      "itemid": 25094,
+      "name": "FOMO: Foragers of Mechanical Oddities",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/LqjZ3gcRrfaD7Kdr1y2pJg__original/img/xsuk3O14KMX72YLr9i3bf57Sn8k=/0x0/filters:format(png)/pic9198101.png",
+      "thumbnail": "https://cf.geekdo-images.com/LqjZ3gcRrfaD7Kdr1y2pJg__small/img/RBvJHmW_0ybrP5PnzcY7JdWMLm0=/fit-in/200x150/filters:strip_icc()/pic9198101.png",
+      "link": "https://boardgamegeek.com/boardgame/457050",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": 1.0,
+      "bggAverageRating": 6.81,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Auction / Bidding",
+        "Betting and Bluffing",
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "designers": [
+        "Rodrigo Esper"
+      ],
+      "artists": [
+        "\u5927\u5fd7 (Taishi)"
+      ],
+      "publishers": [
+        "Esper Game Studio"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "USD"
+      },
+      "location": "5K325",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
       "objectId": 472256,
@@ -17494,6 +17736,66 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 429845,
+      "itemid": 25091,
+      "name": "Jisogi: Anime Studio Tycoon",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/LyXjZJQNLQhqtm54UGI6Hg__original/img/NFqTXgGJNHOz-OXdPjGMjeIJx2M=/0x0/filters:format(jpeg)/pic9531283.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/LyXjZJQNLQhqtm54UGI6Hg__small/img/n2SOwtp0qeWwhKuvBaWXcIZsks0=/fit-in/200x150/filters:strip_icc()/pic9531283.jpg",
+      "link": "https://boardgamegeek.com/boardgame/429845",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "12+",
+      "weight": 2.84,
+      "bggAverageRating": 7.57,
+      "bggBayesAverageRating": 5.95,
+      "bggRank": 3519,
+      "mechanics": [
+        "Contracts",
+        "Income",
+        "Loans",
+        "Market",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Storytelling",
+        "Turn Order: Claim Action",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Rodrigo Esper"
+      ],
+      "artists": [
+        "Gou Eisuke",
+        "Thomas Romain",
+        "Senkawa Teien"
+      ],
+      "publishers": [
+        "Esper Game Studio",
+        "Choo Choo Games",
+        "Good Games Publishing",
+        "Synergic Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 60.0,
+        "currency": "EUR"
+      },
+      "location": "2D530",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
+    },
+    {
       "objectId": 332686,
       "itemid": 24609,
       "name": "John Company: Second Edition",
@@ -21618,7 +21920,7 @@
     },
     {
       "objectId": 447483,
-      "itemid": 25008,
+      "itemid": 25103,
       "name": "Manila",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/Zks00-ulxDELq8XyUY8mgQ__original/img/aijJ9ibb4YeuE1VbXaKTmGdGoeM=/0x0/filters:format(png)/pic8912763.png",
@@ -22333,6 +22635,137 @@
         }
       ],
       "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
+      "objectId": 466009,
+      "itemid": 25095,
+      "name": "Mega Empires: The Far East \u2013 South",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/Z1XZcXuJP2jxSx_kGn7aAA__original/img/G8Uw6e5PXz5bhYtR0F4ZrJe2tgs=/0x0/filters:format(jpeg)/pic9447458.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Z1XZcXuJP2jxSx_kGn7aAA__small/img/taqz0e-d2RVOTT7mjvo8TjQg0n8=/fit-in/200x150/filters:strip_icc()/pic9447458.jpg",
+      "link": "https://boardgamegeek.com/boardgame/466009",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 780,
+      "recommendedAge": "13+",
+      "weight": null,
+      "bggAverageRating": 6.17,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Advantage Token",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Betting and Bluffing",
+        "Bribery",
+        "Hand Management",
+        "Negotiation",
+        "Real-Time",
+        "Set Collection",
+        "Take That",
+        "Tech Trees / Tech Tracks",
+        "Trading",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Flo de Haan",
+        "Gerart de Haan"
+      ],
+      "artists": [
+        "Elena Bonamoneta",
+        "Ross Ciuppa",
+        "Flo de Haan",
+        "James Hayball",
+        "Anselmi Hyytinen",
+        "Jhee Haejun",
+        "Federica Mele",
+        "Riccardo Piovan",
+        "Xenia Sepelevici",
+        "Odysseas Stamoglou"
+      ],
+      "publishers": [
+        "Ares Games",
+        "Colossus Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
+    },
+    {
+      "objectId": 466446,
+      "itemid": 25096,
+      "name": "Mega Empires: The Silk Road",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/UVAOpFBk0Akd_k1_Lilvtg__original/img/eQaVu8X9LeLA4Z7vQ4NAo_kDW4M=/0x0/filters:format(jpeg)/pic9552777.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/UVAOpFBk0Akd_k1_Lilvtg__small/img/hlGmWHZ01bHc1zKv1WJ7zs5RS38=/fit-in/200x150/filters:strip_icc()/pic9552777.jpg",
+      "link": "https://boardgamegeek.com/boardgame/466446",
+      "minPlayers": 3,
+      "maxPlayers": 30,
+      "playingTime": 780,
+      "recommendedAge": "13+",
+      "weight": null,
+      "bggAverageRating": 8.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Advantage Token",
+        "Area Majority / Influence",
+        "Betting and Bluffing",
+        "Bribery",
+        "Hand Management",
+        "Negotiation",
+        "Real-Time",
+        "Set Collection",
+        "Tech Trees / Tech Tracks",
+        "Trading",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Flo de Haan",
+        "Gerart de Haan"
+      ],
+      "artists": [
+        "Elena Bonamoneta",
+        "Ross Ciuppa",
+        "Flo de Haan",
+        "James Hayball",
+        "Anselmi Hyytinen",
+        "Jhee Haejun",
+        "Federica Mele",
+        "Riccardo Piovan",
+        "Xenia Sepelevici",
+        "Odysseas Stamoglou",
+        "Franz Vohwinkel"
+      ],
+      "publishers": [
+        "Ares Games",
+        "Colossus Games"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
       "objectId": 475188,
@@ -26308,6 +26741,52 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 471164,
+      "itemid": 25097,
+      "name": "Opera Magna",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/x67CwRGk2xjXFmgkPISkkA__original/img/ldq3f1ZDs4IZTh1BH0VNQ903PyE=/0x0/filters:format(jpeg)/pic9601124.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/x67CwRGk2xjXFmgkPISkkA__small/img/2dH4G5f0qoCvQCaJa7hC0smDJbY=/fit-in/200x150/filters:strip_icc()/pic9601124.jpg",
+      "link": "https://boardgamegeek.com/boardgame/471164",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": null,
+      "recommendedAge": "12+",
+      "weight": 3.0,
+      "bggAverageRating": 7.68,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action / Event",
+        "Market",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Tommaso Battista",
+        "Stefano Castelli"
+      ],
+      "artists": [
+        "Lara Ongis"
+      ],
+      "publishers": [
+        "Ludus Magnus Studio"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3B225",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
+    },
+    {
       "objectId": 448740,
       "itemid": 24686,
       "name": "Orapa Space",
@@ -28691,7 +29170,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": null,
+      "location": "6D405",
       "availability": "For Sale",
       "interested": [
         {
@@ -32175,6 +32654,58 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 260568,
+      "itemid": 25101,
+      "name": "Seven Prophecies",
+      "yearPublished": 2017,
+      "image": "https://cf.geekdo-images.com/_usrQ8c6dvIMowTk2lfjTw__original/img/OhZMoQ0Iea-VJlraoBsDVL30CVM=/0x0/filters:format(png)/pic9553353.png",
+      "thumbnail": "https://cf.geekdo-images.com/_usrQ8c6dvIMowTk2lfjTw__small/img/zauAlc-ltZ8Qn8jSoTMJt3zMNgA=/fit-in/200x150/filters:strip_icc()/pic9553353.png",
+      "link": "https://boardgamegeek.com/boardgame/260568",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 35,
+      "recommendedAge": "10+",
+      "weight": 1.5,
+      "bggAverageRating": 7.4,
+      "bggBayesAverageRating": 5.65,
+      "bggRank": 7464,
+      "mechanics": [
+        "Betting and Bluffing",
+        "Trick-taking"
+      ],
+      "designers": [
+        "\u6298\u53e3 \u65e5\u5411 (Hinata Origuchi)"
+      ],
+      "artists": [
+        "Osamu Inoue (\u4e95\u4e0a\u78e8)",
+        "Daniel Newman",
+        "Imogen Oh",
+        "Amelia Sales",
+        "Tomohiro Tsugawa"
+      ],
+      "publishers": [
+        "Bluete Spiele",
+        "Capstone Games",
+        "New Mill Industries",
+        "Pixie Games",
+        "SUNNY BIRD"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3B300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
+    },
+    {
       "objectId": 475865,
       "itemid": 24902,
       "name": "Shapemash",
@@ -32756,6 +33287,56 @@
         }
       ],
       "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
+      "objectId": 464564,
+      "itemid": 25092,
+      "name": "Skyward Republic",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/diGvAMBm1Q51gO2QLebhtQ__original/img/r1dkK-X4z9srmeyKnf7HdAHqMlM=/0x0/filters:format(jpeg)/pic9407107.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/diGvAMBm1Q51gO2QLebhtQ__small/img/6ATdIIWfa3b4k8UE1S5MaYMHwkk=/fit-in/200x150/filters:strip_icc()/pic9407107.jpg",
+      "link": "https://boardgamegeek.com/boardgame/464564",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 75,
+      "recommendedAge": "14+",
+      "weight": 2.0,
+      "bggAverageRating": 5.9,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Contracts",
+        "End Game Bonuses",
+        "Hand Management",
+        "I Cut, You Choose",
+        "Open Drafting"
+      ],
+      "designers": [
+        "Brendan Evans"
+      ],
+      "artists": [
+        "Steven Preston"
+      ],
+      "publishers": [
+        "Good Games Publishing"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
+      "location": "2D530",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
       "objectId": 454971,
@@ -34482,6 +35063,54 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 468535,
+      "itemid": 25102,
+      "name": "Strange Slot Simulator",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/nrdNzThBqtWIZvHkxrVn5w__original/img/dlNdLvaguGVYubX0fJnZ37rESlQ=/0x0/filters:format(png)/pic9543518.png",
+      "thumbnail": "https://cf.geekdo-images.com/nrdNzThBqtWIZvHkxrVn5w__small/img/Qp7CCtwyXbHp4QnQu29Q2iz2F_Y=/fit-in/200x150/filters:strip_icc()/pic9543518.png",
+      "link": "https://boardgamegeek.com/boardgame/468535",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 6.31,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Deduction",
+        "Real-Time",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "\u30d1\u30fc\u30c6\u30a3\u592a\u90ce (Party Taro)"
+      ],
+      "artists": [
+        "Yu Osawa"
+      ],
+      "publishers": [
+        "Hobby Japan"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "location": "3F120 (PTS/Matagot Booth)",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
       "objectId": 464256,
@@ -39485,7 +40114,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": null,
+      "location": "6D405",
       "availability": "For Sale",
       "interested": [
         {
@@ -42050,6 +42679,55 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 280575,
+      "itemid": 25099,
+      "name": "Yin Yang",
+      "yearPublished": 2019,
+      "image": "https://cf.geekdo-images.com/os_krN26BZBhKxt07WDKJA__original/img/YgV9Hk5rPJC1Of3kdwFJgjDIOxc=/0x0/filters:format(jpeg)/pic9759680.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/os_krN26BZBhKxt07WDKJA__small/img/aLXdbCwFYH4FHGcu9H9l52by3nA=/fit-in/200x150/filters:strip_icc()/pic9759680.jpg",
+      "link": "https://boardgamegeek.com/boardgame/280575",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 75,
+      "recommendedAge": "15+",
+      "weight": 2.78,
+      "bggAverageRating": 7.16,
+      "bggBayesAverageRating": 5.69,
+      "bggRank": 6509,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Dice Rolling",
+        "Point to Point Movement",
+        "Set Collection"
+      ],
+      "designers": [
+        "DuGuWei"
+      ],
+      "artists": [
+        "Carton"
+      ],
+      "publishers": [
+        "BGNations",
+        "Capstone Games",
+        "Jing Studio",
+        "Spielefaible"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3B300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
       "objectId": 369938,
