@@ -156,6 +156,26 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function renderCreditGroup(label, names) {
+  if (!Array.isArray(names) || names.length === 0) return null;
+  const shown = names.slice(0, 4);
+  const more = names.length > shown.length ? ` +${names.length - shown.length} more` : "";
+  return `${label}: ${shown.map(escapeHtml).join(", ")}${more}`;
+}
+
+function renderCredits(item) {
+  const groups = [
+    renderCreditGroup("Designers", item.designers),
+    renderCreditGroup("Artists", item.artists),
+  ].filter(Boolean);
+  if (!groups.length) return "";
+  return `<div class="card-credits">${groups.map((g) => `<div>${g}</div>`).join("")}</div>`;
+}
+
+function matchesSharedGame(item) {
+  return SHARED_GAME_ID === null || item.objectId === SHARED_GAME_ID;
+}
+
 function renderLink(name, link) {
   if (!link) {
     return escapeHtml(formatValue(name));
@@ -540,6 +560,7 @@ function computeMatches() {
     if (state.sourceFilter === "preview" && !candidate.inPreview) continue;
     if (state.sourceFilter === "auction" && !candidate.inAuction) continue;
     const item = candidate.item;
+    if (!matchesSharedGame(item)) continue;
     if (ownedIds.has(item.objectId)) continue;
     if (state.expansionFilter === "hide" && isExpansion(item, expansionIds)) continue;
     if (!matchesPlayerRange(item)) continue;
@@ -813,10 +834,12 @@ function renderCard(match) {
             <div class="game-meta">#${escapeHtml(formatValue(item.objectId))}</div>
             ${badgeHtml}
           </div>
+          <div class="card-heading-actions">${renderShareButton(item.objectId)}</div>
         </div>
         <div class="detail-list">
           ${lines.join("")}
         </div>
+        ${renderCredits(item)}
         ${offerHtml}
         <div class="card-section">
           ${renderMatchBadges(match)}
@@ -869,6 +892,7 @@ function renderContent() {
       .map((match) => renderCard(match))
       .join("")}</div>`;
   }
+  initShareButtons(content);
 
   content.querySelectorAll(".vote-btn").forEach((btn) => {
     btn.addEventListener("click", () => {

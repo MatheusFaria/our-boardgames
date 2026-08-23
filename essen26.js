@@ -67,6 +67,22 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function renderCreditGroup(label, names) {
+  if (!Array.isArray(names) || names.length === 0) return null;
+  const shown = names.slice(0, 4);
+  const more = names.length > shown.length ? ` +${names.length - shown.length} more` : "";
+  return `${label}: ${shown.map(escapeHtml).join(", ")}${more}`;
+}
+
+function renderCredits(item) {
+  const groups = [
+    renderCreditGroup("Designers", item.designers),
+    renderCreditGroup("Artists", item.artists),
+  ].filter(Boolean);
+  if (!groups.length) return "";
+  return `<div class="card-credits">${groups.map((g) => `<div>${g}</div>`).join("")}</div>`;
+}
+
 function renderLink(name, link) {
   if (!link) {
     return escapeHtml(formatValue(name));
@@ -297,12 +313,17 @@ function matchesAvailability(item) {
   return state.availabilityFilters.includes(item.availability);
 }
 
+function matchesSharedGame(item) {
+  return SHARED_GAME_ID === null || item.objectId === SHARED_GAME_ID;
+}
+
 function applyActiveFilters(items) {
   return items.filter(
     (item) =>
       matchesInterestFilters(item) &&
       matchesAvailability(item) &&
       matchesPlayerRange(item) &&
+      matchesSharedGame(item) &&
       matchesFuzzySearch(item)
   );
 }
@@ -425,7 +446,7 @@ function renderCard(item) {
             <h3 class="game-name">${renderLink(item.name, item.link)}${yearLabel}</h3>
             <div class="game-meta">#${escapeHtml(formatValue(item.objectId))}</div>
           </div>
-          ${availabilityBadge}
+          <div class="card-heading-actions">${availabilityBadge}${renderShareButton(item.objectId)}</div>
         </div>
         <div class="detail-list">
           <div class="detail-line"><span class="detail-label">Players</span><span class="detail-value">${escapeHtml(
@@ -443,6 +464,7 @@ function renderCard(item) {
             item.bggRank
           )}</span></div>
         </div>
+        ${renderCredits(item)}
         <div class="card-section">
           ${renderInterest(item)}
         </div>
@@ -475,6 +497,7 @@ function renderContent() {
       .map((item) => renderCard(item))
       .join("")}</div>`;
   }
+  initShareButtons(content);
 
   const sortLabel = SORT_OPTIONS.find((o) => o.key === state.sortKey)?.label || state.sortKey;
   const arrow = state.sortDirection === "asc" ? "↑" : "↓";

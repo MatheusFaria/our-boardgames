@@ -74,6 +74,22 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function renderCreditGroup(label, names) {
+  if (!Array.isArray(names) || names.length === 0) return null;
+  const shown = names.slice(0, 4);
+  const more = names.length > shown.length ? ` +${names.length - shown.length} more` : "";
+  return `${label}: ${shown.map(escapeHtml).join(", ")}${more}`;
+}
+
+function renderCredits(item) {
+  const groups = [
+    renderCreditGroup("Designers", item.designers),
+    renderCreditGroup("Artists", item.artists),
+  ].filter(Boolean);
+  if (!groups.length) return "";
+  return `<div class="card-credits">${groups.map((g) => `<div>${g}</div>`).join("")}</div>`;
+}
+
 function renderLink(name, link) {
   if (!link) {
     return escapeHtml(formatValue(name));
@@ -203,12 +219,17 @@ function matchesFuzzySearch(item) {
   return fuzzyScore(state.searchQuery, item.name || "") >= FUZZY_THRESHOLD;
 }
 
+function matchesSharedGame(item) {
+  return SHARED_GAME_ID === null || item.objectId === SHARED_GAME_ID;
+}
+
 function applyActiveFilters(items) {
   const hasOwnerOrStatusFilter = state.ownerFilters.length > 0 || state.statusFilters.length > 0;
   return items.filter(
     (item) =>
       (!hasOwnerOrStatusFilter || getVisibleOwnerDetails(item).length > 0) &&
       matchesPlayerRange(item) &&
+      matchesSharedGame(item) &&
       matchesFuzzySearch(item)
   );
 }
@@ -468,6 +489,7 @@ function renderCard(item, expansions = [], compact = false) {
             <h3 class="game-name">${renderLink(item.name, item.link)}${yearLabel}</h3>
             <div class="game-meta">#${escapeHtml(formatValue(item.objectId))}</div>
           </div>
+          <div class="card-heading-actions">${renderShareButton(item.objectId)}</div>
         </div>
         <div class="detail-list">
           <div class="detail-line"><span class="detail-label">Players</span><span class="detail-value">${escapeHtml(
@@ -483,6 +505,7 @@ function renderCard(item, expansions = [], compact = false) {
             item.bggRank
           )}</span></div>
         </div>
+        ${renderCredits(item)}
         <div class="card-section">
           ${renderOwners(item)}
         </div>
@@ -686,6 +709,7 @@ function renderSnapshot() {
 
   const { html, totalRows } = renderCollection(snapshot.items, state.groupExpansions);
   content.innerHTML = html;
+  initShareButtons(content);
   renderPaginationControls(totalRows);
   updateStatus(buildStatusMessage(totalRows), "");
   renderActiveFilterChips();
