@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-22T03:36:00.586347+00:00",
-  "itemCount": 864,
+  "generatedAt": "2026-08-23T03:43:38.139292+00:00",
+  "itemCount": 869,
   "interestedCount": 124,
-  "noOneCount": 740,
+  "noOneCount": 745,
   "items": [
     {
       "objectId": 474125,
@@ -1635,6 +1635,46 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 467989,
+      "itemid": 25106,
+      "name": "Agent Black",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/v_8gBFdKnFhI3GX5RO4UFw__original/img/0nQwFWfuwgNwIGMzvp1xNoLIJUA=/0x0/filters:format(png)/pic9500761.png",
+      "thumbnail": "https://cf.geekdo-images.com/v_8gBFdKnFhI3GX5RO4UFw__small/img/YbLkUcLLSpSUabuBti6LVqoXvm0=/fit-in/200x150/filters:strip_icc()/pic9500761.png",
+      "link": "https://boardgamegeek.com/boardgame/467989",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 7.17,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Movement",
+        "Deduction",
+        "Map Deformation",
+        "Memory"
+      ],
+      "designers": [
+        "Olin Jeong"
+      ],
+      "artists": [],
+      "publishers": [
+        "Olin Studio"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "H5-A300",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-08-23T03:43:37.745091+00:00"
     },
     {
       "objectId": 461828,
@@ -6348,6 +6388,12 @@
           "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": null,
+          "priorityLabel": "Unprioritized",
           "notes": null
         }
       ],
@@ -14629,6 +14675,47 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 380109,
+      "itemid": 25108,
+      "name": "Gibberers: The Word Game of Language Invention and Civilization Development",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/dbgGOeFt2ZUgKBEeoB_X-w__original/img/BUKHkH-uHKeMS-x3p06PULFER5Y=/0x0/filters:format(jpeg)/pic9030814.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/dbgGOeFt2ZUgKBEeoB_X-w__small/img/1Pwq7CsqPeQTXlz05QBqUa3fETQ=/fit-in/200x150/filters:strip_icc()/pic9030814.jpg",
+      "link": "https://boardgamegeek.com/boardgame/380109",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 180,
+      "recommendedAge": "14+",
+      "weight": 2.53,
+      "bggAverageRating": 8.13,
+      "bggBayesAverageRating": 5.84,
+      "bggRank": 4415,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deduction",
+        "Paper-and-Pencil",
+        "Turn Order: Progressive"
+      ],
+      "designers": [
+        "Keisei"
+      ],
+      "artists": [
+        "TANSAN Inc."
+      ],
+      "publishers": [
+        "Hobby Japan",
+        "Strohmann Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3F120 (PTS / Matagot Booth)",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-08-23T03:43:37.745091+00:00"
     },
     {
       "objectId": 470878,
@@ -26778,6 +26865,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 3,
           "priorityLabel": "Not Decided",
@@ -32012,6 +32105,45 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 458862,
+      "itemid": 25107,
+      "name": "Rotate",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/DBZeBNrlq0ZhVV_XsmcLjg__original/img/EN8p3BNNzzQeuI24-BwMEBQRhWY=/0x0/filters:format(jpeg)/pic9243802.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/DBZeBNrlq0ZhVV_XsmcLjg__small/img/4pBmG7SU_P_L5k_t_I-M7gIaFB8=/fit-in/200x150/filters:strip_icc()/pic9243802.jpg",
+      "link": "https://boardgamegeek.com/boardgame/458862",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 5.36,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "Olin Jeong"
+      ],
+      "artists": [
+        "Olin Jeong"
+      ],
+      "publishers": [
+        "Olin Studio"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "H5-A300",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-08-23T03:43:37.745091+00:00"
     },
     {
       "objectId": 275058,
@@ -37859,6 +37991,57 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 477625,
+      "itemid": 25104,
+      "name": "The Purple House",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/QvwIl9ag0pd-cnMULwCTQg__original/img/40heBiaEgyf2W4oV9dDpkdQF-fE=/0x0/filters:format(jpeg)/pic9761711.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/QvwIl9ag0pd-cnMULwCTQg__small/img/44kOm3-4PvYgbdwwcSSs0JdThMs=/fit-in/200x150/filters:strip_icc()/pic9761711.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477625",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Connections",
+        "Cooperative Game",
+        "Deduction",
+        "Matching",
+        "Memory",
+        "Solo / Solitaire Game"
+      ],
+      "designers": [
+        "Daryl Chow",
+        "Nicanor \"Nico\" Valdez"
+      ],
+      "artists": [],
+      "publishers": [
+        "Origame"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "Origame Booth",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-23T03:43:37.745091+00:00"
+    },
+    {
       "objectId": 341870,
       "itemid": 24628,
       "name": "The Queen's Dilemma",
@@ -37961,6 +38144,54 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 477626,
+      "itemid": 25105,
+      "name": "The Runaway Robot",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/WOJ4iP_E8Jmy4gLYMHpeiA__original/img/TPgerA4ABSL0Qm3i_5lzwIe2qo0=/0x0/filters:format(jpeg)/pic9761723.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/WOJ4iP_E8Jmy4gLYMHpeiA__small/img/OIhewXDBYgQ4fbUkkaFfbZrSAKM=/fit-in/200x150/filters:strip_icc()/pic9761723.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477626",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 25,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Questions and Answers"
+      ],
+      "designers": [
+        "Daryl Chow"
+      ],
+      "artists": [
+        "326"
+      ],
+      "publishers": [
+        "Origame"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "Origame Booth",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-23T03:43:37.745091+00:00"
     },
     {
       "objectId": 464601,
