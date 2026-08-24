@@ -430,6 +430,11 @@ function getOwnedIds(user) {
   return new Set(getOwnedGames(user).map((item) => item.objectId));
 }
 
+function hasRegisteredInterest(item, user) {
+  const target = (user || "").toLowerCase();
+  return (item.interested || []).some((entry) => (entry.user || "").toLowerCase() === target);
+}
+
 // value -> array of owned game names that carry that value in the given category
 function getOwnedValueMap(user, categoryKey) {
   const map = new Map();
@@ -562,6 +567,7 @@ function computeMatches() {
     const item = candidate.item;
     if (!matchesSharedGame(item)) continue;
     if (ownedIds.has(item.objectId)) continue;
+    if (hasRegisteredInterest(item, user)) continue;
     if (state.expansionFilter === "hide" && isExpansion(item, expansionIds)) continue;
     if (!matchesPlayerRange(item)) continue;
     if (state.dislikedFilter === "hide" && getVote(item.objectId) === -1) continue;
