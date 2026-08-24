@@ -450,9 +450,12 @@ function renderOffers(item) {
 }
 
 function renderCard(item) {
-  const image = item.thumbnail
+  const thumb = item.thumbnail
     ? `<img src="${escapeHtml(item.thumbnail)}" alt="${escapeHtml(item.name)} cover" loading="lazy">`
     : '<div class="card-thumb placeholder">No image</div>';
+  const image = item.link
+    ? `<a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${thumb}</a>`
+    : thumb;
 
   const yearLabel = item.yearPublished ? ` (${escapeHtml(item.yearPublished)})` : "";
   const offerCount = visibleOffers(item).length;
