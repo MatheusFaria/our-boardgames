@@ -15,6 +15,10 @@ function renderShareButton(objectId) {
   return `<button class="share-btn" type="button" data-share-id="${objectId}" title="Share this game" aria-label="Share this game">⤴</button>`;
 }
 
+function corsProxyUrl(url) {
+  return `https://images.weserv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}`;
+}
+
 function slugify(s) {
   return s
     .toLowerCase()
@@ -51,6 +55,15 @@ async function handleShareClick(btn) {
       scale: 2,
       useCORS: true,
       backgroundColor: getComputedStyle(document.body).backgroundColor || "#ffffff",
+      onclone: (_clonedDoc, clonedCard) => {
+        clonedCard.querySelectorAll("img").forEach((img) => {
+          const original = img.getAttribute("src");
+          if (original && /^https?:\/\//.test(original)) {
+            img.crossOrigin = "anonymous";
+            img.src = corsProxyUrl(original);
+          }
+        });
+      },
     });
 
     const title = card.querySelector("h2, h3")?.textContent?.trim() || "Board game";
