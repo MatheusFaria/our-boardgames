@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-24T03:47:16.653196+00:00",
-  "itemCount": 872,
-  "interestedCount": 131,
-  "noOneCount": 741,
+  "generatedAt": "2026-08-25T03:41:39.524775+00:00",
+  "itemCount": 878,
+  "interestedCount": 135,
+  "noOneCount": 743,
   "items": [
     {
       "objectId": 474125,
@@ -1560,6 +1560,160 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 476809,
+      "itemid": 25114,
+      "name": "AEW Dice Knock Out: Set 01 \u2013 Hangman Adam Page vs Swerve Strickland",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/E69hdbPQCQEs0A8VHpxfcA__original/img/9GNK4vAB9t7xhBZ50kanCMnnbBs=/0x0/filters:format(jpeg)/pic9757981.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/E69hdbPQCQEs0A8VHpxfcA__small/img/2JMciNPWWgSIKBziLTDtETZV5IY=/fit-in/200x150/filters:strip_icc()/pic9757981.jpg",
+      "link": "https://boardgamegeek.com/boardgame/476809",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Scrungo Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3F120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
+    },
+    {
+      "objectId": 476810,
+      "itemid": 25115,
+      "name": "AEW Dice Knock Out: Set 02 \u2013 MJF vs Darby Allin",
+      "yearPublished": null,
+      "image": "https://cf.geekdo-images.com/g6GsPYFIVpwf3JwqowGb9A__original/img/n9huT5tLcT9aJ_jVgBbhujA-NUk=/0x0/filters:format(jpeg)/pic9757982.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/g6GsPYFIVpwf3JwqowGb9A__small/img/82-Ep6v2qqyauGK_ZjfbKvTJ_pQ=/fit-in/200x150/filters:strip_icc()/pic9757982.jpg",
+      "link": "https://boardgamegeek.com/boardgame/476810",
+      "minPlayers": null,
+      "maxPlayers": null,
+      "playingTime": null,
+      "recommendedAge": null,
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Scrungo Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3F120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
+    },
+    {
+      "objectId": 476811,
+      "itemid": 25116,
+      "name": "AEW Dice Knock Out: Set 03 \u2013 Mercedes Mone vs \"Timeless\" Toni Storm",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/xtoEb2T1BZo3_NeusNzoTQ__original/img/0ZiL_Qvm5wp5s2qgLCD2yHWTezc=/0x0/filters:format(jpeg)/pic9757984.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/xtoEb2T1BZo3_NeusNzoTQ__small/img/TVMK5CFie1tYL5ARdumd5gfGsyQ=/fit-in/200x150/filters:strip_icc()/pic9757984.jpg",
+      "link": "https://boardgamegeek.com/boardgame/476811",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Scrungo Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3F120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
+    },
+    {
+      "objectId": 476812,
+      "itemid": 25117,
+      "name": "AEW Dice Knock Out: Set 04 \u2013 Kazuchika Okada vs Kenny Omeg",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/v0XgbX6IL2yllWk9svY92w__original/img/uUMiivhQWCnYlWIbSd6OwiGz1l4=/0x0/filters:format(jpeg)/pic9757987.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/v0XgbX6IL2yllWk9svY92w__small/img/5s3_yMNHBbK5wE_Vl2axgf6I074=/fit-in/200x150/filters:strip_icc()/pic9757987.jpg",
+      "link": "https://boardgamegeek.com/boardgame/476812",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Scrungo Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3F120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
     },
     {
       "objectId": 473149,
@@ -5271,6 +5425,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -8049,7 +8209,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 17.0,
+        "amount": 18.0,
         "currency": "EUR"
       },
       "location": "3Q315",
@@ -12157,6 +12317,57 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 475358,
+      "itemid": 25112,
+      "name": "Everybody Yeah",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/V7XP2CKvUw3Io4YCifWJUA__original/img/KsTZcsgwNaOhNjjcwOOxD-dctL8=/0x0/filters:format(jpeg)/pic9763237.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/V7XP2CKvUw3Io4YCifWJUA__small/img/MXrUIQmuWf3TFBUciQM11PtHp8E=/fit-in/200x150/filters:strip_icc()/pic9763237.jpg",
+      "link": "https://boardgamegeek.com/boardgame/475358",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Re-rolling and Locking",
+        "Variable Player Powers",
+        "Victory Points as a Resource",
+        "Worker Placement with Dice Workers"
+      ],
+      "designers": [
+        "Benjamin Schultz"
+      ],
+      "artists": [
+        "Benjamin Schultz"
+      ],
+      "publishers": [
+        "Boardgame Racoon"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
+    },
+    {
       "objectId": 468800,
       "itemid": 24172,
       "name": "Excursions",
@@ -13640,6 +13851,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
           "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
@@ -14329,6 +14546,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -18003,55 +18226,6 @@
       "price": null,
       "location": null,
       "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 393097,
-      "itemid": 24975,
-      "name": "Ion Core",
-      "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/mwUoQ15nXjd1ss5rTjgz3Q__original/img/McQofouFz6F2dieyGfTzJudyEMQ=/0x0/filters:format(png)/pic8585493.png",
-      "thumbnail": "https://cf.geekdo-images.com/mwUoQ15nXjd1ss5rTjgz3Q__small/img/vkv8bZxtQwQKen7zlrGf9V-xIdk=/fit-in/200x150/filters:strip_icc()/pic8585493.png",
-      "link": "https://boardgamegeek.com/boardgame/393097",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 150,
-      "recommendedAge": "12+",
-      "weight": 3.0,
-      "bggAverageRating": 8.81,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
-      "mechanics": [
-        "Action / Event",
-        "Action Points",
-        "Card Play Conflict Resolution",
-        "Events",
-        "Hexagon Grid",
-        "Tile Placement"
-      ],
-      "designers": [
-        "Chris G. Sifonios"
-      ],
-      "artists": [
-        "Athanasios Bathas"
-      ],
-      "publishers": [
-        "Magister Games",
-        "Grimspire"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": null,
-      "location": "2E440",
-      "availability": "Demo",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -29518,6 +29692,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -33630,6 +33810,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -34398,6 +34584,50 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 474288,
+      "itemid": 25118,
+      "name": "Slime Rancher Tarr Takeoverr",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/2UnWFSel5uRwTWR9Gf2nzg__original/img/GLqECOup9eA0eGqy5IA8Z8saKIU=/0x0/filters:format(png)/pic9743288.png",
+      "thumbnail": "https://cf.geekdo-images.com/2UnWFSel5uRwTWR9Gf2nzg__small/img/axRxc177ovXLpDmu0jcL4li0NFw=/fit-in/200x150/filters:strip_icc()/pic9743288.png",
+      "link": "https://boardgamegeek.com/boardgame/474288",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "playingTime": 2,
+      "recommendedAge": "7+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Connections",
+        "Layering",
+        "Matching",
+        "Real-Time"
+      ],
+      "designers": [
+        "Jeff Grisenthwaite"
+      ],
+      "artists": [],
+      "publishers": [
+        "Scrungo Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3F120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
+    },
+    {
       "objectId": 444238,
       "itemid": 24260,
       "name": "Sniper Elite: Escalation",
@@ -34590,6 +34820,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -37948,6 +38184,12 @@
           "notes": null
         },
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -40262,6 +40504,50 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 474015,
+      "itemid": 25113,
+      "name": "Torii Valley",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/3Wbc8wqdf-QimPzruZr5MQ__original/img/HuM1bUNUSyHMiU4iDWEX2EMYBzY=/0x0/filters:format(jpeg)/pic9701017.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/3Wbc8wqdf-QimPzruZr5MQ__small/img/hRvAa8AdDEaONWp6AOfkC_lKab8=/fit-in/200x150/filters:strip_icc()/pic9701017.jpg",
+      "link": "https://boardgamegeek.com/boardgame/474015",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 7.08,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Tile Placement"
+      ],
+      "designers": [
+        "Thomas Favreli\u00e8re",
+        "Fabrice Maug\u00e9"
+      ],
+      "artists": [
+        "Camille Fourcade"
+      ],
+      "publishers": [
+        "Origames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
+    },
+    {
       "objectId": 444648,
       "itemid": 24572,
       "name": "Tornado Splash",
@@ -41087,6 +41373,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -41132,6 +41424,12 @@
       "location": "2E440",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -42157,6 +42455,12 @@
       "location": "2C115",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
