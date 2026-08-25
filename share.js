@@ -19,6 +19,26 @@ function corsProxyUrl(url) {
   return `https://images.weserv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}`;
 }
 
+async function toDataUrl(url) {
+  const response = await fetch(url);
+  const blob = await response.blob();
+  return await new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+    reader.readAsDataURL(blob);
+  });
+}
+
+async function preloadImageDataUrls(card) {
+  const srcs = [...card.querySelectorAll("img")].map((img) => img.getAttribute("src") || "");
+  return Promise.all(
+    srcs.map((src) =>
+      /^https?:\/\//.test(src) ? toDataUrl(corsProxyUrl(src)).catch(() => null) : null
+    )
+  );
+}
+
 function slugify(s) {
   return s
     .toLowerCase()
@@ -51,17 +71,14 @@ async function handleShareClick(btn) {
 
   btn.style.visibility = "hidden";
   try {
+    const imageDataUrls = await preloadImageDataUrls(card);
     const canvas = await html2canvas(card, {
       scale: 2,
       useCORS: true,
       backgroundColor: getComputedStyle(document.body).backgroundColor || "#ffffff",
       onclone: (_clonedDoc, clonedCard) => {
-        clonedCard.querySelectorAll("img").forEach((img) => {
-          const original = img.getAttribute("src");
-          if (original && /^https?:\/\//.test(original)) {
-            img.crossOrigin = "anonymous";
-            img.src = corsProxyUrl(original);
-          }
+        clonedCard.querySelectorAll("img").forEach((img, i) => {
+          if (imageDataUrls[i]) img.src = imageDataUrls[i];
         });
       },
     });
