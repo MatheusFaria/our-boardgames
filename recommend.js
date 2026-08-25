@@ -722,7 +722,14 @@ function sortMatches(matches) {
   matches.forEach((m) => {
     m._rare = rareScore(m, maxAffinity);
   });
+  const scores = state.searchQuery
+    ? new Map(matches.map((m) => [m, fuzzyScore(state.searchQuery, m.item.name || "")]))
+    : null;
   return [...matches].sort((x, y) => {
+    if (scores) {
+      const scoreDiff = scores.get(y) - scores.get(x);
+      if (scoreDiff !== 0) return scoreDiff;
+    }
     if (state.sortKey === "rare") {
       if (x._rare !== y._rare) return y._rare - x._rare;
       const rank = compareValues(x.item.bggRank, y.item.bggRank);

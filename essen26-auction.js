@@ -376,7 +376,14 @@ function compareValues(a, b, direction) {
 }
 
 function sortItems(items) {
+  const scores = state.searchQuery
+    ? new Map(items.map((item) => [item, fuzzyScore(state.searchQuery, item.name || "")]))
+    : null;
   return [...items].sort((x, y) => {
+    if (scores) {
+      const scoreDiff = scores.get(y) - scores.get(x);
+      if (scoreDiff !== 0) return scoreDiff;
+    }
     const primary = compareValues(
       sortValueForItem(x, state.sortKey),
       sortValueForItem(y, state.sortKey),
