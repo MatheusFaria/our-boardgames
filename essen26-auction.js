@@ -63,6 +63,46 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+const AUCTION_END_MONTHS = {
+  jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
+  jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11,
+  okt: 9,
+};
+
+function parseAuctionEndDate(raw) {
+  if (!raw) return null;
+  const match = raw.match(/(\d{1,2})\s+([A-Za-z]{3,9})/);
+  if (!match) return null;
+  const month = AUCTION_END_MONTHS[match[2].slice(0, 3).toLowerCase()];
+  const day = Number(match[1]);
+  if (month === undefined || day < 1 || day > 31) return null;
+  return new Date(2026, month, day);
+}
+
+function ordinal(n) {
+  const j = n % 10;
+  const k = n % 100;
+  if (j === 1 && k !== 11) return `${n}st`;
+  if (j === 2 && k !== 12) return `${n}nd`;
+  if (j === 3 && k !== 13) return `${n}rd`;
+  return `${n}th`;
+}
+
+function formatAuctionEndLabel(raw) {
+  const date = parseAuctionEndDate(raw);
+  if (!date) return escapeHtml(raw);
+  const dateLabel = `${date.toLocaleDateString("en-US", { month: "short" })} ${ordinal(date.getDate())}`;
+  const now = new Date();
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const daysLeft = Math.round((date - startOfToday) / 86400000);
+  if (daysLeft >= 0 && daysLeft < 21) {
+    const weeksLeft = Math.ceil(daysLeft / 7);
+    const weekLabel = weeksLeft === 0 ? "this week" : `${weeksLeft} week${weeksLeft === 1 ? "" : "s"} left`;
+    return `${escapeHtml(dateLabel)} (${escapeHtml(weekLabel)})`;
+  }
+  return escapeHtml(dateLabel);
+}
+
 function renderCreditGroup(label, names) {
   if (!Array.isArray(names) || names.length === 0) return null;
   const shown = names.slice(0, 4);
@@ -416,7 +456,7 @@ function renderOfferRow(offer) {
   const metaParts = [];
   if (offer.version) metaParts.push(escapeHtml(offer.version));
   if (offer.languageDependency) metaParts.push(escapeHtml(offer.languageDependency));
-  if (offer.auctionEnds) metaParts.push(`Ends ${escapeHtml(offer.auctionEnds)}`);
+  if (offer.auctionEnds) metaParts.push(`Ends ${formatAuctionEndLabel(offer.auctionEnds)}`);
 
   return `
     <div class="offer-row">
