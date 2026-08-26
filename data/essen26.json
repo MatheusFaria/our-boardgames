@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-25T03:41:39.524775+00:00",
-  "itemCount": 878,
-  "interestedCount": 135,
-  "noOneCount": 743,
+  "generatedAt": "2026-08-26T03:47:14.151195+00:00",
+  "itemCount": 888,
+  "interestedCount": 142,
+  "noOneCount": 746,
   "items": [
     {
       "objectId": 474125,
@@ -353,6 +353,59 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 445459,
+      "itemid": 25124,
+      "name": "1ers Contacts",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/Gob8VpeaDqnhfSlczz0wng__original/img/QD7JZoKBFMh3wD0XOPo05gehxwk=/0x0/filters:format(png)/pic8883704.png",
+      "thumbnail": "https://cf.geekdo-images.com/Gob8VpeaDqnhfSlczz0wng__small/img/kkuF3jwsiBdhD0e2EwNnsVA89P4=/fit-in/200x150/filters:strip_icc()/pic8883704.png",
+      "link": "https://boardgamegeek.com/boardgame/445459",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 60,
+      "recommendedAge": "14+",
+      "weight": 2.4,
+      "bggAverageRating": 7.45,
+      "bggBayesAverageRating": 5.59,
+      "bggRank": 9920,
+      "mechanics": [
+        "Deduction",
+        "Grid Movement",
+        "Hidden Movement",
+        "Secret Unit Deployment",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Michael Munoz"
+      ],
+      "artists": [
+        "Victor Dulon"
+      ],
+      "publishers": [
+        "Explor8",
+        "Korokorodou",
+        "Strohmann Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 37.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
     },
     {
       "objectId": 465946,
@@ -1033,6 +1086,12 @@
       "location": "5-A300",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -1852,6 +1911,12 @@
       "location": "H5-A300",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -2740,6 +2805,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -3710,6 +3781,58 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 452286,
+      "itemid": 25125,
+      "name": "Behind: Purple",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/fSaG9y6u7vuxfaT6DIWSWA__original/img/bJifEIOw74VUXK2gDyj9ZhLJJCI=/0x0/filters:format(jpeg)/pic9118809.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/fSaG9y6u7vuxfaT6DIWSWA__small/img/3T9usF_0lJk1m9pv8ir1qacLeDU=/fit-in/200x150/filters:strip_icc()/pic9118809.jpg",
+      "link": "https://boardgamegeek.com/boardgame/452286",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "10+",
+      "weight": 1.67,
+      "bggAverageRating": 7.99,
+      "bggBayesAverageRating": 5.59,
+      "bggRank": 9877,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Pattern Recognition"
+      ],
+      "designers": [
+        "C\u00e9dric Millet"
+      ],
+      "artists": [
+        "Maud Chalmel",
+        "Crocotame",
+        "Melody Leblond",
+        "Pier\u00f4"
+      ],
+      "publishers": [
+        "KYF Edition",
+        "Strohmann Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 22.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
+    },
+    {
       "objectId": 447484,
       "itemid": 25010,
       "name": "Beijing",
@@ -4247,6 +4370,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -5032,6 +5161,12 @@
       "location": "6F200",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -5945,6 +6080,12 @@
           "user": "ParadoxBard",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": null,
+          "priorityLabel": "Unprioritized",
           "notes": null
         }
       ],
@@ -7156,6 +7297,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -8123,8 +8270,68 @@
       "price": null,
       "location": null,
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-08-18T16:59:19.089263+00:00"
+    },
+    {
+      "objectId": 429863,
+      "itemid": 25122,
+      "name": "Covenant",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/4XkIFGbIAXtA-pDb6nlvsg__original/img/poJ-o9gvMirUyEz7PjrwLH7w6PU=/0x0/filters:format(jpeg)/pic8968542.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/4XkIFGbIAXtA-pDb6nlvsg__small/img/uQ9etIk8_uvoJuVA9ZzTtNYORKg=/fit-in/200x150/filters:strip_icc()/pic8968542.jpg",
+      "link": "https://boardgamegeek.com/boardgame/429863",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 100,
+      "recommendedAge": "14+",
+      "weight": 3.71,
+      "bggAverageRating": 7.68,
+      "bggBayesAverageRating": 6.42,
+      "bggRank": 1551,
+      "mechanics": [
+        "Action Points",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Worker Placement",
+        "Zone of Control"
+      ],
+      "designers": [
+        "Germ\u00e1n P. Mill\u00e1n"
+      ],
+      "artists": [
+        "Enrique Fern\u00e1ndez Pel\u00e1ez"
+      ],
+      "publishers": [
+        "Devir",
+        "Delta Vision Publishing",
+        "IELLO",
+        "Strohmann Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 65.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
     },
     {
       "objectId": 476031,
@@ -10013,6 +10220,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -10369,6 +10582,12 @@
       "location": "7C111",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "Alem0nes",
           "priority": 2,
@@ -11484,6 +11703,50 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 469261,
+      "itemid": 25119,
+      "name": "Elementica",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/hbiqAsLbm59P-dhAS7eEeQ__original/img/-grsXZFgJAt_WnfVJlaYXOMZ5rA=/0x0/filters:format(png)/pic9550132.png",
+      "thumbnail": "https://cf.geekdo-images.com/hbiqAsLbm59P-dhAS7eEeQ__small/img/fZlt-fF9ZJPmGzTe_cgdilOYwvY=/fit-in/200x150/filters:strip_icc()/pic9550132.png",
+      "link": "https://boardgamegeek.com/boardgame/469261",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 100,
+      "recommendedAge": "12+",
+      "weight": 3.0,
+      "bggAverageRating": 8.27,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Akashi"
+      ],
+      "artists": [
+        "Soragame Studio"
+      ],
+      "publishers": [
+        "14games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 50.0,
+        "currency": "EUR"
+      },
+      "location": "H5K400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
+    },
+    {
       "objectId": 460716,
       "itemid": 24147,
       "name": "Enchanted Ivy",
@@ -11646,6 +11909,12 @@
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -12055,6 +12324,66 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 424981,
+      "itemid": 25129,
+      "name": "Eternal Decks",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/Bo6QYIQWzRRcn7KyO3AIPg__original/img/eQ-YojBJLh3FFFa_Cn-bbHbs-wk=/0x0/filters:format(png)/pic8512516.png",
+      "thumbnail": "https://cf.geekdo-images.com/Bo6QYIQWzRRcn7KyO3AIPg__small/img/P9XzT5xp1nj-z8N379CrM7_ozNg=/fit-in/200x150/filters:strip_icc()/pic8512516.png",
+      "link": "https://boardgamegeek.com/boardgame/424981",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "10+",
+      "weight": 2.81,
+      "bggAverageRating": 8.2,
+      "bggBayesAverageRating": 6.95,
+      "bggRank": 568,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Once-Per-Game Abilities",
+        "Ordering",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Hiroken"
+      ],
+      "artists": [
+        "MUJUNSHA"
+      ],
+      "publishers": [
+        "Tricktakers Games",
+        "asmodee",
+        "Boardgame Ban Fan",
+        "HIT Games",
+        "Hobby World",
+        "Pixie Games",
+        "Portal Games",
+        "Portland Game Collective",
+        "Salt & Pepper Games",
+        "Strohmann Games",
+        "\u684c\u904a\u62cc\u98ef"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
     },
     {
       "objectId": 472319,
@@ -13589,6 +13918,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -14395,6 +14730,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -15308,7 +15649,7 @@
     },
     {
       "objectId": 380109,
-      "itemid": 25108,
+      "itemid": 25128,
       "name": "Gibberers: The Word Game of Language Invention and Civilization Development",
       "yearPublished": 2024,
       "image": "https://cf.geekdo-images.com/dbgGOeFt2ZUgKBEeoB_X-w__original/img/BUKHkH-uHKeMS-x3p06PULFER5Y=/0x0/filters:format(jpeg)/pic9030814.jpg",
@@ -15342,7 +15683,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "3F120 (PTS / Matagot Booth)",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -15822,7 +16163,7 @@
       "objectId": 464134,
       "itemid": 24605,
       "name": "Grey Eminence: Heart of Europe",
-      "yearPublished": null,
+      "yearPublished": 2027,
       "image": "https://cf.geekdo-images.com/trZC-cOV-qSj5eH8aA75LA__original/img/Gf0Uu0CvCnAjc_WZfR9zyct7pVg=/0x0/filters:format(jpeg)/pic9561842.jpg",
       "thumbnail": "https://cf.geekdo-images.com/trZC-cOV-qSj5eH8aA75LA__small/img/ts1AVko_8CcQMcH__-q_WIYw3jE=/fit-in/200x150/filters:strip_icc()/pic9561842.jpg",
       "link": "https://boardgamegeek.com/boardgame/464134",
@@ -17217,6 +17558,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -17261,6 +17608,12 @@
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -17310,6 +17663,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -17357,6 +17716,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -17403,6 +17768,12 @@
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -17500,6 +17871,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -17905,7 +18282,7 @@
     },
     {
       "objectId": 453055,
-      "itemid": 24641,
+      "itemid": 25127,
       "name": "Inferno 1348",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/H_fvfDx86ruUZFWu1CmPnA__original/img/MEJ_qTZeG9StepCmOqkLzuuIcsI=/0x0/filters:format(png)/pic9067778.png",
@@ -17952,7 +18329,7 @@
         "amount": 45.0,
         "currency": "EUR"
       },
-      "location": "3-C311",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -18835,6 +19212,12 @@
       "location": "5-A300",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -20248,6 +20631,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -20357,6 +20746,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -22196,6 +22591,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -23137,6 +23538,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -23929,6 +24336,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -29076,6 +29489,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -31160,6 +31579,62 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 448159,
+      "itemid": 25123,
+      "name": "Railway Boom",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/HLf1dKFTM4y7EwdQubbazQ__original/img/39cfZ-xXxQInub3TRAsGx7PdwcM=/0x0/filters:format(png)/pic8951049.png",
+      "thumbnail": "https://cf.geekdo-images.com/HLf1dKFTM4y7EwdQubbazQ__small/img/yFsR_l7zagtOjSmxVKqZlegRpo8=/fit-in/200x150/filters:strip_icc()/pic8951049.png",
+      "link": "https://boardgamegeek.com/boardgame/448159",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.22,
+      "bggAverageRating": 7.78,
+      "bggBayesAverageRating": 6.21,
+      "bggRank": 2227,
+      "mechanics": [
+        "Auction / Bidding",
+        "End Game Bonuses",
+        "Income",
+        "Network and Route Building",
+        "Turn Order: Auction"
+      ],
+      "designers": [
+        "Hisashi Hayashi",
+        "Simone Luciani"
+      ],
+      "artists": [
+        "Ian O'Toole"
+      ],
+      "publishers": [
+        "Arclight Games",
+        "Cranio Creations",
+        "CrowD Games",
+        "Maldito Games",
+        "Old Dawg",
+        "Strohmann Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 45.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
     },
     {
       "objectId": 470241,
@@ -33282,6 +33757,56 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 474845,
+      "itemid": 25120,
+      "name": "Ryugu the Fleeting Paradise",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/5nVnrsF8qB7Vn9BpXnhtGw__original/img/KQyNtFbKDoSavGvsz-kBFgtqCX0=/0x0/filters:format(jpeg)/pic9694517.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/5nVnrsF8qB7Vn9BpXnhtGw__small/img/2ILVtX2g4PWI5kX-tW2t3Hen0rw=/fit-in/200x150/filters:strip_icc()/pic9694517.jpg",
+      "link": "https://boardgamegeek.com/boardgame/474845",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 140,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Ordering",
+        "Race",
+        "Solo / Solitaire Game",
+        "Turn Order: Time Track",
+        "Variable Player Powers",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Akashi",
+        "\u7121\u754c (Mukai)"
+      ],
+      "artists": [
+        "Soragame Studio"
+      ],
+      "publishers": [
+        "14games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "H5K400",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
+    },
+    {
       "objectId": 472976,
       "itemid": 24502,
       "name": "Salaryman Madness",
@@ -33327,6 +33852,43 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 470590,
+      "itemid": 25131,
+      "name": "SAN",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/kdKoQ-GvZaj2zhsVXT4Auw__original/img/ulEsBJcXuUtLoAluh35gvmPqhYU=/0x0/filters:format(jpeg)/pic9581016.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/kdKoQ-GvZaj2zhsVXT4Auw__small/img/gu3PMRYzg19Lwp-UwIpEWIfrMfo=/fit-in/200x150/filters:strip_icc()/pic9581016.jpg",
+      "link": "https://boardgamegeek.com/boardgame/470590",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 25,
+      "recommendedAge": "10+",
+      "weight": 1.83,
+      "bggAverageRating": 7.51,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 13492,
+      "mechanics": [
+        "Deck, Bag, and Pool Building"
+      ],
+      "designers": [
+        "Jules Messaud",
+        "Martin Montergnole"
+      ],
+      "artists": [
+        "Mathieu Leyssenne"
+      ],
+      "publishers": [
+        "Blue Cocker Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2A440",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
     },
     {
       "objectId": 359842,
@@ -34048,6 +34610,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "JoyfulFicus",
           "priority": 4,
@@ -35005,7 +35573,7 @@
     },
     {
       "objectId": 441114,
-      "itemid": 24264,
+      "itemid": 25130,
       "name": "Soothsayers",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/2iGUnQFc2QVJ95wxX83Wcw__original/img/_OjNgnBS-UMh9l4G5Dqf1Ps1UFQ=/0x0/filters:format(png)/pic8775658.png",
@@ -35040,11 +35608,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 28.0,
-        "currency": "EUR"
-      },
-      "location": "4G600",
+      "price": null,
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -35597,6 +36162,51 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 459657,
+      "itemid": 25121,
+      "name": "Spur Note",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/CVvICqAQYFV1kj30eeamCw__original/img/j-bCLgm1vgYuLVBazjD9wN7xyKE=/0x0/filters:format(png)/pic9266585.png",
+      "thumbnail": "https://cf.geekdo-images.com/CVvICqAQYFV1kj30eeamCw__small/img/UCp6TXTj0S3x2YKHLaWN7f-MxdE=/fit-in/200x150/filters:strip_icc()/pic9266585.png",
+      "link": "https://boardgamegeek.com/boardgame/459657",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 7.03,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "Rail Amasaki"
+      ],
+      "artists": [],
+      "publishers": [
+        "14games",
+        "JJ Board Game"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "H5K400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
+    },
+    {
       "objectId": 454696,
       "itemid": 24612,
       "name": "Spyworld",
@@ -35878,6 +36488,12 @@
       "location": "France Bordeaux",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -36384,6 +37000,12 @@
       "location": "3F120 (PTS/Matagot Booth)",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -37439,6 +38061,57 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 454601,
+      "itemid": 25126,
+      "name": "Temple of Five",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/2eNZsy3qXzd9x_SGPi6GPA__original/img/iSdjGOC2cDQWOhdS2v00EnCBkyA=/0x0/filters:format(jpeg)/pic9111776.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/2eNZsy3qXzd9x_SGPi6GPA__small/img/NO-DwFuxF5dspPnuvABt2p75Kmo=/fit-in/200x150/filters:strip_icc()/pic9111776.jpg",
+      "link": "https://boardgamegeek.com/boardgame/454601",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 7.1,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Tile Placement",
+        "Turn Order: Pass Order",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Carlo A. Rossi"
+      ],
+      "artists": [
+        "Daniela Ryabicheva",
+        "Ludvik Skopalik"
+      ],
+      "publishers": [
+        "Red Cat Games",
+        "Lifestyle Boardgames Ltd",
+        "Strohmann Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 22.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-26T03:47:13.771891+00:00"
+    },
+    {
       "objectId": 455900,
       "itemid": 24390,
       "name": "Tenpenny Parks: Collector's Edition",
@@ -38234,6 +38907,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -38745,6 +39424,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -39296,6 +39981,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -39454,6 +40145,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -39502,6 +40199,12 @@
       "location": "2A420",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -39875,6 +40578,12 @@
       "location": "R-3400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -41069,6 +41778,12 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -42824,6 +43539,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -43124,6 +43845,12 @@
       "location": "3F115",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -43924,6 +44651,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -44409,6 +45142,12 @@
           "user": "ParadoxBard",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
