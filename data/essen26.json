@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-27T13:26:23.880303+00:00",
-  "itemCount": 928,
-  "interestedCount": 142,
-  "noOneCount": 786,
+  "generatedAt": "2026-08-28T14:46:00.682749+00:00",
+  "itemCount": 933,
+  "interestedCount": 144,
+  "noOneCount": 789,
   "items": [
     {
       "objectId": 474125,
@@ -2807,7 +2807,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -2853,7 +2856,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 12.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -4257,7 +4263,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -9951,7 +9960,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -10403,7 +10415,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 8.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -10449,7 +10464,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -10492,7 +10510,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -10535,7 +10556,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -11408,7 +11432,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -11647,7 +11674,7 @@
     },
     {
       "objectId": 386058,
-      "itemid": 25165,
+      "itemid": 25179,
       "name": "Dungeon Cube",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/8-7oJqs7g2rkSyU_TUh_ew__original/img/X3x8w7K9FTdvo4pE-SrbejD5OdI=/0x0/filters:format(jpeg)/pic8007830.jpg",
@@ -16056,7 +16083,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 6.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -16209,7 +16239,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -16987,6 +17020,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -17189,7 +17228,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -17594,7 +17636,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -20981,7 +21026,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -21028,7 +21076,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -23077,6 +23128,49 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 477992,
+      "itemid": 25174,
+      "name": "Les yeux ferm\u00e9s",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/lpkPYfu4cmqhzLGFV9vgxA__original/img/ti4Qc34KaLci4yQnNBVfDEx-ZWs=/0x0/filters:format(jpeg)/pic9772933.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/lpkPYfu4cmqhzLGFV9vgxA__small/img/zvIj5X_0-NeCPefNFVIUyIODybM=/fit-in/200x150/filters:strip_icc()/pic9772933.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477992",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 15,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Auction: Dexterity",
+        "Cooperative Game"
+      ],
+      "designers": [
+        "Antonin Boccara",
+        "Julien Prothi\u00e8re"
+      ],
+      "artists": [],
+      "publishers": [
+        "Blue Cocker Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2A440",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
+    },
+    {
       "objectId": 475376,
       "itemid": 24661,
       "name": "Let's Dance",
@@ -23433,6 +23527,54 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 209578,
+      "itemid": 25181,
+      "name": "Little Bird, Big Hunger",
+      "yearPublished": 2016,
+      "image": "https://cf.geekdo-images.com/qy5kMOXRv_26E_ugyyIlcA__original/img/nzgCHz7DUVYyIe7g8TOwNSMKV6U=/0x0/filters:format(jpeg)/pic3939348.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/qy5kMOXRv_26E_ugyyIlcA__small/img/rGxIqPQL5ORwgAnZyf6v1rUg6qE=/fit-in/200x150/filters:strip_icc()/pic3939348.jpg",
+      "link": "https://boardgamegeek.com/boardgame/209578",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 15,
+      "recommendedAge": "3+",
+      "weight": 1.0,
+      "bggAverageRating": 6.07,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17651,
+      "mechanics": [
+        "Dice Rolling",
+        "Set Collection"
+      ],
+      "designers": [
+        "Tim Rogasch"
+      ],
+      "artists": [
+        "Anne P\u00e4tzke",
+        "Sandra Sahin"
+      ],
+      "publishers": [
+        "HABA"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 10.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
     },
     {
       "objectId": 463664,
@@ -25141,7 +25283,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -26166,7 +26311,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 8.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -26270,7 +26418,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -26926,7 +27077,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -26973,7 +27127,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -27019,7 +27176,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -27064,7 +27224,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -27482,7 +27645,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -27525,7 +27691,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -27570,7 +27739,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -27613,7 +27785,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -27659,7 +27834,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 8.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -29218,7 +29396,7 @@
     },
     {
       "objectId": 462235,
-      "itemid": 24385,
+      "itemid": 25178,
       "name": "One Card Dungeon Adventure Pack: Hell's Door",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/gdiamVY9Htui0ev9qNXHsg__original/img/wDEFwLKaBaPl-kk8eR5kf39ozYE=/0x0/filters:format(jpeg)/pic9331790.jpg",
@@ -29255,12 +29433,9 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 10.0,
-        "currency": "EUR"
-      },
-      "location": "2-D511",
-      "availability": "For Sale",
+      "price": null,
+      "location": "2E440",
+      "availability": "Demo",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -29569,7 +29744,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -30845,7 +31023,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 24.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -31341,7 +31522,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -31892,7 +32076,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -33083,6 +33270,59 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 422233,
+      "itemid": 25177,
+      "name": "Radlands: Cult of Chrome",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/J0c5LvGfmLF_d5miCaXbIQ__original/img/twAMWWozwOuEKJbN3d_uEOBsY_k=/0x0/filters:format(png)/pic8235293.png",
+      "thumbnail": "https://cf.geekdo-images.com/J0c5LvGfmLF_d5miCaXbIQ__small/img/e9eQf5rV-CyzolBIVA9NttB8UaI=/fit-in/200x150/filters:strip_icc()/pic8235293.png",
+      "link": "https://boardgamegeek.com/boardgame/422233",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 40,
+      "recommendedAge": "14+",
+      "weight": 2.0,
+      "bggAverageRating": 8.43,
+      "bggBayesAverageRating": 6.01,
+      "bggRank": null,
+      "mechanics": [
+        "Action Points",
+        "Action Queue",
+        "Hand Management",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Daniel Piechnick"
+      ],
+      "artists": [
+        "Damien Mammoliti",
+        "Manny Trembley"
+      ],
+      "publishers": [
+        "Roxley",
+        "Grimspire",
+        "Lavka Games",
+        "Lucky Duck Games",
+        "Maldito Games",
+        "TLAMA games"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "2E440",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
     },
     {
       "objectId": 448159,
@@ -34993,7 +35233,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -35394,7 +35637,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -35635,7 +35881,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": null,
+      "location": "Hall 7 - B111",
       "availability": "For Sale",
       "interested": [
         {
@@ -37030,6 +37276,52 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 477471,
+      "itemid": 25180,
+      "name": "Snowy Tricks",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/hybCJvDj45jMQVEqsS6g-Q__original/img/Q-PEl-XUuvXtt_WtB5-DzbeggkU=/0x0/filters:format(png)/pic9761754.png",
+      "thumbnail": "https://cf.geekdo-images.com/hybCJvDj45jMQVEqsS6g-Q__small/img/zT-qwDHN6ltRUPQpGWlurwqNrBE=/fit-in/200x150/filters:strip_icc()/pic9761754.png",
+      "link": "https://boardgamegeek.com/boardgame/477471",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 7.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "Adrie Drent",
+        "Esther Jacobsen",
+        "Alexander Kneepkens",
+        "Vicky Trouerbach"
+      ],
+      "artists": [
+        "Olivier Fagn\u00e8re"
+      ],
+      "publishers": [
+        "Jolly Dutch Productions"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
     },
     {
       "objectId": 473726,
@@ -39311,7 +39603,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -39753,6 +40048,58 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 471664,
+      "itemid": 25175,
+      "name": "Tanglung",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/JzLYwp8uROHQcl9FvBAsYA__original/img/64R09Ny7RkSSOyTenHh2SDp6eTM=/0x0/filters:format(jpeg)/pic9628174.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/JzLYwp8uROHQcl9FvBAsYA__small/img/zDHJFysm68r-CDNWkVF2Obgvfa8=/fit-in/200x150/filters:strip_icc()/pic9628174.jpg",
+      "link": "https://boardgamegeek.com/boardgame/471664",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 8.54,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Enclosure",
+        "Grid Movement",
+        "Once-Per-Game Abilities",
+        "Pattern Movement",
+        "Pieces as Map",
+        "Square Grid",
+        "Static Capture"
+      ],
+      "designers": [
+        "Mark William"
+      ],
+      "artists": [
+        "Yuki Koe Gaik Kee"
+      ],
+      "publishers": [
+        "LUMA"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 12.0,
+        "currency": "EUR"
+      },
+      "location": "2D330",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
     },
     {
       "objectId": 446492,
@@ -41912,7 +42259,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -42672,7 +43022,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": null,
+      "location": "Hall 5 G400, Thailand Pavilion, PlayByDesign",
       "availability": "Demo",
       "interested": [
         {
@@ -44340,7 +44690,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -44946,7 +45299,7 @@
         "amount": 45.0,
         "currency": "EUR"
       },
-      "location": null,
+      "location": "Hall 5 G400, Thailand Pavilion, PlayByDesign",
       "availability": "For Sale",
       "interested": [
         {
@@ -47912,7 +48265,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 10.5,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
