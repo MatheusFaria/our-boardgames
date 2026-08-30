@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-29T09:37:19.318761+00:00",
-  "itemCount": 934,
+  "generatedAt": "2026-08-30T08:47:12.053163+00:00",
+  "itemCount": 935,
   "interestedCount": 148,
-  "noOneCount": 786,
+  "noOneCount": 787,
   "items": [
     {
       "objectId": 474125,
@@ -29236,10 +29236,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6.H110",
       "availability": "For Sale",
       "interested": [
@@ -31232,6 +31229,50 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 457399,
+      "itemid": 25184,
+      "name": "Pietenpolonaise",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/dzwYq5UcFgZVOAggUEfG8A__original/img/s8TiJAsNOUDFK1D_VeVI7iREQR4=/0x0/filters:format(png)/pic9774921.png",
+      "thumbnail": "https://cf.geekdo-images.com/dzwYq5UcFgZVOAggUEfG8A__small/img/NKo6uNLm0l8EzG-v9XL3HaaG1KE=/fit-in/200x150/filters:strip_icc()/pic9774921.png",
+      "link": "https://boardgamegeek.com/boardgame/457399",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 15,
+      "recommendedAge": "5+",
+      "weight": null,
+      "bggAverageRating": 6.6,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Closed Drafting",
+        "Open Drafting",
+        "Pattern Building",
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "designers": [
+        "Dick Poelen",
+        "Michiel de Wit"
+      ],
+      "artists": [
+        "Dick Poelen"
+      ],
+      "publishers": [
+        "Gam'inBIZ"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 9.99,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-08-30T08:47:11.716777+00:00"
     },
     {
       "objectId": 444683,
