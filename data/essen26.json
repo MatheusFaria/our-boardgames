@@ -22,7 +22,7 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-30T19:26:37.296536+00:00",
+  "generatedAt": "2026-08-30T19:31:43.854355+00:00",
   "itemCount": 936,
   "interestedCount": 153,
   "noOneCount": 783,
@@ -28572,22 +28572,32 @@
       "name": "No Risk, No Tower!",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/O3E6Ay36E-yjRyiZ1K00FQ__original/img/YE1NoOGes5_Grl6GJpy86zaZ6Ks=/0x0/filters:format(jpeg)/pic9673497.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/O3E6Ay36E-yjRyiZ1K00FQ__mediacard/img/dsTW_AlLiJg_Z6554iKWGIJ2tX4=/0x0:1024x576/288x162/filters:strip_icc()/pic9673497.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/O3E6Ay36E-yjRyiZ1K00FQ__small/img/B1ZSr59mEajJfAw3bYZYPs7tJqo=/fit-in/200x150/filters:strip_icc()/pic9673497.jpg",
       "link": "https://boardgamegeek.com/boardgame/470352",
-      "minPlayers": null,
-      "maxPlayers": null,
-      "playingTime": null,
-      "recommendedAge": null,
-      "weight": null,
-      "bggAverageRating": null,
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 7.1,
       "bggBayesAverageRating": null,
       "bggRank": null,
-      "mechanics": null,
-      "designers": null,
-      "artists": null,
-      "publishers": null,
-      "subtype": null,
-      "itemType": null,
+      "mechanics": [
+        "I Cut, You Choose",
+        "Set Collection"
+      ],
+      "designers": [
+        "Jochen Knittel"
+      ],
+      "artists": [
+        "Christian Fiore",
+        "Fiore GmbH"
+      ],
+      "publishers": [
+        "Never Enough Board Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
       "price": {
         "amount": 12.99,
         "currency": "EUR"
@@ -28602,7 +28612,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": null
+      "thingFetchedAt": "2026-08-30T19:31:43.521303+00:00"
     },
     {
       "objectId": 464353,
