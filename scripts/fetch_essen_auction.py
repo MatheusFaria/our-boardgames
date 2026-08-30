@@ -146,8 +146,8 @@ def _text(value) -> str | None:
 # BBCode body parsing
 # ---------------------------------------------------------------------------
 
-_EMOJI_TOKEN_RE = re.compile(r":[a-zA-Z]+:")
-_STAR_TOKEN_RE = re.compile(r":(?:no)?star:")
+_EMOJI_TOKEN_RE = re.compile(r":[a-zA-Z_]+:")
+_STAR_TOKEN_RE = re.compile(r":(?:geek_)?(?:no)?star:")
 _LABEL_LINE_RE = re.compile(r"^\s*([A-Za-z][A-Za-z /]{1,40}?)\s*:\s*(.*)$")
 _VERSION_ID_RE = re.compile(r"boardgameversion/(\d+)")
 _PRICE_RE = re.compile(
@@ -185,7 +185,7 @@ def _parse_condition(value: str | None) -> tuple[str | None, int | None, str | N
     tokens = list(_STAR_TOKEN_RE.finditer(value))
     if tokens:
         label = value[: tokens[0].start()]
-        stars = sum(1 for t in tokens if t.group() == ":star:")
+        stars = sum(1 for t in tokens if t.group() in (":star:", ":geek_star:"))
         remainder = value[tokens[-1].end():]
     else:
         label = value
