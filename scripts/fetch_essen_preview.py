@@ -449,7 +449,11 @@ def build_snapshot(
             if entry is None:
                 continue
             oid = entry["objectid"]
-            interested_by_oid.setdefault(oid, {})[username] = {
+            bucket = interested_by_oid.setdefault(oid, {})
+            existing = bucket.get(username)
+            if existing is not None and (existing["priority"] or 99) <= (pick["priority"] or 99):
+                continue  # a game can have multiple BGG listings; keep the most positive pick
+            bucket[username] = {
                 "user": username,
                 "priority": pick["priority"],
                 "priorityLabel": _priority_label(pick["priority"]),

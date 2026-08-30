@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-30T08:47:12.053163+00:00",
-  "itemCount": 935,
-  "interestedCount": 148,
-  "noOneCount": 787,
+  "generatedAt": "2026-08-30T19:26:37.296536+00:00",
+  "itemCount": 936,
+  "interestedCount": 153,
+  "noOneCount": 783,
   "items": [
     {
       "objectId": 474125,
@@ -71,6 +71,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -80,12 +86,6 @@
           "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
-          "notes": null
-        },
-        {
-          "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -15178,8 +15178,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -25048,6 +25048,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -25057,12 +25063,6 @@
           "user": "Alem0nes",
           "priority": 2,
           "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
-          "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -28567,6 +28567,44 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 470352,
+      "itemid": 25185,
+      "name": "No Risk, No Tower!",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/O3E6Ay36E-yjRyiZ1K00FQ__original/img/YE1NoOGes5_Grl6GJpy86zaZ6Ks=/0x0/filters:format(jpeg)/pic9673497.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/O3E6Ay36E-yjRyiZ1K00FQ__mediacard/img/dsTW_AlLiJg_Z6554iKWGIJ2tX4=/0x0:1024x576/288x162/filters:strip_icc()/pic9673497.jpg",
+      "link": "https://boardgamegeek.com/boardgame/470352",
+      "minPlayers": null,
+      "maxPlayers": null,
+      "playingTime": null,
+      "recommendedAge": null,
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": null,
+      "designers": null,
+      "artists": null,
+      "publishers": null,
+      "subtype": null,
+      "itemType": null,
+      "price": {
+        "amount": 12.99,
+        "currency": "EUR"
+      },
+      "location": "3C300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": null
+    },
+    {
       "objectId": 464353,
       "itemid": 24670,
       "name": "No Shelf Control",
@@ -31271,7 +31309,14 @@
       },
       "location": null,
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-08-30T08:47:11.716777+00:00"
     },
     {
@@ -31755,8 +31800,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         }
       ],
@@ -32299,8 +32344,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         }
       ],
@@ -34158,9 +34203,9 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "There is a BGA version"
         },
         {
           "user": "ParadoxBard",
@@ -35465,13 +35510,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -37435,8 +37480,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -45163,8 +45208,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
