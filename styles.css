@@ -874,6 +874,19 @@
 
       /* ── Theme toggle ────────────────────────────────────── */
 
+      .export-btn {
+        width: 100%;
+        padding: 10px 14px;
+        border: 1px solid var(--accent);
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font: inherit;
+        font-size: 0.9rem;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
       .theme-toggle {
         display: flex;
         align-items: center;

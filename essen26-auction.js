@@ -259,6 +259,7 @@ function matchesFuzzySearch(item) {
 
 function matchesWishlistOnly(item) {
   if (state.myBidsFilter === "only") return true;
+  if (SHARED_GAME_ID !== null) return true;
   return !state.wishlistOnly || item.onWishlist === true;
 }
 
@@ -564,6 +565,71 @@ function renderCard(item) {
   `;
 }
 
+function csvField(value) {
+  const str = value === null || value === undefined ? "" : String(value);
+  return /[",\n]/.test(str) ? `"${str.replace(/"/g, '""')}"` : str;
+}
+
+function exportFilteredToCsv() {
+  const items = state.snapshot?.items || [];
+  const filtered = sortItems(applyActiveFilters(items));
+
+  const headers = [
+    "Game",
+    "Year",
+    "BGG Link",
+    "Seller",
+    "Condition",
+    "Condition Stars",
+    "Starting Bid",
+    "BIN",
+    "Current Bid",
+    "Current Bidder",
+    "Version",
+    "Language",
+    "Auction Ends",
+    "Listing URL",
+  ];
+  const rows = [headers];
+
+  for (const item of filtered) {
+    const offers = visibleOffers(item);
+    if (!offers.length) {
+      rows.push([item.name, item.yearPublished, item.link, "", "", "", "", "", "", "", "", "", "", ""]);
+      continue;
+    }
+    for (const offer of offers) {
+      rows.push([
+        item.name,
+        item.yearPublished,
+        item.link,
+        offer.seller,
+        offer.condition,
+        offer.conditionStars,
+        formatMoney(offer.startingBid),
+        formatMoney(offer.bin),
+        formatMoney(offer.bids?.currentBid),
+        offer.bids?.currentBidder,
+        offer.version,
+        offer.language,
+        offer.auctionEnds,
+        offer.listingUrl,
+      ]);
+    }
+  }
+
+  const csv = rows.map((row) => row.map(csvField).join(",")).join("\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "essen26-auction.csv";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 function renderContent() {
   const content = document.getElementById("content");
   const pagination = document.getElementById("pagination");
@@ -643,7 +709,7 @@ function renderPaginationControls(container, totalPages) {
 function renderActiveFilterChips() {
   const container = document.getElementById("active-filters");
   const chips = [];
-  if (state.wishlistOnly) {
+  if (state.wishlistOnly && SHARED_GAME_ID === null) {
     chips.push({
       label: "Wishlist only",
       remove: () => {
@@ -914,6 +980,8 @@ function setupControls() {
     syncFilterUI();
     renderContent();
   });
+
+  document.getElementById("export-csv-btn").addEventListener("click", exportFilteredToCsv);
 
   const savedPageSize = localStorage.getItem("essenAuctionPageSize");
   if (savedPageSize !== null) {
