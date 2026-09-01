@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-08-31T09:09:03.334616+00:00",
-  "itemCount": 936,
+  "generatedAt": "2026-09-01T08:10:31.138470+00:00",
+  "itemCount": 940,
   "interestedCount": 154,
-  "noOneCount": 782,
+  "noOneCount": 786,
   "items": [
     {
       "objectId": 474125,
@@ -11697,6 +11697,55 @@
       "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
     },
     {
+      "objectId": 473061,
+      "itemid": 25190,
+      "name": "Duel of Meloch",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/CRDoGp1QNQn_8sVa9gYaqA__original/img/STlsQhiD37E0mKVG3Fkq2g0Gzp8=/0x0/filters:format(png)/pic9655069.png",
+      "thumbnail": "https://cf.geekdo-images.com/CRDoGp1QNQn_8sVa9gYaqA__small/img/gdlAQ3vQ6JWtEZXPD4LqagOjNF8=/fit-in/200x150/filters:strip_icc()/pic9655069.png",
+      "link": "https://boardgamegeek.com/boardgame/473061",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "playingTime": 45,
+      "recommendedAge": "14+",
+      "weight": 3.65,
+      "bggAverageRating": 7.71,
+      "bggBayesAverageRating": 5.72,
+      "bggRank": 5976,
+      "mechanics": [
+        "Card Play Conflict Resolution",
+        "Hexagon Grid",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Jamey Stegmaier"
+      ],
+      "artists": [
+        "Jakub Rozalski"
+      ],
+      "publishers": [
+        "Stonemaier Games",
+        "Albi",
+        "Feuerland Spiele",
+        "PHALANX"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3Q300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
+    },
+    {
       "objectId": 386058,
       "itemid": 25179,
       "name": "Dungeon Cube",
@@ -13543,7 +13592,7 @@
     },
     {
       "objectId": 429027,
-      "itemid": 25035,
+      "itemid": 25186,
       "name": "Explorers of the Woodlands: Wildscale Swamps",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/rgWaKAkqVSewM3J5bbVLbg__original/img/3CA8bx-KKj_13zTrk9Rxdk1mmGE=/0x0/filters:format(jpeg)/pic8548874.jpg",
@@ -13577,12 +13626,9 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
-      "location": "4F500",
-      "availability": "For Sale",
+      "price": null,
+      "location": "2E440",
+      "availability": "Demo",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -14144,6 +14190,50 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 477829,
+      "itemid": 25188,
+      "name": "Festburg",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/00LHqo-MVY85tGSX6Lm0AA__original/img/DSGOnHEpxQ2sPSCzU73ccn57rUY=/0x0/filters:format(jpeg)/pic9778123.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/00LHqo-MVY85tGSX6Lm0AA__small/img/_mgbFzuOVhRUdMbYB3q2_UDNCnI=/fit-in/200x150/filters:strip_icc()/pic9778123.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477829",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Pattern Building",
+        "Set Collection"
+      ],
+      "designers": [
+        "Yohan Goh",
+        "Hope S. Hwang",
+        "Gary Kim"
+      ],
+      "artists": [],
+      "publishers": [
+        "Red Cat Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6.H110",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
     },
     {
       "objectId": 428280,
@@ -45046,6 +45136,53 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 478334,
+      "itemid": 25187,
+      "name": "TURBO6",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Xu2_fKQ-osDYtzE-5IlHvA__original/img/ZRlxGl4ajORRJEZ_A7teNErjjJc=/0x0/filters:format(jpeg)/pic9779862.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Xu2_fKQ-osDYtzE-5IlHvA__small/img/ZbBiV-LsaysMkjbRHcAH0X-S88s=/fit-in/200x150/filters:strip_icc()/pic9779862.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478334",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playingTime": 15,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Contracts",
+        "Dice Rolling",
+        "Race",
+        "Real-Time",
+        "Sudden Death Ending"
+      ],
+      "designers": [
+        "Michael L\u00f8hde Andersen",
+        "Morten Baun M\u00f8ller",
+        "Morten Skovhus"
+      ],
+      "artists": [],
+      "publishers": [
+        "Game Inventors"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2E121",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
+    },
+    {
       "objectId": 327396,
       "itemid": 24683,
       "name": "Two Rooms",
@@ -46742,6 +46879,46 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 478097,
+      "itemid": 25189,
+      "name": "Wasserkraft: Das Sammelbecken",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/AhQqGskMhFbpvj_fV7RTTg__original/img/FI1quTidbV-xEOco2Yzlx93vKrw=/0x0/filters:format(jpeg)/pic9773360.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/AhQqGskMhFbpvj_fV7RTTg__small/img/N-is4KQae6-JKCiWokLDwS0QbgA=/fit-in/200x150/filters:strip_icc()/pic9773360.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478097",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 150,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Tommaso Battista",
+        "Simone Luciani"
+      ],
+      "artists": [],
+      "publishers": [
+        "Feuerland Spiele"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "3Q300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
     },
     {
       "objectId": 346142,
