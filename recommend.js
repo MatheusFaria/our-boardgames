@@ -95,6 +95,7 @@ const state = {
   page: 1,
   pageSize: 24,
   votes: {},
+  frozenOrder: null,
   dislikedFilter: "hide",
   votedFilter: "all",
   showSold: false,
@@ -132,7 +133,7 @@ function setVote(objectId, vote) {
   if (state.votes[key] === vote) delete state.votes[key];
   else state.votes[key] = vote;
   saveVotes(state.user);
-  renderContent();
+  renderContent({ preserveOrder: true });
   renderDislikedOptions();
 }
 
@@ -918,7 +919,25 @@ function renderEmptyState(ownedValueCount) {
   )}'s owned ${escapeHtml(label)}s don't appear in the Essen preview or auction.</div>`;
 }
 
-function renderContent() {
+function orderedMatches(matches, preserveOrder) {
+  if (preserveOrder && state.frozenOrder) {
+    const withIndex = matches.map((m) => ({ m, idx: state.frozenOrder.get(m.item.objectId) }));
+    withIndex.sort((a, b) => {
+      const aHas = a.idx !== undefined;
+      const bHas = b.idx !== undefined;
+      if (aHas && bHas) return a.idx - b.idx;
+      if (aHas) return -1;
+      if (bHas) return 1;
+      return 0;
+    });
+    return withIndex.map((x) => x.m);
+  }
+  const sorted = sortMatches(matches);
+  state.frozenOrder = new Map(sorted.map((m, i) => [m.item.objectId, i]));
+  return sorted;
+}
+
+function renderContent(opts = {}) {
   const content = document.getElementById("content");
   const pagination = document.getElementById("pagination");
   const statusPill = document.getElementById("status-pill");
@@ -929,8 +948,9 @@ function renderContent() {
     ? 1
     : getOwnedValueMap(state.user, categoryKey).size;
 
-  const filtered = sortMatches(
-    rawMatches.filter((match) => matchesFuzzySearch(match.item))
+  const filtered = orderedMatches(
+    rawMatches.filter((match) => matchesFuzzySearch(match.item)),
+    opts.preserveOrder
   );
 
   const totalPages =
