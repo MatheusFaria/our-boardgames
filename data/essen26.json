@@ -22,9 +22,9 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-02T07:29:33.495683+00:00",
-  "itemCount": 955,
-  "interestedCount": 165,
+  "generatedAt": "2026-09-03T07:34:55.906948+00:00",
+  "itemCount": 954,
+  "interestedCount": 164,
   "noOneCount": 790,
   "items": [
     {
@@ -1379,65 +1379,6 @@
       "itemType": "expansion",
       "price": null,
       "location": "3D600",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "Alem0nes",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 413469,
-      "itemid": 24461,
-      "name": "Ada's Dream",
-      "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/i3YeleJsNmnvcKdwgW3TKA__original/img/0bHPZadTVedYlWrXsy0LKZ0Kwf8=/0x0/filters:format(jpeg)/pic8030666.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/i3YeleJsNmnvcKdwgW3TKA__small/img/PnqlbLRuC-3OB7dWtElkQkhLdxg=/fit-in/200x150/filters:strip_icc()/pic8030666.jpg",
-      "link": "https://boardgamegeek.com/boardgame/413469",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 120,
-      "recommendedAge": "14+",
-      "weight": 3.94,
-      "bggAverageRating": 8.0,
-      "bggBayesAverageRating": 6.29,
-      "bggRank": 1933,
-      "mechanics": [
-        "Dice Rolling",
-        "Hand Management",
-        "Rondel",
-        "Solo / Solitaire Game",
-        "Tech Trees / Tech Tracks"
-      ],
-      "designers": [
-        "Toni L\u00f3pez"
-      ],
-      "artists": [
-        "Javier Gonz\u00e1lez Cava"
-      ],
-      "publishers": [
-        "Alley Cat Games",
-        "A-Z kiad\u00f3",
-        "BoardM Factory",
-        "Strohmann Games"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 95.0,
-        "currency": "EUR"
-      },
-      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -5735,6 +5676,47 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 413238,
+      "itemid": 25228,
+      "name": "Bunny 100",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/zS_D2AOPi17cFX9sLpDe_A__original/img/fKOgGqMYnUFzqlVdnObOh8JNN3A=/0x0/filters:format(png)/pic8304830.png",
+      "thumbnail": "https://cf.geekdo-images.com/zS_D2AOPi17cFX9sLpDe_A__small/img/SKfwoPle5-bSZYxI4WiUNUAlR4I=/fit-in/200x150/filters:strip_icc()/pic8304830.png",
+      "link": "https://boardgamegeek.com/boardgame/413238",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 6.47,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Capital Gains Studio",
+        "Broadway Toys LTD",
+        "DV Games",
+        "Everjoy Publishing",
+        "\u5973\u738b\u8207\u879e\u87fb"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3P500",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
       "objectId": 475443,
@@ -12534,6 +12516,55 @@
       "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
     },
     {
+      "objectId": 316704,
+      "itemid": 25227,
+      "name": "El Rey Planeta",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/kqxPeqD68KBZ07I-QJ0d9g__original/img/qcFCLJslmg3IFDDFsa6vRo4xc_4=/0x0/filters:format(jpeg)/pic8089952.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/kqxPeqD68KBZ07I-QJ0d9g__small/img/tNiUj7-FTmy50x37FNYgh5SJIIc=/fit-in/200x150/filters:strip_icc()/pic8089952.jpg",
+      "link": "https://boardgamegeek.com/boardgame/316704",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "playingTime": 240,
+      "recommendedAge": "14+",
+      "weight": 3.38,
+      "bggAverageRating": 8.19,
+      "bggBayesAverageRating": 5.64,
+      "bggRank": 7807,
+      "mechanics": [
+        "Cooperative Game",
+        "Open Drafting",
+        "Solo / Solitaire Game"
+      ],
+      "designers": [
+        "Ivan Notario"
+      ],
+      "artists": [
+        "Ivan Notario",
+        "Adolfo Su\u00e1rez"
+      ],
+      "publishers": [
+        "NAC Wargames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 54.99,
+        "currency": "EUR"
+      },
+      "location": "3N300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
+    },
+    {
       "objectId": 446825,
       "itemid": 25093,
       "name": "Eldertide: A Thousand Lights",
@@ -13662,6 +13693,49 @@
         }
       ],
       "thingFetchedAt": "2026-08-25T03:41:39.268045+00:00"
+    },
+    {
+      "objectId": 434172,
+      "itemid": 25232,
+      "name": "Excalibur",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__original/img/4r65BHX_xKwPJkveHKjfxoVJ1EI=/0x0/filters:format(png)/pic8922385.png",
+      "thumbnail": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__small/img/CarGoRM9TR8ptwyVDN3chIV27kc=/fit-in/200x150/filters:strip_icc()/pic8922385.png",
+      "link": "https://boardgamegeek.com/boardgame/434172",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "playingTime": 25,
+      "recommendedAge": "14+",
+      "weight": 1.25,
+      "bggAverageRating": 7.31,
+      "bggBayesAverageRating": 6.09,
+      "bggRank": 2723,
+      "mechanics": [
+        "Deduction",
+        "Hidden Movement",
+        "Memory",
+        "Once-Per-Game Abilities",
+        "Simultaneous Action Selection"
+      ],
+      "designers": [
+        "Manny Trembley"
+      ],
+      "artists": [
+        "James Van Niekerk",
+        "Manny Trembley"
+      ],
+      "publishers": [
+        "Roxley",
+        "CrowD Games",
+        "Mirakulus"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2E440",
+      "availability": "Demo",
+      "interested": [],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
       "objectId": 468800,
@@ -20698,6 +20772,136 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 399318,
+      "itemid": 25235,
+      "name": "Joyride Duel: Next Gen",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/00yYWNtiL4-RkqDmRSao_A__original/img/UQrp3StrW6YJvNVfaD8ulVRd2-U=/0x0/filters:format(jpeg)/pic8244594.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/00yYWNtiL4-RkqDmRSao_A__small/img/EPZxUVHGfMbzNKSjo_CFOH-u-GI=/fit-in/200x150/filters:strip_icc()/pic8244594.jpg",
+      "link": "https://boardgamegeek.com/boardgame/399318",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 40,
+      "recommendedAge": "14+",
+      "weight": 2.0,
+      "bggAverageRating": 7.55,
+      "bggBayesAverageRating": 5.62,
+      "bggRank": 8554,
+      "mechanics": [
+        "Dice Rolling",
+        "Push Your Luck",
+        "Race",
+        "Turn Order: Stat-Based",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Duncan Molloy",
+        "Pete Ward"
+      ],
+      "artists": [
+        "Pye Parr"
+      ],
+      "publishers": [
+        "Rebellion Unplugged",
+        "Grimspire"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2E440",
+      "availability": "Demo",
+      "interested": [],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
+    },
+    {
+      "objectId": 371183,
+      "itemid": 25233,
+      "name": "Joyride: Survival of the Fastest",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/ywWVqGH03eEOWFaRPtmlAg__original/img/igW-m9SJJZJe-uRH1UaZVcn0AhU=/0x0/filters:format(png)/pic7186560.png",
+      "thumbnail": "https://cf.geekdo-images.com/ywWVqGH03eEOWFaRPtmlAg__small/img/zSIuSMwVuw0ZnLBCow6a71SBeHM=/fit-in/200x150/filters:strip_icc()/pic7186560.png",
+      "link": "https://boardgamegeek.com/boardgame/371183",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "14+",
+      "weight": 2.24,
+      "bggAverageRating": 7.34,
+      "bggBayesAverageRating": 6.06,
+      "bggRank": 2887,
+      "mechanics": [
+        "Dice Rolling",
+        "Hexagon Grid",
+        "Push Your Luck",
+        "Race",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Duncan Molloy",
+        "Pete Ward"
+      ],
+      "artists": [
+        "Pye Parr"
+      ],
+      "publishers": [
+        "Grimspire",
+        "Rebellion Unplugged"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2E440",
+      "availability": "Demo",
+      "interested": [],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
+    },
+    {
+      "objectId": 424809,
+      "itemid": 25234,
+      "name": "Joyride: Turbo",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/n5lYZNPACAp5cnRBOUk7dg__original/img/gfuA7PC-WVl101lcRpenUhFedO0=/0x0/filters:format(jpeg)/pic8307015.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/n5lYZNPACAp5cnRBOUk7dg__small/img/craqNlYOTMwmJCyOb5EPWRfee5U=/fit-in/200x150/filters:strip_icc()/pic8307015.jpg",
+      "link": "https://boardgamegeek.com/boardgame/424809",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 70,
+      "recommendedAge": "12+",
+      "weight": 2.62,
+      "bggAverageRating": 8.19,
+      "bggBayesAverageRating": 5.84,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling",
+        "Push Your Luck",
+        "Race",
+        "Turn Order: Stat-Based",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Duncan Molloy",
+        "Pete Ward"
+      ],
+      "artists": [
+        "Pye Parr"
+      ],
+      "publishers": [
+        "Rebellion Unplugged",
+        "Grimspire",
+        "Ogry Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2E440",
+      "availability": "Demo",
+      "interested": [],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
+    },
+    {
       "objectId": 470874,
       "itemid": 24498,
       "name": "Jungle",
@@ -21419,121 +21623,6 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
-      "objectId": 333255,
-      "itemid": 24945,
-      "name": "Keep the Heroes Out!",
-      "yearPublished": 2022,
-      "image": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__original/img/qtWs6Wg0a241k2D1TWWbesVwu-s=/0x0/filters:format(jpeg)/pic6985339.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__small/img/3et-UTpNaMhKlHPgnj89mkTkGkU=/fit-in/200x150/filters:strip_icc()/pic6985339.jpg",
-      "link": "https://boardgamegeek.com/boardgame/333255",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 40,
-      "recommendedAge": "10+",
-      "weight": 2.5,
-      "bggAverageRating": 7.88,
-      "bggBayesAverageRating": 7.14,
-      "bggRank": 360,
-      "mechanics": [
-        "Action Retrieval",
-        "Area Movement",
-        "Cooperative Game",
-        "Deck, Bag, and Pool Building",
-        "Modular Board",
-        "Scenario / Mission / Campaign Game",
-        "Solo / Solitaire Game",
-        "Variable Player Powers",
-        "Variable Set-up"
-      ],
-      "designers": [
-        "Lu\u00eds Brueh"
-      ],
-      "artists": [
-        "Lu\u00eds Brueh"
-      ],
-      "publishers": [
-        "Brueh Games Inc.",
-        "Board Zeppelin",
-        "Conclave Editora",
-        "Delirium Games",
-        "Dice&Bones",
-        "Fruhling-Honpo",
-        "MINDOK",
-        "Mirakulus",
-        "MTS Games",
-        "Treetato Studio",
-        "Vagabund",
-        "\u0406\u0433\u0440\u043e\u043c\u0430\u0433"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 65.0,
-        "currency": "EUR"
-      },
-      "location": "2B350",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 394150,
-      "itemid": 24946,
-      "name": "Keep the Heroes Out!: Boss Battles",
-      "yearPublished": 2024,
-      "image": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__original/img/d0Zr97bSd-we8eSG-OVeexYqTDk=/0x0/filters:format(jpeg)/pic7793981.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__small/img/gdyuc1fbs0PZ8Ow41n-R8Nefyl0=/fit-in/200x150/filters:strip_icc()/pic7793981.jpg",
-      "link": "https://boardgamegeek.com/boardgame/394150",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": null,
-      "recommendedAge": "14+",
-      "weight": 2.86,
-      "bggAverageRating": 8.62,
-      "bggBayesAverageRating": 5.97,
-      "bggRank": null,
-      "mechanics": [
-        "Cooperative Game",
-        "Scenario / Mission / Campaign Game"
-      ],
-      "designers": [
-        "Lu\u00eds Brueh"
-      ],
-      "artists": [
-        "Lu\u00eds Brueh"
-      ],
-      "publishers": [
-        "Brueh Games Inc.",
-        "Dice&Bones",
-        "Mirakulus",
-        "MTS Games"
-      ],
-      "subtype": "boardgameexpansion",
-      "itemType": "expansion",
-      "price": {
-        "amount": 60.0,
-        "currency": "EUR"
-      },
-      "location": "2B350",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
       "objectId": 463523,
       "itemid": 24947,
       "name": "Keep the Heroes Out!: Dungeons Below",
@@ -21561,59 +21650,6 @@
       "itemType": "expansion",
       "price": {
         "amount": 40.0,
-        "currency": "EUR"
-      },
-      "location": "2B350",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 433316,
-      "itemid": 24948,
-      "name": "Keep the Heroes Out!: Playing with Fire",
-      "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/T1igZEqQS1oLFfgN8zHTbw__original/img/lENaoA7m1siQovBU97RlfsNAf3s=/0x0/filters:format(jpeg)/pic8554108.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/T1igZEqQS1oLFfgN8zHTbw__small/img/gd01bWllno5xyNX5m0wNbD8TXB8=/fit-in/200x150/filters:strip_icc()/pic8554108.jpg",
-      "link": "https://boardgamegeek.com/boardgame/433316",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 40,
-      "recommendedAge": null,
-      "weight": null,
-      "bggAverageRating": 8.32,
-      "bggBayesAverageRating": 5.59,
-      "bggRank": null,
-      "mechanics": [
-        "Action Retrieval",
-        "Area Movement",
-        "Cooperative Game",
-        "Deck, Bag, and Pool Building",
-        "Modular Board",
-        "Solo / Solitaire Game",
-        "Variable Player Powers",
-        "Variable Set-up"
-      ],
-      "designers": [
-        "Lu\u00eds Brueh"
-      ],
-      "artists": [],
-      "publishers": [
-        "Brueh Games Inc.",
-        "Dice&Bones",
-        "Mirakulus"
-      ],
-      "subtype": "boardgameexpansion",
-      "itemType": "expansion",
-      "price": {
-        "amount": 20.0,
         "currency": "EUR"
       },
       "location": "2B350",
@@ -22349,77 +22385,6 @@
       "location": null,
       "availability": "For Sale",
       "interested": [
-        {
-          "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 436161,
-      "itemid": 24300,
-      "name": "Koi",
-      "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/b3_IZN2s5bSpFQh29I-Jww__original/img/kLYUGRxsdzz-pY-fBeU2OitTfNk=/0x0/filters:format(png)/pic8921884.png",
-      "thumbnail": "https://cf.geekdo-images.com/b3_IZN2s5bSpFQh29I-Jww__small/img/pP_Oz15MRmBfwFuFl6rtKx8alZI=/fit-in/200x150/filters:strip_icc()/pic8921884.png",
-      "link": "https://boardgamegeek.com/boardgame/436161",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 45,
-      "recommendedAge": "10+",
-      "weight": 2.04,
-      "bggAverageRating": 7.52,
-      "bggBayesAverageRating": 6.02,
-      "bggRank": 3089,
-      "mechanics": [
-        "Contracts",
-        "End Game Bonuses",
-        "Open Drafting",
-        "Pattern Building",
-        "Solo / Solitaire Game",
-        "Tile Placement"
-      ],
-      "designers": [
-        "Rosaria Battiato",
-        "Massimo Borz\u00ec",
-        "Martino Chiacchiera"
-      ],
-      "artists": [
-        "Emiliano Castellano"
-      ],
-      "publishers": [
-        "DV Games",
-        "999 Games",
-        "G\u00e9mklub",
-        "Hobby World",
-        "KOSMOS",
-        "Ravensburger AG",
-        "Swan Panasia Co., Ltd."
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 44.0,
-        "currency": "EUR"
-      },
-      "location": "3P500",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "Petter_03",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
         {
           "user": "JoyfulFicus",
           "priority": 4,
@@ -24827,62 +24792,6 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
-      "objectId": 448477,
-      "itemid": 24341,
-      "name": "Lost! in the Woods",
-      "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/_U-shUQ8FqHfGPcqRxY4DA__original/img/Ai4nZYfuAWCblMnTMXjIaBTxIuw=/0x0/filters:format(jpeg)/pic8945767.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/_U-shUQ8FqHfGPcqRxY4DA__small/img/79bDLFUyKEeiffxbax6yxFbusgM=/fit-in/200x150/filters:strip_icc()/pic8945767.jpg",
-      "link": "https://boardgamegeek.com/boardgame/448477",
-      "minPlayers": 2,
-      "maxPlayers": 8,
-      "playingTime": 15,
-      "recommendedAge": "7+",
-      "weight": 1.0,
-      "bggAverageRating": 6.13,
-      "bggBayesAverageRating": 5.51,
-      "bggRank": 24211,
-      "mechanics": [
-        "Communication Limits",
-        "Cooperative Game",
-        "Deduction"
-      ],
-      "designers": [
-        "Marco Salogni",
-        "Silvano Sorrentino"
-      ],
-      "artists": [
-        "Cam Kendell",
-        "Marco Salogni"
-      ],
-      "publishers": [
-        "Alley Cat Games"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 18.0,
-        "currency": "EUR"
-      },
-      "location": "3F400",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
       "objectId": 473561,
       "itemid": 24483,
       "name": "Loyalty: Rome",
@@ -25022,54 +24931,6 @@
       "price": null,
       "location": null,
       "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 363646,
-      "itemid": 24603,
-      "name": "Madera Contra Acero: La Conquista de Canarias",
-      "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/6iIGxO5dYe3udlwCmbDQtw__original/img/NgdnYNel3SizpOkHzMXNlhLOVcA=/0x0/filters:format(jpeg)/pic9721221.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/6iIGxO5dYe3udlwCmbDQtw__small/img/_P4oKIguqHZ5zLsGWx5_hdDwyFE=/fit-in/200x150/filters:strip_icc()/pic9721221.jpg",
-      "link": "https://boardgamegeek.com/boardgame/363646",
-      "minPlayers": 2,
-      "maxPlayers": 2,
-      "playingTime": 200,
-      "recommendedAge": "12+",
-      "weight": 2.0,
-      "bggAverageRating": 8.25,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
-      "mechanics": [
-        "Area Movement",
-        "Dice Rolling",
-        "Events",
-        "Simulation",
-        "Zone of Control"
-      ],
-      "designers": [
-        "Jose Antonio Rivero"
-      ],
-      "artists": [
-        "Miguel Angel Garcia Ruano"
-      ],
-      "publishers": [
-        "Ediciones MasQueOca",
-        "NAC Wargames"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": null,
-      "location": "3N300",
-      "availability": "Demo",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -27101,88 +26962,6 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 422780,
-      "itemid": 25053,
-      "name": "Mistborn: The Deckbuilding Game",
-      "yearPublished": 2024,
-      "image": "https://cf.geekdo-images.com/Fr_k9-uU3hEUnw_3s-UnZQ__original/img/XhMQVwHzTcQPTS_2cjIn_NdZJwM=/0x0/filters:format(png)/pic8290518.png",
-      "thumbnail": "https://cf.geekdo-images.com/Fr_k9-uU3hEUnw_3s-UnZQ__small/img/YLbnyONFWmI-9bu5J30aZke7BjI=/fit-in/200x150/filters:strip_icc()/pic8290518.png",
-      "link": "https://boardgamegeek.com/boardgame/422780",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 60,
-      "recommendedAge": "13+",
-      "weight": 2.68,
-      "bggAverageRating": 7.64,
-      "bggBayesAverageRating": 6.67,
-      "bggRank": 973,
-      "mechanics": [
-        "Cooperative Game",
-        "Deck, Bag, and Pool Building",
-        "Market",
-        "Player Elimination",
-        "Race",
-        "Solo / Solitaire Game"
-      ],
-      "designers": [
-        "John D. Clair"
-      ],
-      "artists": [
-        "David \u00c1lvarez Astruga",
-        "Valeria Casale",
-        "Logan Feliciano",
-        "Antti Hakosaari",
-        "Austin Hartell",
-        "Amirul Hhf",
-        "Joel Holtzman",
-        "Ari Ibarra",
-        "Vladimir Ishelin",
-        "Satoshi Kamanaka",
-        "Svetlana Kostina",
-        "Irina Kuzmina",
-        "Linda Lith\u00e9n",
-        "Alexander Ngo",
-        "Kevin O'Neill (I)",
-        "Gal Or",
-        "Elizabeth Peir\u00f3",
-        "Kiki Moch Rizky",
-        "Sami Rytk\u00f6nen",
-        "Deandra Scicluna",
-        "Steven Shan",
-        "Darko Stojanovic",
-        "Raymond Swanland"
-      ],
-      "publishers": [
-        "Brotherwise Games",
-        "Broadway Toys LTD",
-        "Devir",
-        "G\u00e9mklub",
-        "HIT Games",
-        "Lucky Duck Games",
-        "MIPL"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": null,
-      "location": "3F610",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
     },
     {
       "objectId": 475383,
@@ -31272,6 +31051,60 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 458758,
+      "itemid": 25230,
+      "name": "Pactopolis",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/-HDEoQT5t9Rlagx8iIwjHg__original/img/qp6JAulD7FtpLcDit3Vp9bquw4Y=/0x0/filters:format(png)/pic9309350.png",
+      "thumbnail": "https://cf.geekdo-images.com/-HDEoQT5t9Rlagx8iIwjHg__small/img/uNpqIt-J_Mn4PQh6-4tMyrZbbFA=/fit-in/200x150/filters:strip_icc()/pic9309350.png",
+      "link": "https://boardgamegeek.com/boardgame/458758",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 240,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Auction / Bidding",
+        "Highest-Lowest Scoring",
+        "Income",
+        "Negotiation",
+        "Roles with Asymmetric Information",
+        "Semi-Cooperative Game",
+        "Square Grid",
+        "Tile Placement",
+        "Trading"
+      ],
+      "designers": [
+        "Rajiv V. Basaiawmoit, PhD, MBA",
+        "Chavi C-Y Fletcher Chen",
+        "Taru Deva, PhD"
+      ],
+      "artists": [
+        "Mar\u00eda Trigueros P\u00e9rez"
+      ],
+      "publishers": [
+        "Biosymfonix",
+        "(Self-Published)"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Hall 4 - F110",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
       "objectId": 471895,
@@ -36551,7 +36384,7 @@
     },
     {
       "objectId": 473557,
-      "itemid": 25015,
+      "itemid": 24086,
       "name": "Rooms & Roomies",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/0sso8pgApHyZz-fqO2U_FQ__original/img/X61WZA5SFJDpUc3zGPzBLNlLqY8=/0x0/filters:format(jpeg)/pic9680100.jpg",
@@ -36585,7 +36418,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 34.0,
+        "currency": "EUR"
+      },
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -37439,51 +37275,6 @@
         "currency": "USD"
       },
       "location": "3D 400",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
-      "objectId": 402312,
-      "itemid": 24302,
-      "name": "Sensu",
-      "yearPublished": 2023,
-      "image": "https://cf.geekdo-images.com/z8UPOcDnC_s0jUvKYFZ0UQ__original/img/siNd9qoOWQNWUNWGI9nCVYTJnGo=/0x0/filters:format(jpeg)/pic8978383.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/z8UPOcDnC_s0jUvKYFZ0UQ__small/img/2xxIn7r48lJInGLwJR47CgDoZk0=/fit-in/200x150/filters:strip_icc()/pic8978383.jpg",
-      "link": "https://boardgamegeek.com/boardgame/402312",
-      "minPlayers": 1,
-      "maxPlayers": 5,
-      "playingTime": 25,
-      "recommendedAge": "8+",
-      "weight": 2.0,
-      "bggAverageRating": 6.81,
-      "bggBayesAverageRating": 5.56,
-      "bggRank": 12264,
-      "mechanics": [],
-      "designers": [
-        "Enrico Vicario"
-      ],
-      "artists": [
-        "Andrea Guerrieri"
-      ],
-      "publishers": [
-        "DV Games",
-        "HUCH!"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 19.0,
-        "currency": "EUR"
-      },
-      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -43833,6 +43624,61 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 395926,
+      "itemid": 25226,
+      "name": "The Republic's Struggle",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/-d7FGlvz5v99AXze0q1xyQ__original/img/Vbmf7W4PIWi80gqZZOG0gY-dwUU=/0x0/filters:format(jpeg)/pic7636231.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/-d7FGlvz5v99AXze0q1xyQ__small/img/cv0FlfAxHV9aeoP3_kLkDqYj2gQ=/fit-in/200x150/filters:strip_icc()/pic7636231.jpg",
+      "link": "https://boardgamegeek.com/boardgame/395926",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 240,
+      "recommendedAge": "14+",
+      "weight": 3.4,
+      "bggAverageRating": 7.3,
+      "bggBayesAverageRating": 5.56,
+      "bggRank": 12427,
+      "mechanics": [
+        "Action / Event",
+        "Advantage Token",
+        "Area Majority / Influence",
+        "Campaign / Battle Card Driven",
+        "Dice Rolling",
+        "Events",
+        "Hand Management",
+        "Simultaneous Action Selection",
+        "Tug of War"
+      ],
+      "designers": [
+        "Teo \u00c1lvarez"
+      ],
+      "artists": [
+        "Ruben Megido"
+      ],
+      "publishers": [
+        "Ediciones MasQueOca",
+        "NAC Wargames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 44.99,
+        "currency": "EUR"
+      },
+      "location": "3N300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
       "objectId": 477626,
