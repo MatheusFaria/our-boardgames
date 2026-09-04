@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-03T07:34:55.906948+00:00",
-  "itemCount": 954,
-  "interestedCount": 164,
-  "noOneCount": 790,
+  "generatedAt": "2026-09-04T07:35:37.531364+00:00",
+  "itemCount": 958,
+  "interestedCount": 166,
+  "noOneCount": 792,
   "items": [
     {
       "objectId": 474125,
@@ -6349,7 +6349,7 @@
     },
     {
       "objectId": 470745,
-      "itemid": 24365,
+      "itemid": 24343,
       "name": "Cardia: Tide & Storm",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/4WGPqhF0j1mgrpE9JIpetA__original/img/h8fRF2zfCd5VNTtEiKLuiiZRB3Q=/0x0/filters:format(png)/pic9683371.png",
@@ -6377,11 +6377,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 14.0,
-        "currency": "EUR"
-      },
-      "location": "Hall 2 - 2B210",
+      "price": null,
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -13292,7 +13289,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 21.9,
+        "currency": "EUR"
+      },
       "location": "Golden Meeple (Hall 4 4F510)",
       "availability": "For Sale",
       "interested": [
@@ -13734,7 +13734,14 @@
       "price": null,
       "location": "2E440",
       "availability": "Demo",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
@@ -16104,6 +16111,50 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 477894,
+      "itemid": 25240,
+      "name": "Frog Tower",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/clAQJg88qOqR1CfPHI2SXg__original/img/lYqtDydC0kOZNVbdLwPRsi8Inho=/0x0/filters:format(jpeg)/pic9770743.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/clAQJg88qOqR1CfPHI2SXg__small/img/uTA-p1uV73IeuZAufBxLTLz0F-E=/fit-in/200x150/filters:strip_icc()/pic9770743.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477894",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "designers": [
+        "URiO"
+      ],
+      "artists": [
+        "\u304a\u30fc\u3064\u307c\u3058\u3085\u3046\u3058\u3093 (Jyujin Ohtsubo)"
+      ],
+      "publishers": [
+        "Good Games Publishing"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2D530",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-04T07:35:36.457204+00:00"
+    },
+    {
       "objectId": 449853,
       "itemid": 24137,
       "name": "Frosted Blooms",
@@ -16896,7 +16947,7 @@
     },
     {
       "objectId": 441097,
-      "itemid": 24507,
+      "itemid": 25241,
       "name": "Genius Idea",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/km4tV1v0YTJ1-PkPm473IA__original/img/SWp1jkIawUhQEmuVSL16MTcSFJ4=/0x0/filters:format(png)/pic8846553.png",
@@ -17458,7 +17509,7 @@
         "amount": 45.0,
         "currency": "EUR"
       },
-      "location": "Hall 2 \u00b7 2B345 - HUNGAMES \u2013 Hungarian Board Game Publishers Association",
+      "location": "Hall 2 \u00b7 2B345",
       "availability": "For Sale",
       "interested": [
         {
@@ -20811,7 +20862,14 @@
       "price": null,
       "location": "2E440",
       "availability": "Demo",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
@@ -20854,7 +20912,14 @@
       "price": null,
       "location": "2E440",
       "availability": "Demo",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
@@ -20898,7 +20963,14 @@
       "price": null,
       "location": "2E440",
       "availability": "Demo",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
     },
     {
@@ -29703,7 +29775,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 26.0,
+        "currency": "EUR"
+      },
       "location": "Golden Meeple (Hall 4 4F510)",
       "availability": "For Sale",
       "interested": [
@@ -30776,6 +30851,50 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 468836,
+      "itemid": 25238,
+      "name": "Oshaka Trick",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/NLWrdQ6iC1Wv5FjZtP2UGw__original/img/X9fa8Ml4rh-wLCnI51KYS2FMZdc=/0x0/filters:format(png)/pic9545034.png",
+      "thumbnail": "https://cf.geekdo-images.com/NLWrdQ6iC1Wv5FjZtP2UGw__small/img/SOvesxp0TrI-AjcGXsTrQgnKpXE=/fit-in/200x150/filters:strip_icc()/pic9545034.png",
+      "link": "https://boardgamegeek.com/boardgame/468836",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 25,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": 7.32,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16831,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "\u7b20\u7f6e\u5553\u592a (Keita Kasagi)"
+      ],
+      "artists": [
+        "Atsushi Koyama"
+      ],
+      "publishers": [
+        "Bamboo Games",
+        "Explor8"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "4D515",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-04T07:35:36.457204+00:00"
     },
     {
       "objectId": 347767,
@@ -41726,6 +41845,62 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 444058,
+      "itemid": 25237,
+      "name": "Terrorscape 2",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/MR4TNX_rkk26kZvkY_Mqjw__original/img/y4iFZnu_9KqDH4qWwaq8fcHR05g=/0x0/filters:format(jpeg)/pic8842917.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/MR4TNX_rkk26kZvkY_Mqjw__small/img/xJv6bCsNvCbyF0H16oRjLChvrPU=/fit-in/200x150/filters:strip_icc()/pic8842917.jpg",
+      "link": "https://boardgamegeek.com/boardgame/444058",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 45,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 8.34,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 18402,
+      "mechanics": [
+        "Deduction",
+        "Dice Rolling",
+        "Hand Management",
+        "Hidden Movement",
+        "Multiple Maps",
+        "Team-Based Game"
+      ],
+      "designers": [
+        "Jeffrey CCH"
+      ],
+      "artists": [
+        "Arepko",
+        "Roxy Dai",
+        "Samuel Horowitz",
+        "Maciej Janik"
+      ],
+      "publishers": [
+        "Ice Makes",
+        "Ediciones MasQueOca",
+        "Galakta",
+        "Grimspire",
+        "IELLO",
+        "Niza Gams"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3K315",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-04T07:35:36.457204+00:00"
+    },
+    {
       "objectId": 468859,
       "itemid": 24157,
       "name": "TFTC",
@@ -49334,6 +49509,58 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 478534,
+      "itemid": 25236,
+      "name": "YENA: Succession War",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/YkG_B24fnNENSlsrzBD-aw__original/img/Di91rurI9ppGKCAi6z6PlkyTU74=/0x0/filters:format(png)/pic9785490.png",
+      "thumbnail": "https://cf.geekdo-images.com/YkG_B24fnNENSlsrzBD-aw__small/img/OVLsK4LmuTU_kpWuNq0NwfoZWu0=/fit-in/200x150/filters:strip_icc()/pic9785490.png",
+      "link": "https://boardgamegeek.com/boardgame/478534",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Auction / Bidding",
+        "Auction Compensation",
+        "Auction: Multiple Lot",
+        "Hexagon Grid",
+        "Scenario / Mission / Campaign Game",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game",
+        "Tags",
+        "Turn Order: Auction",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Ama. (\u3042\u307e\u3002)"
+      ],
+      "artists": [],
+      "publishers": [
+        "JELLY JELLY GAMES"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-04T07:35:36.457204+00:00"
     },
     {
       "objectId": 280575,
