@@ -2,8 +2,8 @@
   "geeklistId": 382717,
   "title": "The Essen 2026 no-shipping auction list. Post your own items for sale!",
   "sourceLabel": "BGG GeekList 382717",
-  "generatedAt": "2026-09-05T18:46:32.620387+00:00",
-  "commentsFetchedAt": "2026-09-05T18:46:32.620406+00:00",
+  "generatedAt": "2026-09-05T18:55:04.968228+00:00",
+  "commentsFetchedAt": "2026-09-05T18:55:04.968250+00:00",
   "statuses": [
     "Wishlist",
     "Want to Play",
@@ -28140,16 +28140,16 @@
           "auctionEnds": "Sun 11 Oct, random time",
           "bids": {
             "status": "live",
-            "commentCount": 4,
-            "bidCount": 4,
+            "commentCount": 5,
+            "bidCount": 5,
             "currentBid": {
-              "amount": 8.0,
+              "amount": 10.0,
               "currency": "EUR"
             },
-            "currentBidder": "MonKeYK1nG",
+            "currentBidder": "xTomer",
             "soldBy": null,
             "soldPrice": null,
-            "lastCommentDate": "Sat, 05 Sep 2026 08:43:19 +0000",
+            "lastCommentDate": "Sat, 05 Sep 2026 18:52:19 +0000",
             "ours": null
           },
           "seller": "iadena",
@@ -35478,7 +35478,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -44443,7 +44443,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -44582,7 +44582,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -44648,7 +44648,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -50291,7 +50291,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -53969,7 +53969,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -62043,7 +62043,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -83442,7 +83442,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -83505,7 +83505,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -91746,7 +91746,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -94892,7 +94892,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -100162,7 +100162,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -108891,7 +108891,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -112371,7 +112371,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -118616,7 +118616,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -121096,7 +121096,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -124076,7 +124076,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -134264,7 +134264,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -140155,7 +140155,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -141415,7 +141415,7 @@
       "mechanics": [],
       "subtype": "videogame",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -154464,7 +154464,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -159342,7 +159342,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -159720,7 +159720,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -163866,7 +163866,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -163929,7 +163929,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -164154,7 +164154,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -168682,7 +168682,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -168753,7 +168753,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -170964,7 +170964,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -181529,7 +181529,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -183023,7 +183023,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -183858,7 +183858,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -195896,7 +195896,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -196050,7 +196050,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -198043,7 +198043,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -201574,7 +201574,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -201639,7 +201639,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -201710,7 +201710,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -201773,7 +201773,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -201846,7 +201846,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -208663,7 +208663,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -210799,7 +210799,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -227213,7 +227213,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -227287,7 +227287,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -227429,7 +227429,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -229121,7 +229121,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -229975,7 +229975,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -247071,7 +247071,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -247756,7 +247756,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -250189,7 +250189,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -251031,7 +251031,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -269797,7 +269797,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -272304,7 +272304,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -279673,7 +279673,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -288556,7 +288556,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -293026,7 +293026,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -294471,7 +294471,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -294542,7 +294542,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -294611,7 +294611,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -310714,7 +310714,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -314392,7 +314392,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -323206,7 +323206,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -328333,7 +328333,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -329483,7 +329483,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -348598,7 +348598,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -359025,7 +359025,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -360946,7 +360946,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -361094,7 +361094,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -369746,7 +369746,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -392815,7 +392815,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -392881,7 +392881,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -394653,7 +394653,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -408702,7 +408702,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -410571,7 +410571,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -423128,7 +423128,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -430498,7 +430498,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -437407,7 +437407,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -456198,7 +456198,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -457125,7 +457125,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -460473,7 +460473,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -466368,7 +466368,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -469420,7 +469420,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -471447,7 +471447,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -474134,7 +474134,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -475579,7 +475579,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -483105,7 +483105,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -485936,7 +485936,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -493723,7 +493723,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -498944,7 +498944,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -510655,7 +510655,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -510810,7 +510810,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -512565,7 +512565,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -521821,7 +521821,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -527220,16 +527220,16 @@
           "auctionEnds": "Sun 11 Oct, random time",
           "bids": {
             "status": "live",
-            "commentCount": 1,
-            "bidCount": 1,
+            "commentCount": 2,
+            "bidCount": 2,
             "currentBid": {
-              "amount": 15.0,
+              "amount": 16.0,
               "currency": "EUR"
             },
-            "currentBidder": "SharkPilot",
+            "currentBidder": "tanja848",
             "soldBy": null,
             "soldPrice": null,
-            "lastCommentDate": "Fri, 04 Sep 2026 23:32:16 +0000",
+            "lastCommentDate": "Sat, 05 Sep 2026 18:48:33 +0000",
             "ours": null
           },
           "seller": "GoldenMeepleShop",
@@ -529581,7 +529581,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -530977,7 +530977,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -539951,7 +539951,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -540500,7 +540500,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -555758,7 +555758,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -555841,7 +555841,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -559807,7 +559807,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -565851,7 +565851,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -568590,7 +568590,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -581747,7 +581747,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -589251,7 +589251,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
@@ -589760,7 +589760,7 @@
       "mechanics": [],
       "subtype": "boardgameaccessory",
       "itemType": null,
-      "thingFetchedAt": "2026-09-05T18:45:58.705549+00:00",
+      "thingFetchedAt": "2026-09-05T18:54:42.476216+00:00",
       "onWishlist": false,
       "wishedBy": [],
       "offers": [
