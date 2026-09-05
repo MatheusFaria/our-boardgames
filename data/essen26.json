@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-04T07:35:37.531364+00:00",
-  "itemCount": 958,
-  "interestedCount": 166,
-  "noOneCount": 792,
+  "generatedAt": "2026-09-05T07:16:15.470021+00:00",
+  "itemCount": 964,
+  "interestedCount": 165,
+  "noOneCount": 799,
   "items": [
     {
       "objectId": 474125,
@@ -5986,6 +5986,55 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 477824,
+      "itemid": 25242,
+      "name": "CAGONES",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/UUTCLNN7pcQCBYYdjwQCyg__original/img/LICz7XHSPRuevY0iW3zriQywJJk=/0x0/filters:format(png)/pic9785046.png",
+      "thumbnail": "https://cf.geekdo-images.com/UUTCLNN7pcQCBYYdjwQCyg__small/img/RWHzlKbniyIhh1ufL4XPD8sTJ7o=/fit-in/200x150/filters:strip_icc()/pic9785046.png",
+      "link": "https://boardgamegeek.com/boardgame/477824",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hand Management",
+        "Memory",
+        "Take That"
+      ],
+      "designers": [
+        "Jos\u00e9 Carlos Carmona Baena",
+        "Antonio Rodriguez Vega"
+      ],
+      "artists": [
+        "Alexis Barrio"
+      ],
+      "publishers": [
+        "GDM Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 10.0,
+        "currency": "EUR"
+      },
+      "location": "3G120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+    },
+    {
       "objectId": 469384,
       "itemid": 24321,
       "name": "Camboya",
@@ -10342,6 +10391,99 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 456571,
+      "itemid": 25247,
+      "name": "Dice Quest: The Dunwich Horror",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/4R_ipCkEsLM3OBD0WQ9Pdg__original/img/fVdeZK8xPiEIFPn72_8TYDkgDIY=/0x0/filters:format(png)/pic9171180.png",
+      "thumbnail": "https://cf.geekdo-images.com/4R_ipCkEsLM3OBD0WQ9Pdg__small/img/WUxyxWyKD9B4gmjy2ObUYIXpqO4=/fit-in/200x150/filters:strip_icc()/pic9171180.png",
+      "link": "https://boardgamegeek.com/boardgame/456571",
+      "minPlayers": 1,
+      "maxPlayers": 3,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Re-rolling and Locking",
+        "Solo / Solitaire Game"
+      ],
+      "designers": [
+        "Adri\u00e1n Alba"
+      ],
+      "artists": [
+        "Jos\u00e9 Soto"
+      ],
+      "publishers": [
+        "Juegorama"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3Q115",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+    },
+    {
+      "objectId": 456572,
+      "itemid": 25246,
+      "name": "Dice Quest: The Tower of the Elephant",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zM93r4fAkwO7zSPzW6ULpw__original/img/S8cqYs2aZiqBhY4moyhx5_kmSOI=/0x0/filters:format(jpeg)/pic9171595.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zM93r4fAkwO7zSPzW6ULpw__small/img/8tCBwFn8cWwX5S6jbwRyvczWETk=/fit-in/200x150/filters:strip_icc()/pic9171595.jpg",
+      "link": "https://boardgamegeek.com/boardgame/456572",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.0,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Re-rolling and Locking",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Adri\u00e1n Alba"
+      ],
+      "artists": [
+        "Jos\u00e9 Soto"
+      ],
+      "publishers": [
+        "Juegorama"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3Q115",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+    },
+    {
       "objectId": 477516,
       "itemid": 25146,
       "name": "Dice Valley",
@@ -10636,6 +10778,57 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 347218,
+      "itemid": 25243,
+      "name": "Dickory",
+      "yearPublished": 2021,
+      "image": "https://cf.geekdo-images.com/vlZR-_57smXtJvuM9qioqg__original/img/Cn5Byjnwyxo0uQanYsdpz3zw_A0=/0x0/filters:format(png)/pic9746265.png",
+      "thumbnail": "https://cf.geekdo-images.com/vlZR-_57smXtJvuM9qioqg__small/img/OToFM7hm70dqByFHDDBk1eHoBt0=/fit-in/200x150/filters:strip_icc()/pic9746265.png",
+      "link": "https://boardgamegeek.com/boardgame/347218",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": 1.9,
+      "bggAverageRating": 6.99,
+      "bggBayesAverageRating": 5.66,
+      "bggRank": 7307,
+      "mechanics": [
+        "Hand Management",
+        "Ladder Climbing"
+      ],
+      "designers": [
+        "Sean Ross (I)",
+        "Hanibal Sonderegger"
+      ],
+      "artists": [
+        "Imogen Oh",
+        "Yu Uozumi\uff08\u9b5a\u4f4f\u6e38\uff09"
+      ],
+      "publishers": [
+        "(Web published)",
+        "New Mill Industries",
+        "Playte"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
+      "location": "Hall 6 6D405",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
     },
     {
       "objectId": 470208,
@@ -11831,8 +12024,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -13010,6 +13203,53 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 391985,
+      "itemid": 25244,
+      "name": "Enemy Anemone",
+      "yearPublished": 2023,
+      "image": "https://cf.geekdo-images.com/mYvm63WfHhc32iZTuGStUg__original/img/E5soytOPDWRaSJ4aNsObYqC52Yk=/0x0/filters:format(png)/pic9746301.png",
+      "thumbnail": "https://cf.geekdo-images.com/mYvm63WfHhc32iZTuGStUg__small/img/FuXIyYmP1PKkXE31YI-N3gTA4GU=/fit-in/200x150/filters:strip_icc()/pic9746301.png",
+      "link": "https://boardgamegeek.com/boardgame/391985",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 40,
+      "recommendedAge": "8+",
+      "weight": 1.62,
+      "bggAverageRating": 6.61,
+      "bggBayesAverageRating": 5.64,
+      "bggRank": 8039,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "Daniel Newman"
+      ],
+      "artists": [
+        "Rob Turpin"
+      ],
+      "publishers": [
+        "New Mill Industries",
+        "Playte"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 13.0,
+        "currency": "EUR"
+      },
+      "location": "Hall 6 6D405",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
     },
     {
       "objectId": 430350,
@@ -18664,6 +18904,57 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 207330,
+      "itemid": 25245,
+      "name": "Hellas",
+      "yearPublished": 2016,
+      "image": "https://cf.geekdo-images.com/aYXjAp2tyOdZitB5kKfV4A__original/img/jTR3qKWAAaWSLVOyKHKiVfR2kj8=/0x0/filters:format(png)/pic9747727.png",
+      "thumbnail": "https://cf.geekdo-images.com/aYXjAp2tyOdZitB5kKfV4A__small/img/sz2FxzfZUDy-UVMzFLW7jY7-Cms=/fit-in/200x150/filters:strip_icc()/pic9747727.png",
+      "link": "https://boardgamegeek.com/boardgame/207330",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.5,
+      "bggAverageRating": 7.06,
+      "bggBayesAverageRating": 5.82,
+      "bggRank": 4583,
+      "mechanics": [
+        "Action Drafting",
+        "Follow",
+        "Hexagon Grid",
+        "Turn Order: Claim Action"
+      ],
+      "designers": [
+        "Stefan Dorra"
+      ],
+      "artists": [
+        "Wanjin Gill",
+        "Dennis Lohausen"
+      ],
+      "publishers": [
+        "Playte",
+        "White Goblin Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 24.0,
+        "currency": "EUR"
+      },
+      "location": "Hall 6 6D405",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
     },
     {
       "objectId": 436038,
@@ -33290,8 +33581,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -33407,7 +33698,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": "6D405",
+      "location": "Hall 6 6D405",
       "availability": "For Sale",
       "interested": [
         {
@@ -36684,7 +36975,7 @@
       "itemType": "standalone",
       "price": {
         "amount": 15.0,
-        "currency": "USD"
+        "currency": "EUR"
       },
       "location": "3G120",
       "availability": "For Sale",
@@ -37594,8 +37885,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         }
       ],
@@ -46437,7 +46728,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": "6D405",
+      "location": "Hall 6 6D405",
       "availability": "For Sale",
       "interested": [
         {
