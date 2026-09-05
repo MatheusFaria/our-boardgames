@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
   push:
     paths:
       - "scripts/fetch_essen_auction.py"
@@ -39,17 +40,32 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Skip if already refreshed today
+        id: freshness
+        run: |
+          today="$(date -u +%Y-%m-%d)"
+          generated="$(python3 -c "import json; print(json.load(open('data/essen26_auction.json')).get('generatedAt', ''))" 2>/dev/null || true)"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${generated:0:10}" = "$today" ]; then
+            echo "Snapshot already refreshed today ($generated); skipping this retry run."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Set up Python
+        if: steps.freshness.outputs.skip != 'true'
         uses: actions/setup-python@v6
         with:
           python-version: "3.10"
 
       - name: Regenerate Essen 2026 auction snapshot
+        if: steps.freshness.outputs.skip != 'true'
         env:
           BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
         run: python3 scripts/fetch_essen_auction.py
 
       - name: Commit updated snapshot
+        if: steps.freshness.outputs.skip != 'true'
         run: |
           if git diff --quiet -- data/essen26_auction.json; then
             echo "No snapshot changes to commit."
