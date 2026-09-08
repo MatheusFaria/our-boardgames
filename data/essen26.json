@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-07T07:45:19.427263+00:00",
-  "itemCount": 974,
+  "generatedAt": "2026-09-08T07:38:32.889212+00:00",
+  "itemCount": 978,
   "interestedCount": 168,
-  "noOneCount": 806,
+  "noOneCount": 810,
   "items": [
     {
       "objectId": 474125,
@@ -447,7 +447,7 @@
         "amount": 10.0,
         "currency": "EUR"
       },
-      "location": "5H400",
+      "location": "5-H400",
       "availability": "For Sale",
       "interested": [
         {
@@ -506,7 +506,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": "5H400",
+      "location": "5-H400",
       "availability": "For Sale",
       "interested": [
         {
@@ -551,11 +551,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 14.0,
-        "currency": "EUR"
-      },
-      "location": "3.C300",
+      "price": null,
+      "location": "3-C300",
       "availability": "For Sale",
       "interested": [
         {
@@ -1062,10 +1059,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4-D400",
       "availability": "For Sale",
       "interested": [
@@ -3718,10 +3712,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 12.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F400",
       "availability": "For Sale",
       "interested": [
@@ -4124,10 +4115,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 37.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -5132,7 +5120,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H6B400",
+      "location": "6-B400",
       "availability": "For Sale",
       "interested": [
         {
@@ -5176,10 +5164,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F400",
       "availability": "For Sale",
       "interested": [
@@ -5245,7 +5230,7 @@
         "amount": 9.0,
         "currency": "EUR"
       },
-      "location": "Allplay booth",
+      "location": "AllPlay booth 8-D120",
       "availability": "For Sale",
       "interested": [
         {
@@ -5410,7 +5395,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E225",
+      "location": "4-E225",
       "availability": "Demo",
       "interested": [
         {
@@ -7017,12 +7002,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 19.95,
-        "currency": "USD"
-      },
+      "price": null,
       "location": null,
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -7814,7 +7796,7 @@
         "amount": 15.0,
         "currency": "EUR"
       },
-      "location": "3H225",
+      "location": "3-H225",
       "availability": "For Sale",
       "interested": [
         {
@@ -8788,7 +8770,7 @@
         "amount": 30.0,
         "currency": "EUR"
       },
-      "location": "3H225",
+      "location": "3-H225",
       "availability": "For Sale",
       "interested": [
         {
@@ -9307,7 +9289,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E225",
+      "location": "4-E225",
       "availability": "Demo",
       "interested": [
         {
@@ -10756,7 +10738,7 @@
         "amount": 40.0,
         "currency": "EUR"
       },
-      "location": "3P111",
+      "location": "3-P111",
       "availability": "For Sale",
       "interested": [
         {
@@ -11315,10 +11297,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 6.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4-D400",
       "availability": "For Sale",
       "interested": [
@@ -11944,7 +11923,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5H400",
+      "location": "5-H400",
       "availability": "For Sale",
       "interested": [
         {
@@ -12115,7 +12094,7 @@
         "amount": 35.0,
         "currency": "EUR"
       },
-      "location": "3A110",
+      "location": "3-A110",
       "availability": "For Sale",
       "interested": [
         {
@@ -12258,7 +12237,7 @@
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
       "price": null,
-      "location": "3H325",
+      "location": "3-H325",
       "availability": "For Sale",
       "interested": [
         {
@@ -12943,11 +12922,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 50.0,
-        "currency": "EUR"
-      },
-      "location": "H5K400",
+      "price": null,
+      "location": "5-K400",
       "availability": "For Sale",
       "interested": [
         {
@@ -13481,7 +13457,7 @@
         "amount": 110.0,
         "currency": "EUR"
       },
-      "location": "3M110",
+      "location": "3-M110",
       "availability": "For Sale",
       "interested": [
         {
@@ -13803,7 +13779,7 @@
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
       "price": null,
-      "location": "3Q200",
+      "location": "3-Q200",
       "availability": "For Sale",
       "interested": [
         {
@@ -13845,12 +13821,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 39.95,
-        "currency": "USD"
-      },
+      "price": null,
       "location": null,
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -14330,10 +14303,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -15212,11 +15182,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 65.0,
-        "currency": "EUR"
-      },
-      "location": "2C400",
+      "price": null,
+      "location": "2-C400",
       "availability": "For Sale",
       "interested": [
         {
@@ -15810,10 +15777,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 50.0,
-        "currency": "USD"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -16302,10 +16266,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F400",
       "availability": "For Sale",
       "interested": [
@@ -16844,7 +16805,7 @@
         "amount": 10.0,
         "currency": "EUR"
       },
-      "location": "5H400",
+      "location": "5-H400",
       "availability": "For Sale",
       "interested": [
         {
@@ -17411,7 +17372,7 @@
         "amount": 20.0,
         "currency": "EUR"
       },
-      "location": "5H400",
+      "location": "5-H400",
       "availability": "For Sale",
       "interested": [
         {
@@ -19599,7 +19560,7 @@
         "amount": 14.0,
         "currency": "EUR"
       },
-      "location": "2B515",
+      "location": "2-B515",
       "availability": "For Sale",
       "interested": [
         {
@@ -19648,7 +19609,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H6B400",
+      "location": "6-B400",
       "availability": "For Sale",
       "interested": [
         {
@@ -20195,6 +20156,66 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 394897,
+      "itemid": 25265,
+      "name": "Horror on the Orient Express: The Board Game",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/XX-1reQpdOJzwgTbic-x4w__original/img/DW-1svEbML0yJoy-LGR5V7IQQlI=/0x0/filters:format(jpeg)/pic8080321.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/XX-1reQpdOJzwgTbic-x4w__small/img/mpFyAprLv6Nkp7Dv19AM8qBDWD8=/fit-in/200x150/filters:strip_icc()/pic8080321.jpg",
+      "link": "https://boardgamegeek.com/boardgame/394897",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.75,
+      "bggAverageRating": 8.15,
+      "bggBayesAverageRating": 5.71,
+      "bggRank": 6140,
+      "mechanics": [
+        "Action Retrieval",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Deduction",
+        "Modular Board",
+        "Narrative Choice / Paragraph",
+        "Push Your Luck",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Micha\u0142 Go\u0142\u0105b Go\u0142\u0119biowski",
+        "Adam Kwapi\u0144ski"
+      ],
+      "artists": [
+        "Anna Jarmo\u0142owska",
+        "Artur Mikucki",
+        "Ma\u0142gorzata \u015aliwka",
+        "Aleksander Zawada"
+      ],
+      "publishers": [
+        "Chaosium",
+        "Delta Vision Publishing",
+        "Raven Distribution",
+        "Rexhry",
+        "Schwerkraft-Verlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-08T07:38:32.634726+00:00"
+    },
+    {
       "objectId": 465457,
       "itemid": 24347,
       "name": "Hot Heads",
@@ -20696,10 +20717,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3-C311",
       "availability": "For Sale",
       "interested": [
@@ -22064,10 +22082,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4-D400",
       "availability": "For Sale",
       "interested": [
@@ -22116,10 +22131,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4-D400",
       "availability": "For Sale",
       "interested": [
@@ -26944,7 +26956,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E225",
+      "location": "4-E225",
       "availability": "Demo",
       "interested": [
         {
@@ -27180,6 +27192,59 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 454609,
+      "itemid": 25266,
+      "name": "Min3crash",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/guR1lJbfCZ283_s16iroCA__original/img/X86pbvBl-1kiqB2WQsp77RAGl7s=/0x0/filters:format(jpeg)/pic9135376.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/guR1lJbfCZ283_s16iroCA__small/img/JvaxUDX1NNyvcEQ56RV90LdqFSE=/fit-in/200x150/filters:strip_icc()/pic9135376.jpg",
+      "link": "https://boardgamegeek.com/boardgame/454609",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 45,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 8.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling",
+        "Hidden Roles",
+        "Player Elimination",
+        "Re-rolling and Locking",
+        "Set Collection",
+        "Take That"
+      ],
+      "designers": [
+        "Sporty Andy",
+        "Valle Pacheco",
+        "Roberto Prieto"
+      ],
+      "artists": [
+        "Valle Pacheco"
+      ],
+      "publishers": [
+        "Gen-X Games (GenX)"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "3C120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-08T07:38:32.634726+00:00"
     },
     {
       "objectId": 475357,
@@ -28759,10 +28824,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6-F301",
       "availability": "For Sale",
       "interested": [
@@ -29311,10 +29373,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 55.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "Blackrock and La Boite de Jeu booth: 6K400",
       "availability": "For Sale",
       "interested": [
@@ -29604,6 +29663,53 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 477612,
+      "itemid": 25264,
+      "name": "Neuroshima Hex: Purifiers",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/-SKJ3AlNkpUi6xUOLrChxQ__original/img/Ix4kkZOG7UjsDs4gK0Ucvsrvb3A=/0x0/filters:format(jpeg)/pic9771291.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/-SKJ3AlNkpUi6xUOLrChxQ__small/img/_gERe2qry5hL4RdSs2YD6IXqVPU=/fit-in/200x150/filters:strip_icc()/pic9771291.jpg",
+      "link": "https://boardgamegeek.com/boardgame/477612",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hand Management",
+        "Hexagon Grid",
+        "Player Elimination",
+        "Tile Placement",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Gavin Garcia"
+      ],
+      "artists": [
+        "Hanna Kuik"
+      ],
+      "publishers": [
+        "Portal Games"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-08T07:38:32.634726+00:00"
+    },
+    {
       "objectId": 856,
       "itemid": 25260,
       "name": "New York, New York",
@@ -29741,10 +29847,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4-D400, 6-E110",
       "availability": "For Sale",
       "interested": [
@@ -29797,10 +29900,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4-D400, 6-E110",
       "availability": "For Sale",
       "interested": [
@@ -29849,10 +29949,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 4.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4-D400, 6-E110",
       "availability": "For Sale",
       "interested": [
@@ -29940,10 +30037,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "Pre-order form: https://forms.gle/Cs3M27Rgn2koBnmg6",
       "availability": "For Sale",
       "interested": [
@@ -31219,7 +31313,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5H400",
+      "location": "5-H400",
       "availability": "Demo",
       "interested": [
         {
@@ -31269,7 +31363,7 @@
         "amount": 30.0,
         "currency": "EUR"
       },
-      "location": "3P111",
+      "location": "3-P111",
       "availability": "For Sale",
       "interested": [
         {
@@ -31965,7 +32059,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Hall 4 - F110",
+      "location": "4-F110",
       "availability": "Demo",
       "interested": [
         {
@@ -32085,6 +32179,54 @@
       "availability": "For Sale",
       "interested": [],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 456481,
+      "itemid": 25267,
+      "name": "Pandaii!",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1t7lAb7X7mvgpw-yH1xToA__original/img/2lfWqsZCRptXk1S2lQVLdE40RNw=/0x0/filters:format(jpeg)/pic9166697.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/1t7lAb7X7mvgpw-yH1xToA__small/img/s0vmbXByDT2iN3QAxUZbGm43V-Q=/fit-in/200x150/filters:strip_icc()/pic9166697.jpg",
+      "link": "https://boardgamegeek.com/boardgame/456481",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 35,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": 8.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Multi-Use Cards",
+        "Pattern Building",
+        "Set Collection",
+        "Turn Order: Progressive"
+      ],
+      "designers": [
+        "Jan Roth (II)"
+      ],
+      "artists": [
+        "Jan Roth (II)"
+      ],
+      "publishers": [
+        "Baroque Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "4D500",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-08T07:38:32.634726+00:00"
     },
     {
       "objectId": 454332,
@@ -32666,10 +32808,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 89.0,
-        "currency": "USD"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -33579,7 +33718,7 @@
         "amount": 12.0,
         "currency": "EUR"
       },
-      "location": "2D120",
+      "location": "2-D120",
       "availability": "For Sale",
       "interested": [
         {
@@ -33684,7 +33823,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": "Allplay booth",
+      "location": "AllPlay booth 8-D120",
       "availability": "For Sale",
       "interested": [
         {
@@ -34137,11 +34276,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 55.0,
-        "currency": "EUR"
-      },
-      "location": "3.C300",
+      "price": null,
+      "location": "3-C300",
       "availability": "For Sale",
       "interested": [
         {
@@ -34451,7 +34587,7 @@
         "amount": 35.0,
         "currency": "EUR"
       },
-      "location": "Hall 6/ H6D109",
+      "location": "6-D109",
       "availability": "For Sale",
       "interested": [
         {
@@ -34499,7 +34635,7 @@
         "amount": 5.0,
         "currency": "EUR"
       },
-      "location": "Hall 6/ H6D109",
+      "location": "6-D109",
       "availability": "For Sale",
       "interested": [
         {
@@ -35343,7 +35479,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": null,
+      "location": "6-C300",
       "availability": "For Sale",
       "interested": [
         {
@@ -35409,10 +35545,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 90.0,
-        "currency": "USD"
-      },
+      "price": null,
       "location": "2A620",
       "availability": "For Sale",
       "interested": [
@@ -35472,10 +35605,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 45.0,
-        "currency": "USD"
-      },
+      "price": null,
       "location": "2A620",
       "availability": "For Sale",
       "interested": [
@@ -36609,7 +36739,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E225",
+      "location": "4-E225",
       "availability": "Demo",
       "interested": [
         {
@@ -36873,10 +37003,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2B630",
       "availability": "For Sale",
       "interested": [
@@ -37220,12 +37347,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 32.0,
-        "currency": "EUR"
-      },
-      "location": "3K415",
-      "availability": "Demo",
+      "price": null,
+      "location": "3-K415",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -37526,7 +37650,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H5K400",
+      "location": "5-K400",
       "availability": "Demo",
       "interested": [
         {
@@ -37766,7 +37890,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "2E111",
+      "location": "2-E111",
       "availability": "For Sale",
       "interested": [
         {
@@ -37866,7 +37990,7 @@
         "amount": 52.0,
         "currency": "EUR"
       },
-      "location": "3A110",
+      "location": "3-A110",
       "availability": "For Sale",
       "interested": [
         {
@@ -39822,10 +39946,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 14.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F400",
       "availability": "For Sale",
       "interested": [
@@ -40223,11 +40344,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
-      "location": "H5K400",
+      "price": null,
+      "location": "5-K400",
       "availability": "For Sale",
       "interested": [
         {
@@ -40984,10 +41102,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 45.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2C130",
       "availability": "For Sale",
       "interested": [
@@ -41518,7 +41633,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H6B400",
+      "location": "6-B400",
       "availability": "For Sale",
       "interested": [
         {
@@ -41569,11 +41684,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 12.0,
-        "currency": "EUR"
-      },
-      "location": "3.C300",
+      "price": null,
+      "location": "3-C300",
       "availability": "For Sale",
       "interested": [
         {
@@ -41723,11 +41835,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
-      "location": "5D125",
+      "price": null,
+      "location": "5-D125",
       "availability": "For Sale",
       "interested": [
         {
@@ -41892,12 +42001,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 7.95,
-        "currency": "USD"
-      },
+      "price": null,
       "location": null,
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -42500,10 +42606,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 36.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -42716,7 +42819,7 @@
         "amount": 15.0,
         "currency": "EUR"
       },
-      "location": "3B111",
+      "location": "3-B111",
       "availability": "For Sale",
       "interested": [
         {
@@ -43031,7 +43134,7 @@
     },
     {
       "objectId": 453569,
-      "itemid": 24254,
+      "itemid": 25268,
       "name": "The Challenge of Barletta",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/tbtHnODrg2k5E4M59xitMA__original/img/0cp_4GA8ug6yywGg5W5XWgoy5Xg=/0x0/filters:format(jpeg)/pic9709074.jpg",
@@ -43065,7 +43168,7 @@
         "amount": 39.0,
         "currency": "EUR"
       },
-      "location": null,
+      "location": "3H315",
       "availability": "For Sale",
       "interested": [
         {
@@ -43647,10 +43750,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 49.0,
-        "currency": "USD"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -46442,11 +46542,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "USD"
-      },
-      "location": "3D 400",
+      "price": null,
+      "location": "3-D400",
       "availability": "For Sale",
       "interested": [
         {
@@ -49075,7 +49172,7 @@
         "amount": 45.0,
         "currency": "EUR"
       },
-      "location": "H2D510",
+      "location": "2-D510",
       "availability": "For Sale",
       "interested": [
         {
@@ -49128,7 +49225,7 @@
         "amount": 15.0,
         "currency": "EUR"
       },
-      "location": "H2D510",
+      "location": "2-D510",
       "availability": "For Sale",
       "interested": [
         {
@@ -49276,10 +49373,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 16.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F400",
       "availability": "For Sale",
       "interested": [
