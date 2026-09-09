@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-08T07:38:32.889212+00:00",
-  "itemCount": 978,
-  "interestedCount": 168,
-  "noOneCount": 810,
+  "generatedAt": "2026-09-09T07:43:47.236806+00:00",
+  "itemCount": 982,
+  "interestedCount": 170,
+  "noOneCount": 812,
   "items": [
     {
       "objectId": 474125,
@@ -7546,68 +7546,6 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
-      "objectId": 444545,
-      "itemid": 24922,
-      "name": "Clash of Clans: The Epic Raid",
-      "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/qIoYRemsy3yTNlsspnmOhQ__original/img/tGMV9JsA9kWUI0vCKd3BkNPrAHU=/0x0/filters:format(png)/pic9204282.png",
-      "thumbnail": "https://cf.geekdo-images.com/qIoYRemsy3yTNlsspnmOhQ__small/img/L_LWb704h2XvX7exD1MqL_VDtFk=/fit-in/200x150/filters:strip_icc()/pic9204282.png",
-      "link": "https://boardgamegeek.com/boardgame/444545",
-      "minPlayers": 2,
-      "maxPlayers": 4,
-      "playingTime": 90,
-      "recommendedAge": "12+",
-      "weight": 2.0,
-      "bggAverageRating": 6.79,
-      "bggBayesAverageRating": 5.51,
-      "bggRank": 21387,
-      "mechanics": [
-        "Action Drafting",
-        "Chaining",
-        "Dice Rolling",
-        "Tile Placement",
-        "Turn Order: Claim Action",
-        "Worker Placement"
-      ],
-      "designers": [
-        "Ken Gruhl",
-        "Eric M. Lang"
-      ],
-      "artists": [],
-      "publishers": [
-        "Maestro Media",
-        "ADC Blackfire Entertainment",
-        "Cranio Creations",
-        "Pegasus Spiele"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": null,
-      "location": null,
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "JoyfulFicus",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "Alem0nes",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
-    },
-    {
       "objectId": 442093,
       "itemid": 24110,
       "name": "Class of '89",
@@ -11736,7 +11674,7 @@
     },
     {
       "objectId": 474300,
-      "itemid": 24743,
+      "itemid": 25270,
       "name": "Dorfromantik: The South Seas",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/qlO2PFnuWBz_2Do5ZPQS0A__original/img/pfvelcRnM9JyMlgHLTAZ7jjoy68=/0x0/filters:format(jpeg)/pic9680186.jpg",
@@ -15250,6 +15188,62 @@
       "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
     },
     {
+      "objectId": 478824,
+      "itemid": 25276,
+      "name": "Flamme Rouge: Champion Edition",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/vr2oso8IQlX_nCqaeSs5mw__original/img/8gtb0qaHSAlIb8MnbB4cVsr5Osw=/0x0/filters:format(jpeg)/pic9792908.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/vr2oso8IQlX_nCqaeSs5mw__small/img/mlrfbRePq5a_fXld3y_KDHCxnfQ=/fit-in/200x150/filters:strip_icc()/pic9792908.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478824",
+      "minPlayers": 1,
+      "maxPlayers": 12,
+      "playingTime": 45,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 8.5,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Catch the Leader",
+        "Hand Management",
+        "Modular Board",
+        "Programmed Movement",
+        "Race",
+        "Simulation",
+        "Simultaneous Action Selection",
+        "Track Movement"
+      ],
+      "designers": [
+        "Asger Aleksandrov Granerud"
+      ],
+      "artists": [
+        "Ossi Hiekkala",
+        "Jere Kasanen"
+      ],
+      "publishers": [
+        "Lautapelit.fi",
+        "Gigamic",
+        "Stronghold Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 59.0,
+        "currency": "EUR"
+      },
+      "location": "2-C520",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-09T07:43:46.889180+00:00"
+    },
+    {
       "objectId": 419960,
       "itemid": 24421,
       "name": "Flickering Stars",
@@ -18375,7 +18369,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5D100",
+      "location": "6K301",
       "availability": "For Sale",
       "interested": [
         {
@@ -20413,6 +20407,49 @@
         }
       ],
       "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+    },
+    {
+      "objectId": 476407,
+      "itemid": 25271,
+      "name": "H\u00c4\u00c4\u00c4!?",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/fVcyNK4opvrcnPbyuX8MFg__original/img/qm5Uw-kCv1oWWynJKn40Xaj6I_o=/0x0/filters:format(png)/pic9792809.png",
+      "thumbnail": "https://cf.geekdo-images.com/fVcyNK4opvrcnPbyuX8MFg__small/img/YEoV4exZjJ6bOkZJAyVtqbEtlVk=/fit-in/200x150/filters:strip_icc()/pic9792809.png",
+      "link": "https://boardgamegeek.com/boardgame/476407",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deduction"
+      ],
+      "designers": [
+        "Ralf zur Linde"
+      ],
+      "artists": [],
+      "publishers": [
+        "Perdix Spiele"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-09T07:43:46.889180+00:00"
     },
     {
       "objectId": 430293,
@@ -24126,7 +24163,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5D100",
+      "location": "6K301",
       "availability": "For Sale",
       "interested": [
         {
@@ -24178,7 +24215,7 @@
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
       "price": null,
-      "location": "5D100",
+      "location": "6K301",
       "availability": "For Sale",
       "interested": [
         {
@@ -25257,6 +25294,51 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 478552,
+      "itemid": 25274,
+      "name": "Look Inside",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/m3gcVq2JRFmL0T-YRewf_w__original/img/FhWf8jcXXPd5rOXm6rmLmbvtNYI=/0x0/filters:format(png)/pic9786122.png",
+      "thumbnail": "https://cf.geekdo-images.com/m3gcVq2JRFmL0T-YRewf_w__small/img/xIgS7FB6PI6gxaCVfVsuh93veUw=/fit-in/200x150/filters:strip_icc()/pic9786122.png",
+      "link": "https://boardgamegeek.com/boardgame/478552",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Aleksandra Marchewicz",
+        "Christoph Marchewicz"
+      ],
+      "artists": [],
+      "publishers": [
+        "Mend-o"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-09T07:43:46.889180+00:00"
+    },
+    {
       "objectId": 456432,
       "itemid": 24095,
       "name": "Loony Clues",
@@ -25860,6 +25942,57 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 468087,
+      "itemid": 25273,
+      "name": "Manoir Bizarre",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/bjC81RNVWYZCDFFvZRxZUg__original/img/nhLLU74ei2mvMH2ePdhTlG0n8OI=/0x0/filters:format(jpeg)/pic9513498.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/bjC81RNVWYZCDFFvZRxZUg__small/img/mElZ2PkV2Pj3ywyf_r5KSw-5u5g=/fit-in/200x150/filters:strip_icc()/pic9513498.jpg",
+      "link": "https://boardgamegeek.com/boardgame/468087",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": null,
+      "weight": 1.67,
+      "bggAverageRating": 6.88,
+      "bggBayesAverageRating": 5.56,
+      "bggRank": 12102,
+      "mechanics": [
+        "Closed Drafting",
+        "Connections",
+        "End Game Bonuses",
+        "Scenario / Mission / Campaign Game",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Louis Blaise",
+        "Justine Vanhuffel"
+      ],
+      "artists": [
+        "Marin Duret"
+      ],
+      "publishers": [
+        "Bombyx"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "location": "6-G300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-09T07:43:46.889180+00:00"
     },
     {
       "objectId": 416079,
@@ -31918,6 +32051,61 @@
       "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
     },
     {
+      "objectId": 423579,
+      "itemid": 25275,
+      "name": "Ozob: A Cyberpunk Board Game",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/MWtUjjLVXWBmWVwlebSLog__original/img/9IxziArsIPEl7SPHNardeH6zqo4=/0x0/filters:format(jpeg)/pic8271246.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/MWtUjjLVXWBmWVwlebSLog__small/img/LkJfXXtG4_KsnNt1ElXKXiJi330=/fit-in/200x150/filters:strip_icc()/pic8271246.jpg",
+      "link": "https://boardgamegeek.com/boardgame/423579",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": 8.9,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 18429,
+      "mechanics": [
+        "Action Points",
+        "Area Movement",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Events",
+        "Push Your Luck",
+        "Scenario / Mission / Campaign Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Jordy Adan",
+        "Renato Sim\u00f5es"
+      ],
+      "artists": [
+        "Rodrigo Bastos Didier",
+        "Gustavo Henrique Belarmino",
+        "Lucas Torres"
+      ],
+      "publishers": [
+        "Nonsense Creations",
+        "Iron Studios"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5-G700",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-09T07:43:46.889180+00:00"
+    },
+    {
       "objectId": 463574,
       "itemid": 25045,
       "name": "P.I. (Second Edition)",
@@ -32706,7 +32894,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5D100",
+      "location": "6K301",
       "availability": "For Sale",
       "interested": [
         {
@@ -33586,7 +33774,7 @@
     },
     {
       "objectId": 476293,
-      "itemid": 24976,
+      "itemid": 25272,
       "name": "Pixies: Little Giants",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/yiYEzrh-0vjZUPBud5uuFw__original/img/ACOWPRVbKtB1d6ybEU9e5aquBK4=/0x0/filters:format(png)/pic9730657.png",
@@ -33617,16 +33805,16 @@
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
       "price": {
-        "amount": 5.99,
+        "amount": 5.0,
         "currency": "EUR"
       },
-      "location": null,
+      "location": "6-G300",
       "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         }
       ],
@@ -36083,7 +36271,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5D100",
+      "location": "6K301",
       "availability": "For Sale",
       "interested": [
         {
@@ -37065,7 +37253,7 @@
     },
     {
       "objectId": 471437,
-      "itemid": 24824,
+      "itemid": 25269,
       "name": "Robo Run",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/cRApwLTkfzmY_dcaf21eyg__original/img/XWpR1YsMvrETowROmCe23qp2S9E=/0x0/filters:format(jpeg)/pic9604849.jpg",
@@ -37097,7 +37285,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "3J120",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -42163,7 +42351,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5D100",
+      "location": "6K301",
       "availability": "For Sale",
       "interested": [
         {
@@ -45832,7 +46020,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": null,
+      "location": "Hall 3-F110",
       "availability": "For Sale",
       "interested": [
         {
