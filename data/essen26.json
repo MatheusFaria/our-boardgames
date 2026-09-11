@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-10T07:43:06.335181+00:00",
-  "itemCount": 1015,
-  "interestedCount": 176,
-  "noOneCount": 839,
+  "generatedAt": "2026-09-11T07:38:48.890927+00:00",
+  "itemCount": 1023,
+  "interestedCount": 174,
+  "noOneCount": 849,
   "items": [
     {
       "objectId": 474125,
@@ -1724,7 +1724,14 @@
       "price": null,
       "location": "4G600",
       "availability": "Demo",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
     },
     {
@@ -8974,6 +8981,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T16:59:19.089263+00:00"
@@ -9379,6 +9392,12 @@
       "location": "4-E225",
       "availability": "Demo",
       "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "Alem0nes",
           "priority": 4,
@@ -10437,8 +10456,8 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -11575,10 +11594,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 3.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -11907,6 +11923,12 @@
       "interested": [
         {
           "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -13218,8 +13240,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -14232,13 +14254,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -18836,6 +18858,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -20602,6 +20630,12 @@
       "interested": [
         {
           "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -24477,7 +24511,14 @@
       "price": null,
       "location": "2-C500",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
     },
     {
@@ -26493,11 +26534,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
-      "location": "Hall 6 6D405 (Playte)",
+      "price": null,
+      "location": "6-D405 (Playte)",
       "availability": "For Sale",
       "interested": [
         {
@@ -26551,11 +26589,8 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 12.0,
-        "currency": "EUR"
-      },
-      "location": "Hall 6 6D405 (Playte)",
+      "price": null,
+      "location": "6-D405 (Playte)",
       "availability": "For Sale",
       "interested": [
         {
@@ -26715,6 +26750,63 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 15817,
+      "itemid": 25322,
+      "name": "Manila",
+      "yearPublished": 2005,
+      "image": "https://cf.geekdo-images.com/dU0cm4_NP8QiQqiXP9Jclw__original/img/WxzkPQdX41PI-Lz-94wPL1ZrEQk=/0x0/filters:format(jpeg)/pic902372.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/dU0cm4_NP8QiQqiXP9Jclw__small/img/fgRQKglhHBKsRP-nUi0EE-iuxvM=/fit-in/200x150/filters:strip_icc()/pic902372.jpg",
+      "link": "https://boardgamegeek.com/boardgame/15817",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": 60,
+      "recommendedAge": "10+",
+      "weight": 2.04,
+      "bggAverageRating": 7.0,
+      "bggBayesAverageRating": 6.56,
+      "bggRank": 1191,
+      "mechanics": [
+        "Auction / Bidding",
+        "Auction: Turn Order Until Pass",
+        "Betting and Bluffing",
+        "Commodity Speculation",
+        "Dice Rolling",
+        "Loans",
+        "Stock Holding",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Franz-Benno Delonge"
+      ],
+      "artists": [
+        "Victor Boden",
+        "Wanjin Gill"
+      ],
+      "publishers": [
+        "Zoch Verlag",
+        "999 Games",
+        "Competo / Marektoy",
+        "Devir",
+        "Egmont Polska",
+        "Gigamic",
+        "Korea Boardgames",
+        "Playte",
+        "Rio Grande Games",
+        "Swan Panasia Co., Ltd.",
+        "Zhiyanjia"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 26.0,
+        "currency": "EUR"
+      },
+      "location": "Hall 6 6D405",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+    },
+    {
       "objectId": 447483,
       "itemid": 25103,
       "name": "Manila",
@@ -26806,8 +26898,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -27066,6 +27158,47 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 475409,
+      "itemid": 25317,
+      "name": "Mask of the Elder Gods",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/pAuTWs3ME3VIqWeCGvKIyg__original/img/F9e4QGbGj_CZKcSboyYFn9qFh-E=/0x0/filters:format(png)/pic9775402.png",
+      "thumbnail": "https://cf.geekdo-images.com/pAuTWs3ME3VIqWeCGvKIyg__small/img/QwN7MtPEMneh0BXtwBxBCeiGhzo=/fit-in/200x150/filters:strip_icc()/pic9775402.png",
+      "link": "https://boardgamegeek.com/boardgame/475409",
+      "minPlayers": 4,
+      "maxPlayers": 8,
+      "playingTime": 45,
+      "recommendedAge": "14+",
+      "weight": 1.0,
+      "bggAverageRating": 5.67,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Deduction",
+        "Player Elimination",
+        "Team-Based Game",
+        "Traitor Game"
+      ],
+      "designers": [
+        "Nathan Basham",
+        "Adam Fuller"
+      ],
+      "artists": [
+        "Douglas Duarte"
+      ],
+      "publishers": [
+        "Indie Boards & Cards"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3T300",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
       "objectId": 474696,
@@ -28533,8 +28666,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -28645,6 +28778,54 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 321334,
+      "itemid": 25323,
+      "name": "Mole King",
+      "yearPublished": 2020,
+      "image": "https://cf.geekdo-images.com/2Zt__fUS2VvdIY2ZTbJxhg__original/img/9R3FOZ5PJ5i1ToruCk9ikw_HoCE=/0x0/filters:format(png)/pic5733885.png",
+      "thumbnail": "https://cf.geekdo-images.com/2Zt__fUS2VvdIY2ZTbJxhg__small/img/rGGAnJc2RVGfJvpdrRkT-G40w8g=/fit-in/200x150/filters:strip_icc()/pic5733885.png",
+      "link": "https://boardgamegeek.com/boardgame/321334",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 25,
+      "recommendedAge": "6+",
+      "weight": 2.0,
+      "bggAverageRating": 8.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Advantage Token",
+        "Area Majority / Influence",
+        "Hand Management",
+        "Kill Steal",
+        "Map Addition",
+        "Pattern Building",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Tae-hoon Kim",
+        "Sang-don Lee",
+        "Min-keun Park"
+      ],
+      "artists": [
+        "Hami"
+      ],
+      "publishers": [
+        "Gemblo Company",
+        "Playte"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
+      "location": "Hall 6 6D405",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
       "objectId": 475383,
@@ -32517,6 +32698,51 @@
       "thingFetchedAt": "2026-08-22T03:35:58.115944+00:00"
     },
     {
+      "objectId": 475410,
+      "itemid": 25314,
+      "name": "Oracle: Predict Your Tricks!",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/iXDLDqXf8YVIsvUFfQBESw__original/img/4zfZZGkNH76taZHKCxN9FY8HZVs=/0x0/filters:format(png)/pic9754307.png",
+      "thumbnail": "https://cf.geekdo-images.com/iXDLDqXf8YVIsvUFfQBESw__small/img/ttTZ2KALtSKr4d10xmVm8Uz5clQ=/fit-in/200x150/filters:strip_icc()/pic9754307.png",
+      "link": "https://boardgamegeek.com/boardgame/475410",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 4.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Deduction",
+        "Player Elimination",
+        "Predictive Bid",
+        "Trick-taking",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Marni Abramowitz"
+      ],
+      "artists": [],
+      "publishers": [
+        "Indie Boards & Cards"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3T300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+    },
+    {
       "objectId": 448740,
       "itemid": 24686,
       "name": "Orapa Space",
@@ -33361,7 +33587,14 @@
       },
       "location": "6B300",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
@@ -33946,6 +34179,52 @@
         }
       ],
       "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+    },
+    {
+      "objectId": 448409,
+      "itemid": 25313,
+      "name": "Personal Demons",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/XdPLKH7yIP-j2wC056lHDg__original/img/WfrCohtknLLplchCXJtcy_cuDRs=/0x0/filters:format(png)/pic9326949.png",
+      "thumbnail": "https://cf.geekdo-images.com/XdPLKH7yIP-j2wC056lHDg__small/img/nHstXSXe21M4jc_l13liLiyPkeU=/fit-in/200x150/filters:strip_icc()/pic9326949.png",
+      "link": "https://boardgamegeek.com/boardgame/448409",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playingTime": 60,
+      "recommendedAge": "12+",
+      "weight": 2.0,
+      "bggAverageRating": 8.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Closed Drafting",
+        "Simultaneous Action Selection",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Judson Cowan"
+      ],
+      "artists": [
+        "Judson Cowan"
+      ],
+      "publishers": [
+        "Tettix Games",
+        "Board Game Circus"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2-C130",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
       "objectId": 353572,
@@ -35197,6 +35476,54 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 475408,
+      "itemid": 25315,
+      "name": "Possums in a Trench Coat",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1hQBNUllCIqdJeDABi5KOQ__original/img/7dJcG3PaZsjbhbD0M2xNTBwvvho=/0x0/filters:format(png)/pic9775409.png",
+      "thumbnail": "https://cf.geekdo-images.com/1hQBNUllCIqdJeDABi5KOQ__small/img/ckHkPzcqFSsAA2GJUAD5PNEEZdU=/fit-in/200x150/filters:strip_icc()/pic9775409.png",
+      "link": "https://boardgamegeek.com/boardgame/475408",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "playingTime": 45,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 6.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Alliances",
+        "Area Movement",
+        "Betting and Bluffing",
+        "Map Addition",
+        "Modular Board"
+      ],
+      "designers": [
+        "Christopher Ryan Chan"
+      ],
+      "artists": [],
+      "publishers": [
+        "Indie Boards & Cards"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": "3T300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+    },
+    {
       "objectId": 454829,
       "itemid": 24330,
       "name": "Potemkin Villages",
@@ -35899,6 +36226,12 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
@@ -35955,6 +36288,51 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 463478,
+      "itemid": 25311,
+      "name": "P\u00e1linka",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/jdv5GyF3V1opsdqGNJF6dw__original/img/QD8zgVmM3Og7lHssFdjcsea571k=/0x0/filters:format(jpeg)/pic9371344.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/jdv5GyF3V1opsdqGNJF6dw__small/img/x8aczubEz-CrfPqWDTVEtVpRAMQ=/fit-in/200x150/filters:strip_icc()/pic9371344.jpg",
+      "link": "https://boardgamegeek.com/boardgame/463478",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 8.33,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Open Drafting",
+        "Set Collection"
+      ],
+      "designers": [
+        "Heged\u0171s Csaba"
+      ],
+      "artists": [
+        "Heged\u0171s Csaba",
+        "S\u00e1ndor Zub\u00e1ly"
+      ],
+      "publishers": [
+        "A-Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Hall 2, Booth 2B345",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
       "objectId": 450550,
@@ -38615,6 +38993,47 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 445397,
+      "itemid": 25324,
+      "name": "Romeo and Juliet IF Story",
+      "yearPublished": 2023,
+      "image": "https://cf.geekdo-images.com/BpYC74LEaFCumroRJa3T4Q__original/img/cSDrEioZ6gpNKsu7H0q0EkH12iY=/0x0/filters:format(jpeg)/pic8859949.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/BpYC74LEaFCumroRJa3T4Q__small/img/90KaEO0iK0BNxJk63gqh1mKQ3d8=/fit-in/200x150/filters:strip_icc()/pic8859949.jpg",
+      "link": "https://boardgamegeek.com/boardgame/445397",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": 1.0,
+      "bggAverageRating": 6.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hand Management",
+        "Player Elimination"
+      ],
+      "designers": [
+        "Kamoto"
+      ],
+      "artists": [],
+      "publishers": [
+        "RMBC",
+        "JJ Board Game",
+        "Mysterious Island Games",
+        "Playte"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 13.0,
+        "currency": "EUR"
+      },
+      "location": "Hall 6 6D405",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
       "objectId": 473557,
@@ -42843,6 +43262,12 @@
       "interested": [
         {
           "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -48693,6 +49118,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
@@ -49388,8 +49819,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
