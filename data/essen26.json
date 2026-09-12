@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-11T07:38:48.890927+00:00",
-  "itemCount": 1023,
+  "generatedAt": "2026-09-12T07:31:41.348148+00:00",
+  "itemCount": 1028,
   "interestedCount": 174,
-  "noOneCount": 849,
+  "noOneCount": 854,
   "items": [
     {
       "objectId": 474125,
@@ -13372,6 +13372,58 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 463007,
+      "itemid": 25332,
+      "name": "Encyclopedia of Monsters",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/oBf_htCeo_GkMSVD6vEkgw__original/img/lErfVfcI6S4m1ToSyZ1d0rzFaYI=/0x0/filters:format(jpeg)/pic9376187.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/oBf_htCeo_GkMSVD6vEkgw__small/img/mcrNjUzlam-lIfYlknRYRGm_9ro=/fit-in/200x150/filters:strip_icc()/pic9376187.jpg",
+      "link": "https://boardgamegeek.com/boardgame/463007",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "6+",
+      "weight": 1.0,
+      "bggAverageRating": 7.79,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16304,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Memory",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Antoine Bauza",
+        "Corentin Lebrat",
+        "Th\u00e9o Rivi\u00e8re"
+      ],
+      "artists": [
+        "Maud Chalmel"
+      ],
+      "publishers": [
+        "Hachette Boardgames USA",
+        "Scorpion Masqu\u00e9"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
+      "location": "Booth 6K300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+    },
+    {
       "objectId": 453114,
       "itemid": 24841,
       "name": "Endangered Rescue #3: Tasmanian Devil",
@@ -25932,6 +25984,141 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 455801,
+      "itemid": 25329,
+      "name": "Living Stories: Dust Devils",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/qpV3bPa8NtP3Bx2_Wo_rUw__original/img/NhiwQztFNsQoj9B90IXatZu7BmM=/0x0/filters:format(jpeg)/pic9739916.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/qpV3bPa8NtP3Bx2_Wo_rUw__small/img/Xp983g-GSCnJRcrZbbBJuAWI9kY=/fit-in/200x150/filters:strip_icc()/pic9739916.jpg",
+      "link": "https://boardgamegeek.com/boardgame/455801",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 2.0,
+      "bggAverageRating": 8.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Betting and Bluffing",
+        "Hand Management",
+        "Take That"
+      ],
+      "designers": [
+        "Asger Johansen"
+      ],
+      "artists": [
+        "Snorre Krogh"
+      ],
+      "publishers": [
+        "Plotmaker Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+    },
+    {
+      "objectId": 476759,
+      "itemid": 25330,
+      "name": "Living Stories: Pulse",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/88iZs8t_9qNtMv5Tm7x2yQ__original/img/6wTN2HUZff4aLgW0eNROwN_4PkM=/0x0/filters:format(jpeg)/pic9743252.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/88iZs8t_9qNtMv5Tm7x2yQ__small/img/84phx_JLDtP-cZeL97feFMIG4sw=/fit-in/200x150/filters:strip_icc()/pic9743252.jpg",
+      "link": "https://boardgamegeek.com/boardgame/476759",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": 2.0,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Betting and Bluffing",
+        "Hand Management",
+        "Take That"
+      ],
+      "designers": [
+        "Asger Johansen"
+      ],
+      "artists": [
+        "Snorre Krogh"
+      ],
+      "publishers": [
+        "Plotmaker Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+    },
+    {
+      "objectId": 476760,
+      "itemid": 25327,
+      "name": "Living Stories: The Void",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/VZRMs2LPXU2dLYQvUxuk7Q__original/img/_nVOSiLYUkVNCrTee0XSFIEeldI=/0x0/filters:format(jpeg)/pic9743254.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/VZRMs2LPXU2dLYQvUxuk7Q__small/img/TJ3pXOS9CTYOemvahTUUK-W6KW0=/fit-in/200x150/filters:strip_icc()/pic9743254.jpg",
+      "link": "https://boardgamegeek.com/boardgame/476760",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Betting and Bluffing",
+        "Hand Management",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Asger Johansen"
+      ],
+      "artists": [
+        "Snorre Krogh"
+      ],
+      "publishers": [
+        "Plotmaker Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+    },
+    {
       "objectId": 478552,
       "itemid": 25274,
       "name": "Look Inside",
@@ -26803,7 +26990,14 @@
       },
       "location": "Hall 6 6D405",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
@@ -28824,7 +29018,14 @@
       },
       "location": "Hall 6 6D405",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
@@ -31302,7 +31503,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Pre-order form: https://forms.gle/Cs3M27Rgn2koBnmg6",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -39032,7 +39233,14 @@
       },
       "location": "Hall 6 6D405",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
     },
     {
@@ -40566,8 +40774,8 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -44029,7 +44237,7 @@
     },
     {
       "objectId": 460556,
-      "itemid": 25080,
+      "itemid": 25331,
       "name": "Tag Team: Arthur's Legacy",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/l3EX6yKONe3U_QA2-z8FZA__original/img/j0XyslCxdCNOAEK5sQ6-CWHoD48=/0x0/filters:format(jpeg)/pic9651511.jpg",
@@ -44067,8 +44275,11 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
-      "location": null,
+      "price": {
+        "amount": 17.0,
+        "currency": "EUR"
+      },
+      "location": "Booth 6K300",
       "availability": "For Sale",
       "interested": [
         {
@@ -44085,6 +44296,53 @@
         }
       ],
       "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+    },
+    {
+      "objectId": 475489,
+      "itemid": 25333,
+      "name": "Tag Team: SNK Arcade Legends",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/QM7mwPm9kbL42mSG1N9LaQ__original/img/tCLIUq-56hWrDQDx6eeaFC-dtY8=/0x0/filters:format(jpeg)/pic9784198.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/QM7mwPm9kbL42mSG1N9LaQ__small/img/F3sRroXAJwQyaUgnGub5EmQdsfw=/fit-in/200x150/filters:strip_icc()/pic9784198.jpg",
+      "link": "https://boardgamegeek.com/boardgame/475489",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 7.14,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Card Play Conflict Resolution",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Gricha German",
+        "Christian Kudahl",
+        "Corentin Lebrat"
+      ],
+      "artists": [],
+      "publishers": [
+        "Scorpion Masqu\u00e9"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Booth 6K300",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
     },
     {
       "objectId": 471206,
@@ -44268,10 +44526,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 12.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2D330",
       "availability": "For Sale",
       "interested": [
