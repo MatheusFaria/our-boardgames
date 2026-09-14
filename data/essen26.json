@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-13T07:52:13.117768+00:00",
-  "itemCount": 1029,
-  "interestedCount": 174,
-  "noOneCount": 855,
+  "generatedAt": "2026-09-14T08:25:41.223572+00:00",
+  "itemCount": 1032,
+  "interestedCount": 176,
+  "noOneCount": 856,
   "items": [
     {
       "objectId": 474125,
@@ -129,10 +129,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "5H400",
       "availability": "For Sale",
       "interested": [
@@ -393,10 +390,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -618,6 +612,50 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 430995,
+      "itemid": 25337,
+      "name": "6 Forces",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/uD3-WpAozfQ4HJl6dac0xg__original/img/F-FIOfvotg-XGILCAjuST-uS2mM=/0x0/filters:format(jpeg)/pic8562861.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/uD3-WpAozfQ4HJl6dac0xg__small/img/zzbagwUZHtUhoJIpQ7K9aci8ra0=/fit-in/200x150/filters:strip_icc()/pic8562861.jpg",
+      "link": "https://boardgamegeek.com/boardgame/430995",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "7+",
+      "weight": 1.0,
+      "bggAverageRating": 7.15,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16024,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "\u65b0\u6fa4 \u5927\u6a39 (Taiki Shinzawa)"
+      ],
+      "artists": [
+        "\u6851\u6c5f \u7f8e\u6c99\u7a42 (Misaho Kuwae)"
+      ],
+      "publishers": [
+        "\u5026\u6020\u671f (Kentaiki)",
+        "Korokorodou"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5-M310",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-14T08:25:40.917219+00:00"
     },
     {
       "objectId": 466939,
@@ -1628,7 +1666,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E200",
+      "location": "4-E200",
       "availability": "For Sale",
       "interested": [
         {
@@ -1678,7 +1716,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E200",
+      "location": "4-E200",
       "availability": "Demo",
       "interested": [
         {
@@ -1722,7 +1760,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "4G600",
+      "location": "4-G600",
       "availability": "Demo",
       "interested": [
         {
@@ -2080,7 +2118,7 @@
         "amount": 20.0,
         "currency": "EUR"
       },
-      "location": "H5-A300",
+      "location": "5-A300",
       "availability": "For Sale",
       "interested": [
         {
@@ -2317,10 +2355,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 12.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -2730,7 +2765,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Fremont CA",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -2882,10 +2917,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 34.99,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4A425",
       "availability": "For Sale",
       "interested": [
@@ -3310,10 +3342,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 40.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -4115,11 +4144,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 12.0,
-        "currency": "EUR"
-      },
-      "location": "2D630",
+      "price": null,
+      "location": "2-D630",
       "availability": "For Sale",
       "interested": [
         {
@@ -4326,7 +4352,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Indianapolis",
+      "location": null,
       "availability": "Demo",
       "interested": [
         {
@@ -5008,10 +5034,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 65.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -5063,10 +5086,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 46.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -5883,11 +5903,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
-      "location": "Booth 3H300",
+      "price": null,
+      "location": "3-H300",
       "availability": "For Sale",
       "interested": [
         {
@@ -7206,10 +7223,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4F510",
       "availability": "For Sale",
       "interested": [
@@ -8061,10 +8075,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 7.95,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6B200",
       "availability": "For Sale",
       "interested": [
@@ -8116,10 +8127,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 7.95,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6B200",
       "availability": "For Sale",
       "interested": [
@@ -8172,10 +8180,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 7.95,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6B200",
       "availability": "For Sale",
       "interested": [
@@ -8629,10 +8634,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6-C310",
       "availability": "For Sale",
       "interested": [
@@ -9082,10 +9084,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 29.9,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2B300",
       "availability": "For Sale",
       "interested": [
@@ -9342,10 +9341,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6-G225",
       "availability": "For Sale",
       "interested": [
@@ -9357,6 +9353,44 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 479087,
+      "itemid": 25339,
+      "name": "Crime Files Adventskalender: Fallakte \u2013 Sherlocks Zeitungsarchiv",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/ZMDJucGuMjqk41MTPsN2Dg__original/img/dFp-qSa-iUyaEsj2woPxZ0RXChY=/0x0/filters:format(png)/pic9805818.png",
+      "thumbnail": "https://cf.geekdo-images.com/ZMDJucGuMjqk41MTPsN2Dg__small/img/-9ssWEabgNaun9vjoexQAqM55W0=/fit-in/200x150/filters:strip_icc()/pic9805818.png",
+      "link": "https://boardgamegeek.com/boardgame/479087",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 480,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Deduction"
+      ],
+      "designers": [
+        "Lukas Setzke",
+        "Verena Wiechens"
+      ],
+      "artists": [],
+      "publishers": [
+        "frechverlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 24.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-09-14T08:25:40.917219+00:00"
     },
     {
       "objectId": 428015,
@@ -9495,7 +9529,7 @@
         "amount": 40.0,
         "currency": "EUR"
       },
-      "location": "R-3400",
+      "location": "3-R400",
       "availability": "For Sale",
       "interested": [
         {
@@ -9696,10 +9730,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 27.99,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3U200",
       "availability": "For Sale",
       "interested": [
@@ -9867,10 +9898,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 34.99,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4A425",
       "availability": "For Sale",
       "interested": [
@@ -10550,10 +10578,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F115",
       "availability": "For Sale",
       "interested": [
@@ -11297,10 +11322,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -11453,10 +11475,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4.J300",
       "availability": "For Sale",
       "interested": [
@@ -11918,7 +11937,7 @@
         "amount": 29.95,
         "currency": "EUR"
       },
-      "location": "4F510 - Golden Meeple",
+      "location": "4-F510 (Golden Meeple)",
       "availability": "For Sale",
       "interested": [
         {
@@ -12077,7 +12096,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Lookout Games, Halle 3",
+      "location": "Lookout Games, 3-V300",
       "availability": "For Sale",
       "interested": [
         {
@@ -12599,10 +12618,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -12654,10 +12670,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 10.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "5H400",
       "availability": "For Sale",
       "interested": [
@@ -12770,7 +12783,7 @@
         "amount": 29.95,
         "currency": "EUR"
       },
-      "location": "4F510 - Golden Meeple",
+      "location": "4-F510 (Golden Meeple)",
       "availability": "For Sale",
       "interested": [
         {
@@ -13029,10 +13042,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6-C310",
       "availability": "For Sale",
       "interested": [
@@ -13455,10 +13465,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -13510,10 +13517,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 52.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -13694,7 +13698,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E200",
+      "location": "4-E200",
       "availability": "Demo",
       "interested": [
         {
@@ -14036,7 +14040,7 @@
         "amount": 29.95,
         "currency": "EUR"
       },
-      "location": "4F510 - Golden Meeple",
+      "location": "4-F510 (Golden Meeple)",
       "availability": "For Sale",
       "interested": [
         {
@@ -15004,10 +15008,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -15656,10 +15657,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 59.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2-C520",
       "availability": "For Sale",
       "interested": [
@@ -16160,10 +16158,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "USD"
-      },
+      "price": null,
       "location": "5K325",
       "availability": "For Sale",
       "interested": [
@@ -16391,7 +16386,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Lookout Games, Halle 3",
+      "location": "Lookout Games, 3-V300",
       "availability": "For Sale",
       "interested": [
         {
@@ -16862,10 +16857,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2D411",
       "availability": "For Sale",
       "interested": [
@@ -17230,10 +17222,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 10.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "5-H400",
       "availability": "For Sale",
       "interested": [
@@ -17432,10 +17421,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 29.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -17586,10 +17572,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -17797,10 +17780,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "5-H400",
       "availability": "For Sale",
       "interested": [
@@ -18379,7 +18359,7 @@
         "amount": 45.0,
         "currency": "EUR"
       },
-      "location": "Hall 2 \u00b7 2B345",
+      "location": "2-B345",
       "availability": "For Sale",
       "interested": [
         {
@@ -18522,10 +18502,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 60.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F115",
       "availability": "For Sale",
       "interested": [
@@ -19638,7 +19615,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Booth 3H300",
+      "location": "3-H300",
       "availability": "Demo",
       "interested": [
         {
@@ -20247,10 +20224,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -20298,10 +20272,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -20352,10 +20323,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -20405,10 +20373,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -20458,10 +20423,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -20680,7 +20642,7 @@
         "amount": 29.95,
         "currency": "EUR"
       },
-      "location": "4F510 - Golden Meeple",
+      "location": "4-F510 (Golden Meeple)",
       "availability": "For Sale",
       "interested": [
         {
@@ -21413,11 +21375,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 75.0,
-        "currency": "EUR"
-      },
-      "location": "1D-113",
+      "price": null,
+      "location": "1-D113",
       "availability": "For Sale",
       "interested": [
         {
@@ -21899,10 +21858,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 60.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2D530",
       "availability": "For Sale",
       "interested": [
@@ -22405,10 +22361,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "5H400",
       "availability": "For Sale",
       "interested": [
@@ -22542,10 +22495,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 19.95,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3U200",
       "availability": "For Sale",
       "interested": [
@@ -22820,10 +22770,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2D411",
       "availability": "For Sale",
       "interested": [
@@ -23254,7 +23201,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "H4E200",
+      "location": "4-E200",
       "availability": "Demo",
       "interested": [
         {
@@ -23306,7 +23253,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": "3P200",
+      "location": "3-P200",
       "availability": "For Sale",
       "interested": [
         {
@@ -23394,11 +23341,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "USD"
-      },
-      "location": "PTS booth",
+      "price": null,
+      "location": "3-F120 (PTS / Matagot booth)",
       "availability": "For Sale",
       "interested": [
         {
@@ -23603,10 +23547,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6B300",
       "availability": "For Sale",
       "interested": [
@@ -23814,10 +23755,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 18.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2C310",
       "availability": "For Sale",
       "interested": [
@@ -23870,10 +23808,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 42.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2C310",
       "availability": "For Sale",
       "interested": [
@@ -23926,10 +23861,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2C310",
       "availability": "For Sale",
       "interested": [
@@ -23986,12 +23918,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 106.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2C310",
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -24041,10 +23970,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 48.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2C310",
       "availability": "For Sale",
       "interested": [
@@ -24097,10 +24023,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 18.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2C310",
       "availability": "For Sale",
       "interested": [
@@ -24246,10 +24169,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 22.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -26292,10 +26212,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6-C310",
       "availability": "For Sale",
       "interested": [
@@ -26565,11 +26482,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 13.0,
-        "currency": "EUR"
-      },
-      "location": "PTS",
+      "price": null,
+      "location": "3-F120 (PTS / Matagot booth)",
       "availability": "For Sale",
       "interested": [
         {
@@ -27550,10 +27464,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 18.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4F510",
       "availability": "For Sale",
       "interested": [
@@ -27649,10 +27560,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2D411",
       "availability": "For Sale",
       "interested": [
@@ -27700,10 +27608,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 22.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2D411",
       "availability": "For Sale",
       "interested": [
@@ -28405,11 +28310,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 65.0,
-        "currency": "EUR"
-      },
-      "location": "4G600",
+      "price": null,
+      "location": "4-G600",
       "availability": "For Sale",
       "interested": [
         {
@@ -28516,10 +28418,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4.J300",
       "availability": "For Sale",
       "interested": [
@@ -29186,10 +29085,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6F115",
       "availability": "For Sale",
       "interested": [
@@ -29840,10 +29736,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 7.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -30304,10 +30197,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -30515,10 +30405,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2-D511",
       "availability": "For Sale",
       "interested": [
@@ -31782,10 +31669,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 12.99,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3C300",
       "availability": "For Sale",
       "interested": [
@@ -31874,11 +31758,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 42.0,
-        "currency": "EUR"
-      },
-      "location": "Halle 2 2B525",
+      "price": null,
+      "location": "2-B525",
       "availability": "For Sale",
       "interested": [
         {
@@ -32046,7 +31927,7 @@
         "amount": 69.0,
         "currency": "EUR"
       },
-      "location": "4 - J 500",
+      "location": "4-J500",
       "availability": "For Sale",
       "interested": [
         {
@@ -32431,10 +32312,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6K300",
       "availability": "For Sale",
       "interested": [
@@ -32479,7 +32357,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "HALL 6 D401 GRRR GAMES BOOTH",
+      "location": "6-D401 (GRRR Games booth)",
       "availability": "For Sale",
       "interested": [
         {
@@ -32637,10 +32515,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4.J300",
       "availability": "For Sale",
       "interested": [
@@ -32692,10 +32567,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2-D511",
       "availability": "For Sale",
       "interested": [
@@ -33098,10 +32970,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 22.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -33683,10 +33552,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 14.99,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4A425",
       "availability": "For Sale",
       "interested": [
@@ -34697,11 +34563,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
-      "location": "2D630",
+      "price": null,
+      "location": "2-D630",
       "availability": "For Sale",
       "interested": [
         {
@@ -34796,10 +34659,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4G110",
       "availability": "For Sale",
       "interested": [
@@ -34847,10 +34707,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 9.99,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -36646,7 +36503,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Hall 2, Booth 2B345",
+      "location": "2-B345",
       "availability": "For Sale",
       "interested": [
         {
@@ -36688,10 +36545,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 38.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6K300",
       "availability": "For Sale",
       "interested": [
@@ -36765,6 +36619,48 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 446442,
+      "itemid": 25338,
+      "name": "Quashars",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/iSqIbsgc3nsF5iGW6BPwaw__original/img/ih85uqd434mrM4Bqh8UuJ_kGgMA=/0x0/filters:format(jpeg)/pic8880945.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/iSqIbsgc3nsF5iGW6BPwaw__small/img/Kn9B-q8fPhWKS64W4CnRZU_yUcY=/fit-in/200x150/filters:strip_icc()/pic8880945.jpg",
+      "link": "https://boardgamegeek.com/boardgame/446442",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 40,
+      "recommendedAge": "7+",
+      "weight": 2.0,
+      "bggAverageRating": 7.34,
+      "bggBayesAverageRating": 5.58,
+      "bggRank": 10745,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "\u65b0\u6fa4 \u5927\u6a39 (Taiki Shinzawa)"
+      ],
+      "artists": [],
+      "publishers": [
+        "\u5026\u6020\u671f (Kentaiki)",
+        "Korokorodou"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5-M310",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-14T08:25:40.917219+00:00"
     },
     {
       "objectId": 456236,
@@ -37670,10 +37566,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "USD"
-      },
+      "price": null,
       "location": "3E300",
       "availability": "For Sale",
       "interested": [
@@ -38484,10 +38377,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F115",
       "availability": "For Sale",
       "interested": [
@@ -38808,11 +38698,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 29.0,
-        "currency": "USD"
-      },
-      "location": "3D 400",
+      "price": null,
+      "location": "3-D400",
       "availability": "For Sale",
       "interested": [
         {
@@ -39005,10 +38892,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2B630",
       "availability": "For Sale",
       "interested": [
@@ -39458,7 +39342,7 @@
         "amount": 20.0,
         "currency": "EUR"
       },
-      "location": "H5-A300",
+      "location": "5-A300",
       "availability": "For Sale",
       "interested": [
         {
@@ -40354,11 +40238,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "USD"
-      },
-      "location": "3D 400",
+      "price": null,
+      "location": "3-D400",
       "availability": "For Sale",
       "interested": [
         {
@@ -41321,10 +41202,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2D530",
       "availability": "For Sale",
       "interested": [
@@ -41864,11 +41742,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
-      "location": "Kodama",
+      "price": null,
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -42388,10 +42263,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 13.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2-D511",
       "availability": "For Sale",
       "interested": [
@@ -42866,7 +42738,7 @@
       "itemType": "expansion",
       "price": null,
       "location": null,
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -42916,7 +42788,7 @@
       "itemType": "standalone",
       "price": null,
       "location": null,
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -43189,7 +43061,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Fremont CA",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -43485,10 +43357,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F120 (PTS/Matagot Booth)",
       "availability": "For Sale",
       "interested": [
@@ -44597,10 +44466,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "5H400",
       "availability": "For Sale",
       "interested": [
@@ -45102,10 +44968,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 22.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -46304,7 +46167,7 @@
         "amount": 15.0,
         "currency": "EUR"
       },
-      "location": "Booth 3T100",
+      "location": "3-T100",
       "availability": "For Sale",
       "interested": [
         {
@@ -47364,10 +47227,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 14.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -47705,7 +47565,7 @@
         "amount": 30.0,
         "currency": "EUR"
       },
-      "location": "R-3400",
+      "location": "3-R400",
       "availability": "For Sale",
       "interested": [
         {
@@ -48061,10 +47921,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 60.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3C120",
       "availability": "For Sale",
       "interested": [
@@ -48217,7 +48074,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Hall 3-F110",
+      "location": "3-F110",
       "availability": "For Sale",
       "interested": [
         {
@@ -48632,11 +48489,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 13.0,
-        "currency": "EUR"
-      },
-      "location": "PTS",
+      "price": null,
+      "location": "3-F120 (PTS / Matagot booth)",
       "availability": "For Sale",
       "interested": [
         {
@@ -48787,7 +48641,7 @@
         "amount": 10.0,
         "currency": "EUR"
       },
-      "location": "Booth 3T100",
+      "location": "3-T100",
       "availability": "For Sale",
       "interested": [
         {
@@ -48832,10 +48686,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 17.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4G110",
       "availability": "For Sale",
       "interested": [
@@ -49124,10 +48975,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4F510",
       "availability": "For Sale",
       "interested": [
@@ -49172,10 +49020,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4F510",
       "availability": "For Sale",
       "interested": [
@@ -49220,10 +49065,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 7.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4F510",
       "availability": "For Sale",
       "interested": [
@@ -49272,7 +49114,7 @@
         "amount": 20.0,
         "currency": "EUR"
       },
-      "location": "R-3400",
+      "location": "3-R400",
       "availability": "For Sale",
       "interested": [
         {
@@ -49488,7 +49330,7 @@
         "amount": 29.95,
         "currency": "EUR"
       },
-      "location": "4F510 - Golden Meeple",
+      "location": "4-F510 (Golden Meeple)",
       "availability": "For Sale",
       "interested": [
         {
@@ -49590,7 +49432,7 @@
         "amount": 35.0,
         "currency": "EUR"
       },
-      "location": "R-3400",
+      "location": "3-R400",
       "availability": "For Sale",
       "interested": [
         {
@@ -49695,10 +49537,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 18.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -49922,10 +49761,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3E400",
       "availability": "For Sale",
       "interested": [
@@ -50854,11 +50690,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
-      "location": "Hall 3 3S120",
+      "price": null,
+      "location": "3-S120",
       "availability": "For Sale",
       "interested": [
         {
@@ -50903,11 +50736,8 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
-      "location": "Hall 3 3S120",
+      "price": null,
+      "location": "3-S120",
       "availability": "For Sale",
       "interested": [
         {
@@ -51524,10 +51354,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 45.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3F115",
       "availability": "For Sale",
       "interested": [
@@ -51863,7 +51690,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Indianapolis",
+      "location": null,
       "availability": "Demo",
       "interested": [
         {
@@ -52014,11 +51841,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
-      "location": "Booth 3H300",
+      "price": null,
+      "location": "3-H300",
       "availability": "For Sale",
       "interested": [
         {
@@ -52521,10 +52345,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4.J300",
       "availability": "For Sale",
       "interested": [
@@ -52656,10 +52477,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -52727,10 +52545,7 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -52950,10 +52765,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "4F510",
       "availability": "For Sale",
       "interested": [
@@ -53109,11 +52921,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 165.0,
-        "currency": "EUR"
-      },
-      "location": "4G600",
+      "price": null,
+      "location": "4-G600",
       "availability": "For Sale",
       "interested": [
         {
@@ -53407,10 +53216,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "2-D511",
       "availability": "For Sale",
       "interested": [
@@ -53687,7 +53493,7 @@
         "amount": 10.0,
         "currency": "EUR"
       },
-      "location": "Booth 3T100",
+      "location": "3-T100",
       "availability": "For Sale",
       "interested": [
         {
@@ -53730,10 +53536,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "6-G225",
       "availability": "For Sale",
       "interested": [
