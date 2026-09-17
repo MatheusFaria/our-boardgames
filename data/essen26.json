@@ -22,10 +22,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-16T08:09:22.098377+00:00",
-  "itemCount": 1047,
+  "generatedAt": "2026-09-17T08:15:58.781453+00:00",
+  "itemCount": 1059,
   "interestedCount": 176,
-  "noOneCount": 871,
+  "noOneCount": 883,
   "items": [
     {
       "objectId": 474125,
@@ -4938,6 +4938,46 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 478667,
+      "itemid": 25364,
+      "name": "BLOOOOOOM",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/I172iiHXpy7GFFxHHYavzA__original/img/m4mKQVJ0p9EkzGePAQ9VBvXVFEg=/0x0/filters:format(png)/pic9800670.png",
+      "thumbnail": "https://cf.geekdo-images.com/I172iiHXpy7GFFxHHYavzA__small/img/BYR03d5HsLqBUw2CVQRe5-2CgCU=/fit-in/200x150/filters:strip_icc()/pic9800670.png",
+      "link": "https://boardgamegeek.com/boardgame/478667",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Grid Movement",
+        "Square Grid"
+      ],
+      "designers": [
+        "Corn\u00e9 van Moorsel"
+      ],
+      "artists": [
+        "Hannah Hilton"
+      ],
+      "publishers": [
+        "Cwali"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
     },
     {
       "objectId": 451435,
@@ -10228,6 +10268,48 @@
         }
       ],
       "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+    },
+    {
+      "objectId": 479352,
+      "itemid": 25362,
+      "name": "Das 1% Quiz \u2013 Wie clever bist du?",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/0FeeNPeUolh7dlpqJHpTSQ__original/img/t6aDKsi6BnXr3BCW6BDTzWtaGyI=/0x0/filters:format(png)/pic9808559.png",
+      "thumbnail": "https://cf.geekdo-images.com/0FeeNPeUolh7dlpqJHpTSQ__small/img/KOhs58ttMclG5uH3o_-G4Da1OAw=/fit-in/200x150/filters:strip_icc()/pic9808559.png",
+      "link": "https://boardgamegeek.com/boardgame/479352",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Jens Merkl"
+      ],
+      "artists": [],
+      "publishers": [
+        "frechverlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
     },
     {
       "objectId": 461564,
@@ -20022,6 +20104,57 @@
       "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
     },
     {
+      "objectId": 353174,
+      "itemid": 25368,
+      "name": "Heroes of Baler",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/H_ynyxa_5nFCs-At3YoDWA__original/img/3cnkAiuafa-FBIMsAS9XHiRMWpA=/0x0/filters:format(jpeg)/pic9513429.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/H_ynyxa_5nFCs-At3YoDWA__small/img/nwXy0vxfRSqcpL1Ns7T3HMHMyGE=/fit-in/200x150/filters:strip_icc()/pic9513429.jpg",
+      "link": "https://boardgamegeek.com/boardgame/353174",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 2.25,
+      "bggAverageRating": 7.9,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Deck Construction",
+        "Dice Rolling",
+        "Hand Management",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Jos\u00e9 Manuel Neva"
+      ],
+      "artists": [],
+      "publishers": [
+        "Ediciones MasQueOca",
+        "NAC Wargames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 54.99,
+        "currency": "EUR"
+      },
+      "location": "3N300",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
+    },
+    {
       "objectId": 458684,
       "itemid": 24408,
       "name": "Hidden Ark: Wild Oceans",
@@ -21305,6 +21438,48 @@
         }
       ],
       "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+    },
+    {
+      "objectId": 478861,
+      "itemid": 25371,
+      "name": "Ice",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/LB4EhalKgCHt1Bp6apP2HA__original/img/0W7fCYVhq3Bld8g0axmhGCuAIpM=/0x0/filters:format(png)/pic9795369.png",
+      "thumbnail": "https://cf.geekdo-images.com/LB4EhalKgCHt1Bp6apP2HA__small/img/l4bWctNgAiCyAFcklEHUY1S7VJ0=/fit-in/200x150/filters:strip_icc()/pic9795369.png",
+      "link": "https://boardgamegeek.com/boardgame/478861",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 15,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 8.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Enclosure",
+        "Modular Board"
+      ],
+      "designers": [],
+      "artists": [
+        "Daisy Yi-Ching Chen"
+      ],
+      "publishers": [
+        "Taiwan Boardgame Design"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "4J325",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
     },
     {
       "objectId": 475506,
@@ -23889,7 +24064,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": "6B300",
       "availability": "For Sale",
       "interested": [
@@ -33521,6 +33699,49 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 386399,
+      "itemid": 25367,
+      "name": "Orbit Master",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/E4sYQS6XKRAxb_Ge2_9wlQ__original/img/NelFhem3A3vQWAgJ_FpHEXoKEYI=/0x0/filters:format(jpeg)/pic9055970.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/E4sYQS6XKRAxb_Ge2_9wlQ__small/img/JCm5jvSQ4Z2u6fE0vZK6n3wIuzw=/fit-in/200x150/filters:strip_icc()/pic9055970.jpg",
+      "link": "https://boardgamegeek.com/boardgame/386399",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 90,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 6.8,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling",
+        "Hand Management",
+        "Trick-taking"
+      ],
+      "designers": [
+        "Jason Gamber"
+      ],
+      "artists": [],
+      "publishers": [
+        "Zilverspar Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3-T125",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
+    },
+    {
       "objectId": 452324,
       "itemid": 24558,
       "name": "Orbita",
@@ -34155,6 +34376,47 @@
         }
       ],
       "thingFetchedAt": "2026-09-03T07:34:55.385504+00:00"
+    },
+    {
+      "objectId": 479458,
+      "itemid": 25369,
+      "name": "Padventure: Paddy Discovers the Forest",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "link": "https://boardgamegeek.com/boardgame/479458",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "6+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Set Collection"
+      ],
+      "designers": [
+        "G\u00fcnter Burkhardt"
+      ],
+      "artists": [],
+      "publishers": [
+        "Ludolux"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Ludolux Booth 2D541",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
     },
     {
       "objectId": 471895,
@@ -35108,6 +35370,101 @@
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
     },
     {
+      "objectId": 459968,
+      "itemid": 25361,
+      "name": "Petits crimes entre amis: Sherlock Holmes",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/sqQeugIf90Gu4vpmJmUIqQ__original/img/64qXzufAemHp55K0KREshVR-Hds=/0x0/filters:format(jpeg)/pic9274776.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/sqQeugIf90Gu4vpmJmUIqQ__small/img/6o6UFKT1bDna4RL6OSlpK_6hvsc=/fit-in/200x150/filters:strip_icc()/pic9274776.jpg",
+      "link": "https://boardgamegeek.com/boardgame/459968",
+      "minPlayers": 4,
+      "maxPlayers": 6,
+      "playingTime": 60,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 5.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Acting",
+        "Deduction",
+        "Scenario / Mission / Campaign Game"
+      ],
+      "designers": [
+        "Virginie Pelletier"
+      ],
+      "artists": [],
+      "publishers": [
+        "Mango editions",
+        "frechverlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
+    },
+    {
+      "objectId": 460216,
+      "itemid": 25360,
+      "name": "Petits crimes entre amis: True Crime",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/COSKjWg4paqEEBkzy92UVg__original/img/M4fcOyD-uyNq9hLQmATCo2zyON8=/0x0/filters:format(jpeg)/pic9280755.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/COSKjWg4paqEEBkzy92UVg__small/img/VCa3ZRvqp7YNfbwkARg9F_rYZN4=/fit-in/200x150/filters:strip_icc()/pic9280755.jpg",
+      "link": "https://boardgamegeek.com/boardgame/460216",
+      "minPlayers": 4,
+      "maxPlayers": 6,
+      "playingTime": 60,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Acting",
+        "Deduction",
+        "Role Playing",
+        "Scenario / Mission / Campaign Game"
+      ],
+      "designers": [
+        "Val\u00e9rie Cluzel"
+      ],
+      "artists": [],
+      "publishers": [
+        "Mango editions",
+        "frechverlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
+    },
+    {
       "objectId": 475365,
       "itemid": 24490,
       "name": "Pets on Mars",
@@ -35838,6 +36195,50 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 478164,
+      "itemid": 25372,
+      "name": "Planet Pioneer Meteora",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/KMOp0sxf8bbs9L5oQUYmug__original/img/Fjr6lFNkzpwbZUsVK9t_UyrCcDE=/0x0/filters:format(jpeg)/pic9781476.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/KMOp0sxf8bbs9L5oQUYmug__small/img/LYHHr6Kn1B9D2XCUncRj0naQqMA=/fit-in/200x150/filters:strip_icc()/pic9781476.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478164",
+      "minPlayers": null,
+      "maxPlayers": null,
+      "playingTime": null,
+      "recommendedAge": null,
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game"
+      ],
+      "designers": [
+        "\u8352\u5c3e \u4fca\u6a39 (Toshiki Arao)"
+      ],
+      "artists": [
+        "Namiki (\u30ca\u30df\u30ad)"
+      ],
+      "publishers": [
+        "Arclight Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
     },
     {
       "objectId": 444315,
@@ -40570,6 +40971,101 @@
       "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
     },
     {
+      "objectId": 441292,
+      "itemid": 25365,
+      "name": "Scenery",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/cVHtx6QkRp_F5wZgtRq4-w__original/img/pPM7NnInO_I3CQiZsARI6qNETBI=/0x0/filters:format(jpeg)/pic9021647.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/cVHtx6QkRp_F5wZgtRq4-w__small/img/3VnS7LVWd9-avnZF9iJtFLImbH4=/fit-in/200x150/filters:strip_icc()/pic9021647.jpg",
+      "link": "https://boardgamegeek.com/boardgame/441292",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 50,
+      "recommendedAge": "9+",
+      "weight": 3.0,
+      "bggAverageRating": 7.06,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16427,
+      "mechanics": [
+        "Hexagon Grid",
+        "Network and Route Building",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Luke Allison",
+        "Peter Joustra",
+        "Corn\u00e9 van Moorsel"
+      ],
+      "artists": [
+        "Kristin Kremer"
+      ],
+      "publishers": [
+        "Cwali"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 30.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
+    },
+    {
+      "objectId": 446740,
+      "itemid": 25366,
+      "name": "SCENERY: LIGHT, LOOKS & LAKES",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/QAxO7k593QSfHOPIUdS-1g__original/img/hRZn813U_vlb-QBc5kxnnSumS6o=/0x0/filters:format(jpeg)/pic9021670.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/QAxO7k593QSfHOPIUdS-1g__small/img/SZ_h_1koBNz1sZ3tN0j7tk41AU8=/fit-in/200x150/filters:strip_icc()/pic9021670.jpg",
+      "link": "https://boardgamegeek.com/boardgame/446740",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 50,
+      "recommendedAge": "9+",
+      "weight": null,
+      "bggAverageRating": 7.5,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Luke Allison",
+        "Corn\u00e9 van Moorsel"
+      ],
+      "artists": [
+        "Kristin Kremer"
+      ],
+      "publishers": [
+        "Cwali"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": {
+        "amount": 5.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
+    },
+    {
       "objectId": 324711,
       "itemid": 24931,
       "name": "Schadenfreude",
@@ -40685,7 +41181,7 @@
     },
     {
       "objectId": 478880,
-      "itemid": 25357,
+      "itemid": 25356,
       "name": "Scotland Yard Duel",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/bGyycqc8YLMrWV3wlTfBVw__original/img/KqSBpw1wWpH_joHCXqSjA_5PAEk=/0x0/filters:format(png)/pic9795975.png",
@@ -52163,6 +52659,46 @@
         }
       ],
       "thingFetchedAt": "2026-08-18T15:13:17.606547+00:00"
+    },
+    {
+      "objectId": 479346,
+      "itemid": 25363,
+      "name": "Wer ist Deutschlands Superhirn? Das offizielle Quizspiel zur Show",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/EICfaaaJCz6fLUpME_Y5mw__original/img/tncU-dMYdm6-77m-8YjSjJNUO8o=/0x0/filters:format(png)/pic9808444.png",
+      "thumbnail": "https://cf.geekdo-images.com/EICfaaaJCz6fLUpME_Y5mw__small/img/XklNhbBGuf0WbhX90yuNXbWesjc=/fit-in/200x150/filters:strip_icc()/pic9808444.png",
+      "link": "https://boardgamegeek.com/boardgame/479346",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "frechverlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-17T08:15:56.096649+00:00"
     },
     {
       "objectId": 466884,
