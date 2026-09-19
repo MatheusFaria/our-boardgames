@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-18T07:53:22.810812+00:00",
+  "generatedAt": "2026-09-19T07:42:17.598356+00:00",
   "itemCount": 1069,
-  "interestedCount": 267,
-  "noOneCount": 802,
+  "interestedCount": 266,
+  "noOneCount": 803,
   "items": [
     {
       "objectId": 474125,
@@ -3008,7 +3008,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 453804,
@@ -3784,10 +3784,10 @@
       "maxPlayers": 2,
       "playingTime": 30,
       "recommendedAge": "10+",
-      "weight": 1.67,
-      "bggAverageRating": 7.65,
-      "bggBayesAverageRating": 5.74,
-      "bggRank": 5606,
+      "weight": 1.62,
+      "bggAverageRating": 7.68,
+      "bggBayesAverageRating": 5.77,
+      "bggRank": 5284,
       "mechanics": [
         "Bias",
         "Chaining",
@@ -3830,7 +3830,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 305949,
@@ -7389,6 +7389,12 @@
           "priority": 3,
           "priorityLabel": "Not Decided",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -8260,13 +8266,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -11463,15 +11469,15 @@
       "itemid": 25067,
       "name": "Dancing Birds",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/U0u4MW2vO1ajCJXTQxQh5g__original/img/4xC_bPxGW8QfwuD-jgs2vNjSOnw=/0x0/filters:format(jpeg)/pic9450662.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/U0u4MW2vO1ajCJXTQxQh5g__small/img/EuGVSYip5wrzrSRDzBQxmt1Y57s=/fit-in/200x150/filters:strip_icc()/pic9450662.jpg",
+      "image": "https://cf.geekdo-images.com/O5jjw5o3Jk7XqaLWkpawyg__original/img/rqCURPUSvPgTswUzfBiDKd7p9mk=/0x0/filters:format(jpeg)/pic9680970.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/O5jjw5o3Jk7XqaLWkpawyg__small/img/ErpRgtjnvVAu6lijU26RreXDKx0=/fit-in/200x150/filters:strip_icc()/pic9680970.jpg",
       "link": "https://boardgamegeek.com/boardgame/466245",
       "minPlayers": 2,
       "maxPlayers": 4,
       "playingTime": 30,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 5.5,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -11493,7 +11499,9 @@
         "Trading",
         "Variable Set-up"
       ],
-      "designers": [],
+      "designers": [
+        "Dirk Henn"
+      ],
       "artists": [],
       "publishers": [
         "Queen Games"
@@ -11517,7 +11525,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 381139,
@@ -13017,7 +13025,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 437781,
@@ -13606,7 +13614,7 @@
       "weight": 1.04,
       "bggAverageRating": 6.25,
       "bggBayesAverageRating": 5.6,
-      "bggRank": 9385,
+      "bggRank": 9349,
       "mechanics": [
         "Hand Management",
         "Ladder Climbing",
@@ -13652,7 +13660,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 460671,
@@ -14197,9 +14205,9 @@
       "playingTime": 10,
       "recommendedAge": "8+",
       "weight": 1.5,
-      "bggAverageRating": 7.74,
+      "bggAverageRating": 7.63,
       "bggBayesAverageRating": 5.51,
-      "bggRank": 21545,
+      "bggRank": 21828,
       "mechanics": [
         "Grid Movement",
         "Slide / Push"
@@ -14241,7 +14249,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 473061,
@@ -16257,8 +16265,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": "demo"
         },
         {
@@ -17802,11 +17810,11 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": 1.33,
-      "bggAverageRating": 7.16,
+      "bggAverageRating": 7.12,
       "bggBayesAverageRating": 5.51,
-      "bggRank": 22772,
+      "bggRank": 22573,
       "mechanics": [
-        "Trick-taking"
+        "Ladder Climbing"
       ],
       "designers": [
         "Nutgoo.Lee"
@@ -17841,7 +17849,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 478824,
@@ -23692,6 +23700,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -23947,7 +23961,7 @@
       "weight": 2.15,
       "bggAverageRating": 6.7,
       "bggBayesAverageRating": 5.74,
-      "bggRank": 5633,
+      "bggRank": 5658,
       "mechanics": [
         "Trick-taking"
       ],
@@ -23984,7 +23998,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 476407,
@@ -25458,7 +25472,7 @@
       "maxPlayers": 6,
       "playingTime": null,
       "recommendedAge": "8+",
-      "weight": null,
+      "weight": 2.0,
       "bggAverageRating": null,
       "bggBayesAverageRating": null,
       "bggRank": null,
@@ -25499,7 +25513,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 432841,
@@ -27286,7 +27300,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 473274,
@@ -27701,7 +27715,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 108831,
@@ -28663,10 +28677,10 @@
       "maxPlayers": 5,
       "playingTime": 60,
       "recommendedAge": "17+",
-      "weight": 2.85,
-      "bggAverageRating": 8.24,
-      "bggBayesAverageRating": 5.96,
-      "bggRank": 3444,
+      "weight": 2.86,
+      "bggAverageRating": 8.22,
+      "bggBayesAverageRating": 5.97,
+      "bggRank": 3406,
       "mechanics": [
         "Cooperative Game",
         "Deck, Bag, and Pool Building",
@@ -28712,7 +28726,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 458319,
@@ -28726,10 +28740,10 @@
       "maxPlayers": 4,
       "playingTime": 60,
       "recommendedAge": "14+",
-      "weight": 2.71,
-      "bggAverageRating": 8.93,
-      "bggBayesAverageRating": 5.56,
-      "bggRank": 11917,
+      "weight": 2.55,
+      "bggAverageRating": 8.84,
+      "bggBayesAverageRating": 5.64,
+      "bggRank": 8030,
       "mechanics": [
         "Deck, Bag, and Pool Building",
         "Semi-Cooperative Game"
@@ -28766,7 +28780,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 285157,
@@ -28783,7 +28797,7 @@
       "weight": 2.48,
       "bggAverageRating": 7.79,
       "bggBayesAverageRating": 6.06,
-      "bggRank": 2910,
+      "bggRank": 2902,
       "mechanics": [
         "Cooperative Game",
         "Deck, Bag, and Pool Building",
@@ -28823,7 +28837,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 440775,
@@ -28838,9 +28852,9 @@
       "playingTime": 60,
       "recommendedAge": "17+",
       "weight": 2.86,
-      "bggAverageRating": 7.91,
+      "bggAverageRating": 7.85,
       "bggBayesAverageRating": 5.61,
-      "bggRank": 9089,
+      "bggRank": 9040,
       "mechanics": [
         "Deck Construction",
         "Deck, Bag, and Pool Building",
@@ -28883,7 +28897,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 428848,
@@ -32343,7 +32357,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 462488,
@@ -32999,6 +33013,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -37526,9 +37546,9 @@
       "playingTime": 40,
       "recommendedAge": "10+",
       "weight": 1.83,
-      "bggAverageRating": 6.65,
+      "bggAverageRating": 6.63,
       "bggBayesAverageRating": 5.55,
-      "bggRank": 13545,
+      "bggRank": 13657,
       "mechanics": [
         "Hand Management",
         "Ladder Climbing"
@@ -37562,7 +37582,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 462235,
@@ -38377,15 +38397,15 @@
       "itemid": 25066,
       "name": "Out of Words: Music & Movies",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/feaW6s8nyvv6wrO_QVCNyw__original/img/aIryQrcuEuHlLSvVoAWVjXrUvR8=/0x0/filters:format(jpeg)/pic9755957.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/feaW6s8nyvv6wrO_QVCNyw__small/img/w9UYF8XLq5RCfmFmpoFYTyiGn40=/fit-in/200x150/filters:strip_icc()/pic9755957.jpg",
+      "image": "https://cf.geekdo-images.com/cNaKCQCGU-x2fFhlF7vQJA__original/img/tstcCDiK1JGcCUVfNE41OgJwOno=/0x0/filters:format(jpeg)/pic9765946.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/cNaKCQCGU-x2fFhlF7vQJA__small/img/fz55Yw0286gdA2DFFiUqVnHBvwA=/fit-in/200x150/filters:strip_icc()/pic9765946.jpg",
       "link": "https://boardgamegeek.com/boardgame/477428",
       "minPlayers": 2,
       "maxPlayers": 10,
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 10.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -38427,7 +38447,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 449090,
@@ -38568,7 +38588,7 @@
       "playingTime": 60,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 7.51,
+      "bggAverageRating": 7.54,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -38605,7 +38625,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 465348,
@@ -39701,6 +39721,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -39749,6 +39775,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -39794,6 +39826,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -44150,7 +44188,7 @@
       "playingTime": 15,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 6.41,
+      "bggAverageRating": 6.5,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -44191,7 +44229,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 387276,
@@ -46293,7 +46331,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 441292,
@@ -55621,6 +55659,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JuhBass",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -55634,12 +55678,6 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -57805,11 +57843,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 45.0,
-        "currency": "EUR"
-      },
-      "location": "5-G400",
+      "price": null,
+      "location": "5-G400 Thailand Pavilion, PlayByDesign",
       "availability": "For Sale",
       "interested": [
         {
@@ -59064,9 +59099,9 @@
       "playingTime": 35,
       "recommendedAge": "8+",
       "weight": 2.0,
-      "bggAverageRating": 6.94,
+      "bggAverageRating": 6.95,
       "bggBayesAverageRating": 5.55,
-      "bggRank": 13879,
+      "bggRank": 13644,
       "mechanics": [
         "Chaining",
         "Connections",
@@ -59109,7 +59144,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-20T03:40:03.683974+00:00"
+      "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
     },
     {
       "objectId": 465934,
