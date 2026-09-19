@@ -23,7 +23,7 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-19T07:42:17.598356+00:00",
+  "generatedAt": "2026-09-19T13:51:02.622735+00:00",
   "itemCount": 1069,
   "interestedCount": 266,
   "noOneCount": 803,
@@ -73,6 +73,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Ragasil",
+          "priority": 1,
+          "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
           "user": "JuhBass",
           "priority": 1,
           "priorityLabel": "Must Have",
@@ -80,12 +86,6 @@
         },
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
-          "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
@@ -3747,8 +3747,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -4016,6 +4016,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -6800,6 +6806,12 @@
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -10022,12 +10034,6 @@
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -10037,6 +10043,12 @@
           "user": "JuhBass",
           "priority": 3,
           "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -10912,6 +10924,12 @@
           "user": "ParadoxBard",
           "priority": 1,
           "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -20208,8 +20226,8 @@
       "interested": [
         {
           "user": "Ragasil",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -38263,6 +38281,12 @@
           "notes": null
         },
         {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -39944,6 +39968,12 @@
           "user": "ParadoxBard",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -47415,15 +47445,21 @@
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": "40?? Tem que entrar em contato com a Devir pra descobrir o pre-order"
-        },
-        {
           "user": "ParadoxBard",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": "40?? Tem que entrar em contato com a Devir pra descobrir o pre-order"
+        },
+        {
+          "user": "Ragasil",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -52823,6 +52859,12 @@
           "notes": null
         },
         {
+          "user": "Alem0nes",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -55674,6 +55716,12 @@
           "user": "Alem0nes",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
