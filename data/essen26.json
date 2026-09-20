@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-19T13:51:02.622735+00:00",
+  "generatedAt": "2026-09-20T08:09:32.412870+00:00",
   "itemCount": 1069,
-  "interestedCount": 266,
-  "noOneCount": 803,
+  "interestedCount": 265,
+  "noOneCount": 804,
   "items": [
     {
       "objectId": 474125,
@@ -2876,15 +2876,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "Alem0nes",
+          "user": "JoyfulFicus",
           "priority": 1,
           "priorityLabel": "Must Have",
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "Alem0nes",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -3280,6 +3280,12 @@
       "location": "Booth 3J300",
       "availability": "Demo",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "JuhBass",
           "priority": 2,
@@ -4562,7 +4568,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 444527,
@@ -7462,7 +7468,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 469594,
@@ -16609,7 +16615,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 471406,
@@ -18999,7 +19005,7 @@
       "playingTime": 60,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 2.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -19029,7 +19035,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 466715,
@@ -22294,7 +22300,7 @@
       "playingTime": 30,
       "recommendedAge": "16+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 5.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -22332,7 +22338,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 456369,
@@ -25116,8 +25122,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -25978,8 +25984,8 @@
         },
         {
           "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -26976,7 +26982,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 473942,
@@ -31874,6 +31880,12 @@
           "notes": null
         },
         {
+          "user": "Ragasil",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
           "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -32078,7 +32090,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 466009,
@@ -39249,9 +39261,9 @@
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": 1.0,
-      "bggAverageRating": 7.39,
-      "bggBayesAverageRating": 5.58,
-      "bggRank": 10714,
+      "bggAverageRating": 7.3,
+      "bggBayesAverageRating": 5.59,
+      "bggRank": 10112,
       "mechanics": [
         "End Game Bonuses",
         "Open Drafting",
@@ -39291,7 +39303,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 365128,
@@ -43387,8 +43399,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -44907,6 +44919,12 @@
       "location": "3-D400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -47836,7 +47854,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 465214,
@@ -47894,7 +47912,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 464564,
@@ -51416,9 +51434,9 @@
       "playingTime": 20,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 7.73,
-      "bggBayesAverageRating": 5.53,
-      "bggRank": 17177,
+      "bggAverageRating": 8.13,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 13798,
       "mechanics": [
         "Card Play Conflict Resolution",
         "Deck, Bag, and Pool Building",
@@ -51466,7 +51484,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 475489,
@@ -52762,10 +52780,10 @@
       "maxPlayers": 5,
       "playingTime": 20,
       "recommendedAge": "10+",
-      "weight": 2.0,
-      "bggAverageRating": 7.84,
-      "bggBayesAverageRating": 5.61,
-      "bggRank": 8965,
+      "weight": 2.2,
+      "bggAverageRating": 8.0,
+      "bggBayesAverageRating": 5.77,
+      "bggRank": 5247,
       "mechanics": [
         "Communication Limits",
         "Cooperative Game",
@@ -52810,7 +52828,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 449854,
@@ -53172,7 +53190,7 @@
       "playingTime": null,
       "recommendedAge": "10+",
       "weight": 2.0,
-      "bggAverageRating": 6.07,
+      "bggAverageRating": 6.31,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -53213,7 +53231,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 462191,
@@ -53227,9 +53245,9 @@
       "maxPlayers": 10,
       "playingTime": 20,
       "recommendedAge": "10+",
-      "weight": null,
-      "bggAverageRating": 8.05,
-      "bggBayesAverageRating": 5.58,
+      "weight": 2.0,
+      "bggAverageRating": 8.24,
+      "bggBayesAverageRating": 5.71,
       "bggRank": null,
       "mechanics": [
         "Communication Limits",
@@ -53273,7 +53291,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-21T03:43:47.594866+00:00"
+      "thingFetchedAt": "2026-09-20T08:09:29.715277+00:00"
     },
     {
       "objectId": 450539,
@@ -53830,15 +53848,15 @@
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
+          "user": "JuhBass",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
