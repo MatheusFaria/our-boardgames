@@ -448,8 +448,7 @@ function formatPlayerCount(item) {
 }
 
 function renderOwners(item) {
-  const visibleOwnerDetails = getVisibleOwnerDetails(item);
-  const ownerDetails = visibleOwnerDetails.length ? visibleOwnerDetails : item.ownerDetails || [];
+  const ownerDetails = item.ownerDetails || [];
 
   if (!ownerDetails.length) {
     return '<span class="muted">—</span>';

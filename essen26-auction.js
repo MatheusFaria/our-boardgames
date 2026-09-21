@@ -408,8 +408,7 @@ function sortOffersForDisplay(offers) {
 // ---------------------------------------------------------------------------
 
 function renderWishedByBadges(item) {
-  const visible = getVisibleWishedBy(item);
-  const entries = visible.length ? visible : item.wishedBy || [];
+  const entries = item.wishedBy || [];
   if (!entries.length) return "";
   return `<div class="pill-list">${entries
     .map(
