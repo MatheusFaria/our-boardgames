@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-22T08:07:33.344572+00:00",
-  "itemCount": 1099,
+  "generatedAt": "2026-09-23T08:09:36.390836+00:00",
+  "itemCount": 1103,
   "interestedCount": 261,
-  "noOneCount": 838,
+  "noOneCount": 842,
   "items": [
     {
       "objectId": 474125,
@@ -1263,7 +1263,7 @@
     },
     {
       "objectId": 447174,
-      "itemid": 24451,
+      "itemid": 25432,
       "name": "A Wild Venture",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/TMMfAqvZP3g4HdgYyCpHPQ__original/img/d5oJDK7GyI5udbJ7SdtnstdrfFc=/0x0/filters:format(png)/pic8920149.png",
@@ -1304,12 +1304,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 30.0,
-        "currency": "EUR"
-      },
-      "location": "3Q315",
-      "availability": "Demo",
+      "price": null,
+      "location": "2C125",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -1334,7 +1331,7 @@
     },
     {
       "objectId": 474525,
-      "itemid": 24280,
+      "itemid": 25434,
       "name": "A Wild Venture: Byways",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/YY_Y2_IAB5RrOIU0pGYfDw__original/img/Io181JFSRMIn8CyW7kZx_jKFzfQ=/0x0/filters:format(png)/pic9683461.png",
@@ -1362,12 +1359,9 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 8.0,
-        "currency": "EUR"
-      },
-      "location": "3Q315",
-      "availability": "Demo",
+      "price": null,
+      "location": "2C125",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "Alem0nes",
@@ -1392,7 +1386,7 @@
     },
     {
       "objectId": 474523,
-      "itemid": 24281,
+      "itemid": 25433,
       "name": "A Wild Venture: Revelry",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/Lo3qcPpwRWYvQKqRaweJnQ__original/img/aaER4jBaQVyIZEFpdSI8UCK6GFw=/0x0/filters:format(png)/pic9683460.png",
@@ -1420,12 +1414,9 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": {
-        "amount": 8.0,
-        "currency": "EUR"
-      },
-      "location": "3Q315",
-      "availability": "Demo",
+      "price": null,
+      "location": "2C125",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "Alem0nes",
@@ -3155,12 +3146,6 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -6730,7 +6715,7 @@
       "playingTime": 25,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 5.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -6773,7 +6758,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-24T03:47:16.381947+00:00"
+      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
     },
     {
       "objectId": 474443,
@@ -7172,6 +7157,54 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 478833,
+      "itemid": 25439,
+      "name": "Buskers",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/m4I5AqaKl2JJG4uPsZPlXA__original/img/r5G5xqSjlHRV44J6bQp6Wh1iQ48=/0x0/filters:format(png)/pic9811546.png",
+      "thumbnail": "https://cf.geekdo-images.com/m4I5AqaKl2JJG4uPsZPlXA__small/img/jYv7DhCrFgfaOhntxxFTKIPiC1Y=/fit-in/200x150/filters:strip_icc()/pic9811546.png",
+      "link": "https://boardgamegeek.com/boardgame/478833",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Movement",
+        "Betting and Bluffing",
+        "Race"
+      ],
+      "designers": [
+        "Rikki Tahta"
+      ],
+      "artists": [
+        "Andrew Higgins"
+      ],
+      "publishers": [
+        "La Mame Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 35.0,
+        "currency": "EUR"
+      },
+      "location": "Hall 3 - V100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
     },
     {
       "objectId": 457858,
@@ -8294,7 +8327,7 @@
     },
     {
       "objectId": 446815,
-      "itemid": 25411,
+      "itemid": 25077,
       "name": "Cascadia: Alpine Lakes",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/4IiXVZwvsS0Z-BGlv15Qlw__original/img/w5YBWK-W_YLUPlbRGIX3O2h8zGE=/0x0/filters:format(jpeg)/pic8893820.jpg",
@@ -8337,10 +8370,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 40.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -10919,7 +10949,7 @@
     },
     {
       "objectId": 475347,
-      "itemid": 24422,
+      "itemid": 25435,
       "name": "CoverUp: Drakkard",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/ZgNwx0bQ6mxFHg11oHHAfg__original/img/Xkx3ZnW_m_UtWyVH1L8FzPw84WY=/0x0/filters:format(jpeg)/pic9704707.jpg",
@@ -10946,12 +10976,9 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 18.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": "3Q315",
-      "availability": "Demo",
+      "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
@@ -11792,6 +11819,65 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 450672,
+      "itemid": 25438,
+      "name": "Cyberpunk Legends",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/H5Bld9b8dAXTcOmyg48CEQ__original/img/Hf16K5Q1gRCEF-i21v7msLXSNbs=/0x0/filters:format(png)/pic9015071.png",
+      "thumbnail": "https://cf.geekdo-images.com/H5Bld9b8dAXTcOmyg48CEQ__small/img/DOTkKV71i9KSw1LWFW_nhaZlikM=/fit-in/200x150/filters:strip_icc()/pic9015071.png",
+      "link": "https://boardgamegeek.com/boardgame/450672",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 1.67,
+      "bggAverageRating": 8.95,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 19017,
+      "mechanics": [
+        "Card Play Conflict Resolution",
+        "Communication Limits",
+        "Cooperative Game",
+        "Deck Construction",
+        "Hand Management",
+        "Narrative Choice / Paragraph",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Stat Check Resolution",
+        "Storytelling",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "James Portnow"
+      ],
+      "artists": [
+        "Scott Balmer",
+        "Ben Bauchau",
+        "Cold Castle Studios",
+        "Sara Cooley",
+        "Rayven Studios"
+      ],
+      "publishers": [
+        "Night Crew Games",
+        "HIT Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Asmodee",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
     },
     {
       "objectId": 460036,
@@ -16434,6 +16520,51 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 439183,
+      "itemid": 25436,
+      "name": "Era of Pioneers",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/aqAOiP3-MZh5tmQMnI4HCA__original/img/icoMDyuEogpCB3_CnUdf5_eaJng=/0x0/filters:format(png)/pic8977335.png",
+      "thumbnail": "https://cf.geekdo-images.com/aqAOiP3-MZh5tmQMnI4HCA__small/img/lkxjV-fEnWKn5F203KniqDTEO-c=/fit-in/200x150/filters:strip_icc()/pic8977335.png",
+      "link": "https://boardgamegeek.com/boardgame/439183",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 2.75,
+      "bggAverageRating": 8.19,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Set Collection",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Jannik Auth"
+      ],
+      "artists": [
+        "Roman Kucharski"
+      ],
+      "publishers": [
+        "Steinbock Brettspiele"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "2C125",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+    },
+    {
       "objectId": 468791,
       "itemid": 24789,
       "name": "Escape from the Silken Web",
@@ -19372,7 +19503,7 @@
     },
     {
       "objectId": 458390,
-      "itemid": 25413,
+      "itemid": 24191,
       "name": "Forage",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/qII_JObHxyBh77FjVN-1vA__original/img/d_2R3Ak-0m-inXZ7RfR_jSgWdaY=/0x0/filters:format(png)/pic9225193.png",
@@ -24324,7 +24455,7 @@
     },
     {
       "objectId": 458391,
-      "itemid": 25412,
+      "itemid": 24192,
       "name": "Honeypot",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/1Kn9fhAWosnKaNGjwKgYGw__original/img/HysmRsgtt-34Q57R5G-Nfj30rr4=/0x0/filters:format(png)/pic9225195.png",
@@ -25695,7 +25826,7 @@
     },
     {
       "objectId": 446670,
-      "itemid": 25410,
+      "itemid": 24194,
       "name": "Into the Machine",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/w3SjRGug7FuhndIG38ZnRg__original/img/Hb6oX2Tqxh_uj6AogvVgMv214TQ=/0x0/filters:format(png)/pic8888055.png",
@@ -31593,6 +31724,53 @@
         }
       ],
       "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+    },
+    {
+      "objectId": 479939,
+      "itemid": 25437,
+      "name": "Lost & Found",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/gSCf-Wy3sOaEZuEyBZVoXw__original/img/VZ6ceMQby2QQkl_T5Q_6-CIWBlg=/0x0/filters:format(png)/pic9822096.png",
+      "thumbnail": "https://cf.geekdo-images.com/gSCf-Wy3sOaEZuEyBZVoXw__small/img/6zixRw6bSmGSp2Orra9VALN5CyI=/fit-in/200x150/filters:strip_icc()/pic9822096.png",
+      "link": "https://boardgamegeek.com/boardgame/479939",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 10,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Memory",
+        "Pattern Building",
+        "Solo / Solitaire Game"
+      ],
+      "designers": [
+        "Michiel de Wit"
+      ],
+      "artists": [
+        "Elise van Houten"
+      ],
+      "publishers": [
+        "Gam'inBIZ"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
     },
     {
       "objectId": 475207,
@@ -60129,7 +60307,7 @@
       "playingTime": 90,
       "recommendedAge": "12+",
       "weight": null,
-      "bggAverageRating": 8.25,
+      "bggAverageRating": 7.93,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -60172,7 +60350,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-24T03:47:16.381947+00:00"
+      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
     },
     {
       "objectId": 464235,
@@ -64520,7 +64698,7 @@
       "playingTime": 15,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 8.0,
+      "bggAverageRating": 7.57,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -64569,7 +64747,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-24T03:47:16.381947+00:00"
+      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
     }
   ]
 }
