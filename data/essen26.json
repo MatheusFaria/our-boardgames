@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-25T08:24:47.652849+00:00",
-  "itemCount": 1124,
-  "interestedCount": 248,
-  "noOneCount": 876,
+  "generatedAt": "2026-09-26T08:11:56.053185+00:00",
+  "itemCount": 1127,
+  "interestedCount": 249,
+  "noOneCount": 878,
   "items": [
     {
       "objectId": 474125,
@@ -3167,6 +3167,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -4062,6 +4068,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -4845,6 +4857,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -7325,6 +7343,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
@@ -7496,6 +7520,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -8656,6 +8686,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -9629,12 +9665,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
-          "notes": "preordered pay til oct 12"
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -9645,6 +9675,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": "preordered pay til oct 12"
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -10131,7 +10167,20 @@
       "price": null,
       "location": "2C230",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
     },
     {
@@ -11972,6 +12021,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
@@ -12083,6 +12138,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -12204,6 +12265,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -12657,6 +12724,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -15363,6 +15436,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
@@ -16948,6 +17027,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -18934,6 +19019,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
@@ -19103,6 +19194,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -19212,6 +19309,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -19771,6 +19874,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -19815,6 +19924,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -20318,7 +20433,7 @@
     },
     {
       "objectId": 471780,
-      "itemid": 25465,
+      "itemid": 25450,
       "name": "Foundation: Isaac Asimov",
       "yearPublished": null,
       "image": "https://cf.geekdo-images.com/eBIYl0X2MD4JLndoCQGDgQ__original/img/YtutRBdU-734R4KwK_VBZfIAwsY=/0x0/filters:format(jpeg)/pic9641704.jpg",
@@ -20359,6 +20474,12 @@
       "location": "2C230",
       "availability": "Demo",
       "interested": [
+        {
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -21689,9 +21810,9 @@
         },
         {
           "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "demo"
         },
         {
           "user": "JoyfulFicus",
@@ -22950,6 +23071,60 @@
       "thingFetchedAt": "2026-09-15T08:16:06.250038+00:00"
     },
     {
+      "objectId": 369627,
+      "itemid": 25478,
+      "name": "Grinivil",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1t7NM5xke-xXiYeTPkmqPg__original/img/0F9LRSpl_kpB0BHVyFH-bCzD2mc=/0x0/filters:format(jpeg)/pic9617337.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/1t7NM5xke-xXiYeTPkmqPg__small/img/WMKmPWzoBROEeQ3oae9QVayAgfw=/fit-in/200x150/filters:strip_icc()/pic9617337.jpg",
+      "link": "https://boardgamegeek.com/boardgame/369627",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 150,
+      "recommendedAge": "10+",
+      "weight": 3.71,
+      "bggAverageRating": 8.13,
+      "bggBayesAverageRating": 5.7,
+      "bggRank": 6461,
+      "mechanics": [
+        "Action Timer",
+        "Area Majority / Influence",
+        "Auction: Sealed Bid",
+        "Commodity Speculation",
+        "Dice Rolling",
+        "Market",
+        "Tile Placement",
+        "Variable Set-up",
+        "Victory Points as a Resource"
+      ],
+      "designers": [
+        "Rudy Priecinsky"
+      ],
+      "artists": [
+        "Rudy Priecinsky"
+      ],
+      "publishers": [
+        "RUDY3 Publishing"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 69.9,
+        "currency": "EUR"
+      },
+      "location": "H2E335",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
+    },
+    {
       "objectId": 469489,
       "itemid": 24554,
       "name": "Grizzo",
@@ -23516,6 +23691,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -24646,6 +24827,50 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 479174,
+      "itemid": 25473,
+      "name": "Hints and Tints",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/_9FC3_dMOhln0sYRDXKFcg__original/img/ArNNtovwbE6BzDQXW3-WGAOXpkc=/0x0/filters:format(jpeg)/pic9826439.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/_9FC3_dMOhln0sYRDXKFcg__small/img/9vbE0pXSflYWy5fR1XrKmFKGzMI=/fit-in/200x150/filters:strip_icc()/pic9826439.jpg",
+      "link": "https://boardgamegeek.com/boardgame/479174",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Deduction",
+        "Score-and-Reset Game",
+        "Targeted Clues"
+      ],
+      "designers": [
+        "Scott Brady"
+      ],
+      "artists": [],
+      "publishers": [
+        "The Op Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
+    },
+    {
       "objectId": 479041,
       "itemid": 25417,
       "name": "Hire or Fire",
@@ -24675,6 +24900,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -25931,6 +26162,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -26480,6 +26717,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JuhBass",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -26837,6 +27080,12 @@
       "interested": [
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -27612,16 +27861,16 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
-          "notes": "preordered pay til oct 12"
-        },
-        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": "preordered pay til oct 12"
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -28363,6 +28612,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -32184,6 +32439,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -32505,6 +32766,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
@@ -32728,6 +32995,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -35094,6 +35367,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -35634,6 +35913,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -36785,6 +37070,12 @@
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -36936,6 +37227,18 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
@@ -36976,6 +37279,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -37022,6 +37331,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -37409,6 +37724,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -38270,8 +38591,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -38814,7 +39135,7 @@
           "user": "JuhBass",
           "priority": 1,
           "priorityLabel": "Must Have",
-          "notes": "not paid\n50\ncomes down to random drawn tiles <-"
+          "notes": "DEMO BEFORE\nnot paid\n50\ngames guaranteed until Saturday, 24 October, 12:00 noon\ncomes down to random drawn tiles <-"
         },
         {
           "user": "JoyfulFicus",
@@ -41662,6 +41983,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -45324,6 +45651,52 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 207331,
+      "itemid": 25477,
+      "name": "Qork",
+      "yearPublished": 2016,
+      "image": "https://cf.geekdo-images.com/L_bFCnDalyWAwr4pF5URXA__original/img/WqrHDUzicUrUwlqjjfIL-zpQlIM=/0x0/filters:format(jpeg)/pic9418437.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/L_bFCnDalyWAwr4pF5URXA__small/img/kwMGekY1-EW4e0WJv7TdGHPom0Q=/fit-in/200x150/filters:strip_icc()/pic9418437.jpg",
+      "link": "https://boardgamegeek.com/boardgame/207331",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "playingTime": 25,
+      "recommendedAge": null,
+      "weight": 1.0,
+      "bggAverageRating": 7.25,
+      "bggBayesAverageRating": 5.63,
+      "bggRank": 8225,
+      "mechanics": [
+        "Dice Rolling",
+        "Speed Matching"
+      ],
+      "designers": [
+        "Birger Norup"
+      ],
+      "artists": [],
+      "publishers": [
+        "(Self-Published)",
+        "Game Factory",
+        "The Op Games",
+        "Reflexshop",
+        "Tranjis Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
     },
     {
       "objectId": 463097,
@@ -49565,8 +49938,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -49907,6 +50280,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -50288,6 +50667,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -50494,6 +50879,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
@@ -50686,7 +51077,7 @@
     },
     {
       "objectId": 268620,
-      "itemid": 25468,
+      "itemid": 25472,
       "name": "Similo",
       "yearPublished": 2019,
       "image": "https://cf.geekdo-images.com/fl0hNCmltu2hpcmXaVnmLg__original/img/1kS0DQYV4y8HQdAmSlNhOW01Lhg=/0x0/filters:format(png)/pic6417388.png",
@@ -50742,7 +51133,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": null,
+      "location": "6B115",
       "availability": "For Sale",
       "interested": [
         {
@@ -54520,69 +54911,6 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
-      "objectId": 401636,
-      "itemid": 24419,
-      "name": "Tacta",
-      "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/yJpVLQv5HdzV-0i5F3dF5g__original/img/ayovzEsEaw4gIJnl0nEyk3wPq0w=/0x0/filters:format(jpeg)/pic8758068.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/yJpVLQv5HdzV-0i5F3dF5g__small/img/DFwg5rs2sFfKEnRydOV7deLTvQY=/fit-in/200x150/filters:strip_icc()/pic8758068.jpg",
-      "link": "https://boardgamegeek.com/boardgame/401636",
-      "minPlayers": 2,
-      "maxPlayers": 6,
-      "playingTime": null,
-      "recommendedAge": "7+",
-      "weight": 1.33,
-      "bggAverageRating": 6.67,
-      "bggBayesAverageRating": 6.07,
-      "bggRank": 2870,
-      "mechanics": [
-        "Area Majority / Influence",
-        "Connections",
-        "Enclosure",
-        "Layering",
-        "Matching",
-        "Solo / Solitaire Game",
-        "Tile Placement",
-        "Tug of War",
-        "Variable Set-up"
-      ],
-      "designers": [
-        "Jason Tremblay"
-      ],
-      "artists": [],
-      "publishers": [
-        "The Op Games",
-        "(Self-Published)",
-        "Blackrock Games"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": null,
-      "location": null,
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "Alem0nes",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "JuhBass",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
-    },
-    {
       "objectId": 460556,
       "itemid": 25331,
       "name": "Tag Team: Arthur's Legacy",
@@ -54978,7 +55306,7 @@
           "notes": null
         },
         {
-          "user": "Alem0nes",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -56171,10 +56499,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 15.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -57573,6 +57898,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -58313,7 +58644,7 @@
     },
     {
       "objectId": 468730,
-      "itemid": 25467,
+      "itemid": 25452,
       "name": "The Way We Collect",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/0DTNHldN2nsPJ-8dxw-TAw__original/img/07jydI9HFN-uzJFDAqQHjNwcFWU=/0x0/filters:format(jpeg)/pic9526017.jpg",
@@ -58360,6 +58691,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -59381,6 +59718,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -62097,6 +62440,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -62427,11 +62776,17 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "6-B300",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -64235,6 +64590,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -64342,6 +64703,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -65450,6 +65817,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
@@ -65504,6 +65877,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -65910,6 +66289,44 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 475282,
+      "itemid": 25479,
+      "name": "\u67f4\u5fa1\u6bbf (Shiba Goten)",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/hP9aPQoks19dgM4sIqBAhA__original/img/w_BeJ2XuUJwrZ4b0ihjXZUHG6JY=/0x0/filters:format(png)/pic9809008.png",
+      "thumbnail": "https://cf.geekdo-images.com/hP9aPQoks19dgM4sIqBAhA__small/img/v7NQaYxef_iuQG-GIzAcHI7GqCk=/fit-in/200x150/filters:strip_icc()/pic9809008.png",
+      "link": "https://boardgamegeek.com/boardgame/475282",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "6+",
+      "weight": null,
+      "bggAverageRating": 5.8,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Open Drafting"
+      ],
+      "designers": [
+        "Aki Watakabe (\u308f\u305f\u304b\u3079\u3042\u304d)",
+        "Yuji Matsuki"
+      ],
+      "artists": [],
+      "publishers": [
+        "(Self-Published)"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "location": "Japan",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
     },
     {
       "objectId": 477354,
