@@ -23,7 +23,7 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-26T08:11:56.053185+00:00",
+  "generatedAt": "2026-09-27T08:49:22.651460+00:00",
   "itemCount": 1127,
   "interestedCount": 249,
   "noOneCount": 878,
@@ -2082,7 +2082,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 476809,
@@ -2349,7 +2349,7 @@
       "playingTime": 200,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 9.44,
+      "bggAverageRating": 8.96,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [],
@@ -2359,7 +2359,8 @@
       "artists": [],
       "publishers": [
         "Feuerland Spiele",
-        "Capstone Games"
+        "Capstone Games",
+        "Cranio Creations"
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
@@ -2386,7 +2387,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 474854,
@@ -5543,7 +5544,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 474661,
@@ -9038,7 +9039,7 @@
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 6.0,
+      "bggAverageRating": 7.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -9074,7 +9075,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 462396,
@@ -9239,12 +9240,6 @@
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        },
-        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -9252,6 +9247,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -9733,7 +9734,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 465849,
@@ -10608,9 +10609,9 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 6.27,
+      "bggAverageRating": 6.13,
       "bggBayesAverageRating": 5.51,
-      "bggRank": 22836,
+      "bggRank": 22755,
       "mechanics": [
         "Memory"
       ],
@@ -10644,7 +10645,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 463016,
@@ -10900,7 +10901,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 463741,
@@ -13122,9 +13123,9 @@
         },
         {
           "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "demo"
         },
         {
           "user": "ParadoxBard",
@@ -13371,7 +13372,7 @@
       "playingTime": 30,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 8.0,
+      "bggAverageRating": 8.83,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [],
@@ -13403,7 +13404,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 466776,
@@ -15342,15 +15343,15 @@
       "itemid": 25179,
       "name": "Dungeon Cube",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/8-7oJqs7g2rkSyU_TUh_ew__original/img/X3x8w7K9FTdvo4pE-SrbejD5OdI=/0x0/filters:format(jpeg)/pic8007830.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/8-7oJqs7g2rkSyU_TUh_ew__small/img/8ZnggsptjZZnndsITXXwXame03Y=/fit-in/200x150/filters:strip_icc()/pic8007830.jpg",
+      "image": "https://cf.geekdo-images.com/_F32_FOLw1B9hMd5HCc4ng__original/img/PCCCbWNYmAdTQWk_KAEWCaZzKlo=/0x0/filters:format(png)/pic9773407.png",
+      "thumbnail": "https://cf.geekdo-images.com/_F32_FOLw1B9hMd5HCc4ng__small/img/gn4PQAtyUHhSROCzNUz_JJwLssk=/fit-in/200x150/filters:strip_icc()/pic9773407.png",
       "link": "https://boardgamegeek.com/boardgame/386058",
       "minPlayers": 1,
       "maxPlayers": 6,
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 10.0,
+      "bggAverageRating": 8.2,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [],
@@ -15386,7 +15387,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 433139,
@@ -16041,6 +16042,7 @@
       ],
       "publishers": [
         "Hobby World",
+        "Lifestyle Boardgames Ltd",
         "Red Cat Games"
       ],
       "subtype": "boardgame",
@@ -16062,7 +16064,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 477517,
@@ -16109,7 +16111,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 316704,
@@ -18783,9 +18785,9 @@
       "maxPlayers": 5,
       "playingTime": 60,
       "recommendedAge": "14+",
-      "weight": 2.33,
-      "bggAverageRating": 8.15,
-      "bggBayesAverageRating": 5.76,
+      "weight": 2.43,
+      "bggAverageRating": 8.17,
+      "bggBayesAverageRating": 5.8,
       "bggRank": null,
       "mechanics": [],
       "designers": [
@@ -18832,7 +18834,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 472706,
@@ -19569,10 +19571,10 @@
       "maxPlayers": 4,
       "playingTime": 120,
       "recommendedAge": "10+",
-      "weight": 2.2,
-      "bggAverageRating": 7.9,
+      "weight": 2.17,
+      "bggAverageRating": 7.92,
       "bggBayesAverageRating": 5.57,
-      "bggRank": 11653,
+      "bggRank": 11183,
       "mechanics": [
         "Area Movement",
         "Contracts",
@@ -19621,7 +19623,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 473739,
@@ -22700,7 +22702,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 475369,
@@ -22770,8 +22772,8 @@
       "maxPlayers": 4,
       "playingTime": 160,
       "recommendedAge": "14+",
-      "weight": 3.33,
-      "bggAverageRating": 8.68,
+      "weight": 3.5,
+      "bggAverageRating": 8.47,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -22781,12 +22783,16 @@
         "Christos Giannakoulas",
         "Manolis Zachariadis"
       ],
-      "artists": [],
+      "artists": [
+        "Maurice Mosqua",
+        "Martin Mottet"
+      ],
       "publishers": [
         "Feuerland Spiele",
         "Capstone Games",
         "Cranio Creations",
-        "G\u00e9mklub"
+        "G\u00e9mklub",
+        "Super Meeple"
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
@@ -22825,7 +22831,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 462605,
@@ -24308,9 +24314,9 @@
       "playingTime": 60,
       "recommendedAge": "12+",
       "weight": 3.33,
-      "bggAverageRating": 7.78,
+      "bggAverageRating": 7.76,
       "bggBayesAverageRating": 5.53,
-      "bggRank": 17563,
+      "bggRank": 16844,
       "mechanics": [
         "Action Queue",
         "Area Movement",
@@ -24353,7 +24359,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 353174,
@@ -32655,7 +32661,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 421595,
@@ -34790,7 +34796,9 @@
       "designers": [
         "Kristin Dittmann"
       ],
-      "artists": [],
+      "artists": [
+        "Marielle Rusche"
+      ],
       "publishers": [
         "HABA"
       ],
@@ -34816,7 +34824,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 475188,
@@ -36396,7 +36404,7 @@
       "playingTime": 45,
       "recommendedAge": "7+",
       "weight": null,
-      "bggAverageRating": 9.0,
+      "bggAverageRating": 8.8,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -36441,7 +36449,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 361232,
@@ -37085,8 +37093,8 @@
       "itemid": 25161,
       "name": "Munchkin Warhammer 40,000: Super Mega Set",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "image": "https://cf.geekdo-images.com/Q6hfZ8vRpThiKzV1SqX_OQ__original/img/Kuf10hNlwT8g-kHa8w5zAaqjm7o=/0x0/filters:format(jpeg)/pic9773121.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Q6hfZ8vRpThiKzV1SqX_OQ__small/img/DkQJiLWLh_rf-ykYuIK1QB6MfBw=/fit-in/200x150/filters:strip_icc()/pic9773121.jpg",
       "link": "https://boardgamegeek.com/boardgame/477349",
       "minPlayers": 3,
       "maxPlayers": 6,
@@ -37128,7 +37136,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 454650,
@@ -40321,15 +40329,15 @@
       "itemid": 25147,
       "name": "Of Mice and Mazes",
       "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/OWI_l3o3zBlC6qNXM7kj3A__original/img/lJph6SfbH-8fJGV5rbKmS03XCos=/0x0/filters:format(jpeg)/pic9665650.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/OWI_l3o3zBlC6qNXM7kj3A__small/img/lCvp4Zt1sLEzuAgILiV-nm99tEU=/fit-in/200x150/filters:strip_icc()/pic9665650.jpg",
+      "image": "https://cf.geekdo-images.com/RXCQTzrZ9kFQ5i1Pp6D4mg__original/img/z2RDwPspJRbsKdB5XLwiTuFXEdE=/0x0/filters:format(jpeg)/pic9785944.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/RXCQTzrZ9kFQ5i1Pp6D4mg__small/img/aVz5okFio21eL1mEahlMBnHMXqI=/fit-in/200x150/filters:strip_icc()/pic9785944.jpg",
       "link": "https://boardgamegeek.com/boardgame/473722",
       "minPlayers": 2,
       "maxPlayers": 3,
       "playingTime": 70,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 7.25,
+      "bggAverageRating": 7.29,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -40368,7 +40376,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 470814,
@@ -41493,9 +41501,9 @@
       "playingTime": 180,
       "recommendedAge": "12+",
       "weight": 3.67,
-      "bggAverageRating": 8.01,
-      "bggBayesAverageRating": 5.55,
-      "bggRank": 13748,
+      "bggAverageRating": 7.84,
+      "bggBayesAverageRating": 5.54,
+      "bggRank": 14237,
       "mechanics": [
         "Area Majority / Influence",
         "Card Play Conflict Resolution",
@@ -41543,7 +41551,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 423579,
@@ -42777,7 +42785,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 478816,
@@ -43949,8 +43957,8 @@
       "itemid": 25139,
       "name": "Pixie Time: Promo Tile \"Sticky Slime\"",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "image": "https://cf.geekdo-images.com/ryCdIEmu198SxhS8uLBJbg__original/img/EW2lIopqMctFQ5iJZw7NTe2Pt2Y=/0x0/filters:format(png)/pic9771176.png",
+      "thumbnail": "https://cf.geekdo-images.com/ryCdIEmu198SxhS8uLBJbg__small/img/e_GFZ6T7amOyAyDSFSLgMvtUezI=/fit-in/200x150/filters:strip_icc()/pic9771176.png",
       "link": "https://boardgamegeek.com/boardgame/477979",
       "minPlayers": 2,
       "maxPlayers": 6,
@@ -44005,7 +44013,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 476293,
@@ -49131,7 +49139,7 @@
       "playingTime": 15,
       "recommendedAge": "12+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 7.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -49166,7 +49174,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 470738,
@@ -51655,7 +51663,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 444238,
@@ -51957,7 +51965,7 @@
       "playingTime": 60,
       "recommendedAge": "12+",
       "weight": null,
-      "bggAverageRating": 7.0,
+      "bggAverageRating": 8.29,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -51998,7 +52006,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 476170,
@@ -54089,7 +54097,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 472281,
@@ -54666,7 +54674,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 469480,
@@ -57495,7 +57503,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 465470,
@@ -57549,7 +57557,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 465472,
@@ -57603,7 +57611,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 465471,
@@ -57657,7 +57665,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 357873,
@@ -58524,7 +58532,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 449725,
@@ -58946,7 +58954,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 453282,
@@ -61707,7 +61715,7 @@
       "playingTime": 40,
       "recommendedAge": "12+",
       "weight": 2.0,
-      "bggAverageRating": 8.7,
+      "bggAverageRating": 8.54,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -61743,7 +61751,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 449450,
@@ -61929,10 +61937,10 @@
       "maxPlayers": 6,
       "playingTime": 180,
       "recommendedAge": "14+",
-      "weight": 2.33,
-      "bggAverageRating": 8.18,
-      "bggBayesAverageRating": 7.38,
-      "bggRank": 186,
+      "weight": 2.34,
+      "bggAverageRating": 8.16,
+      "bggBayesAverageRating": 7.39,
+      "bggRank": 181,
       "mechanics": [
         "Cooperative Game",
         "Dice Rolling",
@@ -61982,7 +61990,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 447488,
@@ -62686,9 +62694,9 @@
       "maxPlayers": 6,
       "playingTime": 120,
       "recommendedAge": "14+",
-      "weight": 3.31,
-      "bggAverageRating": 8.53,
-      "bggBayesAverageRating": 6.05,
+      "weight": 3.32,
+      "bggAverageRating": 8.49,
+      "bggBayesAverageRating": 6.09,
       "bggRank": null,
       "mechanics": [
         "Market",
@@ -62734,7 +62742,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 447583,
@@ -62776,7 +62784,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": null,
+      "location": "6-B300",
       "availability": "For Sale",
       "interested": [
         {
@@ -64306,9 +64314,9 @@
       "maxPlayers": 5,
       "playingTime": 90,
       "recommendedAge": "14+",
-      "weight": 2.63,
-      "bggAverageRating": 8.45,
-      "bggBayesAverageRating": 6.32,
+      "weight": 2.65,
+      "bggAverageRating": 8.44,
+      "bggBayesAverageRating": 6.37,
       "bggRank": null,
       "mechanics": [
         "Hand Management",
@@ -64363,7 +64371,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 471469,
@@ -64378,8 +64386,8 @@
       "playingTime": 70,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 8.04,
-      "bggBayesAverageRating": null,
+      "bggAverageRating": 8.07,
+      "bggBayesAverageRating": 5.53,
       "bggRank": null,
       "mechanics": [],
       "designers": [
@@ -64403,6 +64411,8 @@
         "Wilhelm von Wright"
       ],
       "publishers": [
+        "999 Games",
+        "Automa Factory",
         "Delta Vision Publishing",
         "Feuerland Spiele",
         "Ghenos Games",
@@ -64434,7 +64444,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-27T13:26:13.690112+00:00"
+      "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
     },
     {
       "objectId": 474481,
@@ -64787,12 +64797,6 @@
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -64800,6 +64804,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
