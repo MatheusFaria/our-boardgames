@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-27T08:49:22.651460+00:00",
-  "itemCount": 1127,
-  "interestedCount": 249,
-  "noOneCount": 878,
+  "generatedAt": "2026-09-28T09:12:57.684170+00:00",
+  "itemCount": 1132,
+  "interestedCount": 241,
+  "noOneCount": 891,
   "items": [
     {
       "objectId": 474125,
@@ -4080,6 +4080,59 @@
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
     },
     {
+      "objectId": 448433,
+      "itemid": 25484,
+      "name": "Astraios: Starlight",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/A8sJBAp1qX-Ojj_Wy4wkPg__original/img/gK3Un3ivqsGzg98ee5oNKhwtU14=/0x0/filters:format(jpeg)/pic8943882.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/A8sJBAp1qX-Ojj_Wy4wkPg__small/img/0ZXCvhF_Efng5kj3ElD9w_mkzeM=/fit-in/200x150/filters:strip_icc()/pic8943882.jpg",
+      "link": "https://boardgamegeek.com/boardgame/448433",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 6.64,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Enclosure",
+        "Team-Based Game",
+        "Tile Placement"
+      ],
+      "designers": [
+        "\u30b3\u30c8\u30ea (Kotori)"
+      ],
+      "artists": [
+        "\u30b3\u30c8\u30ea (Kotori)",
+        "Rocinante Urabe"
+      ],
+      "publishers": [
+        "PhantomLab",
+        "Yaofish Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5M525",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
+    },
+    {
       "objectId": 305949,
       "itemid": 25250,
       "name": "AstroNavigators",
@@ -6774,8 +6827,8 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -7216,8 +7269,8 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -7622,12 +7675,6 @@
       "availability": "Demo",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
@@ -7637,6 +7684,12 @@
           "user": "JuhBass",
           "priority": 3,
           "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -8844,8 +8897,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -16767,8 +16820,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -24546,6 +24599,59 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 479944,
+      "itemid": 25480,
+      "name": "Hidden Thieves",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/NOMxBYHqa-tsKiIibrka2A__original/img/DZX9bdF09p_gbqDSyN-VCTkifG4=/0x0/filters:format(png)/pic9822116.png",
+      "thumbnail": "https://cf.geekdo-images.com/NOMxBYHqa-tsKiIibrka2A__small/img/hQ1VHUyC_gtzGs8FLybbz4WLzA4=/fit-in/200x150/filters:strip_icc()/pic9822116.png",
+      "link": "https://boardgamegeek.com/boardgame/479944",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Auction: Multiple Lot",
+        "Auction: Sealed Bid",
+        "End Game Bonuses",
+        "Secret Unit Deployment",
+        "Set Collection",
+        "Take That",
+        "Turn Order: Auction"
+      ],
+      "designers": [
+        "Abdulaziz Aljazzaf"
+      ],
+      "artists": [],
+      "publishers": [
+        "Dream Alley Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5.J400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
+    },
+    {
       "objectId": 467758,
       "itemid": 24170,
       "name": "High Five",
@@ -31406,7 +31512,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
     },
     {
       "objectId": 475376,
@@ -32030,7 +32136,7 @@
       "weight": 1.0,
       "bggAverageRating": 6.07,
       "bggBayesAverageRating": 5.53,
-      "bggRank": 17651,
+      "bggRank": 17746,
       "mechanics": [
         "Dice Rolling",
         "Set Collection"
@@ -32067,7 +32173,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
     },
     {
       "objectId": 463664,
@@ -36287,6 +36393,58 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 281311,
+      "itemid": 25482,
+      "name": "Monster Decoy",
+      "yearPublished": 2019,
+      "image": "https://cf.geekdo-images.com/6kC_Ls12_Zmqakab_ADk7Q__original/img/sbYXE91hVrCvJCvD6-9hBVr162w=/0x0/filters:format(jpeg)/pic9475651.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/6kC_Ls12_Zmqakab_ADk7Q__small/img/4mJeGS_bbTGCumF8oohHx3QnjEM=/fit-in/200x150/filters:strip_icc()/pic9475651.jpg",
+      "link": "https://boardgamegeek.com/boardgame/281311",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 45,
+      "recommendedAge": "6+",
+      "weight": 1.0,
+      "bggAverageRating": 6.96,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Enclosure",
+        "Team-Based Game",
+        "Tile Placement"
+      ],
+      "designers": [
+        "\u30b3\u30c8\u30ea (Kotori)"
+      ],
+      "artists": [
+        "\u30b3\u30c8\u30ea (Kotori)",
+        "Rocinante Urabe"
+      ],
+      "publishers": [
+        "PhantomLab"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5M525",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
+    },
+    {
       "objectId": 475437,
       "itemid": 24489,
       "name": "Monster Max",
@@ -37074,15 +37232,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "JuhBass",
           "priority": 3,
           "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -38660,8 +38818,8 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -40010,13 +40168,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -42477,8 +42635,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -43051,16 +43209,16 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": "It won't be available on Essen"
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         },
         {
           "user": "Alem0nes",
@@ -46425,8 +46583,8 @@
       "playingTime": 40,
       "recommendedAge": "14+",
       "weight": 2.0,
-      "bggAverageRating": 8.43,
-      "bggBayesAverageRating": 6.01,
+      "bggAverageRating": 8.42,
+      "bggBayesAverageRating": 6.02,
       "bggRank": null,
       "mechanics": [
         "Action Points",
@@ -46475,7 +46633,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
     },
     {
       "objectId": 448159,
@@ -48984,8 +49142,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -51913,7 +52071,7 @@
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 7.0,
+      "bggAverageRating": 8.33,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -51950,7 +52108,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
     },
     {
       "objectId": 473726,
@@ -52763,8 +52921,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -52888,6 +53046,58 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 467808,
+      "itemid": 25483,
+      "name": "Spot Me Gaffer!",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/4u7BQiPZdJ8cZpI2h9synQ__original/img/ROA75YGESzFYs_UfliEWVdneaGM=/0x0/filters:format(jpeg)/pic9533145.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/4u7BQiPZdJ8cZpI2h9synQ__small/img/7unNWD_NeVSpwKXxnQIADm-ke3Y=/fit-in/200x150/filters:strip_icc()/pic9533145.jpg",
+      "link": "https://boardgamegeek.com/boardgame/467808",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 10,
+      "recommendedAge": "7+",
+      "weight": null,
+      "bggAverageRating": 6.74,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Ladder Climbing",
+        "Layering",
+        "Pattern Building",
+        "Real-Time"
+      ],
+      "designers": [
+        "\u30b3\u30c8\u30ea (Kotori)"
+      ],
+      "artists": [
+        "\u30b3\u30c8\u30ea (Kotori)"
+      ],
+      "publishers": [
+        "PhantomLab"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5M525",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
     },
     {
       "objectId": 472269,
@@ -55221,7 +55431,7 @@
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 8.54,
+      "bggAverageRating": 8.28,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -55261,7 +55471,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-08-28T14:46:00.285782+00:00"
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
     },
     {
       "objectId": 468569,
@@ -59318,6 +59528,75 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 426869,
+      "itemid": 25481,
+      "name": "Tikal Legend",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/bq1ATGg_72nyaph9B66dbQ__original/img/icRpN_RcO7k-0kv__Nj3aqyCHuY=/0x0/filters:format(jpeg)/pic8367488.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/bq1ATGg_72nyaph9B66dbQ__small/img/zqYNpJHQPMtWZ9GkUffxc8q4OC4=/fit-in/200x150/filters:strip_icc()/pic8367488.jpg",
+      "link": "https://boardgamegeek.com/boardgame/426869",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 180,
+      "recommendedAge": "14+",
+      "weight": 3.17,
+      "bggAverageRating": 8.11,
+      "bggBayesAverageRating": 5.57,
+      "bggRank": 11354,
+      "mechanics": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Grid Movement",
+        "Hexagon Grid",
+        "Layering",
+        "Map Addition",
+        "Modular Board",
+        "Once-Per-Game Abilities",
+        "Open Drafting",
+        "Set Collection",
+        "Tile Placement",
+        "Variable Set-up",
+        "Worker Placement, Different Worker Types"
+      ],
+      "designers": [
+        "Michael Kiesling",
+        "Wolfgang Kramer"
+      ],
+      "artists": [
+        "Yvan \"Gawain\" Villeneuve"
+      ],
+      "publishers": [
+        "Super Meeple"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "Alem0nes",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
+    },
+    {
       "objectId": 474251,
       "itemid": 24338,
       "name": "Time of Your Life",
@@ -59834,8 +60113,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -60009,8 +60288,8 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -65178,13 +65457,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -66335,7 +66614,14 @@
       },
       "location": "Japan",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
     },
     {
