@@ -4,6 +4,7 @@ const SORT_OPTIONS = [
   { key: "wishlist", label: "Wishlist first", defaultDirection: "asc" },
   { key: "startingBid", label: "Starting bid", defaultDirection: "asc" },
   { key: "bin", label: "BIN", defaultDirection: "asc" },
+  { key: "auctionEnds", label: "Auction ends", defaultDirection: "asc" },
   { key: "name", label: "Name", defaultDirection: "asc" },
   { key: "offerCount", label: "Most offers", defaultDirection: "desc" },
 ];
@@ -346,6 +347,16 @@ function cheapestOfferValue(item, field) {
   return best;
 }
 
+function earliestAuctionEndValue(item) {
+  let best = null;
+  for (const offer of item.offers || []) {
+    const date = parseAuctionEndDate(offer.auctionEnds);
+    if (!date) continue;
+    if (best === null || date < best) best = date;
+  }
+  return best ? best.getTime() : null;
+}
+
 function sortValueForItem(item, key) {
   switch (key) {
     case "wishlist":
@@ -354,6 +365,8 @@ function sortValueForItem(item, key) {
       return cheapestOfferValue(item, "startingBid");
     case "bin":
       return cheapestOfferValue(item, "bin");
+    case "auctionEnds":
+      return earliestAuctionEndValue(item);
     case "name":
       return (item.name || "").toLowerCase();
     case "offerCount":
