@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-09-30T09:11:41.570401+00:00",
-  "itemCount": 1160,
-  "interestedCount": 232,
-  "noOneCount": 928,
+  "generatedAt": "2026-10-01T09:39:10.071803+00:00",
+  "itemCount": 1166,
+  "interestedCount": 231,
+  "noOneCount": 935,
   "items": [
     {
       "objectId": 474125,
@@ -1980,6 +1980,54 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 281257,
+      "itemid": 25525,
+      "name": "Aeolis",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/5MyJD1jK98FgRGx8Nzm2Nw__original/img/lzea0Y4oIugYNcdBPi9-oVfEl1I=/0x0/filters:format(jpeg)/pic4981230.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/5MyJD1jK98FgRGx8Nzm2Nw__small/img/SWYHdFv3-j5lFDDEcMZ3_Pz0l-Y=/fit-in/200x150/filters:strip_icc()/pic4981230.jpg",
+      "link": "https://boardgamegeek.com/boardgame/281257",
+      "minPlayers": 1,
+      "maxPlayers": 7,
+      "playingTime": 120,
+      "recommendedAge": "18+",
+      "weight": 2.83,
+      "bggAverageRating": 7.87,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17029,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Campaign / Battle Card Driven",
+        "Cooperative Game",
+        "Dice Rolling",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Aiollus"
+      ],
+      "artists": [
+        "Rafael Dioli",
+        "Vaggelis Manousakas"
+      ],
+      "publishers": [
+        "Dreamcraft Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
+    },
+    {
       "objectId": 242705,
       "itemid": 24534,
       "name": "Aeon Trespass: Odyssey",
@@ -2425,7 +2473,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 15.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -4507,6 +4558,57 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 479143,
+      "itemid": 25526,
+      "name": "Avatar: The Last Airbender \u2013 Hit",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/PMKVzXGBBGW14hBMbvWlGw__original/img/DVRrFnPW6ziR9QAcMDc65HlmDEw=/0x0/filters:format(jpeg)/pic9802107.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/PMKVzXGBBGW14hBMbvWlGw__small/img/7BPuUdIC_R5CsmMQvFzXUn_WsUQ=/fit-in/200x150/filters:strip_icc()/pic9802107.jpg",
+      "link": "https://boardgamegeek.com/boardgame/479143",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 100,
+      "recommendedAge": "12+",
+      "weight": 3.0,
+      "bggAverageRating": 7.9,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Points",
+        "Card Play Conflict Resolution",
+        "Cooperative Game",
+        "Deck Construction",
+        "Hand Management",
+        "Move Through Deck",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Jacobo Fernandez-Vargas",
+        "Andr\u00e9s Garc\u00eda Carabantes"
+      ],
+      "artists": [],
+      "publishers": [
+        "Momiji Publishing"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "1D625",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
+    },
+    {
       "objectId": 469223,
       "itemid": 24176,
       "name": "Axia: Slayer Combo",
@@ -6036,7 +6138,7 @@
           "user": "JuhBass",
           "priority": 1,
           "priorityLabel": "Must Have",
-          "notes": "pre ordered must pay before Oct 12th"
+          "notes": "paid"
         },
         {
           "user": "Ragasil",
@@ -6842,7 +6944,7 @@
     },
     {
       "objectId": 474431,
-      "itemid": 24738,
+      "itemid": 25519,
       "name": "Boss Fighters QR: Jungle Fever",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/iPBLr7p57T5prFK3cOZpIQ__original/img/R8FUO9rmPPIXP7WxIX4IssFRebM=/0x0/filters:format(jpeg)/pic9684069.jpg",
@@ -9931,12 +10033,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -9944,6 +10040,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -15766,6 +15868,54 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 480328,
+      "itemid": 25518,
+      "name": "Drops Of Evil: Dishonest Gambler Assistant Promo Tile",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/J48tm0pFAg27AjaOu429lA__original/img/pazTNYFsxG6LBYCVCYvHKXR0ruc=/0x0/filters:format(png)/pic9834277.png",
+      "thumbnail": "https://cf.geekdo-images.com/J48tm0pFAg27AjaOu429lA__small/img/6uvbgmTi3agmPkvhWLMtQPJl5fE=/fit-in/200x150/filters:strip_icc()/pic9834277.png",
+      "link": "https://boardgamegeek.com/boardgame/480328",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 60,
+      "recommendedAge": null,
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Hjalmar Hach",
+        "Lorenzo Silva"
+      ],
+      "artists": [
+        "Weberson Santiago"
+      ],
+      "publishers": [
+        "Horrible Guild"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "6B115",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
+    },
+    {
       "objectId": 440609,
       "itemid": 25069,
       "name": "Duat",
@@ -15836,10 +15986,10 @@
       "maxPlayers": 2,
       "playingTime": 45,
       "recommendedAge": "14+",
-      "weight": 3.65,
+      "weight": 3.6,
       "bggAverageRating": 7.71,
-      "bggBayesAverageRating": 5.72,
-      "bggRank": 5976,
+      "bggBayesAverageRating": 5.76,
+      "bggRank": 5324,
       "mechanics": [
         "Card Play Conflict Resolution",
         "Hexagon Grid",
@@ -15877,7 +16027,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
     },
     {
       "objectId": 386058,
@@ -16589,7 +16739,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "6.H110",
+      "location": "6-H110",
       "availability": "Demo",
       "interested": [
         {
@@ -19162,14 +19312,17 @@
         "Hope S. Hwang",
         "Gary Kim"
       ],
-      "artists": [],
+      "artists": [
+        "Marie Merkh"
+      ],
       "publishers": [
-        "Red Cat Games"
+        "Red Cat Games",
+        "Lifestyle Boardgames Ltd"
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "6.H110",
+      "location": "6-H110",
       "availability": "Demo",
       "interested": [
         {
@@ -19185,7 +19338,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
     },
     {
       "objectId": 428280,
@@ -19352,7 +19505,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -19749,7 +19905,7 @@
     },
     {
       "objectId": 478824,
-      "itemid": 25276,
+      "itemid": 25522,
       "name": "Flamme Rouge: Champion Edition",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/vr2oso8IQlX_nCqaeSs5mw__original/img/8gtb0qaHSAlIb8MnbB4cVsr5Osw=/0x0/filters:format(jpeg)/pic9792908.jpg",
@@ -19788,7 +19944,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "2-C520",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -23437,7 +23593,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 70.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -25614,7 +25773,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "E7-111",
+      "location": "7-E111",
       "availability": "For Sale",
       "interested": [
         {
@@ -30304,7 +30463,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "E7-111",
+      "location": "7-E111",
       "availability": "For Sale",
       "interested": [
         {
@@ -44183,7 +44342,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "6.H110",
+      "location": "6-H110",
       "availability": "For Sale",
       "interested": [
         {
@@ -44394,7 +44553,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "E7-111",
+      "location": "7-E111",
       "availability": "For Sale",
       "interested": [
         {
@@ -46477,8 +46636,8 @@
       "interested": [
         {
           "user": "Ragasil",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -47945,6 +48104,58 @@
         }
       ],
       "thingFetchedAt": "2026-09-28T09:12:57.214893+00:00"
+    },
+    {
+      "objectId": 475545,
+      "itemid": 25527,
+      "name": "Ragnarok the Board Game: Ceremony of Prontera",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/0hgcSEAUZOY7R8PWolw-Kg__original/img/gUIi52pgcD3zrcnJ3VniqONHCHQ=/0x0/filters:format(jpeg)/pic9742415.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/0hgcSEAUZOY7R8PWolw-Kg__small/img/7M8zOQje-7w0krsmLCUxaRoEsOM=/fit-in/200x150/filters:strip_icc()/pic9742415.jpg",
+      "link": "https://boardgamegeek.com/boardgame/475545",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "14+",
+      "weight": 3.0,
+      "bggAverageRating": 10.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Queue",
+        "Cooperative Game",
+        "Dice Rolling",
+        "Grid Movement",
+        "Hand Management",
+        "Modular Board",
+        "Multiple Maps",
+        "Role Playing",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Pitsanu Satrulee"
+      ],
+      "artists": [],
+      "publishers": [
+        "Siam Board Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Hall 5, 5G400, Siam Board Games",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
     },
     {
       "objectId": 448159,
@@ -49800,6 +50011,48 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 480398,
+      "itemid": 25517,
+      "name": "Road Master: AS24 \"+1\"",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "link": "https://boardgamegeek.com/boardgame/480398",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 45,
+      "recommendedAge": "7+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Once-Per-Game Abilities",
+        "Pick-up and Deliver"
+      ],
+      "designers": [
+        "Jean-Christophe Bouvier"
+      ],
+      "artists": [],
+      "publishers": [
+        "BOUVIER international"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "2B630",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
+    },
+    {
       "objectId": 476571,
       "itemid": 24937,
       "name": "Road Master: Dock'n'Roll",
@@ -51646,7 +51899,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "E7-111",
+      "location": "7-E111",
       "availability": "For Sale",
       "interested": [
         {
@@ -54184,7 +54437,7 @@
     },
     {
       "objectId": 476849,
-      "itemid": 24941,
+      "itemid": 25521,
       "name": "Spirits of Valenor",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/g1Wk1pRFe3yqgXmUbMOgAA__original/img/_HEIAXJc0E-Wok2FzO83xTjjsHg=/0x0/filters:format(jpeg)/pic9773123.jpg",
@@ -56282,7 +56535,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "6.H110",
+      "location": "6-H110",
       "availability": "Demo",
       "interested": [
         {
@@ -62804,7 +63057,7 @@
       "playingTime": 15,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 9.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -62819,7 +63072,9 @@
         "Morten Baun M\u00f8ller",
         "Morten Skovhus"
       ],
-      "artists": [],
+      "artists": [
+        "Leif Bj\u00f8rn Daigdigan-Rasmussen"
+      ],
       "publishers": [
         "Game Inventors"
       ],
@@ -62842,7 +63097,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
     },
     {
       "objectId": 327396,
@@ -63666,7 +63921,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 90.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -64466,7 +64724,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 20.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -65057,7 +65318,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 60.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -65080,7 +65344,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-01T08:10:30.856260+00:00"
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
     },
     {
       "objectId": 346142,
@@ -66095,7 +66359,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -66168,7 +66435,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 35.0,
+        "currency": "EUR"
+      },
       "location": "3Q300",
       "availability": "For Sale",
       "interested": [
@@ -66250,8 +66520,48 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 480337,
+      "itemid": 25528,
+      "name": "Wireless: Mini Expansion I",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/dPLz1ZmJTlcO-hBhkLbpwA__original/img/aRGzJE0PX9RZb78rRcM85vR8OFs=/0x0/filters:format(jpeg)/pic9834152.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/dPLz1ZmJTlcO-hBhkLbpwA__small/img/NumeNfdDXsHxN1dkiBL00cC0VCM=/fit-in/200x150/filters:strip_icc()/pic9834152.jpg",
+      "link": "https://boardgamegeek.com/boardgame/480337",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": null,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Marco Canetta",
+        "Stefania Niccolini"
+      ],
+      "artists": [],
+      "publishers": [
+        "Spielefaible"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "H3G515",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
+    },
+    {
       "objectId": 470634,
-      "itemid": 24513,
+      "itemid": 25523,
       "name": "Wolfmoon",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/Q1g0Kh09JPRwN9GaOF8zvQ__original/img/jYCtpO6Is_1_74YoPlhmJiWCn4w=/0x0/filters:format(jpeg)/pic9587759.jpg",
@@ -66286,7 +66596,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "3M120",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -68130,7 +68440,7 @@
         "amount": 25.0,
         "currency": "EUR"
       },
-      "location": "Japan",
+      "location": "5-K415 (Japon Brand)",
       "availability": "For Sale",
       "interested": [
         {
