@@ -27,11 +27,39 @@ const state = {
   maxStartingBid: null,
   showSold: false,
   myBidsFilter: "all",
+  heartedOnly: false,
   sortKey: "wishlist",
   sortDirection: "asc",
   page: 1,
   pageSize: 24,
 };
+
+const HEARTED_STORAGE_KEY = "essenAuctionHearted";
+
+function loadHeartedIds() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(HEARTED_STORAGE_KEY) || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+const heartedIds = loadHeartedIds();
+
+function saveHeartedIds() {
+  localStorage.setItem(HEARTED_STORAGE_KEY, JSON.stringify([...heartedIds]));
+}
+
+function isHearted(objectId) {
+  return heartedIds.has(objectId);
+}
+
+function toggleHearted(objectId) {
+  if (heartedIds.has(objectId)) heartedIds.delete(objectId);
+  else heartedIds.add(objectId);
+  saveHeartedIds();
+  renderContent();
+}
 
 const SOLD_OPTIONS = [
   { key: "hide", label: "Hide sold" },
@@ -290,6 +318,10 @@ function matchesHasBin(item) {
   return (item.offers || []).some((offer) => offer.bin);
 }
 
+function matchesHearted(item) {
+  return !state.heartedOnly || isHearted(item.objectId);
+}
+
 function matchesMaxStartingBid(item) {
   if (state.maxStartingBid === null) return true;
   return (item.offers || []).some((offer) => {
@@ -329,6 +361,7 @@ function applyActiveFilters(items) {
       matchesWishlistOnly(item) &&
       matchesOwnerStatus(item) &&
       matchesHasBin(item) &&
+      matchesHearted(item) &&
       matchesMaxStartingBid(item) &&
       matchesSold(item) &&
       matchesMyBids(item) &&
@@ -552,6 +585,7 @@ function renderCard(item) {
   }
 
   const wishedBy = renderWishedByBadges(item);
+  const hearted = isHearted(item.objectId);
 
   return `
     <article class="game-card">
@@ -572,9 +606,19 @@ function renderCard(item) {
         <div class="card-section">
           ${renderOffers(item)}
         </div>
+        <div class="card-footer">
+          <button class="heart-btn${hearted ? " heart-btn--active" : ""}" type="button" data-heart-id="${item.objectId}" aria-label="${hearted ? "Remove from hearted games" : "Add to hearted games"}" title="${hearted ? "Remove from hearted games" : "Add to hearted games"}">${hearted ? "♥" : "♡"}</button>
+        </div>
       </div>
     </article>
   `;
+}
+
+function initHeartButtons(container) {
+  if (!container) return;
+  container.querySelectorAll(".heart-btn").forEach((btn) => {
+    btn.addEventListener("click", () => toggleHearted(Number(btn.dataset.heartId)));
+  });
 }
 
 function csvField(value) {
@@ -667,6 +711,7 @@ function renderContent() {
       .join("")}</div>`;
   }
   initShareButtons(content);
+  initHeartButtons(content);
 
   const sortLabel = SORT_OPTIONS.find((o) => o.key === state.sortKey)?.label || state.sortKey;
   const arrow = state.sortDirection === "asc" ? "↑" : "↓";
@@ -744,6 +789,17 @@ function renderActiveFilterChips() {
       remove: () => {
         state.hasBinOnly = false;
         document.getElementById("has-bin-toggle").checked = false;
+        state.page = 1;
+        renderContent();
+      },
+    });
+  }
+  if (state.heartedOnly) {
+    chips.push({
+      label: "Hearted only",
+      remove: () => {
+        state.heartedOnly = false;
+        document.getElementById("hearted-only-toggle").checked = false;
         state.page = 1;
         renderContent();
       },
@@ -970,6 +1026,12 @@ function setupControls() {
 
   document.getElementById("has-bin-toggle").addEventListener("change", (e) => {
     state.hasBinOnly = e.target.checked;
+    state.page = 1;
+    renderContent();
+  });
+
+  document.getElementById("hearted-only-toggle").addEventListener("change", (e) => {
+    state.heartedOnly = e.target.checked;
     state.page = 1;
     renderContent();
   });

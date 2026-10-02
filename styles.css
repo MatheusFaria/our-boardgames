@@ -666,6 +666,38 @@
         margin-top: 16px;
       }
 
+      .card-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 16px;
+      }
+
+      .heart-btn {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: var(--subtle-bg);
+        color: var(--muted);
+        font-size: 1.1rem;
+        line-height: 1;
+        cursor: pointer;
+      }
+
+      .heart-btn:hover {
+        background: var(--ctrl-bg-soft);
+      }
+
+      .heart-btn--active {
+        background: var(--accent-soft);
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
       .vote-row {
         display: flex;
         gap: 8px;
