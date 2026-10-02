@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-01T09:39:10.071803+00:00",
-  "itemCount": 1166,
-  "interestedCount": 231,
-  "noOneCount": 935,
+  "generatedAt": "2026-10-02T09:13:10.731988+00:00",
+  "itemCount": 1177,
+  "interestedCount": 228,
+  "noOneCount": 949,
   "items": [
     {
       "objectId": 474125,
@@ -2676,6 +2676,62 @@
       "thingFetchedAt": "2026-09-15T08:16:06.250038+00:00"
     },
     {
+      "objectId": 478863,
+      "itemid": 25623,
+      "name": "Akakor",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/2p9EWHoT9D43mmKkRJW7_A__original/img/gbK6_QOWerIxwWIp-kVr7PBDkfI=/0x0/filters:format(jpeg)/pic9796337.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/2p9EWHoT9D43mmKkRJW7_A__small/img/UZmkxMCTHqmCB8hMHrcECmutJhw=/fit-in/200x150/filters:strip_icc()/pic9796337.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478863",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 45,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Retrieval",
+        "Advantage Token",
+        "Catch the Leader",
+        "Dice Rolling",
+        "Movement Points",
+        "Point to Point Movement",
+        "Race",
+        "Set Collection"
+      ],
+      "designers": [
+        "Przemek Wojtkowiak"
+      ],
+      "artists": [
+        "Joanna Rzepecka"
+      ],
+      "publishers": [
+        "Granna"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "H6A412",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
       "objectId": 461828,
       "itemid": 24967,
       "name": "Akropolis: Pantheon",
@@ -3591,17 +3647,17 @@
       "itemid": 25210,
       "name": "Arctica",
       "yearPublished": 2027,
-      "image": "https://cf.geekdo-images.com/myghEIggujh3ZdeszVi8cw__original/img/892xjpvzVnhOvD9FoV9MxsSViQI=/0x0/filters:format(png)/pic8958112.png",
-      "thumbnail": "https://cf.geekdo-images.com/myghEIggujh3ZdeszVi8cw__small/img/917TmZ-QSsKbEZqU4M3ZqH5aYhQ=/fit-in/200x150/filters:strip_icc()/pic8958112.png",
+      "image": "https://cf.geekdo-images.com/b5l3gA68brdVsIlrqdYR9w__original/img/nJ-xKpnfYywMpNntaoDaa8iYmLU=/0x0/filters:format(png)/pic9672152.png",
+      "thumbnail": "https://cf.geekdo-images.com/b5l3gA68brdVsIlrqdYR9w__small/img/vURYw6VyTXI2f-Z-OYWeAjVUuVk=/fit-in/200x150/filters:strip_icc()/pic9672152.png",
       "link": "https://boardgamegeek.com/boardgame/423309",
       "minPlayers": 1,
       "maxPlayers": 4,
       "playingTime": 90,
       "recommendedAge": "14+",
-      "weight": 3.0,
-      "bggAverageRating": 8.34,
-      "bggBayesAverageRating": 5.54,
-      "bggRank": 14963,
+      "weight": 3.22,
+      "bggAverageRating": 8.11,
+      "bggBayesAverageRating": 5.58,
+      "bggRank": 11013,
       "mechanics": [
         "Connections",
         "Events",
@@ -3618,7 +3674,8 @@
         "Emilien Rotival"
       ],
       "publishers": [
-        "This Way!"
+        "This Way!",
+        "Board Game Circus"
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
@@ -3645,7 +3702,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 403160,
@@ -3981,7 +4038,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 450286,
@@ -4656,9 +4713,9 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "demo"
         },
         {
           "user": "JoyfulFicus",
@@ -7194,10 +7251,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 25.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -8282,6 +8336,109 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 429483,
+      "itemid": 25529,
+      "name": "Cannibal World",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/Mdx9WsVkcihrYY1Io63wIA__original/img/C0M9T--wHqPNCU_5YHNxwGa3J3Q=/0x0/filters:format(png)/pic8805849.png",
+      "thumbnail": "https://cf.geekdo-images.com/Mdx9WsVkcihrYY1Io63wIA__small/img/u8Cvur1gpRsxt9wy-qYVl4TcLGM=/fit-in/200x150/filters:strip_icc()/pic8805849.png",
+      "link": "https://boardgamegeek.com/boardgame/429483",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 45,
+      "recommendedAge": "14+",
+      "weight": 3.5,
+      "bggAverageRating": 7.85,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16360,
+      "mechanics": [
+        "Action Points",
+        "Deck Construction",
+        "Hand Management",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Rafael Campos",
+        "Jos\u00e9 Molina",
+        "Paloma P\u00e9rez"
+      ],
+      "artists": [
+        "Oscar Martin"
+      ],
+      "publishers": [
+        "Witty Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "4-G125",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
+      "objectId": 477067,
+      "itemid": 25531,
+      "name": "Cannibal World: TACTICS",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/SJMSyIPR3Ds3BfgxYnoW-w__original/img/Iax7XZTGzO5OMm5e3uBxlMpMQXk=/0x0/filters:format(png)/pic9777819.png",
+      "thumbnail": "https://cf.geekdo-images.com/SJMSyIPR3Ds3BfgxYnoW-w__small/img/OBu8ILTFrt48s9ScOpAGDTr3r3w=/fit-in/200x150/filters:strip_icc()/pic9777819.png",
+      "link": "https://boardgamegeek.com/boardgame/477067",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": null,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Rafael Campos",
+        "Jos\u00e9 Molina",
+        "Paloma P\u00e9rez"
+      ],
+      "artists": [
+        "Oscar Martin"
+      ],
+      "publishers": [
+        "Witty Games"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "4-G125",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
       "objectId": 462897,
       "itemid": 24862,
       "name": "Capsule Collector",
@@ -8909,6 +9066,58 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 479858,
+      "itemid": 25610,
+      "name": "CARU-UTA: English Edition",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "link": "https://boardgamegeek.com/boardgame/479858",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "playingTime": null,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Pattern Recognition",
+        "Real-Time",
+        "Speed Matching"
+      ],
+      "designers": [
+        "Nakamori Gen (\u4e2d\u68ee \u6e90)",
+        "Hayashi Shiina (\u690e\u540d\u96bc\u4e5f)"
+      ],
+      "artists": [
+        "Nakamori Gen (\u4e2d\u68ee \u6e90)"
+      ],
+      "publishers": [
+        "Xaquinel"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5-L315",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
       "objectId": 446815,
       "itemid": 25077,
       "name": "Cascadia: Alpine Lakes",
@@ -9505,57 +9714,6 @@
         }
       ],
       "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
-    },
-    {
-      "objectId": 423889,
-      "itemid": 25498,
-      "name": "Chicago Grand Slam",
-      "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/uySfw8DSbG4wkbrTlr39Uw__original/img/dPtVu8YAhLykKOevArTfoSE0Tvo=/0x0/filters:format(png)/pic8379164.png",
-      "thumbnail": "https://cf.geekdo-images.com/uySfw8DSbG4wkbrTlr39Uw__small/img/Pm6emcHpppyxY_y_O3Wx75fZNY0=/fit-in/200x150/filters:strip_icc()/pic8379164.png",
-      "link": "https://boardgamegeek.com/boardgame/423889",
-      "minPlayers": 2,
-      "maxPlayers": 4,
-      "playingTime": 60,
-      "recommendedAge": "10+",
-      "weight": null,
-      "bggAverageRating": 4.78,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
-      "mechanics": [
-        "Push Your Luck",
-        "Trick-taking"
-      ],
-      "designers": [
-        "Dos Caramellos"
-      ],
-      "artists": [],
-      "publishers": [
-        "Dos Caramellos"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 45.0,
-        "currency": "USD"
-      },
-      "location": "booth 3T215",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "JuhBass",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-09-30T09:11:34.377107+00:00"
     },
     {
       "objectId": 462396,
@@ -13152,6 +13310,56 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 478531,
+      "itemid": 25616,
+      "name": "Dawn of Democracy",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/ogxtczuwULA7iHkHofwLlg__original/img/BjBRnGT2JpICR_MFmhCxtgN282M=/0x0/filters:format(png)/pic9787075.png",
+      "thumbnail": "https://cf.geekdo-images.com/ogxtczuwULA7iHkHofwLlg__small/img/0dI8mBiEYl5JHD58Gh1c7qpf71U=/fit-in/200x150/filters:strip_icc()/pic9787075.png",
+      "link": "https://boardgamegeek.com/boardgame/478531",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 7.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Majority / Influence",
+        "End Game Bonuses",
+        "Hand Management",
+        "Tile Placement"
+      ],
+      "designers": [
+        "GoalBeat Montri"
+      ],
+      "artists": [],
+      "publishers": [
+        "Siam Board Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5-G400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
       "objectId": 461564,
       "itemid": 24977,
       "name": "Daytime Minutes",
@@ -15562,6 +15770,53 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 480377,
+      "itemid": 25587,
+      "name": "Dragon Eclipse: Mystling Academy \u2013 Banix vs Cloudar",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "link": "https://boardgamegeek.com/boardgame/480377",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Andrzej Betkiewicz",
+        "Kamil 'Sanex' Cie\u015bla",
+        "Wojciech Frelich"
+      ],
+      "artists": [],
+      "publishers": [
+        "Awaken Realms"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "4G315",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
       "objectId": 467495,
       "itemid": 24266,
       "name": "Dragon Overload",
@@ -16982,6 +17237,55 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 419116,
+      "itemid": 25530,
+      "name": "Elemental Dragons",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/ANWPYB51T-Mm27UdLF1kdw__original/img/ReySLyizOkNCX4AJZh-Wf7Zez3w=/0x0/filters:format(png)/pic9823688.png",
+      "thumbnail": "https://cf.geekdo-images.com/ANWPYB51T-Mm27UdLF1kdw__small/img/N-tWo2i4Fzq85zoE1M8O7Aq-DZw=/fit-in/200x150/filters:strip_icc()/pic9823688.png",
+      "link": "https://boardgamegeek.com/boardgame/419116",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Trick-taking"
+      ],
+      "designers": [
+        "Rafael Campos",
+        "Jos\u00e9 Molina",
+        "Paloma P\u00e9rez"
+      ],
+      "artists": [],
+      "publishers": [
+        "Witty Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "4-G125",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 469261,
@@ -21200,10 +21504,10 @@
       "maxPlayers": 5,
       "playingTime": 60,
       "recommendedAge": "10+",
-      "weight": 3.0,
-      "bggAverageRating": 8.09,
+      "weight": 2.88,
+      "bggAverageRating": 7.91,
       "bggBayesAverageRating": 5.52,
-      "bggRank": 19290,
+      "bggRank": 18951,
       "mechanics": [
         "Hidden Roles",
         "Hidden Victory Points",
@@ -21249,7 +21553,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 472985,
@@ -23290,10 +23594,10 @@
       "maxPlayers": 4,
       "playingTime": 60,
       "recommendedAge": "10+",
-      "weight": 2.5,
-      "bggAverageRating": 7.34,
-      "bggBayesAverageRating": 5.53,
-      "bggRank": 17361,
+      "weight": 2.33,
+      "bggAverageRating": 6.74,
+      "bggBayesAverageRating": 5.54,
+      "bggRank": 15600,
       "mechanics": [
         "Cooperative Game",
         "Dice Rolling",
@@ -23341,7 +23645,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 3352,
@@ -24454,6 +24758,54 @@
         }
       ],
       "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+    },
+    {
+      "objectId": 446596,
+      "itemid": 25532,
+      "name": "HANAMI",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/dCstpkEomeLvaScsmq72lg__original/img/PkP5722IUZpyl6HDbcL-6ae8aKw=/0x0/filters:format(jpeg)/pic8885081.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/dCstpkEomeLvaScsmq72lg__small/img/JY8lmdaF8L4QhD1C_FRShJe2oYw=/fit-in/200x150/filters:strip_icc()/pic8885081.jpg",
+      "link": "https://boardgamegeek.com/boardgame/446596",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "7+",
+      "weight": 2.0,
+      "bggAverageRating": 8.02,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Majority / Influence",
+        "Hand Management",
+        "Modular Board"
+      ],
+      "designers": [
+        "Aki Watakabe (\u308f\u305f\u304b\u3079\u3042\u304d)"
+      ],
+      "artists": [
+        "Mirika Kimura (\u304d\u3080\u3089\u307f\u308a\u304b)"
+      ],
+      "publishers": [
+        "J&M SPACE Entertainment"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 36.0,
+        "currency": "EUR"
+      },
+      "location": "5-K415 (Japon Brand)",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 447950,
@@ -26942,8 +27294,8 @@
       "maxPlayers": 5,
       "playingTime": 120,
       "recommendedAge": "14+",
-      "weight": null,
-      "bggAverageRating": 8.2,
+      "weight": 3.0,
+      "bggAverageRating": 8.4,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -26986,7 +27338,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 417219,
@@ -27000,10 +27352,10 @@
       "maxPlayers": 5,
       "playingTime": 120,
       "recommendedAge": "14+",
-      "weight": 2.93,
-      "bggAverageRating": 7.8,
-      "bggBayesAverageRating": 5.6,
-      "bggRank": 9786,
+      "weight": 2.85,
+      "bggAverageRating": 7.66,
+      "bggBayesAverageRating": 5.64,
+      "bggRank": 7996,
       "mechanics": [
         "Action Points",
         "Auction: Turn Order Until Pass",
@@ -27050,7 +27402,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 478861,
@@ -27580,6 +27932,56 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 478811,
+      "itemid": 25615,
+      "name": "Inherit: The Board Game",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/duqtSwMOjmbnYYgJlffFOA__original/img/tVtKr4pY4HsSqqdBaDwFhipOBg0=/0x0/filters:format(png)/pic9793162.png",
+      "thumbnail": "https://cf.geekdo-images.com/duqtSwMOjmbnYYgJlffFOA__small/img/k1UzhrGuQ_K8SV_L-wAHIVqHGL0=/fit-in/200x150/filters:strip_icc()/pic9793162.png",
+      "link": "https://boardgamegeek.com/boardgame/478811",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action / Event",
+        "Hand Management",
+        "Resource to Move",
+        "Roles with Asymmetric Information"
+      ],
+      "designers": [
+        "Pitsanu Satrulee"
+      ],
+      "artists": [],
+      "publishers": [
+        "Siam Board Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5-G400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 418217,
@@ -30514,12 +30916,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -30527,6 +30923,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -31685,6 +32087,62 @@
         }
       ],
       "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+    },
+    {
+      "objectId": 439519,
+      "itemid": 25597,
+      "name": "Last Lantern",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/8KlKUeVra3-1jnP3yeGFqg__original/img/c061PZ9lwOqOPfN6U4eRV1wX0fc=/0x0/filters:format(png)/pic8917962.png",
+      "thumbnail": "https://cf.geekdo-images.com/8KlKUeVra3-1jnP3yeGFqg__small/img/dmSzxCXavqNa3SHazW5vKiRtAN8=/fit-in/200x150/filters:strip_icc()/pic8917962.png",
+      "link": "https://boardgamegeek.com/boardgame/439519",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": 7.3,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 13619,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "designers": [
+        "J\u00e9r\u00e9my Ducret",
+        "Gricha German",
+        "Anthony Perone"
+      ],
+      "artists": [
+        "Zingco Kang",
+        "Yuan Momoco"
+      ],
+      "publishers": [
+        "Wonderful World Board Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5-H400",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 472329,
@@ -32904,7 +33362,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 477070,
@@ -32965,7 +33423,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 477074,
@@ -32980,7 +33438,7 @@
       "playingTime": 15,
       "recommendedAge": "7+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 9.75,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -33026,7 +33484,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 427263,
@@ -33091,7 +33549,7 @@
     },
     {
       "objectId": 456018,
-      "itemid": 24708,
+      "itemid": 25599,
       "name": "Lionwake",
       "yearPublished": 2027,
       "image": "https://cf.geekdo-images.com/lteNmFsbtT9r7LHRG_qkkg__original/img/tnaDfBQsqylJ0T4rdNGy1a2tPTU=/0x0/filters:format(jpeg)/pic9157625.jpg",
@@ -33129,19 +33587,19 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "5H400",
+      "location": "5-H400",
       "availability": "Demo",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         }
       ],
@@ -35412,6 +35870,108 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 478950,
+      "itemid": 25625,
+      "name": "MatchUp! Fruits",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/L8UfYTEOUms7Ck9ebU2fdg__original/img/mZj8VKsMyhzhvMoy8Nfi_Wtvou4=/0x0/filters:format(jpeg)/pic9798912.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/L8UfYTEOUms7Ck9ebU2fdg__small/img/K7G0enLVFWOKuV1s2KOR6OTMDOw=/fit-in/200x150/filters:strip_icc()/pic9798912.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478950",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "5+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Closed Drafting",
+        "Pattern Recognition",
+        "Set Collection",
+        "Take That"
+      ],
+      "designers": [
+        "Koby Ben-Aroush"
+      ],
+      "artists": [],
+      "publishers": [
+        "Granna"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "H6A412",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
+      "objectId": 478946,
+      "itemid": 25624,
+      "name": "MatchUp! Numbers",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1REhdlZFVE098axGa6S2bg__original/img/13QI_f6d0Z5-T2bRTnHgqU9ohu8=/0x0/filters:format(jpeg)/pic9798906.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/1REhdlZFVE098axGa6S2bg__small/img/AG70AI5q5HLJklM_bU9ZStCd1b8=/fit-in/200x150/filters:strip_icc()/pic9798906.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478946",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "7+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Closed Drafting",
+        "Matching",
+        "Memory",
+        "Pattern Recognition",
+        "Set Collection",
+        "Take That"
+      ],
+      "designers": [
+        "Koby Ben-Aroush"
+      ],
+      "artists": [],
+      "publishers": [
+        "Granna"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "H6A412",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
       "objectId": 475378,
       "itemid": 24895,
       "name": "Maybe. Not. Perfect!",
@@ -37179,7 +37739,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 421570,
@@ -39784,13 +40344,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "Alem0nes",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
+          "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
           "notes": null
@@ -40642,7 +41202,7 @@
       "playingTime": 20,
       "recommendedAge": "6+",
       "weight": null,
-      "bggAverageRating": 7.0,
+      "bggAverageRating": 7.09,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -40676,7 +41236,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 467252,
@@ -48145,7 +48705,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "Hall 5, 5G400, Siam Board Games",
+      "location": "5-G400",
       "availability": "Demo",
       "interested": [
         {
@@ -48500,8 +49060,8 @@
       "maxPlayers": 8,
       "playingTime": 30,
       "recommendedAge": "10+",
-      "weight": null,
-      "bggAverageRating": null,
+      "weight": 1.0,
+      "bggAverageRating": 8.88,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -48539,7 +49099,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 453281,
@@ -50680,10 +51240,10 @@
       "maxPlayers": 6,
       "playingTime": 10,
       "recommendedAge": "14+",
-      "weight": 1.33,
-      "bggAverageRating": 7.08,
-      "bggBayesAverageRating": 5.54,
-      "bggRank": 14599,
+      "weight": 1.25,
+      "bggAverageRating": 7.18,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 13261,
       "mechanics": [
         "Player Elimination",
         "Variable Player Powers"
@@ -50717,7 +51277,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 460097,
@@ -51130,7 +51690,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 469599,
@@ -60704,13 +61264,7 @@
           "user": "JoyfulFicus",
           "priority": 1,
           "priorityLabel": "Must Have",
-          "notes": "Pre order available at 29-Sep\nhttps://gamefound.com/fr/projects/board-and-dice/thessaloniki-windmill-duel"
-        },
-        {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
+          "notes": "Pre order DONE - collect at booth\nhttps://gamefound.com/fr/projects/board-and-dice/thessaloniki-windmill-duel"
         },
         {
           "user": "ParadoxBard",
@@ -60720,6 +61274,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -61915,7 +62475,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-02T07:29:30.420552+00:00"
+      "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
     },
     {
       "objectId": 442095,
@@ -63334,13 +63894,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -63812,13 +64372,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -64379,9 +64939,9 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "only demo"
         },
         {
           "user": "JoyfulFicus",
@@ -66041,12 +66601,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        },
-        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -66054,6 +66608,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -66552,6 +67112,12 @@
       "interested": [
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
