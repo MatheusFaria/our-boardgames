@@ -607,7 +607,7 @@ function renderCard(item) {
           ${renderOffers(item)}
         </div>
         <div class="card-footer">
-          <button class="heart-btn${hearted ? " heart-btn--active" : ""}" type="button" data-heart-id="${item.objectId}" aria-label="${hearted ? "Remove from hearted games" : "Add to hearted games"}" title="${hearted ? "Remove from hearted games" : "Add to hearted games"}">${hearted ? "♥" : "♡"}</button>
+          <button class="heart-btn${hearted ? " heart-btn--active" : ""}" type="button" data-heart-id="${item.objectId}" aria-label="${hearted ? "Remove from ♥" : "Add to ♥"}" title="${hearted ? "Remove from ♥" : "Add to ♥"}">${hearted ? "♥" : "♡"}</button>
         </div>
       </div>
     </article>
@@ -796,7 +796,7 @@ function renderActiveFilterChips() {
   }
   if (state.heartedOnly) {
     chips.push({
-      label: "Hearted only",
+      label: "♥ only",
       remove: () => {
         state.heartedOnly = false;
         document.getElementById("hearted-only-toggle").checked = false;
