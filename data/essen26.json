@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-04T09:11:36.047418+00:00",
-  "itemCount": 1164,
-  "interestedCount": 233,
-  "noOneCount": 931,
+  "generatedAt": "2026-10-05T09:52:10.245867+00:00",
+  "itemCount": 1166,
+  "interestedCount": 231,
+  "noOneCount": 935,
   "items": [
     {
       "objectId": 474125,
@@ -487,8 +487,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -2029,6 +2029,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
@@ -2910,6 +2916,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-30T09:11:34.377107+00:00"
@@ -3229,7 +3241,7 @@
           "user": "JoyfulFicus",
           "priority": 1,
           "priorityLabel": "Must Have",
-          "notes": "Might not be available for Essen pick up"
+          "notes": "There will be copies on the All Play booth (probably at 82 USD)"
         },
         {
           "user": "Alem0nes",
@@ -3238,13 +3250,13 @@
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -4673,6 +4685,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
@@ -5528,12 +5546,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "Ragasil",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -5543,6 +5555,12 @@
           "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": null,
+          "priorityLabel": "Unprioritized",
           "notes": null
         }
       ],
@@ -6852,8 +6870,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -7729,7 +7747,14 @@
       "price": null,
       "location": "6D110",
       "availability": "Demo",
-      "interested": [],
+      "interested": [
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-09-30T09:11:34.377107+00:00"
     },
     {
@@ -7914,6 +7939,58 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 450024,
+      "itemid": 25707,
+      "name": "Buzzle",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/j307xcDXRd-WjDTvCHqvjg__original/img/9hY-PhaJL_VNbIRjm46CjezRG5U=/0x0/filters:format(png)/pic8991187.png",
+      "thumbnail": "https://cf.geekdo-images.com/j307xcDXRd-WjDTvCHqvjg__small/img/fEhNgtdyoDLqoTrJT76OaqdVvV4=/fit-in/200x150/filters:strip_icc()/pic8991187.png",
+      "link": "https://boardgamegeek.com/boardgame/450024",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 10,
+      "recommendedAge": "8+",
+      "weight": 1.5,
+      "bggAverageRating": 8.74,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Pattern Building"
+      ],
+      "designers": [
+        "V\u00edctor Manuel Hern\u00e1ndez Rom\u00e1n"
+      ],
+      "artists": [
+        "Frankie Bu"
+      ],
+      "publishers": [
+        "Boqueron Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 14.0,
+        "currency": "EUR"
+      },
+      "location": "6G103",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
+    },
+    {
       "objectId": 451161,
       "itemid": 25486,
       "name": "Byzantion: The Justinian Era",
@@ -8040,9 +8117,9 @@
       "minPlayers": 2,
       "maxPlayers": 6,
       "playingTime": 20,
-      "recommendedAge": "10+",
-      "weight": null,
-      "bggAverageRating": 9.0,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": 8.5,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -8082,7 +8159,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
     },
     {
       "objectId": 469384,
@@ -8123,13 +8200,13 @@
           "notes": "Test"
         },
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -8449,6 +8526,55 @@
         }
       ],
       "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
+    },
+    {
+      "objectId": 480309,
+      "itemid": 25706,
+      "name": "Capiboom",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/WUBWKzh0RN00KbaUdZ0Fiw__original/img/0KxoFzP6yw1G8QyKR7aI-ih4ZSo=/0x0/filters:format(png)/pic9838762.png",
+      "thumbnail": "https://cf.geekdo-images.com/WUBWKzh0RN00KbaUdZ0Fiw__small/img/J_DTcE1OPI9L5bkkTKpgr0ftWqQ=/fit-in/200x150/filters:strip_icc()/pic9838762.png",
+      "link": "https://boardgamegeek.com/boardgame/480309",
+      "minPlayers": 2,
+      "maxPlayers": 7,
+      "playingTime": 15,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Hand Management",
+        "Hot Potato",
+        "Take That"
+      ],
+      "designers": [],
+      "artists": [
+        "Edu Valls"
+      ],
+      "publishers": [
+        "Boqueron Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6G103",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
     },
     {
       "objectId": 462897,
@@ -8808,8 +8934,8 @@
         },
         {
           "user": "JuhBass",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -9002,13 +9128,13 @@
           "notes": "Pre Order: https://docs.google.com/forms/d/e/1FAIpQLScZxxujI0gPKOUqnSKBNsCLnytBMCM4loMxt7YDAn7fopxz7A/viewform"
         },
         {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -9885,8 +10011,8 @@
         },
         {
           "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -10777,6 +10903,12 @@
           "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": null,
+          "priorityLabel": "Unprioritized",
           "notes": null
         }
       ],
@@ -12317,7 +12449,7 @@
           "user": "JoyfulFicus",
           "priority": 2,
           "priorityLabel": "Interested",
-          "notes": null
+          "notes": "\u20ac21,99 https://craniocreations.it/en/products/crossing-heroes?_pos=1&_psq=crossing&_psid=98ad57eb2&_ss=e"
         },
         {
           "user": "ParadoxBard",
@@ -13909,7 +14041,7 @@
       "playingTime": 60,
       "recommendedAge": "10+",
       "weight": 2.0,
-      "bggAverageRating": 9.0,
+      "bggAverageRating": 9.25,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -13946,7 +14078,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
     },
     {
       "objectId": 456572,
@@ -13961,7 +14093,7 @@
       "playingTime": 60,
       "recommendedAge": "10+",
       "weight": 2.0,
-      "bggAverageRating": 9.0,
+      "bggAverageRating": 9.2,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -13999,7 +14131,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
     },
     {
       "objectId": 477516,
@@ -14352,9 +14484,9 @@
       "playingTime": 20,
       "recommendedAge": "10+",
       "weight": 1.9,
-      "bggAverageRating": 6.99,
+      "bggAverageRating": 6.97,
       "bggBayesAverageRating": 5.66,
-      "bggRank": 7307,
+      "bggRank": 7257,
       "mechanics": [
         "Hand Management",
         "Ladder Climbing"
@@ -14394,7 +14526,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
     },
     {
       "objectId": 470208,
@@ -17297,13 +17429,13 @@
           "notes": null
         },
         {
-          "user": "Ragasil",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "Ragasil",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -17574,9 +17706,9 @@
       "playingTime": 40,
       "recommendedAge": "8+",
       "weight": 1.62,
-      "bggAverageRating": 6.61,
-      "bggBayesAverageRating": 5.64,
-      "bggRank": 8039,
+      "bggAverageRating": 6.6,
+      "bggBayesAverageRating": 5.63,
+      "bggRank": 8089,
       "mechanics": [
         "Trick-taking"
       ],
@@ -17612,7 +17744,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
     },
     {
       "objectId": 430350,
@@ -21022,15 +21154,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -21263,8 +21395,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -23523,6 +23655,12 @@
           "notes": null
         },
         {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -24485,6 +24623,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-10-02T09:13:05.887310+00:00"
@@ -24973,17 +25117,17 @@
       "itemid": 25245,
       "name": "Hellas",
       "yearPublished": 2016,
-      "image": "https://cf.geekdo-images.com/aYXjAp2tyOdZitB5kKfV4A__original/img/jTR3qKWAAaWSLVOyKHKiVfR2kj8=/0x0/filters:format(png)/pic9747727.png",
-      "thumbnail": "https://cf.geekdo-images.com/aYXjAp2tyOdZitB5kKfV4A__small/img/sz2FxzfZUDy-UVMzFLW7jY7-Cms=/fit-in/200x150/filters:strip_icc()/pic9747727.png",
+      "image": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__original/img/iPI2-BK18upOKtUBZAKhXXez-4M=/0x0/filters:format(png)/pic9813575.png",
+      "thumbnail": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__small/img/hyGSvrKGPkl4IZLd3nD5yQ2qwa8=/fit-in/200x150/filters:strip_icc()/pic9813575.png",
       "link": "https://boardgamegeek.com/boardgame/207330",
       "minPlayers": 2,
       "maxPlayers": 4,
       "playingTime": 60,
       "recommendedAge": "10+",
-      "weight": 2.5,
-      "bggAverageRating": 7.06,
-      "bggBayesAverageRating": 5.82,
-      "bggRank": 4583,
+      "weight": 2.48,
+      "bggAverageRating": 7.09,
+      "bggBayesAverageRating": 5.85,
+      "bggRank": 4374,
       "mechanics": [
         "Action Drafting",
         "Follow",
@@ -25023,7 +25167,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-05T07:16:15.173004+00:00"
+      "thingFetchedAt": "2026-10-05T09:52:09.858096+00:00"
     },
     {
       "objectId": 436038,
@@ -26824,6 +26968,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -26883,8 +27033,14 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -27649,13 +27805,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -28311,6 +28467,12 @@
           "user": "ParadoxBard",
           "priority": 1,
           "priorityLabel": "Must Have",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
@@ -38143,13 +38305,13 @@
           "notes": null
         },
         {
-          "user": "Ragasil",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "Ragasil",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -41615,8 +41777,8 @@
         },
         {
           "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -41845,6 +42007,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -44167,8 +44335,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -47002,6 +47170,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "JuhBass",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -48278,6 +48452,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
@@ -48395,8 +48575,8 @@
         },
         {
           "user": "Ragasil",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -50173,6 +50353,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-10-01T09:39:09.739047+00:00"
@@ -51805,16 +51991,16 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "Alem0nes",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": "Confirmado que vai ter pra comprar em Essen, talvez ate a bolsa de praia. Jogo simpre tem que colocar mais animais da sua cor ao redor dos reefs"
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
         },
         {
           "user": "ParadoxBard",
@@ -52728,6 +52914,12 @@
           "notes": null
         },
         {
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -52747,12 +52939,6 @@
         },
         {
           "user": "Alem0nes",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -58758,13 +58944,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "Alem0nes",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": "only demo, don't buy"
         },
         {
-          "user": "JuhBass",
+          "user": "Alem0nes",
           "priority": 3,
           "priorityLabel": "Not Decided",
           "notes": null
@@ -59629,15 +59815,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
+          "user": "Petter_03",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "Petter_03",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -62757,6 +62943,12 @@
           "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": null,
+          "priorityLabel": "Unprioritized",
           "notes": null
         }
       ],
