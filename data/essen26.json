@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-05T09:52:10.245867+00:00",
-  "itemCount": 1166,
-  "interestedCount": 231,
-  "noOneCount": 935,
+  "generatedAt": "2026-10-06T09:40:11.055838+00:00",
+  "itemCount": 1187,
+  "interestedCount": 230,
+  "noOneCount": 957,
   "items": [
     {
       "objectId": 474125,
@@ -3265,6 +3265,106 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 478832,
+      "itemid": 25717,
+      "name": "Alpaca: Expansion Pack 4",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "link": "https://boardgamegeek.com/boardgame/478832",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Deck Construction",
+        "Deck, Bag, and Pool Building"
+      ],
+      "designers": [
+        "Christian Giove"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "6-A100",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
+      "objectId": 456311,
+      "itemid": 25716,
+      "name": "Alpaca: The Big Ranch \u2013 Deluxe",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/E5fHUUk95ddoUf7SaoNeKA__original/img/iDxoBCuek1zdtVA3AU7bdcABLoM=/0x0/filters:format(png)/pic9162487.png",
+      "thumbnail": "https://cf.geekdo-images.com/E5fHUUk95ddoUf7SaoNeKA__small/img/oH5hs5x88D7enWxgS6KNyuA9PCc=/fit-in/200x150/filters:strip_icc()/pic9162487.png",
+      "link": "https://boardgamegeek.com/boardgame/456311",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 30,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": 5.67,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Track Movement"
+      ],
+      "designers": [
+        "Christian Giove"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
       "objectId": 454723,
       "itemid": 24886,
       "name": "Altay: Seafarers Expansion",
@@ -4253,13 +4353,13 @@
           "notes": "demo just to get it played"
         },
         {
-          "user": "Alem0nes",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "Alem0nes",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -5064,6 +5164,60 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 469896,
+      "itemid": 25746,
+      "name": "Bake or Break",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zrITw_e89BjTK6qOFWMWYA__original/img/bc128B-61ikeu-k0rj-6t43sbY8=/0x0/filters:format(png)/pic9671458.png",
+      "thumbnail": "https://cf.geekdo-images.com/zrITw_e89BjTK6qOFWMWYA__small/img/3sVc8QcAtgq7yHOcRSqev4NLUx4=/fit-in/200x150/filters:strip_icc()/pic9671458.png",
+      "link": "https://boardgamegeek.com/boardgame/469896",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 15,
+      "recommendedAge": "6+",
+      "weight": 2.0,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Set Collection",
+        "Simultaneous Action Selection",
+        "Take That"
+      ],
+      "designers": [
+        "Livia"
+      ],
+      "artists": [
+        "COPECO"
+      ],
+      "publishers": [
+        "Game Storybook"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 3000.0,
+        "currency": "YEN"
+      },
+      "location": "Hall 5-K415 (Japon Brand)",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 473652,
@@ -6016,6 +6170,62 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 438196,
+      "itemid": 25715,
+      "name": "Biv\u00ec",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/Tx2W89Th1EKXoPOoLM9XuA__original/img/vM0Ox6UpFsgcl2Dw5NER2QWl4vg=/0x0/filters:format(jpeg)/pic8680523.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/Tx2W89Th1EKXoPOoLM9XuA__small/img/3nlzPWxumtwzHH6rYu24ijfQAxg=/fit-in/200x150/filters:strip_icc()/pic8680523.jpg",
+      "link": "https://boardgamegeek.com/boardgame/438196",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "7+",
+      "weight": 2.0,
+      "bggAverageRating": 7.68,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "End Game Bonuses",
+        "Grid Coverage",
+        "Open Drafting",
+        "Pattern Building",
+        "Set Collection",
+        "Stacking and Balancing",
+        "Tile Placement",
+        "Variable Set-up"
+      ],
+      "designers": [
+        "Christian Giove"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 472803,
@@ -8927,15 +9137,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -11376,6 +11586,55 @@
         }
       ],
       "thingFetchedAt": "2026-09-27T08:49:15.447827+00:00"
+    },
+    {
+      "objectId": 469672,
+      "itemid": 25728,
+      "name": "Concordia: Mare Nostrum",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/4_kIXt0cwqny5S-tUscG-Q__original/img/7I8ncpJMJ63_GLzzhwPmYXAr0wI=/0x0/filters:format(jpeg)/pic9616949.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/4_kIXt0cwqny5S-tUscG-Q__small/img/N10dcUksL_eZXJXBduS2Dj1tsQE=/fit-in/200x150/filters:strip_icc()/pic9616949.jpg",
+      "link": "https://boardgamegeek.com/boardgame/469672",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 90,
+      "recommendedAge": "13+",
+      "weight": null,
+      "bggAverageRating": 8.5,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Movement",
+        "Deck Construction",
+        "Market"
+      ],
+      "designers": [
+        "Mac Gerdts"
+      ],
+      "artists": [],
+      "publishers": [
+        "PD-Verlag"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 463016,
@@ -15800,6 +16059,53 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 339605,
+      "itemid": 25733,
+      "name": "Double Nine",
+      "yearPublished": 2017,
+      "image": "https://cf.geekdo-images.com/DWvYm_i1nOJeqeW6QFojqw__original/img/37Fs1-IbIuQNVpwXxeyPGJpfELU=/0x0/filters:format(png)/pic9835678.png",
+      "thumbnail": "https://cf.geekdo-images.com/DWvYm_i1nOJeqeW6QFojqw__small/img/9NWfdZDH-lYtliKQ6nsRSItNGXc=/fit-in/200x150/filters:strip_icc()/pic9835678.png",
+      "link": "https://boardgamegeek.com/boardgame/339605",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 6.7,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 21068,
+      "mechanics": [
+        "Hand Management",
+        "Take That"
+      ],
+      "designers": [
+        "Hiro (H1R0)"
+      ],
+      "artists": [
+        "\u30d7\u30e9\u30cd (Purane)",
+        "Yuri Takahashi (\u30bf\u30ab\u30cf\u30b7  \u30e6\u30ea)"
+      ],
+      "publishers": [
+        "Arclight Games",
+        "Don't Panic Games",
+        "\u5984\u60f3\u30b2\u30fc\u30e0\u30ba\u2606 (Mousou Games)"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
       "objectId": 480377,
       "itemid": 25587,
       "name": "Dragon Eclipse: Mystling Academy \u2013 Banix vs Cloudar",
@@ -16258,6 +16564,57 @@
         }
       ],
       "thingFetchedAt": "2026-09-19T07:42:11.047701+00:00"
+    },
+    {
+      "objectId": 479468,
+      "itemid": 25714,
+      "name": "Duck, Soap & Paper Boat",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/IYPgBmK3Wx2ZFmAOuKitdw__original/img/XBCsI6P1X-S_9gPmVldz6XOmJ8k=/0x0/filters:format(png)/pic9835707.png",
+      "thumbnail": "https://cf.geekdo-images.com/IYPgBmK3Wx2ZFmAOuKitdw__small/img/kKr5YTUeW0-3ay8_utnDZHJdxk0=/fit-in/200x150/filters:strip_icc()/pic9835707.png",
+      "link": "https://boardgamegeek.com/boardgame/479468",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "10+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Score-and-Reset Game"
+      ],
+      "designers": [
+        "Christian Giove"
+      ],
+      "artists": [
+        "Martina Marzulli"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 473061,
@@ -16769,8 +17126,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -18122,6 +18479,63 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 419437,
+      "itemid": 25732,
+      "name": "Estate: Raise the Realm",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/YsTzbZ30wxBa5J70MuVoFg__original/img/YF9eG3KRYxCTUxeejKdv5Ib2jzg=/0x0/filters:format(png)/pic9303743.png",
+      "thumbnail": "https://cf.geekdo-images.com/YsTzbZ30wxBa5J70MuVoFg__small/img/LWfewk45ZoB6SdFEE1WQ7Y1sdgo=/fit-in/200x150/filters:strip_icc()/pic9303743.png",
+      "link": "https://boardgamegeek.com/boardgame/419437",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 100,
+      "recommendedAge": "14+",
+      "weight": 2.92,
+      "bggAverageRating": 7.69,
+      "bggBayesAverageRating": 5.65,
+      "bggRank": 7573,
+      "mechanics": [
+        "Chaining",
+        "Drawing",
+        "End Game Bonuses",
+        "Increase Value of Unchosen Resources",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Pass Order",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Devon Grodkiewicz",
+        "Kathryn Hahn"
+      ],
+      "artists": [
+        "James W Owen"
+      ],
+      "publishers": [
+        "Grod Games LLC."
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3-S120",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 424981,
@@ -20225,8 +20639,8 @@
       "interested": [
         {
           "user": "Alem0nes",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -21522,6 +21936,58 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 479401,
+      "itemid": 25718,
+      "name": "Foxy: Close Encounters",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "link": "https://boardgamegeek.com/boardgame/479401",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 15,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Betting and Bluffing",
+        "Memory",
+        "Solo / Solitaire Game"
+      ],
+      "designers": [
+        "Christian Giove",
+        "David Spada"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 465737,
@@ -23600,8 +24066,8 @@
       "interested": [
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -29136,6 +29602,56 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 478769,
+      "itemid": 25712,
+      "name": "Kakatua",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/uGFlOqiv53bqUySIvCaCag__original/img/VVPHL8HcTmor_LvD6b83leKEYmI=/0x0/filters:format(png)/pic9806620.png",
+      "thumbnail": "https://cf.geekdo-images.com/uGFlOqiv53bqUySIvCaCag__small/img/ZDDOck5mTxi_IlHTzHFicQjBzxE=/fit-in/200x150/filters:strip_icc()/pic9806620.png",
+      "link": "https://boardgamegeek.com/boardgame/478769",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 15,
+      "recommendedAge": "7+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Point to Point Movement"
+      ],
+      "designers": [
+        "Elena Cecilia Agus",
+        "Denis D'Anna"
+      ],
+      "artists": [
+        "Martina Marzulli"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 446453,
@@ -34708,6 +35224,57 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 479467,
+      "itemid": 25726,
+      "name": "Magical Library",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/56hqCmgqaIozf9O1xWsiCg__original/img/AUQIM8WzdaTd7I4VBZuL3T5YLds=/0x0/filters:format(jpeg)/pic9815954.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/56hqCmgqaIozf9O1xWsiCg__small/img/DRAH6fXeeLGouiRiEa7bNJYD8HY=/fit-in/200x150/filters:strip_icc()/pic9815954.jpg",
+      "link": "https://boardgamegeek.com/boardgame/479467",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 9.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "End Game Bonuses",
+        "Open Drafting",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Michael Luu"
+      ],
+      "artists": [
+        "David Roterberg"
+      ],
+      "publishers": [
+        "PD-Verlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
       "objectId": 462437,
       "itemid": 24867,
       "name": "Magicats",
@@ -37232,6 +37799,378 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 478920,
+      "itemid": 25720,
+      "name": "Mini Crimes: Mysteries from the Past \u2013 Broken Promises",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/DuIRAwA6s-SYIH94nOs33A__original/img/26l2TLG-3elhZWGf5XvosDAoxvg=/0x0/filters:format(png)/pic9836636.png",
+      "thumbnail": "https://cf.geekdo-images.com/DuIRAwA6s-SYIH94nOs33A__small/img/0YV82cAt6-GYLflHKON5AmV85Ok=/fit-in/200x150/filters:strip_icc()/pic9836636.png",
+      "link": "https://boardgamegeek.com/boardgame/478920",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Remo Conzadori",
+        "Lorenzo Trenti"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
+      "objectId": 478922,
+      "itemid": 25725,
+      "name": "Mini Crimes: Mysteries from the Past \u2013 No Rest for the Dead",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/wU2557T9RTnyq874jtW_mg__original/img/3R0322GjkH2jNLPM7O3WDhNAgrg=/0x0/filters:format(png)/pic9836643.png",
+      "thumbnail": "https://cf.geekdo-images.com/wU2557T9RTnyq874jtW_mg__small/img/1mMLoFJZ4u3UAYfJ4kC-O11hDUg=/fit-in/200x150/filters:strip_icc()/pic9836643.png",
+      "link": "https://boardgamegeek.com/boardgame/478922",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Remo Conzadori",
+        "Alessio Rossi"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
+      "objectId": 479399,
+      "itemid": 25723,
+      "name": "Mini Crimes: Mysteries from the Past \u2013 The Banker\u2019s Projects",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/hnWIDsC-aZUgupZj0h2x2w__original/img/kxrrS8fyNTqSix7RPXYdNcJW3Rs=/0x0/filters:format(png)/pic9836644.png",
+      "thumbnail": "https://cf.geekdo-images.com/hnWIDsC-aZUgupZj0h2x2w__small/img/twjrNFjlCASV2J3VHFxp0c5R2Ys=/fit-in/200x150/filters:strip_icc()/pic9836644.png",
+      "link": "https://boardgamegeek.com/boardgame/479399",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Remo Conzadori",
+        "Christian Giove"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
+      "objectId": 479397,
+      "itemid": 25724,
+      "name": "Mini Crimes: Mysteries from the Past \u2013 The Curtain Falls",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/ABVwgIDyEP7sxpAHBSaymQ__original/img/Zm1cnb2lcTfGyqRiAJZaJvjKq9I=/0x0/filters:format(png)/pic9836640.png",
+      "thumbnail": "https://cf.geekdo-images.com/ABVwgIDyEP7sxpAHBSaymQ__small/img/9-wY9TrnigeIayN_EvI7JOLVYxg=/fit-in/200x150/filters:strip_icc()/pic9836640.png",
+      "link": "https://boardgamegeek.com/boardgame/479397",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Remo Conzadori",
+        "Lorenzo Trenti"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
+      "objectId": 478923,
+      "itemid": 25719,
+      "name": "Mini Crimes: Mysteries from the Past \u2013 The Death Masque",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/MfL1jSNWcV0Li-puonGEwg__original/img/eTjLJhLGgwbUbdz_xDqFIMHB04s=/0x0/filters:format(png)/pic9836635.png",
+      "thumbnail": "https://cf.geekdo-images.com/MfL1jSNWcV0Li-puonGEwg__small/img/jBFTxfrRniIXMdl6J22ML2Pyqqg=/fit-in/200x150/filters:strip_icc()/pic9836635.png",
+      "link": "https://boardgamegeek.com/boardgame/478923",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Remo Conzadori",
+        "Beatrice Salvioni"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
+      "objectId": 478919,
+      "itemid": 25721,
+      "name": "Mini Crimes: Mysteries from the Past \u2013 The Last Drop",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/fN68J-znXmKUcaEeGOmqHg__original/img/7YuON8p8mcOV6HBHeXtFc7zByKA=/0x0/filters:format(png)/pic9836638.png",
+      "thumbnail": "https://cf.geekdo-images.com/fN68J-znXmKUcaEeGOmqHg__small/img/rH8rA9mqbfHd1aAzUEr6wOw7LUw=/fit-in/200x150/filters:strip_icc()/pic9836638.png",
+      "link": "https://boardgamegeek.com/boardgame/478919",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Remo Conzadori",
+        "Roberta Marchetta",
+        "Giovanni Spadaro"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
+      "objectId": 479398,
+      "itemid": 25722,
+      "name": "Mini Crimes: Mysteries from the Past \u2013 The Whole Picture",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/sn-0-YHKkjv4-Myfm347VA__original/img/RIH_CmDWgP2Z8BExOKdKdpTtW-U=/0x0/filters:format(png)/pic9836642.png",
+      "thumbnail": "https://cf.geekdo-images.com/sn-0-YHKkjv4-Myfm347VA__small/img/9qbRJ1xCLiYZ9k9otfshMt4AKVo=/fit-in/200x150/filters:strip_icc()/pic9836642.png",
+      "link": "https://boardgamegeek.com/boardgame/479398",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "designers": [
+        "Remo Conzadori",
+        "Nicol\u00f2 Targhetta"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
       "objectId": 417020,
       "itemid": 24659,
       "name": "Mini Rogue: The Council",
@@ -37553,13 +38492,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JoyfulFicus",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -45377,6 +46316,60 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 479378,
+      "itemid": 25727,
+      "name": "Pictures: Violet",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/sZwKAREMVVJ1ys8vdzTOxQ__original/img/slI1IrGRDoDj3yH-pBN0C9fkkn4=/0x0/filters:format(jpeg)/pic9820454.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/sZwKAREMVVJ1ys8vdzTOxQ__small/img/j8EW6eUut3v90m6ekbNdxKoNfNE=/fit-in/200x150/filters:strip_icc()/pic9820454.jpg",
+      "link": "https://boardgamegeek.com/boardgame/479378",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 30,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Deduction",
+        "Pattern Recognition"
+      ],
+      "designers": [
+        "Christian St\u00f6hr",
+        "Daniela St\u00f6hr"
+      ],
+      "artists": [
+        "Dominik Mayer",
+        "Karol Pryk",
+        "David Schneider (I)"
+      ],
+      "publishers": [
+        "PD-Verlag"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
+    },
+    {
       "objectId": 457399,
       "itemid": 25184,
       "name": "Pietenpolonaise",
@@ -50052,10 +51045,7 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 35.0,
-        "currency": "EUR"
-      },
+      "price": null,
       "location": null,
       "availability": "For Sale",
       "interested": [
@@ -53581,6 +54571,51 @@
         }
       ],
       "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+    },
+    {
+      "objectId": 470299,
+      "itemid": 25747,
+      "name": "Snails: Battle for Pearls",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/XQdggn2CWsurTwHugHiBqQ__original/img/DL9Vat3gmbsYQ90ISPix8IN4-kE=/0x0/filters:format(jpeg)/pic9568508.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/XQdggn2CWsurTwHugHiBqQ__small/img/lvu10_lj8PhgrVRMOQ7g_UoMwyI=/fit-in/200x150/filters:strip_icc()/pic9568508.jpg",
+      "link": "https://boardgamegeek.com/boardgame/470299",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "playingTime": null,
+      "recommendedAge": null,
+      "weight": null,
+      "bggAverageRating": 7.0,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Action Queue",
+        "Area Movement",
+        "Command Cards",
+        "Dice Rolling",
+        "Drawing",
+        "Map Deformation",
+        "Modular Board",
+        "Pieces as Map",
+        "Programmed Movement",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Damian Stankowski"
+      ],
+      "artists": [
+        "Jean-Baptiste Reynaud"
+      ],
+      "publishers": [
+        "Galakta"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "3U120",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 444238,
@@ -61572,8 +62607,8 @@
         },
         {
           "user": "Alem0nes",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -61659,6 +62694,60 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 475003,
+      "itemid": 25713,
+      "name": "Toby",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/nrfwWdRqbSb3LBD_lfO_XQ__original/img/3q9HjfEpNPkb11w3VRZyNrOq_AA=/0x0/filters:format(png)/pic9806457.png",
+      "thumbnail": "https://cf.geekdo-images.com/nrfwWdRqbSb3LBD_lfO_XQ__small/img/aNzPKGqJaaleHVayToiuqMg4c-o=/fit-in/200x150/filters:strip_icc()/pic9806457.png",
+      "link": "https://boardgamegeek.com/boardgame/475003",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deduction",
+        "Score-and-Reset Game",
+        "Voting"
+      ],
+      "designers": [
+        "Luca Rosa",
+        "David Spada"
+      ],
+      "artists": [
+        "Stefano Tartarotti"
+      ],
+      "publishers": [
+        "GateOnGames"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-A100",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
       "objectId": 283862,
@@ -62101,8 +63190,8 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
