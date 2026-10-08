@@ -501,18 +501,27 @@ function renderBidState(offer) {
   return `<div class="offer-bids">${statusHtml}${yoursHtml}</div>`;
 }
 
+function isAuctionEnded(raw) {
+  const date = parseAuctionEndDate(raw);
+  if (!date) return false;
+  const now = new Date();
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return date < startOfToday;
+}
+
 function renderOfferRow(offer) {
   const stars = renderStars(offer.conditionStars);
   const condition = offer.condition ? escapeHtml(offer.condition) : "";
   const bid = formatMoney(offer.startingBid);
   const bin = formatMoney(offer.bin);
+  const ended = isAuctionEnded(offer.auctionEnds);
   const metaParts = [];
   if (offer.version) metaParts.push(escapeHtml(offer.version));
   if (offer.languageDependency) metaParts.push(escapeHtml(offer.languageDependency));
-  if (offer.auctionEnds) metaParts.push(`Ends ${formatAuctionEndLabel(offer.auctionEnds)}`);
+  if (offer.auctionEnds) metaParts.push(`${ended ? "Ended" : "Ends"} ${formatAuctionEndLabel(offer.auctionEnds)}`);
 
   return `
-    <div class="offer-row">
+    <div class="offer-row${ended ? " offer-row--ended" : ""}">
       <a class="offer-seller" href="https://boardgamegeek.com/user/${encodeURIComponent(
         offer.seller
       )}" target="_blank" rel="noreferrer">${escapeHtml(formatValue(offer.seller))}</a>

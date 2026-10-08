@@ -1177,6 +1177,16 @@
         text-decoration: none;
       }
 
+      .offer-row--ended {
+        opacity: 0.55;
+      }
+
+      .offer-row--ended .offer-seller,
+      .offer-row--ended .detail-value,
+      .offer-row--ended .offer-meta {
+        text-decoration: line-through;
+      }
+
       .offer-seller:hover {
         text-decoration: underline;
       }
