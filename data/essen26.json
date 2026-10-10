@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-09T09:52:14.861626+00:00",
-  "itemCount": 1215,
-  "interestedCount": 234,
-  "noOneCount": 981,
+  "generatedAt": "2026-10-10T09:16:28.249417+00:00",
+  "itemCount": 1214,
+  "interestedCount": 232,
+  "noOneCount": 982,
   "items": [
     {
       "objectId": 474125,
@@ -444,7 +444,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 473012,
@@ -873,10 +873,10 @@
       "link": "https://boardgamegeek.com/boardgame/409668",
       "minPlayers": 1,
       "maxPlayers": 7,
-      "playingTime": 77,
+      "playingTime": 1200,
       "recommendedAge": "14+",
       "weight": 3.67,
-      "bggAverageRating": 8.95,
+      "bggAverageRating": 8.96,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -915,7 +915,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 457575,
@@ -1051,10 +1051,10 @@
       "maxPlayers": 1,
       "playingTime": null,
       "recommendedAge": "14+",
-      "weight": 2.0,
-      "bggAverageRating": 7.52,
-      "bggBayesAverageRating": 5.53,
-      "bggRank": 18137,
+      "weight": 1.5,
+      "bggAverageRating": 7.41,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 18410,
       "mechanics": [
         "Dice Rolling",
         "Narrative Choice / Paragraph",
@@ -1095,7 +1095,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 467638,
@@ -11991,51 +11991,6 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
-      "objectId": 394694,
-      "itemid": 25820,
-      "name": "Cooking Noodles",
-      "yearPublished": 2022,
-      "image": "https://cf.geekdo-images.com/nELmsj-lrdVbXafrc3GhgA__original/img/7y9DF-LLc9puPyWacQ-jBSHLsVs=/0x0/filters:format(jpeg)/pic7669855.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/nELmsj-lrdVbXafrc3GhgA__small/img/42G8zisqfjp-heeNwaw-VZMyLYY=/fit-in/200x150/filters:strip_icc()/pic7669855.jpg",
-      "link": "https://boardgamegeek.com/boardgame/394694",
-      "minPlayers": 2,
-      "maxPlayers": 4,
-      "playingTime": 30,
-      "recommendedAge": "10+",
-      "weight": 1.17,
-      "bggAverageRating": 6.76,
-      "bggBayesAverageRating": 5.52,
-      "bggRank": 20088,
-      "mechanics": [
-        "Action Drafting",
-        "Hand Management",
-        "Matching"
-      ],
-      "designers": [],
-      "artists": [],
-      "publishers": [
-        "\u963f\u6021\u624b\u4f5c (Ayi Boardgame Craft)",
-        "\u5fae\u5999\u6e38\u620f\uff08WeimiaoGames\uff09"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 10.0,
-        "currency": "EUR"
-      },
-      "location": "H2D410",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-10-09T09:52:11.731511+00:00"
-    },
-    {
       "objectId": 454177,
       "itemid": 24871,
       "name": "Cosmo",
@@ -13793,7 +13748,7 @@
       "playingTime": 720,
       "recommendedAge": "12+",
       "weight": 3.5,
-      "bggAverageRating": 8.86,
+      "bggAverageRating": 8.23,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -13802,8 +13757,13 @@
         "Dice Rolling",
         "Scenario / Mission / Campaign Game"
       ],
-      "designers": [],
-      "artists": [],
+      "designers": [
+        "Lukas H\u00fcttner",
+        "Errol Stryker"
+      ],
+      "artists": [
+        "Maurice Mosqua"
+      ],
       "publishers": [
         "Dark Omen GmbH"
       ],
@@ -13826,7 +13786,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 479352,
@@ -14216,6 +14176,52 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 470266,
+      "itemid": 25827,
+      "name": "Deckscape: The Academy of Magic",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/ZJZVMWjqu6zobH5YwBq0fg__original/img/n5P8v2uBPH4Zj8vCQp19Cffs7TM=/0x0/filters:format(png)/pic9629189.png",
+      "thumbnail": "https://cf.geekdo-images.com/ZJZVMWjqu6zobH5YwBq0fg__small/img/l_aKFtuWihpS66D2aX_R48F7Ruc=/fit-in/200x150/filters:strip_icc()/pic9629189.png",
+      "link": "https://boardgamegeek.com/boardgame/470266",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "playingTime": 60,
+      "recommendedAge": "12+",
+      "weight": null,
+      "bggAverageRating": 7.38,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game"
+      ],
+      "designers": [
+        "Martino Chiacchiera",
+        "Silvano Sorrentino"
+      ],
+      "artists": [
+        "Alberto Bontempi"
+      ],
+      "publishers": [
+        "DV Games",
+        "999 Games",
+        "ABACUSSPIELE"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "3P500",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 388641,
@@ -15461,7 +15467,7 @@
       "playingTime": 120,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 8.25,
+      "bggAverageRating": 5.83,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -15505,7 +15511,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 475464,
@@ -15842,8 +15848,8 @@
       "itemid": 25278,
       "name": "Discordia: Germanicus",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__original/img/eBeOyAv08r-qFkQmVKhtBg_netU=/0x0/filters:format(jpeg)/pic1657689.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/zxVVmggfpHJpmnJY9j-k1w__small/img/Tse35rOD2Z8Pv9EOUj4TfeMuNew=/fit-in/200x150/filters:strip_icc()/pic1657689.jpg",
+      "image": "https://cf.geekdo-images.com/utGh3ykVEGLyg6Av3MKC_A__original/img/wC8wVKPv31Dh1_1ibDKAi4eg8vw=/0x0/filters:format(png)/pic9796418.png",
+      "thumbnail": "https://cf.geekdo-images.com/utGh3ykVEGLyg6Av3MKC_A__small/img/2tYdnEVF9yrEPjw7yNUY4Re08WM=/fit-in/200x150/filters:strip_icc()/pic9796418.png",
       "link": "https://boardgamegeek.com/boardgame/478532",
       "minPlayers": 1,
       "maxPlayers": 5,
@@ -15892,7 +15898,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 431123,
@@ -17165,7 +17171,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 343847,
@@ -21659,6 +21665,50 @@
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
     },
     {
+      "objectId": 440282,
+      "itemid": 25829,
+      "name": "Fluffypede",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/OWvA1jYbLX_hefNBPB97Jg__original/img/cMu7QijnQspV_bry4HMycWE3E-0=/0x0/filters:format(png)/pic9854270.png",
+      "thumbnail": "https://cf.geekdo-images.com/OWvA1jYbLX_hefNBPB97Jg__small/img/c-Im5sEn-0urbHYMcpLJ1jyHDmI=/fit-in/200x150/filters:strip_icc()/pic9854270.png",
+      "link": "https://boardgamegeek.com/boardgame/440282",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 45,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 7.32,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Push Your Luck",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Shy Finn Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "6-D109",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
+    },
+    {
       "objectId": 479047,
       "itemid": 25407,
       "name": "Fly Away",
@@ -24016,8 +24066,8 @@
       "maxPlayers": 6,
       "playingTime": 20,
       "recommendedAge": "7+",
-      "weight": null,
-      "bggAverageRating": 7.88,
+      "weight": 1.0,
+      "bggAverageRating": 7.84,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -24055,7 +24105,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 470497,
@@ -25311,6 +25361,69 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 267609,
+      "itemid": 25821,
+      "name": "Guards of Atlantis II",
+      "yearPublished": 2022,
+      "image": "https://cf.geekdo-images.com/CLdVz8XgcQMHAePXFeazWA__original/img/dwL3LxomHtUNhvjqxOz4xoCE4p8=/0x0/filters:format(png)/pic5194254.png",
+      "thumbnail": "https://cf.geekdo-images.com/CLdVz8XgcQMHAePXFeazWA__small/img/7Wq5i3VE4SPuVUXHmV-E-yPTHqw=/fit-in/200x150/filters:strip_icc()/pic5194254.png",
+      "link": "https://boardgamegeek.com/boardgame/267609",
+      "minPlayers": 4,
+      "maxPlayers": 10,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": 3.29,
+      "bggAverageRating": 8.31,
+      "bggBayesAverageRating": 6.77,
+      "bggRank": 811,
+      "mechanics": [
+        "Area Movement",
+        "Campaign / Battle Card Driven",
+        "Communication Limits",
+        "Grid Movement",
+        "Hand Management",
+        "Hexagon Grid",
+        "Multi-Use Cards",
+        "Simultaneous Action Selection",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "designers": [
+        "Artyom Nichipurov"
+      ],
+      "artists": [
+        "Martin Bulteau",
+        "St\u00e9phane Dumoulin",
+        "Jeremy Forveille",
+        "Karolina J\u0119drzejak",
+        "Ga\u00ebl Lannurien",
+        "Kim Van Deun"
+      ],
+      "publishers": [
+        "Wolff Designa"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Hall 3 3M515",
+      "availability": "Demo",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
+    },
+    {
       "objectId": 296425,
       "itemid": 24660,
       "name": "Guerre Eclair",
@@ -25591,7 +25704,7 @@
       "weight": 2.1,
       "bggAverageRating": 7.03,
       "bggBayesAverageRating": 6.54,
-      "bggRank": 1244,
+      "bggRank": 1249,
       "mechanics": [
         "Betting and Bluffing",
         "Hand Management",
@@ -25635,7 +25748,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 446596,
@@ -28234,7 +28347,7 @@
     },
     {
       "objectId": 478861,
-      "itemid": 25371,
+      "itemid": 25370,
       "name": "Ice",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/LB4EhalKgCHt1Bp6apP2HA__original/img/0W7fCYVhq3Bld8g0axmhGCuAIpM=/0x0/filters:format(png)/pic9795369.png",
@@ -28558,7 +28671,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 453055,
@@ -32514,9 +32627,9 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": 1.71,
-      "bggAverageRating": 7.01,
+      "bggAverageRating": 7.0,
       "bggBayesAverageRating": 5.89,
-      "bggRank": 3967,
+      "bggRank": 3985,
       "mechanics": [
         "Area Majority / Influence",
         "Modular Board"
@@ -32553,7 +32666,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 458956,
@@ -32978,7 +33091,7 @@
       "playingTime": 90,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 8.7,
+      "bggAverageRating": 9.28,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -32989,7 +33102,9 @@
       "designers": [
         "Rafael Prado"
       ],
-      "artists": [],
+      "artists": [
+        "An Ki"
+      ],
       "publishers": [
         "Mango Planet",
         "Ludicatessen"
@@ -33013,7 +33128,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 415848,
@@ -35266,7 +35381,7 @@
       "playingTime": 120,
       "recommendedAge": "14+",
       "weight": 3.5,
-      "bggAverageRating": 8.02,
+      "bggAverageRating": 7.92,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -35317,7 +35432,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 479939,
@@ -35617,9 +35732,9 @@
       "playingTime": 45,
       "recommendedAge": null,
       "weight": 1.5,
-      "bggAverageRating": 6.54,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "bggAverageRating": 6.53,
+      "bggBayesAverageRating": 5.51,
+      "bggRank": 21726,
       "mechanics": [
         "Dice Rolling"
       ],
@@ -35652,7 +35767,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 464310,
@@ -35884,9 +35999,9 @@
       "playingTime": 30,
       "recommendedAge": "14+",
       "weight": 2.2,
-      "bggAverageRating": 7.37,
+      "bggAverageRating": 7.35,
       "bggBayesAverageRating": 5.76,
-      "bggRank": 5332,
+      "bggRank": 5356,
       "mechanics": [
         "Connections",
         "Hand Management",
@@ -35932,7 +36047,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 445419,
@@ -35947,7 +36062,7 @@
       "playingTime": 45,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 7.47,
+      "bggAverageRating": 7.45,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -35993,7 +36108,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 468586,
@@ -39168,6 +39283,12 @@
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
+        },
+        {
+          "user": "Ragasil",
+          "priority": null,
+          "priorityLabel": "Unprioritized",
+          "notes": null
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
@@ -39747,9 +39868,9 @@
       "playingTime": 40,
       "recommendedAge": "10+",
       "weight": 1.9,
-      "bggAverageRating": 6.69,
-      "bggBayesAverageRating": 5.69,
-      "bggRank": 6501,
+      "bggAverageRating": 6.7,
+      "bggBayesAverageRating": 5.7,
+      "bggRank": 6445,
       "mechanics": [
         "Trick-taking"
       ],
@@ -39783,7 +39904,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 475923,
@@ -40768,7 +40889,7 @@
       "playingTime": 15,
       "recommendedAge": "4+",
       "weight": null,
-      "bggAverageRating": 7.56,
+      "bggAverageRating": 8.14,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -40778,7 +40899,9 @@
       "designers": [
         "Rafael Prado"
       ],
-      "artists": [],
+      "artists": [
+        "An Ki"
+      ],
       "publishers": [
         "Mango Planet",
         "Ludicatessen"
@@ -40802,7 +40925,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 475507,
@@ -42034,7 +42157,7 @@
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 8.42,
+      "bggAverageRating": 8.98,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -42044,7 +42167,9 @@
       "designers": [
         "Rafael Prado"
       ],
-      "artists": [],
+      "artists": [
+        "An Ki"
+      ],
       "publishers": [
         "Mango Planet",
         "Ludicatessen"
@@ -42068,7 +42193,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 421246,
@@ -42109,7 +42234,10 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": null,
+      "price": {
+        "amount": 89.0,
+        "currency": "EUR"
+      },
       "location": "4G200",
       "availability": "For Sale",
       "interested": [
@@ -42174,7 +42302,10 @@
       ],
       "subtype": "boardgameexpansion",
       "itemType": "expansion",
-      "price": null,
+      "price": {
+        "amount": 39.0,
+        "currency": "EUR"
+      },
       "location": "4G200",
       "availability": "For Sale",
       "interested": [
@@ -45528,8 +45659,8 @@
       "itemid": 25293,
       "name": "Panda Flip",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/5s4lxGu6LTP5sn4JUfGQ5A__original/img/RR55uBqeyQEZB_bl85mBoDEwq4o=/0x0/filters:format(png)/pic9575156.png",
-      "thumbnail": "https://cf.geekdo-images.com/5s4lxGu6LTP5sn4JUfGQ5A__small/img/VTakVrL81als9zsz2GrvDdAy6rI=/fit-in/200x150/filters:strip_icc()/pic9575156.png",
+      "image": "https://cf.geekdo-images.com/aD-nMFgmQxKmyx2aBqlxXw__original/img/uLGbN4H8sp-niVjPiqvs4WByg6o=/0x0/filters:format(png)/pic9805546.png",
+      "thumbnail": "https://cf.geekdo-images.com/aD-nMFgmQxKmyx2aBqlxXw__small/img/Mo7zNgYq4cmKGqoOuee7GeXZEeU=/fit-in/200x150/filters:strip_icc()/pic9805546.png",
       "link": "https://boardgamegeek.com/boardgame/460433",
       "minPlayers": 2,
       "maxPlayers": 5,
@@ -45573,7 +45704,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 479043,
@@ -47036,49 +47167,6 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
-      "objectId": 443167,
-      "itemid": 25819,
-      "name": "Picky Eaters",
-      "yearPublished": 2023,
-      "image": "https://cf.geekdo-images.com/8OK99IWBglt-AVPCZzC_KQ__original/img/kLiO8IzV_c3D4PR7vERLY1V6NaQ=/0x0/filters:format(jpeg)/pic8834957.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/8OK99IWBglt-AVPCZzC_KQ__small/img/W6TWHNuliLgxS9w9zi7n5M84Lww=/fit-in/200x150/filters:strip_icc()/pic8834957.jpg",
-      "link": "https://boardgamegeek.com/boardgame/443167",
-      "minPlayers": 2,
-      "maxPlayers": 5,
-      "playingTime": 15,
-      "recommendedAge": null,
-      "weight": null,
-      "bggAverageRating": 6.5,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
-      "mechanics": [
-        "Grid Coverage",
-        "Player Elimination"
-      ],
-      "designers": [],
-      "artists": [],
-      "publishers": [
-        "\u963f\u6021\u624b\u4f5c (Ayi Boardgame Craft)"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 6.5,
-        "currency": "EUR"
-      },
-      "location": "H2D410",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-10-09T09:52:11.731511+00:00"
-    },
-    {
       "objectId": 479378,
       "itemid": 25727,
       "name": "Pictures: Violet",
@@ -47395,9 +47483,9 @@
       "playingTime": 10,
       "recommendedAge": "14+",
       "weight": 1.0,
-      "bggAverageRating": 8.02,
-      "bggBayesAverageRating": 5.59,
-      "bggRank": 10053,
+      "bggAverageRating": 7.94,
+      "bggBayesAverageRating": 5.6,
+      "bggRank": 9723,
       "mechanics": [
         "Hand Management",
         "Ladder Climbing",
@@ -47434,7 +47522,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 428776,
@@ -47928,7 +48016,7 @@
       "playingTime": 15,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 6.64,
+      "bggAverageRating": 7.19,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -47962,7 +48050,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 455642,
@@ -49178,9 +49266,9 @@
       "playingTime": 20,
       "recommendedAge": "14+",
       "weight": 1.6,
-      "bggAverageRating": 7.15,
+      "bggAverageRating": 7.12,
       "bggBayesAverageRating": 5.6,
-      "bggRank": 9704,
+      "bggRank": 9607,
       "mechanics": [
         "Action / Event",
         "Area Majority / Influence",
@@ -49224,7 +49312,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 451297,
@@ -53286,7 +53374,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 472976,
@@ -53472,10 +53560,10 @@
       "maxPlayers": 6,
       "playingTime": 20,
       "recommendedAge": "8+",
-      "weight": null,
-      "bggAverageRating": 7.18,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "weight": 1.0,
+      "bggAverageRating": 6.93,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 20396,
       "mechanics": [
         "Open Drafting",
         "Tile Placement"
@@ -53508,7 +53596,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 476109,
@@ -54234,7 +54322,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 402312,
@@ -54684,10 +54772,10 @@
       "maxPlayers": 5,
       "playingTime": 30,
       "recommendedAge": "8+",
-      "weight": 1.4,
+      "weight": 1.5,
       "bggAverageRating": 6.93,
       "bggBayesAverageRating": 5.62,
-      "bggRank": 8564,
+      "bggRank": 8471,
       "mechanics": [
         "Push Your Luck",
         "Trick-taking"
@@ -54721,7 +54809,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 469382,
@@ -55283,7 +55371,7 @@
       "weight": 3.0,
       "bggAverageRating": 6.72,
       "bggBayesAverageRating": 5.53,
-      "bggRank": 16130,
+      "bggRank": 16199,
       "mechanics": [
         "Closed Drafting",
         "Deck Construction",
@@ -55321,7 +55409,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 466022,
@@ -55840,7 +55928,7 @@
       "playingTime": 45,
       "recommendedAge": "14+",
       "weight": 2.0,
-      "bggAverageRating": 8.5,
+      "bggAverageRating": 8.33,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -55877,7 +55965,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 452143,
@@ -57111,7 +57199,7 @@
         "Trick-taking"
       ],
       "designers": [
-        "\u7121\u754c (Mukai)"
+        "Isao Mukai"
       ],
       "artists": [
         "momoune (\u30e2\u30e2\u30fc\u30cc)"
@@ -57138,7 +57226,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 454696,
@@ -61588,7 +61676,7 @@
     },
     {
       "objectId": 432701,
-      "itemid": 25815,
+      "itemid": 25823,
       "name": "The League of the Extraordinary Collectors",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/SfGWgabmwNRJyrdPuTtpGA__original/img/EiyblPgiOohlrVfTNzlu5x_DQ2c=/0x0/filters:format(jpeg)/pic8534815.jpg",
@@ -64120,93 +64208,6 @@
       "thingFetchedAt": "2026-10-06T09:40:06.452069+00:00"
     },
     {
-      "objectId": 429661,
-      "itemid": 25816,
-      "name": "Tofu Shifu",
-      "yearPublished": 2024,
-      "image": "https://cf.geekdo-images.com/_zhgk8SoBGhTA3G2A8kJMw__original/img/5Mavg3XaXZfUA9_6n5uWvefopog=/0x0/filters:format(png)/pic8453905.png",
-      "thumbnail": "https://cf.geekdo-images.com/_zhgk8SoBGhTA3G2A8kJMw__small/img/7_ikbA5YsUjlfPtNghNbX3GXyms=/fit-in/200x150/filters:strip_icc()/pic8453905.png",
-      "link": "https://boardgamegeek.com/boardgame/429661",
-      "minPlayers": 2,
-      "maxPlayers": 4,
-      "playingTime": 90,
-      "recommendedAge": "10+",
-      "weight": 2.78,
-      "bggAverageRating": 7.44,
-      "bggBayesAverageRating": 5.62,
-      "bggRank": 8729,
-      "mechanics": [
-        "Action Retrieval",
-        "Deck, Bag, and Pool Building",
-        "Drawing",
-        "Race",
-        "Worker Placement"
-      ],
-      "designers": [],
-      "artists": [],
-      "publishers": [
-        "\u963f\u6021\u624b\u4f5c (Ayi Boardgame Craft)"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 45.0,
-        "currency": "EUR"
-      },
-      "location": "H2D410",
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-10-09T09:52:11.731511+00:00"
-    },
-    {
-      "objectId": 480375,
-      "itemid": 25817,
-      "name": "Tofu Shifu: Masters of Spices",
-      "yearPublished": 2027,
-      "image": "https://cf.geekdo-images.com/oMMwUUBFTc1b-DVkgDY3BQ__original/img/y3QkiU03nGi5N6AAOZiMCy1oiXY=/0x0/filters:format(jpeg)/pic9836115.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/oMMwUUBFTc1b-DVkgDY3BQ__small/img/j-EfAyS2LJPEUYpUEIuqp0DO3SM=/fit-in/200x150/filters:strip_icc()/pic9836115.jpg",
-      "link": "https://boardgamegeek.com/boardgame/480375",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 90,
-      "recommendedAge": "10+",
-      "weight": null,
-      "bggAverageRating": null,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
-      "mechanics": [
-        "Deck, Bag, and Pool Building",
-        "Multi-Use Cards",
-        "Worker Placement"
-      ],
-      "designers": [],
-      "artists": [],
-      "publishers": [
-        "\u963f\u6021\u624b\u4f5c (Ayi Boardgame Craft)"
-      ],
-      "subtype": "boardgameexpansion",
-      "itemType": "expansion",
-      "price": null,
-      "location": "H2D410",
-      "availability": "Demo",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-10-09T09:52:11.731511+00:00"
-    },
-    {
       "objectId": 283862,
       "itemid": 24733,
       "name": "Too Many Bones: Lab Rats",
@@ -64433,7 +64434,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 474015,
@@ -66654,9 +66655,9 @@
       "playingTime": 45,
       "recommendedAge": "10+",
       "weight": 1.5,
-      "bggAverageRating": 7.73,
+      "bggAverageRating": 7.87,
       "bggBayesAverageRating": 5.52,
-      "bggRank": 20720,
+      "bggRank": 19567,
       "mechanics": [
         "Auction / Bidding",
         "Hand Management",
@@ -66691,7 +66692,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 450977,
@@ -67216,9 +67217,9 @@
       "playingTime": 30,
       "recommendedAge": "7+",
       "weight": 1.0,
-      "bggAverageRating": 7.18,
-      "bggBayesAverageRating": 5.51,
-      "bggRank": 22308,
+      "bggAverageRating": 7.29,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 20323,
       "mechanics": [
         "Connections",
         "Layering",
@@ -67254,7 +67255,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 477848,
@@ -67269,7 +67270,7 @@
       "playingTime": 45,
       "recommendedAge": "7+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 6.33,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -67312,7 +67313,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-10T07:42:58.816161+00:00"
+      "thingFetchedAt": "2026-10-10T09:16:21.393748+00:00"
     },
     {
       "objectId": 424745,
