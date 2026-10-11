@@ -5,6 +5,7 @@ const SORT_OPTIONS = [
   { key: "startingBid", label: "Starting bid", defaultDirection: "asc" },
   { key: "bin", label: "BIN", defaultDirection: "asc" },
   { key: "auctionEnds", label: "Auction ends", defaultDirection: "asc" },
+  { key: "rank", label: "BGG Rank", defaultDirection: "asc" },
   { key: "name", label: "Name", defaultDirection: "asc" },
   { key: "offerCount", label: "Most offers", defaultDirection: "desc" },
 ];
@@ -400,6 +401,8 @@ function sortValueForItem(item, key) {
       return cheapestOfferValue(item, "bin");
     case "auctionEnds":
       return earliestAuctionEndValue(item);
+    case "rank":
+      return item.bggRank ? Number(item.bggRank) : null;
     case "name":
       return (item.name || "").toLowerCase();
     case "offerCount":
