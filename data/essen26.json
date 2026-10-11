@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-10T09:16:28.249417+00:00",
-  "itemCount": 1214,
-  "interestedCount": 232,
-  "noOneCount": 982,
+  "generatedAt": "2026-10-11T09:32:54.920803+00:00",
+  "itemCount": 1215,
+  "interestedCount": 229,
+  "noOneCount": 986,
   "items": [
     {
       "objectId": 474125,
@@ -4911,12 +4911,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -4930,6 +4924,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -9384,8 +9384,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -12867,6 +12867,12 @@
           "notes": null
         },
         {
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -12874,12 +12880,6 @@
         },
         {
           "user": "Alem0nes",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -17879,12 +17879,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -17892,6 +17886,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -23653,6 +23653,58 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 396375,
+      "itemid": 25840,
+      "name": "Gems of Iridescia",
+      "yearPublished": 2025,
+      "image": "https://cf.geekdo-images.com/DdQuA4oMNHPtedZfpkcjrQ__original/img/9g_gf_RCRRhZLqEbxYHY4tDMji8=/0x0/filters:format(jpeg)/pic8810999.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/DdQuA4oMNHPtedZfpkcjrQ__small/img/bwbJXE8ptZ8lNGo8wXSMg3I70Kg=/fit-in/200x150/filters:strip_icc()/pic8810999.jpg",
+      "link": "https://boardgamegeek.com/boardgame/396375",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 90,
+      "recommendedAge": "10+",
+      "weight": 2.17,
+      "bggAverageRating": 6.97,
+      "bggBayesAverageRating": 5.66,
+      "bggRank": 7441,
+      "mechanics": [
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Hexagon Grid",
+        "Push Your Luck",
+        "Set Collection",
+        "Worker Placement"
+      ],
+      "designers": [
+        "Roberto Panetta"
+      ],
+      "artists": [
+        "Michael Dashow",
+        "Sarah \"Freedz\" Conlon"
+      ],
+      "publishers": [
+        "Rock, Stone & Dice Games"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 55.0,
+        "currency": "EUR"
+      },
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
+    },
+    {
       "objectId": 475333,
       "itemid": 24459,
       "name": "Gems of Iridescia: Radiant Recalibrator Promo Card",
@@ -24608,6 +24660,12 @@
       "location": "5-D115",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -34712,6 +34770,12 @@
           "notes": null
         },
         {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "JuhBass",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -36520,8 +36584,8 @@
       "itemid": 25322,
       "name": "Manila",
       "yearPublished": 2005,
-      "image": "https://cf.geekdo-images.com/dU0cm4_NP8QiQqiXP9Jclw__original/img/WxzkPQdX41PI-Lz-94wPL1ZrEQk=/0x0/filters:format(jpeg)/pic902372.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/dU0cm4_NP8QiQqiXP9Jclw__small/img/fgRQKglhHBKsRP-nUi0EE-iuxvM=/fit-in/200x150/filters:strip_icc()/pic902372.jpg",
+      "image": "https://cf.geekdo-images.com/ygBdShYCK7UABspyEJ2cAQ__original/img/UfwN_ga9vDCvmgDJiLlPEYTlAeU=/0x0/filters:format(png)/pic9792588.png",
+      "thumbnail": "https://cf.geekdo-images.com/ygBdShYCK7UABspyEJ2cAQ__small/img/97gnqmhpH_TQ4QyqLGrv8YeR0Dg=/fit-in/200x150/filters:strip_icc()/pic9792588.png",
       "link": "https://boardgamegeek.com/boardgame/15817",
       "minPlayers": 3,
       "maxPlayers": 5,
@@ -36530,7 +36594,7 @@
       "weight": 2.04,
       "bggAverageRating": 7.0,
       "bggBayesAverageRating": 6.56,
-      "bggRank": 1191,
+      "bggRank": 1190,
       "mechanics": [
         "Auction / Bidding",
         "Auction: Turn Order Until Pass",
@@ -36583,7 +36647,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 447483,
@@ -37032,7 +37096,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 474696,
@@ -39273,13 +39337,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -39520,8 +39584,8 @@
       "itemid": 25323,
       "name": "Mole King",
       "yearPublished": 2020,
-      "image": "https://cf.geekdo-images.com/2Zt__fUS2VvdIY2ZTbJxhg__original/img/9R3FOZ5PJ5i1ToruCk9ikw_HoCE=/0x0/filters:format(png)/pic5733885.png",
-      "thumbnail": "https://cf.geekdo-images.com/2Zt__fUS2VvdIY2ZTbJxhg__small/img/rGGAnJc2RVGfJvpdrRkT-G40w8g=/fit-in/200x150/filters:strip_icc()/pic5733885.png",
+      "image": "https://cf.geekdo-images.com/ug3AWMLfFLOSglc4DH9LGQ__original/img/cXQHMPfF5ZynbyUDYI6E94BtabU=/0x0/filters:format(png)/pic9796167.png",
+      "thumbnail": "https://cf.geekdo-images.com/ug3AWMLfFLOSglc4DH9LGQ__small/img/Ib-CNT4wwdK1PdlW7Zf3tOpk6Bo=/fit-in/200x150/filters:strip_icc()/pic9796167.png",
       "link": "https://boardgamegeek.com/boardgame/321334",
       "minPlayers": 2,
       "maxPlayers": 4,
@@ -39574,7 +39638,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 475383,
@@ -40598,13 +40662,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -44713,7 +44777,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 448740,
@@ -44921,8 +44985,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -46707,16 +46771,16 @@
       "objectId": 448409,
       "itemid": 25313,
       "name": "Personal Demons",
-      "yearPublished": 2026,
+      "yearPublished": 2027,
       "image": "https://cf.geekdo-images.com/XdPLKH7yIP-j2wC056lHDg__original/img/WfrCohtknLLplchCXJtcy_cuDRs=/0x0/filters:format(png)/pic9326949.png",
       "thumbnail": "https://cf.geekdo-images.com/XdPLKH7yIP-j2wC056lHDg__small/img/nHstXSXe21M4jc_l13liLiyPkeU=/fit-in/200x150/filters:strip_icc()/pic9326949.png",
       "link": "https://boardgamegeek.com/boardgame/448409",
       "minPlayers": 1,
-      "maxPlayers": 6,
+      "maxPlayers": 4,
       "playingTime": 60,
       "recommendedAge": "12+",
       "weight": 2.0,
-      "bggAverageRating": 8.0,
+      "bggAverageRating": 8.01,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -46753,7 +46817,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 353572,
@@ -48259,6 +48323,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -48266,12 +48336,6 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -48497,7 +48561,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 454829,
@@ -49411,19 +49475,19 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 207331,
@@ -50474,6 +50538,12 @@
       "location": "6-C300",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
         {
           "user": "ParadoxBard",
           "priority": 4,
@@ -52687,13 +52757,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -52859,8 +52929,8 @@
       "itemid": 25324,
       "name": "Romeo and Juliet IF Story",
       "yearPublished": 2023,
-      "image": "https://cf.geekdo-images.com/BpYC74LEaFCumroRJa3T4Q__original/img/cSDrEioZ6gpNKsu7H0q0EkH12iY=/0x0/filters:format(jpeg)/pic8859949.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/BpYC74LEaFCumroRJa3T4Q__small/img/90KaEO0iK0BNxJk63gqh1mKQ3d8=/fit-in/200x150/filters:strip_icc()/pic8859949.jpg",
+      "image": "https://cf.geekdo-images.com/ZAQqRzdaTBmlafB_pNCM1g__original/img/x3R7xtDU9GBkBuzDyoSM9lFqY2Y=/0x0/filters:format(png)/pic9792692.png",
+      "thumbnail": "https://cf.geekdo-images.com/ZAQqRzdaTBmlafB_pNCM1g__small/img/UmvG0pW1XcJftUHDMEjVrNQA1SA=/fit-in/200x150/filters:strip_icc()/pic9792692.png",
       "link": "https://boardgamegeek.com/boardgame/445397",
       "minPlayers": 3,
       "maxPlayers": 6,
@@ -52906,7 +52976,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-11T07:38:48.299117+00:00"
+      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 473557,
@@ -61762,8 +61832,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -62264,13 +62334,13 @@
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
+          "user": "JoyfulFicus",
           "priority": 3,
           "priorityLabel": "Not Decided",
           "notes": null
