@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-11T09:32:54.920803+00:00",
-  "itemCount": 1215,
-  "interestedCount": 229,
-  "noOneCount": 986,
+  "generatedAt": "2026-10-12T10:03:26.904283+00:00",
+  "itemCount": 1219,
+  "interestedCount": 226,
+  "noOneCount": 993,
   "items": [
     {
       "objectId": 474125,
@@ -3238,15 +3238,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
+          "user": "Alem0nes",
           "priority": 1,
           "priorityLabel": "Must Have",
           "notes": null
         },
         {
-          "user": "Alem0nes",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -5903,6 +5903,53 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 472221,
+      "itemid": 25844,
+      "name": "Best Day Ever",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/jd_9kdCmxPyFReuXx7fxzg__original/img/mQ3hMD_vGkHYEP3_KqwddOHENmw=/0x0/filters:format(png)/pic9774132.png",
+      "thumbnail": "https://cf.geekdo-images.com/jd_9kdCmxPyFReuXx7fxzg__small/img/uQIJO-qlCwlEjvAWOYC8FO5u4WI=/fit-in/200x150/filters:strip_icc()/pic9774132.png",
+      "link": "https://boardgamegeek.com/boardgame/472221",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 45,
+      "recommendedAge": "8+",
+      "weight": 2.0,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Area Movement",
+        "Hidden Movement",
+        "Modular Board",
+        "Simultaneous Action Selection"
+      ],
+      "designers": [
+        "Jan Maier"
+      ],
+      "artists": [],
+      "publishers": [
+        "SPIEL DAS! Verlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 25.0,
+        "currency": "EUR"
+      },
+      "location": "H2D430",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
+    },
+    {
       "objectId": 455186,
       "itemid": 24516,
       "name": "Bharat: Kings of Legend",
@@ -7993,15 +8040,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "Ragasil",
+          "user": "JoyfulFicus",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "user": "Ragasil",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -14476,15 +14523,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
+          "user": "JuhBass",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -18152,9 +18199,9 @@
       "playingTime": 30,
       "recommendedAge": "6+",
       "weight": 1.0,
-      "bggAverageRating": 7.79,
-      "bggBayesAverageRating": 5.53,
-      "bggRank": 16304,
+      "bggAverageRating": 7.8,
+      "bggBayesAverageRating": 5.54,
+      "bggRank": 15058,
       "mechanics": [
         "Communication Limits",
         "Cooperative Game",
@@ -18192,7 +18239,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 453114,
@@ -21862,8 +21909,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -23651,58 +23698,6 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
-    },
-    {
-      "objectId": 396375,
-      "itemid": 25840,
-      "name": "Gems of Iridescia",
-      "yearPublished": 2025,
-      "image": "https://cf.geekdo-images.com/DdQuA4oMNHPtedZfpkcjrQ__original/img/9g_gf_RCRRhZLqEbxYHY4tDMji8=/0x0/filters:format(jpeg)/pic8810999.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/DdQuA4oMNHPtedZfpkcjrQ__small/img/bwbJXE8ptZ8lNGo8wXSMg3I70Kg=/fit-in/200x150/filters:strip_icc()/pic8810999.jpg",
-      "link": "https://boardgamegeek.com/boardgame/396375",
-      "minPlayers": 1,
-      "maxPlayers": 4,
-      "playingTime": 90,
-      "recommendedAge": "10+",
-      "weight": 2.17,
-      "bggAverageRating": 6.97,
-      "bggBayesAverageRating": 5.66,
-      "bggRank": 7441,
-      "mechanics": [
-        "Dice Rolling",
-        "End Game Bonuses",
-        "Hexagon Grid",
-        "Push Your Luck",
-        "Set Collection",
-        "Worker Placement"
-      ],
-      "designers": [
-        "Roberto Panetta"
-      ],
-      "artists": [
-        "Michael Dashow",
-        "Sarah \"Freedz\" Conlon"
-      ],
-      "publishers": [
-        "Rock, Stone & Dice Games"
-      ],
-      "subtype": "boardgame",
-      "itemType": "standalone",
-      "price": {
-        "amount": 55.0,
-        "currency": "EUR"
-      },
-      "location": null,
-      "availability": "For Sale",
-      "interested": [
-        {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        }
-      ],
-      "thingFetchedAt": "2026-10-11T09:32:54.600848+00:00"
     },
     {
       "objectId": 475333,
@@ -25702,7 +25697,7 @@
     },
     {
       "objectId": 451883,
-      "itemid": 25812,
+      "itemid": 25843,
       "name": "Haelo: Heros wana keep that Halo",
       "yearPublished": 2025,
       "image": "https://cf.geekdo-images.com/co6R2zBxdr2mfi7eID_E9g__original/img/MBHDqG4MX3xL_0PNnTbWZ1uBPhk=/0x0/filters:format(png)/pic9625497.png",
@@ -25731,11 +25726,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 22.0,
-        "currency": "EUR"
-      },
-      "location": "H2D410",
+      "price": null,
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -26104,7 +26096,7 @@
     },
     {
       "objectId": 425094,
-      "itemid": 25810,
+      "itemid": 25842,
       "name": "Harvest Town",
       "yearPublished": 2024,
       "image": "https://cf.geekdo-images.com/Tn4zMkvc-8F2nEwGABLjYg__original/img/SzfCW7x5ElrSU-fTxkN_9NON9ZQ=/0x0/filters:format(jpeg)/pic8320656.jpg",
@@ -26145,7 +26137,7 @@
         "amount": 35.0,
         "currency": "EUR"
       },
-      "location": "H2D410",
+      "location": null,
       "availability": "For Sale",
       "interested": [
         {
@@ -27739,6 +27731,51 @@
         }
       ],
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
+    },
+    {
+      "objectId": 464603,
+      "itemid": 25845,
+      "name": "Hop `n` Roll",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/RE9inGtge_Rc25zW2RpT6g__original/img/174YQ1HlLDLe2rTU10SSq9syhZg=/0x0/filters:format(jpeg)/pic9738186.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/RE9inGtge_Rc25zW2RpT6g__small/img/uaslIR-B5ZohWDIcY88oNdk1v1Y=/fit-in/200x150/filters:strip_icc()/pic9738186.jpg",
+      "link": "https://boardgamegeek.com/boardgame/464603",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 20,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 7.2,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling"
+      ],
+      "designers": [
+        "Felix Leder",
+        "Patricia Limberger"
+      ],
+      "artists": [],
+      "publishers": [
+        "SPIEL DAS! Verlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 16.0,
+        "currency": "EUR"
+      },
+      "location": "H2D430",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 313889,
@@ -35059,7 +35096,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 476759,
@@ -35071,7 +35108,7 @@
       "link": "https://boardgamegeek.com/boardgame/476759",
       "minPlayers": 2,
       "maxPlayers": 4,
-      "playingTime": 30,
+      "playingTime": 120,
       "recommendedAge": "14+",
       "weight": 2.0,
       "bggAverageRating": null,
@@ -35110,7 +35147,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 476760,
@@ -35122,7 +35159,7 @@
       "link": "https://boardgamegeek.com/boardgame/476760",
       "minPlayers": 1,
       "maxPlayers": 4,
-      "playingTime": 30,
+      "playingTime": 180,
       "recommendedAge": "14+",
       "weight": 3.0,
       "bggAverageRating": null,
@@ -35161,7 +35198,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 246757,
@@ -37552,8 +37589,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -44183,12 +44220,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -44198,6 +44229,12 @@
           "user": "Alem0nes",
           "priority": 2,
           "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
@@ -45822,6 +45859,51 @@
         }
       ],
       "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+    },
+    {
+      "objectId": 423525,
+      "itemid": 25848,
+      "name": "Panda Royale: Expansion Set",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/VNntYQw-hKbDdxnijJECvg__original/img/GsidQiKjUDIEUojJLbPyj6tVF_Q=/0x0/filters:format(jpeg)/pic8975625.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/VNntYQw-hKbDdxnijJECvg__small/img/H_NAlCv2iV7npAG3r9bXiTIW5rY=/fit-in/200x150/filters:strip_icc()/pic8975625.jpg",
+      "link": "https://boardgamegeek.com/boardgame/423525",
+      "minPlayers": 2,
+      "maxPlayers": 10,
+      "playingTime": 30,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 7.6,
+      "bggBayesAverageRating": 5.57,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling",
+        "Open Drafting"
+      ],
+      "designers": [
+        "Jake Jenne",
+        "Nate Jenne"
+      ],
+      "artists": [],
+      "publishers": [
+        "Last Night Games",
+        "Board Zeppelin",
+        "SPIEL DAS! Verlag"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": "H2D430",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 417323,
@@ -49419,8 +49501,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -50095,8 +50177,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -50476,15 +50558,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
+          "user": "Ragasil",
           "priority": 1,
           "priorityLabel": "Must Have",
           "notes": null
         },
         {
-          "user": "Ragasil",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "user": "JoyfulFicus",
+          "priority": 2,
+          "priorityLabel": "Interested",
           "notes": null
         },
         {
@@ -52923,6 +53005,49 @@
         }
       ],
       "thingFetchedAt": "2026-10-08T09:47:13.616189+00:00"
+    },
+    {
+      "objectId": 472222,
+      "itemid": 25846,
+      "name": "Rollympics",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/1JhfFlVFVXN8R8S86o5WtQ__original/img/BMgKD5ppMudJ94GLCulP40yvpI0=/0x0/filters:format(png)/pic9650702.png",
+      "thumbnail": "https://cf.geekdo-images.com/1JhfFlVFVXN8R8S86o5WtQ__small/img/SwVo6e0selu6Afx_GhVCYsF6XSA=/fit-in/200x150/filters:strip_icc()/pic9650702.png",
+      "link": "https://boardgamegeek.com/boardgame/472222",
+      "minPlayers": 3,
+      "maxPlayers": 5,
+      "playingTime": null,
+      "recommendedAge": "8+",
+      "weight": 1.0,
+      "bggAverageRating": 5.19,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Robert Heller",
+        "Julia Schneider"
+      ],
+      "artists": [],
+      "publishers": [
+        "SPIEL DAS! Verlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 18.0,
+        "currency": "EUR"
+      },
+      "location": "H2D430",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 445397,
@@ -59404,15 +59529,15 @@
       "itemid": 25333,
       "name": "Tag Team: SNK Arcade Legends",
       "yearPublished": 2027,
-      "image": "https://cf.geekdo-images.com/QM7mwPm9kbL42mSG1N9LaQ__original/img/tCLIUq-56hWrDQDx6eeaFC-dtY8=/0x0/filters:format(jpeg)/pic9784198.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/QM7mwPm9kbL42mSG1N9LaQ__small/img/F3sRroXAJwQyaUgnGub5EmQdsfw=/fit-in/200x150/filters:strip_icc()/pic9784198.jpg",
+      "image": "https://cf.geekdo-images.com/vQkYfSSSjQafT0yMqxiqJA__original/img/fZxi2jQYMljYIlSKRVOn9TnBGtc=/0x0/filters:format(jpeg)/pic9834698.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/vQkYfSSSjQafT0yMqxiqJA__small/img/vKaM7gwBGLO6N008sICiNn_qSNY=/fit-in/200x150/filters:strip_icc()/pic9834698.jpg",
       "link": "https://boardgamegeek.com/boardgame/475489",
       "minPlayers": 2,
       "maxPlayers": 2,
       "playingTime": 20,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 7.14,
+      "bggAverageRating": 7.64,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -59450,7 +59575,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-12T07:31:40.675328+00:00"
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
     },
     {
       "objectId": 471206,
@@ -62341,8 +62466,8 @@
         },
         {
           "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -63051,8 +63176,8 @@
       "interested": [
         {
           "user": "JoyfulFicus",
-          "priority": 3,
-          "priorityLabel": "Not Decided",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
@@ -68763,6 +68888,62 @@
       "thingFetchedAt": "2026-09-18T07:50:12.193025+00:00"
     },
     {
+      "objectId": 342032,
+      "itemid": 25847,
+      "name": "Wild Tiled West",
+      "yearPublished": 2023,
+      "image": "https://cf.geekdo-images.com/GGIrwKsyRa_ciMe2WPkvIw__original/img/o021l3oTNONs_nD7xq4XoKjXu9g=/0x0/filters:format(jpeg)/pic7454921.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/GGIrwKsyRa_ciMe2WPkvIw__small/img/TB-aA9yW5A7diQWSH3aQPm0nYuo=/fit-in/200x150/filters:strip_icc()/pic7454921.jpg",
+      "link": "https://boardgamegeek.com/boardgame/342032",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 90,
+      "recommendedAge": "13+",
+      "weight": 2.71,
+      "bggAverageRating": 7.62,
+      "bggBayesAverageRating": 6.35,
+      "bggRank": 1724,
+      "mechanics": [
+        "Dice Rolling",
+        "Grid Coverage",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "designers": [
+        "Paul Dennen"
+      ],
+      "artists": [
+        "Clay Brooks",
+        "Anika Burrell",
+        "Raul Ramos",
+        "Nate Storm"
+      ],
+      "publishers": [
+        "Dire Wolf",
+        "Broadway Toys LTD",
+        "Lucky Duck Games",
+        "SPIEL DAS! Verlag"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": {
+        "amount": 56.0,
+        "currency": "EUR"
+      },
+      "location": "H2D430",
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-12T10:03:26.457673+00:00"
+    },
+    {
       "objectId": 461255,
       "itemid": 24240,
       "name": "Wild World",
@@ -70341,15 +70522,15 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JoyfulFicus",
+          "user": "JuhBass",
           "priority": 2,
           "priorityLabel": "Interested",
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "JoyfulFicus",
+          "priority": 3,
+          "priorityLabel": "Not Decided",
           "notes": null
         },
         {
