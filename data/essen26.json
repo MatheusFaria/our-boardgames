@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-21T08:10:09.740161+00:00",
-  "itemCount": 1283,
-  "interestedCount": 237,
-  "noOneCount": 1046,
+  "generatedAt": "2026-10-23T08:09:09.921923+00:00",
+  "itemCount": 1286,
+  "interestedCount": 233,
+  "noOneCount": 1053,
   "items": [
     {
       "objectId": 474125,
@@ -359,9 +359,9 @@
       "playingTime": 60,
       "recommendedAge": "12+",
       "weight": 2.62,
-      "bggAverageRating": 7.1,
+      "bggAverageRating": 7.11,
       "bggBayesAverageRating": 5.7,
-      "bggRank": 6400,
+      "bggRank": 6374,
       "mechanics": [
         "Worker Placement"
       ],
@@ -396,7 +396,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 458575,
@@ -1141,8 +1141,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -2675,7 +2675,7 @@
       "playingTime": 30,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 7.14,
+      "bggAverageRating": 7.15,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -2719,7 +2719,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 315943,
@@ -3077,9 +3077,9 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": 2.0,
-      "bggAverageRating": 6.84,
-      "bggBayesAverageRating": 5.52,
-      "bggRank": 20002,
+      "bggAverageRating": 6.85,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17566,
       "mechanics": [
         "Betting and Bluffing",
         "Hand Management",
@@ -3114,7 +3114,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 463489,
@@ -3573,10 +3573,10 @@
       "maxPlayers": 6,
       "playingTime": 15,
       "recommendedAge": "8+",
-      "weight": 1.14,
-      "bggAverageRating": 7.17,
-      "bggBayesAverageRating": 5.58,
-      "bggRank": 10753,
+      "weight": 1.12,
+      "bggAverageRating": 7.11,
+      "bggBayesAverageRating": 5.6,
+      "bggRank": 9799,
       "mechanics": [
         "Deduction",
         "Hand Management"
@@ -3611,7 +3611,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 453804,
@@ -4425,12 +4425,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -4438,6 +4432,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -4653,9 +4653,9 @@
       "playingTime": 15,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 6.2,
+      "bggAverageRating": 6.02,
       "bggBayesAverageRating": 5.51,
-      "bggRank": 23253,
+      "bggRank": 23636,
       "mechanics": [
         "Hand Management",
         "Open Drafting",
@@ -4693,7 +4693,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 448433,
@@ -5754,7 +5754,7 @@
     },
     {
       "objectId": 456557,
-      "itemid": 25461,
+      "itemid": 26012,
       "name": "Battle of the Knollen",
       "yearPublished": 2027,
       "image": "https://cf.geekdo-images.com/9iWBLso_rwAQTFBogZ9UbA__original/img/DouqgysduwC3HbDtKJ_Db_7SQA4=/0x0/filters:format(jpeg)/pic9797466.jpg",
@@ -5788,7 +5788,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "3-M510",
+      "location": null,
       "availability": "Demo",
       "interested": [
         {
@@ -6143,13 +6143,13 @@
           "notes": null
         },
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -6813,7 +6813,7 @@
       "playingTime": 90,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 9.5,
+      "bggAverageRating": 7.5,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -6856,7 +6856,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 462649,
@@ -8776,7 +8776,7 @@
       "playingTime": 40,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 7.36,
+      "bggAverageRating": 7.1,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -8817,7 +8817,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 473161,
@@ -9056,9 +9056,9 @@
       "playingTime": 20,
       "recommendedAge": "9+",
       "weight": 1.0,
-      "bggAverageRating": 6.83,
+      "bggAverageRating": 6.71,
       "bggBayesAverageRating": 5.53,
-      "bggRank": 16879,
+      "bggRank": 16891,
       "mechanics": [
         "Hand Management",
         "Set Collection",
@@ -9100,7 +9100,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 477824,
@@ -10420,9 +10420,9 @@
       "playingTime": 30,
       "recommendedAge": "8+",
       "weight": 1.67,
-      "bggAverageRating": 6.7,
-      "bggBayesAverageRating": 5.54,
-      "bggRank": 14811,
+      "bggAverageRating": 6.69,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 14070,
       "mechanics": [
         "Area Movement",
         "Chaining",
@@ -10477,7 +10477,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 455155,
@@ -11628,13 +11628,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
+          "user": "JuhBass",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
-          "user": "JuhBass",
+          "user": "ParadoxBard",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -16612,8 +16612,8 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 59.0,
-        "currency": "USD"
+        "amount": 60.0,
+        "currency": "EUR"
       },
       "location": "booth 3T215",
       "availability": "For Sale",
@@ -16664,8 +16664,8 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 6.0,
-        "currency": "USD"
+        "amount": 18.0,
+        "currency": "EUR"
       },
       "location": "booth 3T215",
       "availability": "For Sale",
@@ -18935,10 +18935,10 @@
       "maxPlayers": 5,
       "playingTime": 120,
       "recommendedAge": "14+",
-      "weight": 2.5,
-      "bggAverageRating": 7.26,
-      "bggBayesAverageRating": 5.54,
-      "bggRank": 15810,
+      "weight": 2.64,
+      "bggAverageRating": 7.43,
+      "bggBayesAverageRating": 5.57,
+      "bggRank": 11499,
       "mechanics": [
         "Area Movement",
         "Betting and Bluffing",
@@ -18984,7 +18984,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 424446,
@@ -22235,7 +22235,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 478824,
@@ -22702,12 +22702,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -22721,6 +22715,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -22878,7 +22878,7 @@
       "playingTime": 25,
       "recommendedAge": "10+",
       "weight": 1.0,
-      "bggAverageRating": 6.88,
+      "bggAverageRating": 6.93,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -22921,7 +22921,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 440282,
@@ -23024,7 +23024,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 472256,
@@ -24959,12 +24959,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
-          "notes": null
-        },
-        {
           "user": "Ragasil",
           "priority": 2,
           "priorityLabel": "Interested",
@@ -24984,6 +24978,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -25238,9 +25238,9 @@
       "playingTime": 180,
       "recommendedAge": "14+",
       "weight": 2.53,
-      "bggAverageRating": 8.13,
-      "bggBayesAverageRating": 5.85,
-      "bggRank": 4325,
+      "bggAverageRating": 8.12,
+      "bggBayesAverageRating": 5.86,
+      "bggRank": 4271,
       "mechanics": [
         "Communication Limits",
         "Cooperative Game",
@@ -25283,7 +25283,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 470878,
@@ -28565,7 +28565,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 6.0,
+        "amount": 18.0,
         "currency": "USD"
       },
       "location": "booth 3T215",
@@ -28871,12 +28871,14 @@
       "maxPlayers": 6,
       "playingTime": 30,
       "recommendedAge": "14+",
-      "weight": null,
+      "weight": 1.0,
       "bggAverageRating": null,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [],
-      "designers": [],
+      "designers": [
+        "Andreas Hallerbach"
+      ],
       "artists": [],
       "publishers": [
         "HUCH!"
@@ -28900,7 +28902,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 453545,
@@ -29622,6 +29624,139 @@
       "thingFetchedAt": "2026-10-08T09:47:13.616189+00:00"
     },
     {
+      "objectId": 419059,
+      "itemid": 26008,
+      "name": "Horror on the Orient Express: The Board Game \u2013 Consumed by the Void Expansion",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/meXtpTrG179xEFlIaiBr9g__original/img/T6zpLP-0iMwX0-QnlDQvKaap-Os=/0x0/filters:format(png)/pic9877397.png",
+      "thumbnail": "https://cf.geekdo-images.com/meXtpTrG179xEFlIaiBr9g__small/img/yIitovUVGnxoZPHXhDWucNCX7Mo=/fit-in/200x150/filters:strip_icc()/pic9877397.png",
+      "link": "https://boardgamegeek.com/boardgame/419059",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 8.68,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Scenario / Mission / Campaign Game"
+      ],
+      "designers": [
+        "Micha\u0142 Go\u0142\u0105b Go\u0142\u0119biowski",
+        "Adam Kwapi\u0144ski"
+      ],
+      "artists": [],
+      "publishers": [
+        "Chaosium",
+        "Raven Distribution",
+        "Rexhry"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
+    },
+    {
+      "objectId": 418598,
+      "itemid": 26007,
+      "name": "Horror on the Orient Express: The Board Game \u2013 Investigators Unveiled Expansion",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/TGQ5EnFhUAvieY2v_AHKOA__original/img/2irydtUcer31b6nGbxgrOeO-_K4=/0x0/filters:format(png)/pic8142793.png",
+      "thumbnail": "https://cf.geekdo-images.com/TGQ5EnFhUAvieY2v_AHKOA__small/img/pWPpj-S4GLhugRokaoGjsQgHQVY=/fit-in/200x150/filters:strip_icc()/pic8142793.png",
+      "link": "https://boardgamegeek.com/boardgame/418598",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 8.52,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [],
+      "designers": [
+        "Micha\u0142 Go\u0142\u0105b Go\u0142\u0119biowski",
+        "Adam Kwapi\u0144ski"
+      ],
+      "artists": [
+        "Aleksander Zawada"
+      ],
+      "publishers": [
+        "Chaosium",
+        "Pegasus Spiele",
+        "Raven Distribution",
+        "Rexhry"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
+    },
+    {
+      "objectId": 419295,
+      "itemid": 26009,
+      "name": "Horror on the Orient Express: The Board Game \u2013 New Monstrosities Expansion",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/R9K1tD0IWhEF_zdIXDgzpg__original/img/-q-im1gjvleh5kWTiYUeVlQfOvY=/0x0/filters:format(png)/pic8147634.png",
+      "thumbnail": "https://cf.geekdo-images.com/R9K1tD0IWhEF_zdIXDgzpg__small/img/BiLAyQfHabjN4eOpstu6q-9bBo4=/fit-in/200x150/filters:strip_icc()/pic8147634.png",
+      "link": "https://boardgamegeek.com/boardgame/419295",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "playingTime": 120,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 8.37,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Cooperative Game"
+      ],
+      "designers": [
+        "Micha\u0142 Go\u0142\u0105b Go\u0142\u0119biowski",
+        "Adam Kwapi\u0144ski"
+      ],
+      "artists": [],
+      "publishers": [
+        "Chaosium",
+        "Raven Distribution",
+        "Rexhry"
+      ],
+      "subtype": "boardgameexpansion",
+      "itemType": "expansion",
+      "price": null,
+      "location": null,
+      "availability": "For Sale",
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
+    },
+    {
       "objectId": 465457,
       "itemid": 24347,
       "name": "Hot Heads",
@@ -30245,7 +30380,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 375373,
@@ -30260,9 +30395,9 @@
       "playingTime": 40,
       "recommendedAge": "10+",
       "weight": 2.0,
-      "bggAverageRating": 7.83,
+      "bggAverageRating": 7.96,
       "bggBayesAverageRating": 5.54,
-      "bggRank": 14931,
+      "bggRank": 14710,
       "mechanics": [
         "Drawing",
         "Hand Management",
@@ -30304,7 +30439,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 473940,
@@ -31217,10 +31352,10 @@
       "maxPlayers": 5,
       "playingTime": 120,
       "recommendedAge": "13+",
-      "weight": 3.6,
+      "weight": 3.58,
       "bggAverageRating": 7.44,
       "bggBayesAverageRating": 5.69,
-      "bggRank": 6554,
+      "bggRank": 6542,
       "mechanics": [
         "Area Majority / Influence",
         "Contracts",
@@ -31266,7 +31401,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 466909,
@@ -31336,10 +31471,10 @@
       "maxPlayers": 4,
       "playingTime": 120,
       "recommendedAge": "12+",
-      "weight": 2.94,
-      "bggAverageRating": 7.61,
-      "bggBayesAverageRating": 6.04,
-      "bggRank": 3018,
+      "weight": 2.92,
+      "bggAverageRating": 7.63,
+      "bggBayesAverageRating": 6.12,
+      "bggRank": 2610,
       "mechanics": [
         "Contracts",
         "Income",
@@ -31397,7 +31532,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 332686,
@@ -31762,7 +31897,7 @@
       "playingTime": 45,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 5.76,
+      "bggAverageRating": 5.81,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -31801,7 +31936,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 470874,
@@ -33065,7 +33200,7 @@
       "playingTime": 30,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 5.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -33099,7 +33234,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 481473,
@@ -37239,7 +37374,7 @@
       "weight": 1.0,
       "bggAverageRating": 5.81,
       "bggBayesAverageRating": 5.51,
-      "bggRank": 23282,
+      "bggRank": 23415,
       "mechanics": [
         "Set Collection"
       ],
@@ -37283,7 +37418,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 478552,
@@ -37904,7 +38039,7 @@
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": 1.0,
-      "bggAverageRating": 5.41,
+      "bggAverageRating": 5.24,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -37938,7 +38073,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 458923,
@@ -38616,8 +38751,8 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 89.0,
-        "currency": "USD"
+        "amount": 80.0,
+        "currency": "EUR"
       },
       "location": "booth 3T215",
       "availability": "For Sale",
@@ -39840,7 +39975,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 466446,
@@ -39917,7 +40052,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 477913,
@@ -40009,8 +40144,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -40674,7 +40809,7 @@
       "playingTime": 20,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 7.0,
+      "bggAverageRating": 6.78,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -40710,11 +40845,11 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 454609,
-      "itemid": 25266,
+      "itemid": 26011,
       "name": "Min3crash",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/guR1lJbfCZ283_s16iroCA__original/img/X86pbvBl-1kiqB2WQsp77RAGl7s=/0x0/filters:format(jpeg)/pic9135376.jpg",
@@ -40749,11 +40884,8 @@
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
-      "price": {
-        "amount": 20.0,
-        "currency": "EUR"
-      },
-      "location": "3-C120",
+      "price": null,
+      "location": "Hall 3 C120",
       "availability": "For Sale",
       "interested": [
         {
@@ -41707,7 +41839,7 @@
       "weight": 2.22,
       "bggAverageRating": 7.23,
       "bggBayesAverageRating": 5.71,
-      "bggRank": 6280,
+      "bggRank": 6157,
       "mechanics": [
         "Contracts",
         "Deck Construction",
@@ -41745,7 +41877,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 419993,
@@ -43180,7 +43312,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 479479,
@@ -47061,10 +47193,10 @@
       "maxPlayers": 4,
       "playingTime": 60,
       "recommendedAge": "12+",
-      "weight": 3.0,
-      "bggAverageRating": 7.47,
-      "bggBayesAverageRating": 5.52,
-      "bggRank": 20211,
+      "weight": 2.86,
+      "bggAverageRating": 7.62,
+      "bggBayesAverageRating": 5.55,
+      "bggRank": 13102,
       "mechanics": [
         "Action / Event",
         "Market",
@@ -47106,7 +47238,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 475410,
@@ -48230,7 +48362,7 @@
       "playingTime": 10,
       "recommendedAge": "5+",
       "weight": null,
-      "bggAverageRating": 6.0,
+      "bggAverageRating": 6.83,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [],
@@ -48268,7 +48400,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 423525,
@@ -49062,7 +49194,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 6.0,
+        "amount": 18.0,
         "currency": "USD"
       },
       "location": "booth 3T215",
@@ -49125,7 +49257,7 @@
       "itemType": "standalone",
       "price": {
         "amount": 99.0,
-        "currency": "USD"
+        "currency": "EUR"
       },
       "location": null,
       "availability": "For Sale",
@@ -52415,12 +52547,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -52434,6 +52560,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -52603,13 +52735,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -56240,7 +56372,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 275058,
@@ -57592,13 +57724,13 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
           "notes": null
         },
         {
-          "user": "ParadoxBard",
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -57619,9 +57751,9 @@
       "playingTime": 25,
       "recommendedAge": "8+",
       "weight": 2.0,
-      "bggAverageRating": 6.81,
+      "bggAverageRating": 6.8,
       "bggBayesAverageRating": 5.57,
-      "bggRank": 11887,
+      "bggRank": 11388,
       "mechanics": [
         "Hand Management",
         "Set Collection"
@@ -57656,7 +57788,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 460636,
@@ -57725,14 +57857,14 @@
       "image": "https://cf.geekdo-images.com/_usrQ8c6dvIMowTk2lfjTw__original/img/OhZMoQ0Iea-VJlraoBsDVL30CVM=/0x0/filters:format(png)/pic9553353.png",
       "thumbnail": "https://cf.geekdo-images.com/_usrQ8c6dvIMowTk2lfjTw__small/img/zauAlc-ltZ8Qn8jSoTMJt3zMNgA=/fit-in/200x150/filters:strip_icc()/pic9553353.png",
       "link": "https://boardgamegeek.com/boardgame/260568",
-      "minPlayers": 3,
+      "minPlayers": 2,
       "maxPlayers": 4,
       "playingTime": 35,
       "recommendedAge": "10+",
       "weight": 1.5,
-      "bggAverageRating": 7.38,
+      "bggAverageRating": 7.37,
       "bggBayesAverageRating": 5.66,
-      "bggRank": 7401,
+      "bggRank": 7318,
       "mechanics": [
         "Betting and Bluffing",
         "Trick-taking"
@@ -57773,7 +57905,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 463681,
@@ -58091,7 +58223,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 304949,
@@ -58260,8 +58392,8 @@
       "maxPlayers": 2,
       "playingTime": 45,
       "recommendedAge": "10+",
-      "weight": null,
-      "bggAverageRating": 7.43,
+      "weight": 2.5,
+      "bggAverageRating": 7.33,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -58303,7 +58435,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 476567,
@@ -58991,7 +59123,7 @@
       "playingTime": 75,
       "recommendedAge": "14+",
       "weight": 2.0,
-      "bggAverageRating": 5.67,
+      "bggAverageRating": 5.74,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -59029,7 +59161,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 454971,
@@ -61360,7 +61492,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 6.0,
+        "amount": 18.0,
         "currency": "USD"
       },
       "location": "booth 3T215",
@@ -61867,9 +61999,9 @@
       "playingTime": 20,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 6.29,
+      "bggAverageRating": 6.21,
       "bggBayesAverageRating": 5.51,
-      "bggRank": 23979,
+      "bggRank": 24386,
       "mechanics": [
         "Deduction",
         "Real-Time",
@@ -61909,7 +62041,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 464256,
@@ -64220,8 +64352,8 @@
       "interested": [
         {
           "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
+          "priority": 1,
+          "priorityLabel": "Must Have",
           "notes": null
         },
         {
@@ -64799,12 +64931,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 2,
-          "priorityLabel": "Interested",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -64824,6 +64950,12 @@
         },
         {
           "user": "Alem0nes",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -66026,7 +66158,7 @@
       "weight": 2.23,
       "bggAverageRating": 7.48,
       "bggBayesAverageRating": 5.75,
-      "bggRank": 5575,
+      "bggRank": 5489,
       "mechanics": [
         "Communication Limits",
         "Cooperative Game",
@@ -66070,7 +66202,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 419416,
@@ -66202,7 +66334,7 @@
       "playingTime": 30,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 6.6,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -66247,7 +66379,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 341870,
@@ -66457,7 +66589,7 @@
       "playingTime": 25,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 7.33,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -66502,7 +66634,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 464601,
@@ -67589,7 +67721,7 @@
     },
     {
       "objectId": 372148,
-      "itemid": 24777,
+      "itemid": 26010,
       "name": "Tibetana",
       "yearPublished": 2026,
       "image": "https://cf.geekdo-images.com/WOZoCC5rmdSD_NV5_hypaw__original/img/1OCfdFV8pngiU0qpjyK7U0RNLZM=/0x0/filters:format(jpeg)/pic9658273.jpg",
@@ -67623,7 +67755,7 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": null,
-      "location": "3-C120",
+      "location": "Hall 3 C120",
       "availability": "For Sale",
       "interested": [
         {
@@ -68244,7 +68376,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 465750,
@@ -69903,6 +70035,12 @@
       "availability": "For Sale",
       "interested": [
         {
+          "user": "JuhBass",
+          "priority": 2,
+          "priorityLabel": "Interested",
+          "notes": null
+        },
+        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -69910,12 +70048,6 @@
         },
         {
           "user": "ParadoxBard",
-          "priority": 4,
-          "priorityLabel": "Not Interested",
-          "notes": null
-        },
-        {
-          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -70757,8 +70889,8 @@
       "subtype": "boardgame",
       "itemType": "standalone",
       "price": {
-        "amount": 6.0,
-        "currency": "USD"
+        "amount": 18.0,
+        "currency": "EUR"
       },
       "location": "booth 3T215",
       "availability": "For Sale",
@@ -71093,7 +71225,7 @@
       "playingTime": 40,
       "recommendedAge": "8+",
       "weight": 1.25,
-      "bggAverageRating": 7.55,
+      "bggAverageRating": 7.56,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -71137,7 +71269,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 473651,
@@ -71440,10 +71572,10 @@
       "maxPlayers": 6,
       "playingTime": 30,
       "recommendedAge": "8+",
-      "weight": 1.67,
-      "bggAverageRating": 7.07,
+      "weight": 1.69,
+      "bggAverageRating": 7.08,
       "bggBayesAverageRating": 5.79,
-      "bggRank": 5014,
+      "bggRank": 4935,
       "mechanics": [
         "Connections",
         "Matching",
@@ -71484,7 +71616,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 455819,
@@ -73565,7 +73697,7 @@
       "playingTime": 15,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 5.86,
+      "bggAverageRating": 5.89,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -73597,7 +73729,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 459462,
@@ -73674,7 +73806,7 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 5.43,
+      "bggAverageRating": 5.47,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -73713,7 +73845,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 403150,
@@ -74385,9 +74517,9 @@
       "playingTime": 75,
       "recommendedAge": "15+",
       "weight": 2.78,
-      "bggAverageRating": 7.17,
+      "bggAverageRating": 7.15,
       "bggBayesAverageRating": 5.69,
-      "bggRank": 6545,
+      "bggRank": 6535,
       "mechanics": [
         "Area Majority / Influence",
         "Dice Rolling",
@@ -74425,7 +74557,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-21T08:26:22.216988+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 463921,
@@ -74896,7 +75028,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-22T08:07:25.967575+00:00"
+      "thingFetchedAt": "2026-10-23T08:09:00.380691+00:00"
     },
     {
       "objectId": 443074,
