@@ -23,10 +23,10 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-23T08:09:09.921923+00:00",
-  "itemCount": 1286,
-  "interestedCount": 233,
-  "noOneCount": 1053,
+  "generatedAt": "2026-10-24T07:47:52.852374+00:00",
+  "itemCount": 1289,
+  "interestedCount": 232,
+  "noOneCount": 1057,
   "items": [
     {
       "objectId": 474125,
@@ -3853,6 +3853,43 @@
         }
       ],
       "thingFetchedAt": "2026-10-19T08:20:48.104355+00:00"
+    },
+    {
+      "objectId": 472315,
+      "itemid": 26015,
+      "name": "Aquapark",
+      "yearPublished": 2026,
+      "image": "https://cf.geekdo-images.com/8LA5roDfjYpZopBdlHU6lg__original/img/ntaeeiQj-dGyLtEO9u8Gjb40PuE=/0x0/filters:format(jpeg)/pic9746590.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/8LA5roDfjYpZopBdlHU6lg__small/img/wgsV1bxFT8j59kYmHUI8ru61Rkw=/fit-in/200x150/filters:strip_icc()/pic9746590.jpg",
+      "link": "https://boardgamegeek.com/boardgame/472315",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "playingTime": 45,
+      "recommendedAge": "8+",
+      "weight": null,
+      "bggAverageRating": 8.33,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "I Cut, You Choose",
+        "Pattern Building",
+        "Tile Placement",
+        "Turn Order: Random"
+      ],
+      "designers": [
+        "David Nagy"
+      ],
+      "artists": [],
+      "publishers": [
+        "FuNd\u00e1l"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Hall 2, 2B345",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 300872,
@@ -8143,7 +8180,7 @@
       "playingTime": 25,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 5.0,
+      "bggAverageRating": 6.5,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -8183,7 +8220,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 173441,
@@ -8715,14 +8752,15 @@
       "maxPlayers": 4,
       "playingTime": 30,
       "recommendedAge": "8+",
-      "weight": null,
-      "bggAverageRating": null,
+      "weight": 1.0,
+      "bggAverageRating": 4.5,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
         "Area Movement",
         "Betting and Bluffing",
-        "Race"
+        "Race",
+        "Take That"
       ],
       "designers": [
         "Rikki Tahta"
@@ -8761,7 +8799,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 457858,
@@ -14142,9 +14180,9 @@
       "playingTime": 120,
       "recommendedAge": "14+",
       "weight": 1.67,
-      "bggAverageRating": 8.95,
+      "bggAverageRating": 8.85,
       "bggBayesAverageRating": 5.52,
-      "bggRank": 19017,
+      "bggRank": 19549,
       "mechanics": [
         "Card Play Conflict Resolution",
         "Communication Limits",
@@ -14192,7 +14230,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 460036,
@@ -19804,9 +19842,9 @@
       "playingTime": 120,
       "recommendedAge": "14+",
       "weight": 2.75,
-      "bggAverageRating": 8.19,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "bggAverageRating": 8.08,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16806,
       "mechanics": [
         "Set Collection",
         "Worker Placement",
@@ -19840,7 +19878,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 468791,
@@ -21689,6 +21727,47 @@
         }
       ],
       "thingFetchedAt": "2026-10-08T09:47:13.616189+00:00"
+    },
+    {
+      "objectId": 460504,
+      "itemid": 26017,
+      "name": "FinMaster",
+      "yearPublished": 2024,
+      "image": "https://cf.geekdo-images.com/4_9fAKdo10d5jALZMjRDqA__original/img/1icOLAX_6Gxo_kKJN_gNvTZYk_A=/0x0/filters:format(jpeg)/pic9290937.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/4_9fAKdo10d5jALZMjRDqA__small/img/aknyX_KUSDint22pkgIqXQJyGCc=/fit-in/200x150/filters:strip_icc()/pic9290937.jpg",
+      "link": "https://boardgamegeek.com/boardgame/460504",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "playingTime": 60,
+      "recommendedAge": "14+",
+      "weight": null,
+      "bggAverageRating": 9.25,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Dice Rolling",
+        "Events",
+        "Hand Management",
+        "Income",
+        "Investment",
+        "Market",
+        "Take That"
+      ],
+      "designers": [
+        "Elijah Djan",
+        "Danei Rall"
+      ],
+      "artists": [],
+      "publishers": [
+        "Fintr"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "Hall 4, C-100",
+      "availability": "For Sale",
+      "interested": [],
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 468426,
@@ -37704,7 +37783,7 @@
       "playingTime": 10,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 8.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -37742,7 +37821,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 475207,
@@ -52006,6 +52085,42 @@
       "thingFetchedAt": "2026-10-14T08:16:30.006960+00:00"
     },
     {
+      "objectId": 476912,
+      "itemid": 26016,
+      "name": "PUBG: Final Circle",
+      "yearPublished": 2027,
+      "image": "https://cf.geekdo-images.com/giGrnNysBMTNQYR_CyrpnA__original/img/NKYQr1wF7H5eloFi9KcbVtkrqc0=/0x0/filters:format(png)/pic9867335.png",
+      "thumbnail": "https://cf.geekdo-images.com/giGrnNysBMTNQYR_CyrpnA__small/img/f7Im3ukH941S6LylN_39Oe7-XY8=/fit-in/200x150/filters:strip_icc()/pic9867335.png",
+      "link": "https://boardgamegeek.com/boardgame/476912",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "playingTime": 20,
+      "recommendedAge": null,
+      "weight": null,
+      "bggAverageRating": null,
+      "bggBayesAverageRating": null,
+      "bggRank": null,
+      "mechanics": [
+        "Card Play Conflict Resolution",
+        "Hand Management",
+        "Player Elimination",
+        "Trick-taking",
+        "Variable Player Powers"
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "\uce74\ub4dc\ubaac\uc2a4\ud130 (CARDMON)"
+      ],
+      "subtype": "boardgame",
+      "itemType": "standalone",
+      "price": null,
+      "location": "5K500",
+      "availability": "Demo",
+      "interested": [],
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
+    },
+    {
       "objectId": 455544,
       "itemid": 24577,
       "name": "PuffiNova",
@@ -64351,12 +64466,6 @@
       "availability": "For Sale",
       "interested": [
         {
-          "user": "JuhBass",
-          "priority": 1,
-          "priorityLabel": "Must Have",
-          "notes": null
-        },
-        {
           "user": "JoyfulFicus",
           "priority": 4,
           "priorityLabel": "Not Interested",
@@ -64364,6 +64473,12 @@
         },
         {
           "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
+        {
+          "user": "JuhBass",
           "priority": 4,
           "priorityLabel": "Not Interested",
           "notes": null
@@ -70543,8 +70658,8 @@
       "maxPlayers": 4,
       "playingTime": 90,
       "recommendedAge": "12+",
-      "weight": null,
-      "bggAverageRating": 7.93,
+      "weight": 3.0,
+      "bggAverageRating": 7.84,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -70584,7 +70699,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
       "objectId": 464235,
@@ -75542,10 +75657,10 @@
       "maxPlayers": 2,
       "playingTime": 15,
       "recommendedAge": "8+",
-      "weight": null,
-      "bggAverageRating": 7.57,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "weight": 2.0,
+      "bggAverageRating": 7.23,
+      "bggBayesAverageRating": 5.52,
+      "bggRank": 19625,
       "mechanics": [
         "Grid Movement",
         "Hand Management",
@@ -75592,7 +75707,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-23T08:09:36.122699+00:00"
+      "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     }
   ]
 }
