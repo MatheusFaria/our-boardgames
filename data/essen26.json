@@ -23,7 +23,7 @@
     "Ragasil"
   ],
   "sourceLabel": "BGG GeekPreview 93 full catalog + userinfo overlay + XML API2",
-  "generatedAt": "2026-10-24T07:47:52.852374+00:00",
+  "generatedAt": "2026-10-26T08:21:14.564541+00:00",
   "itemCount": 1289,
   "interestedCount": 232,
   "noOneCount": 1057,
@@ -578,9 +578,9 @@
       "playingTime": 60,
       "recommendedAge": "14+",
       "weight": 2.4,
-      "bggAverageRating": 7.4,
+      "bggAverageRating": 7.36,
       "bggBayesAverageRating": 5.6,
-      "bggRank": 9701,
+      "bggRank": 9495,
       "mechanics": [
         "Deduction",
         "Grid Movement",
@@ -622,7 +622,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 465946,
@@ -2306,7 +2306,9 @@
       "mechanics": [
         "Dice Rolling"
       ],
-      "designers": [],
+      "designers": [
+        "Heather DenBleyker"
+      ],
       "artists": [],
       "publishers": [
         "Scrungo Games"
@@ -2336,7 +2338,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 476810,
@@ -2351,13 +2353,15 @@
       "playingTime": null,
       "recommendedAge": null,
       "weight": null,
-      "bggAverageRating": 10.0,
+      "bggAverageRating": 8.5,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
         "Dice Rolling"
       ],
-      "designers": [],
+      "designers": [
+        "Heather DenBleyker"
+      ],
       "artists": [],
       "publishers": [
         "Scrungo Games"
@@ -2387,7 +2391,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 476811,
@@ -2406,7 +2410,9 @@
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [],
-      "designers": [],
+      "designers": [
+        "Heather DenBleyker"
+      ],
       "artists": [],
       "publishers": [
         "Scrungo Games"
@@ -2436,7 +2442,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 476812,
@@ -2457,7 +2463,9 @@
       "mechanics": [
         "Dice Rolling"
       ],
-      "designers": [],
+      "designers": [
+        "Heather DenBleyker"
+      ],
       "artists": [],
       "publishers": [
         "Scrungo Games"
@@ -2481,7 +2489,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 473149,
@@ -3888,7 +3896,14 @@
       "price": null,
       "location": "Hall 2, 2B345",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
@@ -5841,7 +5856,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 444527,
@@ -6019,9 +6034,9 @@
       "playingTime": 90,
       "recommendedAge": "10+",
       "weight": 1.67,
-      "bggAverageRating": 7.92,
-      "bggBayesAverageRating": 5.59,
-      "bggRank": 9850,
+      "bggAverageRating": 7.89,
+      "bggBayesAverageRating": 5.6,
+      "bggRank": 9475,
       "mechanics": [
         "Cooperative Game",
         "Deduction",
@@ -6069,7 +6084,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 447484,
@@ -6828,6 +6843,12 @@
       "location": "Hall 6, Booth 6F400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "JuhBass",
           "priority": 4,
@@ -8054,10 +8075,10 @@
       "maxPlayers": 5,
       "playingTime": 90,
       "recommendedAge": "14+",
-      "weight": null,
-      "bggAverageRating": 10.0,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "weight": 2.88,
+      "bggAverageRating": 7.27,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 16593,
       "mechanics": [
         "Track Movement",
         "Worker Placement"
@@ -8069,7 +8090,8 @@
         "Andrew Bosley"
       ],
       "publishers": [
-        "Stonemaier Games"
+        "Stonemaier Games",
+        "Feuerland Spiele"
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
@@ -8108,7 +8130,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 471044,
@@ -13119,10 +13141,10 @@
       "maxPlayers": 4,
       "playingTime": 100,
       "recommendedAge": "14+",
-      "weight": 3.73,
-      "bggAverageRating": 7.66,
-      "bggBayesAverageRating": 6.43,
-      "bggRank": 1514,
+      "weight": 3.75,
+      "bggAverageRating": 7.65,
+      "bggBayesAverageRating": 6.45,
+      "bggRank": 1471,
       "mechanics": [
         "Action Points",
         "Set Collection",
@@ -13138,6 +13160,7 @@
       ],
       "publishers": [
         "Devir",
+        "asmodee",
         "Delta Vision Publishing",
         "IELLO",
         "Portal Games",
@@ -13165,7 +13188,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 476031,
@@ -14071,7 +14094,7 @@
       "playingTime": 120,
       "recommendedAge": "8+",
       "weight": null,
-      "bggAverageRating": 7.8,
+      "bggAverageRating": 7.86,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -14110,7 +14133,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 457961,
@@ -14302,10 +14325,10 @@
       "maxPlayers": 6,
       "playingTime": 180,
       "recommendedAge": "14+",
-      "weight": 3.41,
-      "bggAverageRating": 8.78,
-      "bggBayesAverageRating": 5.7,
-      "bggRank": 6349,
+      "weight": 3.3,
+      "bggAverageRating": 8.74,
+      "bggBayesAverageRating": 5.71,
+      "bggRank": 6251,
       "mechanics": [
         "Action / Event",
         "Action Queue",
@@ -14357,7 +14380,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 420091,
@@ -19144,9 +19167,9 @@
       "playingTime": 100,
       "recommendedAge": "12+",
       "weight": 3.0,
-      "bggAverageRating": 7.95,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "bggAverageRating": 7.85,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17378,
       "mechanics": [],
       "designers": [
         "Akashi"
@@ -19182,7 +19205,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 460716,
@@ -20064,10 +20087,10 @@
       "maxPlayers": 4,
       "playingTime": 40,
       "recommendedAge": "10+",
-      "weight": 2.83,
-      "bggAverageRating": 8.2,
-      "bggBayesAverageRating": 6.99,
-      "bggRank": 523,
+      "weight": 2.84,
+      "bggAverageRating": 8.18,
+      "bggBayesAverageRating": 7.03,
+      "bggRank": 479,
       "mechanics": [
         "Communication Limits",
         "Cooperative Game",
@@ -20128,7 +20151,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 472319,
@@ -20453,7 +20476,7 @@
       "playingTime": 90,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 9.0,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -20501,7 +20524,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 434172,
@@ -21766,7 +21789,14 @@
       "price": null,
       "location": "Hall 4, C-100",
       "availability": "For Sale",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
@@ -22089,7 +22119,7 @@
       "weight": 3.0,
       "bggAverageRating": 8.12,
       "bggBayesAverageRating": 5.53,
-      "bggRank": 16790,
+      "bggRank": 16546,
       "mechanics": [
         "Area Majority / Influence",
         "Deck, Bag, and Pool Building",
@@ -22133,7 +22163,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 457742,
@@ -22386,7 +22416,7 @@
       "objectId": 371708,
       "itemid": 25463,
       "name": "Flick Quest: Rise of Heroes",
-      "yearPublished": 2026,
+      "yearPublished": 2027,
       "image": "https://cf.geekdo-images.com/k_fnZVdc4iLLtGQUWSxqgg__original/img/UC7AXotpCur74pSsG41Nr3jTeDw=/0x0/filters:format(jpeg)/pic7757382.jpg",
       "thumbnail": "https://cf.geekdo-images.com/k_fnZVdc4iLLtGQUWSxqgg__small/img/lq4gyIuHia-kRsEDemhAoo3o4R4=/fit-in/200x150/filters:strip_icc()/pic7757382.jpg",
       "link": "https://boardgamegeek.com/boardgame/371708",
@@ -22397,7 +22427,7 @@
       "weight": 1.67,
       "bggAverageRating": 8.49,
       "bggBayesAverageRating": 5.54,
-      "bggRank": 14984,
+      "bggRank": 14822,
       "mechanics": [
         "Cooperative Game",
         "Flicking",
@@ -22433,7 +22463,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 419960,
@@ -23545,12 +23575,12 @@
       "image": "https://cf.geekdo-images.com/eBIYl0X2MD4JLndoCQGDgQ__original/img/YtutRBdU-734R4KwK_VBZfIAwsY=/0x0/filters:format(jpeg)/pic9641704.jpg",
       "thumbnail": "https://cf.geekdo-images.com/eBIYl0X2MD4JLndoCQGDgQ__small/img/i75qfCgU3nYvodpbEoWhFb9c0No=/fit-in/200x150/filters:strip_icc()/pic9641704.jpg",
       "link": "https://boardgamegeek.com/boardgame/471780",
-      "minPlayers": 2,
+      "minPlayers": 1,
       "maxPlayers": 5,
       "playingTime": 120,
       "recommendedAge": "12+",
       "weight": 3.0,
-      "bggAverageRating": 8.02,
+      "bggAverageRating": 7.94,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -23593,7 +23623,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 364732,
@@ -26689,11 +26719,11 @@
       "minPlayers": 2,
       "maxPlayers": 6,
       "playingTime": 150,
-      "recommendedAge": "10+",
-      "weight": 3.71,
-      "bggAverageRating": 8.13,
-      "bggBayesAverageRating": 5.7,
-      "bggRank": 6461,
+      "recommendedAge": "14+",
+      "weight": 3.74,
+      "bggAverageRating": 8.09,
+      "bggBayesAverageRating": 5.72,
+      "bggRank": 6073,
       "mechanics": [
         "Action Timer",
         "Area Majority / Influence",
@@ -26736,7 +26766,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 469489,
@@ -28936,7 +28966,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 479041,
@@ -31081,9 +31111,9 @@
       "playingTime": 60,
       "recommendedAge": "10+",
       "weight": 2.25,
-      "bggAverageRating": 8.06,
-      "bggBayesAverageRating": 5.53,
-      "bggRank": 16340,
+      "bggAverageRating": 7.91,
+      "bggBayesAverageRating": 5.54,
+      "bggRank": 15330,
       "mechanics": [
         "Drawing",
         "Hand Management",
@@ -31118,7 +31148,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 446670,
@@ -35422,9 +35452,9 @@
       "playingTime": 270,
       "recommendedAge": "14+",
       "weight": 3.28,
-      "bggAverageRating": 8.77,
-      "bggBayesAverageRating": 6.03,
-      "bggRank": 3067,
+      "bggAverageRating": 8.78,
+      "bggBayesAverageRating": 6.04,
+      "bggRank": 3015,
       "mechanics": [
         "Cooperative Game",
         "Dice Rolling",
@@ -35480,7 +35510,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 439519,
@@ -43301,7 +43331,7 @@
       "playingTime": 15,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 7.28,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -43342,7 +43372,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 479045,
@@ -43406,7 +43436,7 @@
       "playingTime": 20,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 5.97,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -43443,7 +43473,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 444314,
@@ -43807,7 +43837,7 @@
       "playingTime": 20,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 10.0,
+      "bggAverageRating": 6.75,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -43844,7 +43874,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 447570,
@@ -44736,9 +44766,9 @@
       "playingTime": 180,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 5.72,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "bggAverageRating": 6.58,
+      "bggBayesAverageRating": 5.51,
+      "bggRank": 24448,
       "mechanics": [
         "Cooperative Game",
         "Legacy Game",
@@ -44780,7 +44810,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 444310,
@@ -52117,7 +52147,14 @@
       "price": null,
       "location": "5K500",
       "availability": "Demo",
-      "interested": [],
+      "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        }
+      ],
       "thingFetchedAt": "2026-10-24T07:47:52.366492+00:00"
     },
     {
@@ -52422,9 +52459,9 @@
       "playingTime": 25,
       "recommendedAge": null,
       "weight": 1.0,
-      "bggAverageRating": 7.25,
-      "bggBayesAverageRating": 5.63,
-      "bggRank": 8225,
+      "bggAverageRating": 7.17,
+      "bggBayesAverageRating": 5.65,
+      "bggRank": 7608,
       "mechanics": [
         "Dice Rolling",
         "Speed Matching"
@@ -52437,6 +52474,7 @@
         "(Self-Published)",
         "Game Factory",
         "The Op Games",
+        "Rebel Sp. z o.o.",
         "Reflexshop",
         "Tranjis Games"
       ],
@@ -52459,7 +52497,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 481090,
@@ -53411,10 +53449,10 @@
       "maxPlayers": 4,
       "playingTime": 120,
       "recommendedAge": "14+",
-      "weight": 3.17,
-      "bggAverageRating": 7.76,
-      "bggBayesAverageRating": 6.23,
-      "bggRank": 2142,
+      "weight": 3.19,
+      "bggAverageRating": 7.78,
+      "bggBayesAverageRating": 6.28,
+      "bggRank": 1964,
       "mechanics": [
         "Auction / Bidding",
         "End Game Bonuses",
@@ -53473,7 +53511,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 470241,
@@ -56680,7 +56718,7 @@
       "playingTime": 140,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 10.0,
+      "bggAverageRating": 9.25,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -56733,7 +56771,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 475941,
@@ -56921,10 +56959,10 @@
       "maxPlayers": 2,
       "playingTime": 25,
       "recommendedAge": "10+",
-      "weight": 1.83,
-      "bggAverageRating": 7.51,
+      "weight": 1.86,
+      "bggAverageRating": 7.5,
       "bggBayesAverageRating": 5.56,
-      "bggRank": 12723,
+      "bggRank": 12447,
       "mechanics": [
         "Deck, Bag, and Pool Building"
       ],
@@ -56963,7 +57001,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 478309,
@@ -57533,7 +57571,7 @@
       "playingTime": 180,
       "recommendedAge": "14+",
       "weight": null,
-      "bggAverageRating": 7.25,
+      "bggAverageRating": 7.16,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -57573,7 +57611,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 474169,
@@ -58604,7 +58642,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 458150,
@@ -59347,7 +59385,7 @@
       "playingTime": 2,
       "recommendedAge": "7+",
       "weight": null,
-      "bggAverageRating": null,
+      "bggAverageRating": 5.17,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -59382,7 +59420,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 465280,
@@ -60906,7 +60944,7 @@
       "playingTime": 20,
       "recommendedAge": "10+",
       "weight": 2.0,
-      "bggAverageRating": 7.05,
+      "bggAverageRating": 7.19,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -60945,7 +60983,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 478341,
@@ -63559,8 +63597,8 @@
       "itemid": 25464,
       "name": "Tatanka",
       "yearPublished": 2026,
-      "image": "https://cf.geekdo-images.com/oBGJcgSOAGNuOB3rvktP-g__original/img/tsDi6KF60pl-IKfqeZ_SfWGl4tk=/0x0/filters:format(jpeg)/pic9528126.jpg",
-      "thumbnail": "https://cf.geekdo-images.com/oBGJcgSOAGNuOB3rvktP-g__small/img/yEei3S1PhqnJk5X0i9xUKVl6PDQ=/fit-in/200x150/filters:strip_icc()/pic9528126.jpg",
+      "image": "https://cf.geekdo-images.com/v1Yikjt9QLGx4ceA7J1HBw__original/img/EjkEzEHJBACMmJ3Cccc6-s9fLIU=/0x0/filters:format(png)/pic9825504.png",
+      "thumbnail": "https://cf.geekdo-images.com/v1Yikjt9QLGx4ceA7J1HBw__small/img/do4OJ93vMe_l0HXziTorTIC3_7E=/fit-in/200x150/filters:strip_icc()/pic9825504.png",
       "link": "https://boardgamegeek.com/boardgame/468569",
       "minPlayers": 1,
       "maxPlayers": 4,
@@ -63611,7 +63649,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 446492,
@@ -63739,7 +63777,7 @@
       "playingTime": 60,
       "recommendedAge": "10+",
       "weight": null,
-      "bggAverageRating": 7.42,
+      "bggAverageRating": 6.72,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -63781,7 +63819,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 455900,
@@ -67228,7 +67266,7 @@
       "playingTime": 45,
       "recommendedAge": "8+",
       "weight": 2.0,
-      "bggAverageRating": 7.47,
+      "bggAverageRating": 7.44,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
@@ -67275,7 +67313,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 474947,
@@ -68564,9 +68602,9 @@
       "playingTime": 30,
       "recommendedAge": "10+",
       "weight": 2.0,
-      "bggAverageRating": 7.5,
-      "bggBayesAverageRating": null,
-      "bggRank": null,
+      "bggAverageRating": 7.44,
+      "bggBayesAverageRating": 5.53,
+      "bggRank": 17770,
       "mechanics": [
         "Tile Placement"
       ],
@@ -68605,7 +68643,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-25T08:24:40.343942+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 444648,
@@ -70787,6 +70825,12 @@
       "location": "Hall 6, Booth 6F400",
       "availability": "For Sale",
       "interested": [
+        {
+          "user": "ParadoxBard",
+          "priority": 4,
+          "priorityLabel": "Not Interested",
+          "notes": null
+        },
         {
           "user": "JuhBass",
           "priority": 4,
@@ -75607,19 +75651,20 @@
       "playingTime": 30,
       "recommendedAge": "6+",
       "weight": null,
-      "bggAverageRating": 5.8,
+      "bggAverageRating": 5.88,
       "bggBayesAverageRating": null,
       "bggRank": null,
       "mechanics": [
         "Open Drafting"
       ],
       "designers": [
-        "Aki Watakabe (\u308f\u305f\u304b\u3079\u3042\u304d)",
+        "Aki Watakabe (\u308f\u305f\u304b\u3079\u3042\u304d)"
+      ],
+      "artists": [
         "Yuji Matsuki"
       ],
-      "artists": [],
       "publishers": [
-        "(Self-Published)"
+        "J&M SPACE Entertainment"
       ],
       "subtype": "boardgame",
       "itemType": "standalone",
@@ -75643,7 +75688,7 @@
           "notes": null
         }
       ],
-      "thingFetchedAt": "2026-09-26T08:11:55.519747+00:00"
+      "thingFetchedAt": "2026-10-26T08:21:07.492160+00:00"
     },
     {
       "objectId": 477354,
