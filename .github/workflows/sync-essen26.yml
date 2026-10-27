@@ -2,13 +2,6 @@ name: Sync Essen 2026 Snapshot
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * *"
-  push:
-    paths:
-      - "essen26/sources.json"
-      - "scripts/fetch_essen_preview.py"
-      - ".github/workflows/sync-essen26.yml"
 
 permissions:
   contents: write
